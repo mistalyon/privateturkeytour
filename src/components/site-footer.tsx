@@ -7,29 +7,61 @@ const columns = [
     title: "Explore",
     links: [
       { href: "/private-turkey-tours", label: "Private Turkey Tours" },
-      { href: "/destinations", label: "Destinations" },
-      { href: "/itineraries", label: "Itineraries" },
-      { href: "/experiences", label: "Experiences" },
-      { href: "/guides", label: "Guides" },
+      { href: "/private-turkey-tours/honeymoon", label: "Turkey Honeymoon" },
+      { href: "/private-turkey-tours/family", label: "Family Turkey Tour" },
+      { href: "/itineraries", label: "Turkey Itineraries" },
+      { href: "/experiences", label: "Turkey Experiences" },
+    ],
+  },
+  {
+    title: "Destinations",
+    links: [
+      { href: "/destinations", label: "All Destinations" },
+      { href: "/destinations/istanbul", label: "Private Istanbul Tour" },
+      { href: "/destinations/cappadocia", label: "Private Cappadocia Tour" },
+      { href: "/destinations/ephesus", label: "Private Ephesus Tour" },
+      { href: "/destinations/pamukkale", label: "Pamukkale Turkey" },
+      {
+        href: "/destinations/turquoise-coast",
+        label: "Turquoise Coast Turkey",
+      },
+    ],
+  },
+  {
+    title: "Guides",
+    links: [
+      { href: "/guides", label: "Turkey Travel Guides" },
+      {
+        href: "/guides/best-time-to-visit-turkey",
+        label: "Best Time to Visit Turkey",
+      },
+      {
+        href: "/guides/things-to-do-in-istanbul",
+        label: "Things to Do in Istanbul",
+      },
+      {
+        href: "/guides/things-to-do-in-cappadocia",
+        label: "Things to Do in Cappadocia",
+      },
+      {
+        href: "/guides/private-turkey-tour-cost",
+        label: "Private Turkey Tour Cost",
+      },
+      {
+        href: "/guides/how-to-plan-a-private-turkey-trip",
+        label: "How to Plan a Trip to Turkey",
+      },
     ],
   },
   {
     title: "Plan",
     links: [
-      { href: "/how-it-works", label: "How it works" },
-      { href: "/plan-your-trip", label: "Plan your trip" },
+      { href: "/how-it-works", label: "How It Works" },
+      { href: "/plan-your-trip", label: "Plan Your Trip" },
       { href: "/faq", label: "FAQ" },
-      { href: "/contact", label: "Contact" },
-    ],
-  },
-  {
-    title: "Company",
-    links: [
       { href: "/about", label: "About" },
-      {
-        href: `mailto:${siteConfig.email}`,
-        label: "Email",
-      },
+      { href: "/contact", label: "Contact" },
+      { href: `mailto:${siteConfig.email}`, label: "Email Us" },
     ],
   },
 ];
@@ -37,14 +69,23 @@ const columns = [
 export function SiteFooter() {
   return (
     <footer className="bg-black px-5 pb-8 pt-16 text-[#f4f0e8] sm:px-8 lg:px-12">
-      <div className="mx-auto grid max-w-[1344px] gap-12 border-b border-white/15 pb-12 md:grid-cols-[1.2fr_1fr_1fr_1fr]">
+      <div className="mx-auto grid max-w-[1344px] gap-12 border-b border-white/15 pb-12 lg:grid-cols-[1.15fr_1fr_1fr_1fr_1fr]">
         <div>
           <p className="font-heading text-3xl tracking-[-0.03em]">
             Private Turkey Tour
           </p>
           <p className="mt-4 max-w-sm text-sm leading-7 text-white/55">
-            {siteConfig.tagline}. Designed in Türkiye with licensed local guides
-            and seamless in-country care.
+            Private Turkey tours and custom itineraries across Türkiye—licensed
+            local guides, boutique stays, and seamless in-country care from
+            Istanbul to Cappadocia, Ephesus, Pamukkale, and the Turquoise Coast.
+          </p>
+          <p className="mt-6 text-sm text-white/45">
+            <Link
+              className="underline underline-offset-4 hover:text-white"
+              href="/plan-your-trip"
+            >
+              Plan your private Turkey trip
+            </Link>
           </p>
         </div>
         {columns.map((column) => (
@@ -68,7 +109,7 @@ export function SiteFooter() {
         <p>
           © {new Date().getFullYear()} {siteConfig.name}
         </p>
-        <p>Based in Türkiye · Serving private travelers worldwide</p>
+        <p>Based in Türkiye · Private guided journeys worldwide</p>
       </div>
     </footer>
   );
