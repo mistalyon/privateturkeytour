@@ -5,12 +5,14 @@ import { PageHero } from "@/components/page-hero";
 import { breadcrumbSchema } from "@/lib/schema";
 import { buildMetadata } from "@/lib/seo";
 import { siteConfig } from "@/lib/site";
+import { keywordList, pageKeywords } from "@/content/keywords";
 
 export const metadata = buildMetadata({
-  title: "Contact Private Turkey Tour",
+  title: "Contact Private Turkey Tour | Enquire Now",
   description:
-    "Contact Private Turkey Tour to start planning a bespoke private journey across Türkiye.",
+    "Contact our private Turkey tour team to enquire about a bespoke private guided journey across Türkiye.",
   path: "/contact",
+  keywords: keywordList(pageKeywords.contact),
 });
 
 const breadcrumbs = [

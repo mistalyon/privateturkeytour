@@ -6,21 +6,17 @@ import { CtaBand } from "@/components/cta-band";
 import { JsonLd } from "@/components/json-ld";
 import { PageHero } from "@/components/page-hero";
 import { destinations } from "@/content/destinations";
+import { keywordList, pageKeywords } from "@/content/keywords";
 import { breadcrumbSchema } from "@/lib/schema";
 import { buildMetadata } from "@/lib/seo";
 import { cn } from "@/lib/utils";
 
 export const metadata = buildMetadata({
-  title: "Turkey Destinations for Private Tours",
+  title: "Best Places to Visit in Turkey for Private Tours",
   description:
-    "Explore Istanbul, Cappadocia, Ephesus, and the Turquoise Coast through private Turkey tours designed around your pace.",
+    "Explore the best places to visit in Turkey on a private tour—Istanbul, Cappadocia, Ephesus, and the Turquoise Coast designed around your pace.",
   path: "/destinations",
-  keywords: [
-    "turkey destinations",
-    "istanbul private tour",
-    "cappadocia private tour",
-    "ephesus private tour",
-  ],
+  keywords: keywordList(pageKeywords.destinations),
 });
 
 const breadcrumbs = [
@@ -34,9 +30,9 @@ export default function DestinationsPage() {
       <JsonLd data={breadcrumbSchema(breadcrumbs)} />
       <PageHero
         eyebrow="Destination hub"
-        title="Turkey, place by place."
-        description="Four regions form the backbone of most private Turkey tours. Start here, then open the destination that matches the chapter you want first."
-        answer="The most requested private Turkey destinations are Istanbul, Cappadocia, Ephesus & the Aegean, and the Turquoise Coast—often combined in 7- to 14-day tailor-made itineraries."
+        title="Best places to visit in Turkey—privately."
+        description="These Turkey destinations form the backbone of most private tours. Start here, then open the place that matches the chapter you want first."
+        answer="The most requested private Turkey destinations—and best places to visit in Turkey for first-timers—are Istanbul, Cappadocia, Ephesus & the Aegean, and the Turquoise Coast, often combined in 7- to 14-day tailor-made itineraries."
         breadcrumbs={breadcrumbs}
       />
 

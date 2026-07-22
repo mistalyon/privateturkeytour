@@ -3,14 +3,16 @@ import { FaqList } from "@/components/faq-list";
 import { JsonLd } from "@/components/json-ld";
 import { PageHero } from "@/components/page-hero";
 import { RelatedLinks } from "@/components/related-links";
+import { keywordList, pageKeywords } from "@/content/keywords";
 import { breadcrumbSchema, faqSchema } from "@/lib/schema";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "Private Turkey Tour FAQ",
+  title: "Private Turkey Tour FAQ | Cost, Inclusions & Planning",
   description:
-    "Answers to common questions about private Turkey tours—timing, customization, inclusions, families, and how planning works.",
+    "Private Turkey tour FAQ—timing, customization, inclusions, cost drivers, families, and whether a private Turkey tour is worth it.",
   path: "/faq",
+  keywords: keywordList(pageKeywords.faq),
 });
 
 const breadcrumbs = [

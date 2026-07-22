@@ -2,14 +2,16 @@ import { CtaBand } from "@/components/cta-band";
 import { JsonLd } from "@/components/json-ld";
 import { PageHero } from "@/components/page-hero";
 import { RelatedLinks } from "@/components/related-links";
+import { keywordList, pageKeywords } from "@/content/keywords";
 import { breadcrumbSchema } from "@/lib/schema";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
   title: "How Private Turkey Tours Work",
   description:
-    "See how Private Turkey Tour designs tailor-made journeys—from first brief to in-country care across Türkiye.",
+    "Learn how private Turkey tours work—from your first brief to licensed guides, boutique stays, and in-country care across Türkiye.",
   path: "/how-it-works",
+  keywords: keywordList(pageKeywords.howItWorks),
 });
 
 const breadcrumbs = [

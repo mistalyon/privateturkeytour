@@ -34,8 +34,8 @@ export async function generateMetadata({ params }: Props) {
     path: `/destinations/${destination.slug}`,
     image: destination.image,
     keywords: [
-      `private ${destination.name.toLowerCase()} tour`,
-      `${destination.name.toLowerCase()} private guide`,
+      destination.focusKeyword,
+      ...destination.secondaryKeywords,
       "private turkey tour",
     ],
   });

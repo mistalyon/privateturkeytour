@@ -15,6 +15,9 @@ export type Destination = {
   note: string;
   image: string;
   wide?: boolean;
+  /** Primary SEO focus keyword (search-demand backed) */
+  focusKeyword: string;
+  secondaryKeywords: string[];
   title: string;
   description: string;
   answer: string;
@@ -30,6 +33,8 @@ export type Itinerary = {
   slug: string;
   name: string;
   days: number;
+  focusKeyword: string;
+  secondaryKeywords: string[];
   title: string;
   description: string;
   answer: string;
@@ -45,6 +50,8 @@ export type Itinerary = {
 export type Guide = {
   slug: string;
   name: string;
+  focusKeyword: string;
+  secondaryKeywords: string[];
   title: string;
   description: string;
   answer: string;

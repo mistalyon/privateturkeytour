@@ -1,3 +1,4 @@
+import { pageKeywords } from "@/content/keywords";
 import type { Itinerary } from "@/content/types";
 
 export const itineraries: Itinerary[] = [
@@ -5,14 +6,16 @@ export const itineraries: Itinerary[] = [
     slug: "7-day-classic",
     name: "7-Day Classic Private Turkey",
     days: 7,
-    title: "7-Day Classic Private Turkey Itinerary",
+    focusKeyword: pageKeywords.itinerary7.focus,
+    secondaryKeywords: [...pageKeywords.itinerary7.secondary],
+    title: "7 Day Turkey Itinerary: Istanbul & Cappadocia Private Tour",
     description:
-      "A focused private Turkey itinerary through Istanbul and Cappadocia—ideal when time is limited but the experience must still feel unhurried.",
+      "A focused 7 day Turkey itinerary through Istanbul and Cappadocia—the classic Istanbul Cappadocia tour when time is limited but the experience must feel unhurried.",
     answer:
-      "A 7-day classic private Turkey itinerary typically spends three nights in Istanbul and three in Cappadocia, with private guides, handpicked stays, and door-to-door transfers throughout.",
+      "A 7 day Turkey itinerary typically spends three nights in Istanbul and three in Cappadocia, with private guides, handpicked stays, and door-to-door transfers—ideal for a one-week Istanbul and Cappadocia private tour.",
     image: "/istanbul.jpg",
     whoFor:
-      "First-time visitors with about a week, couples, and travelers who want icons without a rushed group pace.",
+      "First-time visitors with about a week, couples, and travelers searching for a compact Istanbul Cappadocia tour without a rushed group pace.",
     includes: [
       "Private guides in Istanbul and Cappadocia",
       "Boutique or cave hotel recommendations",
@@ -48,14 +51,19 @@ export const itineraries: Itinerary[] = [
     ],
     faqs: [
       {
-        question: "Is 7 days enough for Turkey?",
+        question: "Is a 7 day Turkey itinerary enough?",
         answer:
-          "For a focused private journey yes—especially Istanbul and Cappadocia. Longer trips unlock Ephesus and the Turquoise Coast.",
+          "For a focused private journey yes—especially an Istanbul Cappadocia tour. Longer trips unlock Ephesus and the Turquoise Coast.",
       },
       {
-        question: "Can this itinerary be customized?",
+        question: "Can this 7 day Turkey tour be customized?",
         answer:
           "Every private Turkey tour we design is custom. Days can lean more toward food, photography, family pacing, or quieter museums.",
+      },
+      {
+        question: "Is this the best Istanbul and Cappadocia private tour length?",
+        answer:
+          "Seven days is the sweet spot for many first-timers: enough nights in each place without forcing a coach-group pace across more regions.",
       },
     ],
     related: [
@@ -81,14 +89,16 @@ export const itineraries: Itinerary[] = [
     slug: "10-day-classic",
     name: "10-Day Classic Private Turkey",
     days: 10,
-    title: "10-Day Classic Private Turkey Itinerary",
+    focusKeyword: pageKeywords.itinerary10.focus,
+    secondaryKeywords: [...pageKeywords.itinerary10.secondary],
+    title: "10 Day Turkey Itinerary: Istanbul, Cappadocia & Ephesus",
     description:
-      "Istanbul, Cappadocia, and Ephesus in one private journey—the most requested tailor-made Turkey itinerary for first-time visitors.",
+      "The best 10 day Turkey itinerary for first-timers—Istanbul, Cappadocia, and Ephesus in one private journey with licensed guides and boutique stays.",
     answer:
-      "A 10-day classic private Turkey itinerary usually combines Istanbul, Cappadocia, and Ephesus with private guides, short flights, and boutique stays chosen around your style.",
+      "A 10 day Turkey itinerary usually combines Istanbul, Cappadocia, and Ephesus with private guides, short flights, and boutique stays—the most requested tailor-made Turkey tour for first-time visitors.",
     image: "/cappadocia.jpg",
     whoFor:
-      "Travelers who want the country's three signature chapters without feeling locked into a group departure.",
+      "Travelers who want Turkey's three signature chapters in a classic 10-day Turkey itinerary without feeling locked into a group departure.",
     includes: [
       "Private guiding in each region",
       "Boutique hotels and cave stays",
@@ -119,12 +129,17 @@ export const itineraries: Itinerary[] = [
     ],
     faqs: [
       {
-        question: "Why is the 10-day itinerary so popular?",
+        question: "Why is the 10 day Turkey itinerary so popular?",
         answer:
-          "It covers Turkey's three most requested regions with enough nights to breathe—without requiring two full weeks.",
+          "It covers Turkey's three most requested regions with enough nights to breathe—without requiring a full two-week turkey itinerary.",
       },
       {
-        question: "Do you include hotels in the quote?",
+        question: "What does a turkey itinerary 10 days usually include?",
+        answer:
+          "Private guides, boutique or cave hotels, domestic flights between regions, airport transfers, and a designer who adjusts daily timing around your energy.",
+      },
+      {
+        question: "Do you include hotels in the 10 day Turkey tour quote?",
         answer:
           "Yes. We propose stays by style and budget, then refine after you share preferences for design, quiet, and location.",
       },
@@ -152,14 +167,16 @@ export const itineraries: Itinerary[] = [
     slug: "14-day-grand",
     name: "14-Day Grand Private Turkey",
     days: 14,
-    title: "14-Day Grand Private Turkey Itinerary",
+    focusKeyword: pageKeywords.itinerary14.focus,
+    secondaryKeywords: [...pageKeywords.itinerary14.secondary],
+    title: "14 Day Turkey Itinerary: Two-Week Grand Private Tour",
     description:
-      "A grand private Turkey journey from Istanbul to Cappadocia, Ephesus, and the Turquoise Coast—designed for travelers who want depth.",
+      "A 14 day Turkey itinerary from Istanbul to Cappadocia, Ephesus, and the Turquoise Coast—the classic two week Turkey itinerary for travelers who want depth.",
     answer:
-      "A 14-day grand private Turkey itinerary typically moves from Istanbul to Cappadocia, Ephesus, and the Turquoise Coast, with private guides, boutique stays, and optional boat days.",
+      "A 14 day Turkey itinerary typically moves from Istanbul to Cappadocia, Ephesus, and the Turquoise Coast, with private guides, boutique stays, and optional boat days on a grand Turkey tour pace.",
     image: "/coast.jpg",
     whoFor:
-      "Travelers with two weeks who want icons, landscapes, archaeology, and Mediterranean time in one coherent private journey.",
+      "Travelers with two weeks who want icons, landscapes, archaeology, and Mediterranean time in one coherent two-week Turkey itinerary.",
     includes: [
       "Full regional coverage with private guiding",
       "Handpicked boutique and coastal stays",
@@ -190,14 +207,19 @@ export const itineraries: Itinerary[] = [
     ],
     faqs: [
       {
-        question: "Is 14 days too long for a first trip?",
+        question: "Is a 14 day Turkey itinerary too long for a first trip?",
         answer:
-          "For many travelers it is ideal. The extra nights remove the feeling of packing icons into every daylight hour.",
+          "For many travelers a two week Turkey itinerary is ideal. The extra nights remove the feeling of packing icons into every daylight hour.",
       },
       {
-        question: "Can you design a honeymoon version?",
+        question: "Can you design a honeymoon version of this grand Turkey tour?",
         answer:
           "Yes. We emphasize quieter stays, private dinners, and coastal privacy while keeping cultural depth.",
+      },
+      {
+        question: "How does a 14 day Turkey tour differ from 10 days?",
+        answer:
+          "You gain the Turquoise Coast—swimming, boat days, and Mediterranean evenings—plus extra nights that make Istanbul and Cappadocia feel less compressed.",
       },
     ],
     related: [

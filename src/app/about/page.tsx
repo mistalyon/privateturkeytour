@@ -2,15 +2,17 @@ import { CtaBand } from "@/components/cta-band";
 import { JsonLd } from "@/components/json-ld";
 import { PageHero } from "@/components/page-hero";
 import { RelatedLinks } from "@/components/related-links";
+import { keywordList, pageKeywords } from "@/content/keywords";
 import { breadcrumbSchema } from "@/lib/schema";
 import { buildMetadata } from "@/lib/seo";
 import { siteConfig } from "@/lib/site";
 
 export const metadata = buildMetadata({
-  title: "About Private Turkey Tour",
+  title: "About Our Private Turkey Tour Company",
   description:
-    "We are a Türkiye-based team designing private journeys with licensed local guides, boutique stays, and seamless in-country care.",
+    "Meet the private Turkey tour company behind bespoke journeys—licensed local guides, boutique stays, and seamless in-country care across Türkiye.",
   path: "/about",
+  keywords: keywordList(pageKeywords.about),
 });
 
 const breadcrumbs = [

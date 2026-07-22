@@ -14,20 +14,16 @@ import { JsonLd } from "@/components/json-ld";
 import { buttonVariants } from "@/components/ui/button";
 import { destinations } from "@/content/destinations";
 import { itineraries } from "@/content/itineraries";
+import { keywordList, pageKeywords } from "@/content/keywords";
 import { buildMetadata } from "@/lib/seo";
 import { cn } from "@/lib/utils";
 
 export const metadata = buildMetadata({
   title: "Private Turkey Tour | Bespoke Journeys Across Türkiye",
   description:
-    "Private, tailor-made journeys across Türkiye with expert local guides, handpicked stays, and seamless in-country care.",
+    "Design a private Turkey tour with licensed local guides, handpicked boutique stays, and seamless in-country care across Istanbul, Cappadocia, Ephesus, and the coast.",
   path: "/",
-  keywords: [
-    "private turkey tour",
-    "private tours turkey",
-    "bespoke turkey travel",
-    "custom turkey itinerary",
-  ],
+  keywords: keywordList(pageKeywords.home),
 });
 
 const inclusions = [
@@ -61,8 +57,9 @@ export default function Home() {
                 <span className="block italic">made yours.</span>
               </h1>
               <p className="mt-10 max-w-xl text-base leading-7 text-black/65 sm:text-lg sm:leading-8">
-                Private journeys built around your pace, your curiosity, and the
-                places you have always wanted to see.
+                Private Turkey tours built around your pace, your curiosity, and
+                the places you have always wanted to see—with licensed local
+                guides and seamless in-country care.
               </p>
               <div className="mt-9 flex flex-wrap gap-3">
                 <Link

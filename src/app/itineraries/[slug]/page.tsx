@@ -36,9 +36,9 @@ export async function generateMetadata({ params }: Props) {
     path: `/itineraries/${itinerary.slug}`,
     image: itinerary.image,
     keywords: [
-      `${itinerary.days} day turkey itinerary`,
+      itinerary.focusKeyword,
+      ...itinerary.secondaryKeywords,
       "private turkey itinerary",
-      "custom turkey tour",
     ],
   });
 }

@@ -4,20 +4,16 @@ import { CtaBand } from "@/components/cta-band";
 import { JsonLd } from "@/components/json-ld";
 import { PageHero } from "@/components/page-hero";
 import { itineraries } from "@/content/itineraries";
+import { keywordList, pageKeywords } from "@/content/keywords";
 import { breadcrumbSchema } from "@/lib/schema";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "Private Turkey Itineraries",
+  title: "Turkey Itinerary Ideas: 7, 10 & 14 Day Private Routes",
   description:
-    "Sample private Turkey itineraries for 7, 10, and 14 days—customizable routes through Istanbul, Cappadocia, Ephesus, and the coast.",
+    "Browse Turkey itinerary ideas for 7, 10, and 14 days—private routes through Istanbul, Cappadocia, Ephesus, and the Turquoise Coast you can fully customize.",
   path: "/itineraries",
-  keywords: [
-    "private turkey itinerary",
-    "10 day turkey itinerary",
-    "7 day turkey tour",
-    "custom turkey trip",
-  ],
+  keywords: keywordList(pageKeywords.itineraries),
 });
 
 const breadcrumbs = [
@@ -31,9 +27,9 @@ export default function ItinerariesPage() {
       <JsonLd data={breadcrumbSchema(breadcrumbs)} />
       <PageHero
         eyebrow="Itinerary hub"
-        title="Private routes, not rigid packages."
-        description="These sample itineraries show how a tailor-made Turkey journey can unfold. Every route is reshaped around your dates, pace, and interests."
-        answer="Most first-time private Turkey travelers choose a 7-day Istanbul + Cappadocia route, a 10-day classic with Ephesus, or a 14-day grand journey that continues to the Turquoise Coast."
+        title="Turkey itinerary ideas—private, not packaged."
+        description="These sample Turkey itinerary routes show how a tailor-made journey can unfold. Every route is reshaped around your dates, pace, and interests."
+        answer="Most first-time travelers choose a 7 day Turkey itinerary (Istanbul + Cappadocia), a 10 day Turkey itinerary with Ephesus, or a 14 day Turkey itinerary that continues to the Turquoise Coast."
         breadcrumbs={breadcrumbs}
       />
 

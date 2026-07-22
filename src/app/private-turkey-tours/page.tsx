@@ -5,20 +5,16 @@ import { FaqList } from "@/components/faq-list";
 import { JsonLd } from "@/components/json-ld";
 import { PageHero } from "@/components/page-hero";
 import { RelatedLinks } from "@/components/related-links";
+import { keywordList, pageKeywords } from "@/content/keywords";
 import { breadcrumbSchema, faqSchema } from "@/lib/schema";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "Private Turkey Tours",
+  title: "Private Turkey Tours | Tailor-Made Journeys",
   description:
-    "Discover how private Turkey tours work—tailor-made itineraries, licensed local guides, boutique stays, and seamless in-country care.",
+    "Private Turkey tours designed around you—tailor-made itineraries, licensed private guides, boutique stays, and seamless in-country care across Türkiye.",
   path: "/private-turkey-tours",
-  keywords: [
-    "private turkey tours",
-    "private tours turkey",
-    "bespoke turkey tour",
-    "tailor made turkey itinerary",
-  ],
+  keywords: keywordList(pageKeywords.privateTurkeyTours),
 });
 
 const breadcrumbs = [
@@ -52,8 +48,8 @@ export default function PrivateTurkeyToursPage() {
       />
       <PageHero
         eyebrow="Money hub"
-        title="Private Turkey tours, designed around you."
-        description="A private Turkey tour is a tailor-made journey with licensed local guides, carefully chosen stays, and logistics handled quietly in the background."
+        title="Private Turkey Tours, designed around you."
+        description="Private Turkey tours are tailor-made journeys with licensed local guides, carefully chosen stays, and logistics handled quietly in the background—not a fixed coach package."
         answer="Private Turkey tours replace fixed group departures with a custom itinerary, private guiding, and door-to-door care—ideal when flexibility, privacy, and depth matter more than a standardized package."
         breadcrumbs={breadcrumbs}
       />

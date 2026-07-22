@@ -4,20 +4,16 @@ import { CtaBand } from "@/components/cta-band";
 import { JsonLd } from "@/components/json-ld";
 import { PageHero } from "@/components/page-hero";
 import { guides } from "@/content/guides";
+import { keywordList, pageKeywords } from "@/content/keywords";
 import { breadcrumbSchema } from "@/lib/schema";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "Turkey Travel Guides for Private Tours",
+  title: "Turkey Travel Guide for Private Tours",
   description:
-    "Practical guides for planning a private Turkey trip—best seasons, planning steps, and private vs group tours.",
+    "Turkey travel guide pages for private tours—best time to visit Turkey, how to plan a trip to Turkey, and private vs group Turkey tours.",
   path: "/guides",
-  keywords: [
-    "turkey travel guide",
-    "best time to visit turkey",
-    "plan private turkey trip",
-    "private vs group turkey tour",
-  ],
+  keywords: keywordList(pageKeywords.guides),
 });
 
 const breadcrumbs = [
@@ -31,9 +27,9 @@ export default function GuidesPage() {
       <JsonLd data={breadcrumbSchema(breadcrumbs)} />
       <PageHero
         eyebrow="Planning guides"
-        title="Clarity before you book."
-        description="These guides answer the questions travelers ask before commissioning a private Turkey tour—season, structure, and whether private is the right fit."
-        answer="Start with when to visit, then how to plan a private trip, then compare private vs group touring if you are still deciding."
+        title="Turkey travel guide—clarity before you book."
+        description="These Turkey travel guide pages answer what travelers ask before a private tour—best season, how to plan a trip to Turkey, and whether private beats group."
+        answer="Start with the best time to visit Turkey, then how to plan a trip to Turkey, then compare private vs group Turkey tours if you are still deciding."
         breadcrumbs={breadcrumbs}
       />
 

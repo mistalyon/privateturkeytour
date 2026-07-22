@@ -4,17 +4,14 @@ import { PageHero } from "@/components/page-hero";
 import { breadcrumbSchema } from "@/lib/schema";
 import { buildMetadata } from "@/lib/seo";
 import { siteConfig } from "@/lib/site";
+import { keywordList, pageKeywords } from "@/content/keywords";
 
 export const metadata = buildMetadata({
-  title: "Plan Your Private Turkey Trip",
+  title: "Plan a Trip to Turkey | Private Tour Enquiry",
   description:
-    "Start planning a private Turkey tour. Share your dates, pace, and interests—we will return with first itinerary ideas.",
+    "Plan a trip to Turkey with a private designer. Share dates, pace, and interests—we return with custom Turkey itinerary ideas for your private tour.",
   path: "/plan-your-trip",
-  keywords: [
-    "plan private turkey trip",
-    "custom turkey itinerary",
-    "book private turkey tour",
-  ],
+  keywords: keywordList(pageKeywords.planYourTrip),
 });
 
 const breadcrumbs = [
@@ -28,9 +25,9 @@ export default function PlanYourTripPage() {
       <JsonLd data={breadcrumbSchema(breadcrumbs)} />
       <PageHero
         eyebrow="Conversion"
-        title="Tell us what you imagine."
-        description="Share a few details and we will come back with thoughtful first ideas for a private journey across Türkiye."
-        answer="The fastest way to start a private Turkey tour is to send your travel dates, trip length, preferred regions, and stay style. We respond with a tailored outline—not a generic package."
+        title="Plan a trip to Turkey—privately."
+        description="Share a few details and we will come back with thoughtful first ideas for a private Turkey tour across Türkiye."
+        answer="The fastest way to plan a trip to Turkey privately is to send your travel dates, trip length, preferred regions, and stay style. We respond with a custom Turkey itinerary outline—not a generic package."
         breadcrumbs={breadcrumbs}
       />
 
