@@ -1,0 +1,28 @@
+# Private Turkey Tour
+> Bespoke private journeys across Türkiye with licensed local guides, handpicked stays, and in-country care.
+
+## Primary
+- [Private Turkey Tours](https://privateturkeytour.com/private-turkey-tours): How tailor-made private journeys are designed
+- [Destinations](https://privateturkeytour.com/destinations): Istanbul, Cappadocia, Ephesus, Turquoise Coast
+- [Itineraries](https://privateturkeytour.com/itineraries): 7, 10, and 14-day classic private routes
+- [Guides](https://privateturkeytour.com/guides): Planning advice for private travel in Türkiye
+- [Plan your trip](https://privateturkeytour.com/plan-your-trip): Start a custom itinerary conversation
+
+## Destinations
+- [Istanbul](https://privateturkeytour.com/destinations/istanbul)
+- [Cappadocia](https://privateturkeytour.com/destinations/cappadocia)
+- [Ephesus](https://privateturkeytour.com/destinations/ephesus)
+- [Turquoise Coast](https://privateturkeytour.com/destinations/turquoise-coast)
+
+## Itineraries
+- [7-Day Classic](https://privateturkeytour.com/itineraries/7-day-classic)
+- [10-Day Classic](https://privateturkeytour.com/itineraries/10-day-classic)
+- [14-Day Grand](https://privateturkeytour.com/itineraries/14-day-grand)
+
+## Guides
+- [Best time to visit Turkey](https://privateturkeytour.com/guides/best-time-to-visit-turkey)
+- [How to plan a private Turkey trip](https://privateturkeytour.com/guides/how-to-plan-a-private-turkey-trip)
+- [Private vs group Turkey tours](https://privateturkeytour.com/guides/private-vs-group-turkey-tours)
+
+## Full
+- [llms-full.txt](https://privateturkeytour.com/llms-full.txt)

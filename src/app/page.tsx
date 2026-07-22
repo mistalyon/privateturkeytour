@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import {
   ArrowRight,
   ArrowUpRight,
@@ -9,33 +10,25 @@ import {
   Star,
 } from "lucide-react";
 
+import { JsonLd } from "@/components/json-ld";
 import { buttonVariants } from "@/components/ui/button";
+import { destinations } from "@/content/destinations";
+import { itineraries } from "@/content/itineraries";
+import { buildMetadata } from "@/lib/seo";
 import { cn } from "@/lib/utils";
 
-const destinations = [
-  {
-    name: "Istanbul",
-    note: "Where continents meet",
-    image: "/istanbul.jpg",
-    wide: true,
-  },
-  {
-    name: "Cappadocia",
-    note: "Valleys shaped by time",
-    image: "/cappadocia.jpg",
-  },
-  {
-    name: "Ephesus",
-    note: "Walk through antiquity",
-    image: "/ephesus.jpg",
-  },
-  {
-    name: "Turquoise Coast",
-    note: "The Mediterranean, privately",
-    image: "/coast.jpg",
-    wide: true,
-  },
-];
+export const metadata = buildMetadata({
+  title: "Private Turkey Tour | Bespoke Journeys Across Türkiye",
+  description:
+    "Private, tailor-made journeys across Türkiye with expert local guides, handpicked stays, and seamless in-country care.",
+  path: "/",
+  keywords: [
+    "private turkey tour",
+    "private tours turkey",
+    "bespoke turkey travel",
+    "custom turkey itinerary",
+  ],
+});
 
 const inclusions = [
   "Dedicated local travel designer",
@@ -47,46 +40,18 @@ const inclusions = [
 export default function Home() {
   return (
     <main>
-      <header className="absolute inset-x-0 top-0 z-20 border-b border-black/10">
-        <div className="mx-auto flex h-20 max-w-[1440px] items-center justify-between px-5 sm:px-8 lg:px-12">
-          <a
-            href="#top"
-            className="font-heading text-xl leading-none tracking-[-0.03em] sm:text-2xl"
-            aria-label="Private Turkey Tour home"
-          >
-            Private Turkey Tour
-          </a>
-          <nav
-            className="hidden items-center gap-8 text-sm lg:flex"
-            aria-label="Primary navigation"
-          >
-            <a className="nav-link" href="#journeys">
-              Journeys
-            </a>
-            <a className="nav-link" href="#about">
-              Our approach
-            </a>
-            <a className="nav-link" href="#contact">
-              Contact
-            </a>
-          </nav>
-          <a
-            href="#contact"
-            className={cn(
-              buttonVariants({ variant: "outline", size: "lg" }),
-              "h-10 rounded-full border-black bg-transparent px-5 hover:bg-black hover:text-[#f4f0e8]",
-            )}
-          >
-            Plan your trip
-            <ArrowUpRight aria-hidden="true" />
-          </a>
-        </div>
-      </header>
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          name: "Private Turkey Tour",
+          description:
+            "Private, tailor-made journeys across Türkiye with expert local guides.",
+          url: "https://privateturkeytour.com",
+        }}
+      />
 
-      <section
-        id="top"
-        className="relative min-h-[780px] overflow-hidden border-b border-black/10 pt-20 lg:min-h-screen"
-      >
+      <section className="relative overflow-hidden border-b border-black/10">
         <div className="mx-auto grid min-h-[700px] max-w-[1440px] lg:min-h-[calc(100vh-80px)] lg:grid-cols-[1.06fr_0.94fr]">
           <div className="flex flex-col justify-between px-5 py-12 sm:px-8 sm:py-16 lg:px-12 lg:py-20">
             <div className="max-w-3xl">
@@ -96,12 +61,12 @@ export default function Home() {
                 <span className="block italic">made yours.</span>
               </h1>
               <p className="mt-10 max-w-xl text-base leading-7 text-black/65 sm:text-lg sm:leading-8">
-                Private journeys built around your pace, your curiosity, and
-                the places you have always wanted to see.
+                Private journeys built around your pace, your curiosity, and the
+                places you have always wanted to see.
               </p>
               <div className="mt-9 flex flex-wrap gap-3">
-                <a
-                  href="#contact"
+                <Link
+                  href="/plan-your-trip"
                   className={cn(
                     buttonVariants({ size: "lg" }),
                     "h-12 rounded-full bg-black px-6 text-[#f4f0e8] hover:bg-black/80",
@@ -109,16 +74,16 @@ export default function Home() {
                 >
                   Design my journey
                   <ArrowRight aria-hidden="true" />
-                </a>
-                <a
-                  href="#journeys"
+                </Link>
+                <Link
+                  href="/destinations"
                   className={cn(
                     buttonVariants({ variant: "ghost", size: "lg" }),
                     "h-12 rounded-full px-6 hover:bg-black/5",
                   )}
                 >
                   Explore Turkey
-                </a>
+                </Link>
               </div>
             </div>
 
@@ -168,34 +133,45 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="about" className="px-5 py-24 sm:px-8 lg:px-12 lg:py-36">
+      <section className="px-5 py-24 sm:px-8 lg:px-12 lg:py-36">
         <div className="mx-auto grid max-w-[1344px] gap-12 lg:grid-cols-[0.7fr_1.3fr] lg:gap-24">
           <p className="eyebrow">The private way</p>
           <div>
             <h2 className="max-w-4xl font-heading text-[clamp(2.8rem,6vw,5.7rem)] leading-[0.95] tracking-[-0.045em]">
-              No fixed departures. No crowded coaches. Just a journey that
-              feels entirely your own.
+              No fixed departures. No crowded coaches. Just a journey that feels
+              entirely your own.
             </h2>
             <div className="mt-12 grid gap-8 border-t border-black/15 pt-8 sm:grid-cols-2">
               <p className="max-w-md leading-7 text-black/60">
                 We are a Turkey-based team of designers, hosts, and guides.
-                Every itinerary begins with a conversation and is built from
-                the ground up.
+                Every itinerary begins with a conversation and is built from the
+                ground up.
               </p>
               <p className="max-w-md leading-7 text-black/60">
                 From a quiet table overlooking the Bosphorus to an archaeologist
-                opening up Ephesus, we connect you with the real texture of
-                this country.
+                opening up Ephesus, we connect you with the real texture of this
+                country. Explore our{" "}
+                <Link
+                  className="underline underline-offset-4 hover:text-black"
+                  href="/private-turkey-tours"
+                >
+                  private Turkey tours
+                </Link>{" "}
+                or see{" "}
+                <Link
+                  className="underline underline-offset-4 hover:text-black"
+                  href="/how-it-works"
+                >
+                  how it works
+                </Link>
+                .
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      <section
-        id="journeys"
-        className="border-y border-black/10 bg-[#e9e3d8] px-5 py-24 sm:px-8 lg:px-12 lg:py-32"
-      >
+      <section className="border-y border-black/10 bg-[#e9e3d8] px-5 py-24 sm:px-8 lg:px-12 lg:py-32">
         <div className="mx-auto max-w-[1344px]">
           <div className="flex flex-col justify-between gap-6 sm:flex-row sm:items-end">
             <div>
@@ -208,14 +184,19 @@ export default function Home() {
             </div>
             <p className="max-w-sm leading-7 text-black/60">
               Combine celebrated icons with the small, unscripted moments that
-              make a journey memorable.
+              make a journey memorable. Browse all{" "}
+              <Link className="underline underline-offset-4" href="/destinations">
+                destinations
+              </Link>
+              .
             </p>
           </div>
 
           <div className="mt-16 grid gap-4 md:grid-cols-3">
             {destinations.map((destination) => (
-              <article
-                key={destination.name}
+              <Link
+                key={destination.slug}
+                href={`/destinations/${destination.slug}`}
                 className={cn(
                   "group relative min-h-[440px] overflow-hidden bg-black",
                   destination.wide && "md:col-span-2",
@@ -243,7 +224,45 @@ export default function Home() {
                     aria-hidden="true"
                   />
                 </div>
-              </article>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="px-5 py-24 sm:px-8 lg:px-12 lg:py-32">
+        <div className="mx-auto max-w-[1344px]">
+          <div className="flex flex-col justify-between gap-6 md:flex-row md:items-end">
+            <div>
+              <p className="eyebrow">Sample private itineraries</p>
+              <h2 className="mt-5 font-heading text-[clamp(2.8rem,5vw,4.8rem)] leading-none tracking-[-0.045em]">
+                Routes with room to breathe.
+              </h2>
+            </div>
+            <Link
+              href="/itineraries"
+              className="text-sm underline underline-offset-4 hover:text-black/70"
+            >
+              View all itineraries
+            </Link>
+          </div>
+          <div className="mt-12 grid gap-4 md:grid-cols-3">
+            {itineraries.map((itinerary) => (
+              <Link
+                key={itinerary.slug}
+                href={`/itineraries/${itinerary.slug}`}
+                className="border border-black/10 bg-[#efe9df] p-7 transition hover:border-black/30"
+              >
+                <p className="text-xs uppercase tracking-[0.16em] text-black/45">
+                  {itinerary.days} days
+                </p>
+                <h3 className="mt-4 font-heading text-3xl leading-tight">
+                  {itinerary.name}
+                </h3>
+                <p className="mt-4 text-sm leading-7 text-black/60">
+                  {itinerary.description}
+                </p>
+              </Link>
             ))}
           </div>
         </div>
@@ -350,13 +369,18 @@ export default function Home() {
               </article>
             ))}
           </div>
+          <div className="mt-10">
+            <Link
+              href="/guides"
+              className="text-sm underline underline-offset-4 hover:text-black/70"
+            >
+              Read planning guides
+            </Link>
+          </div>
         </div>
       </section>
 
-      <section
-        id="contact"
-        className="bg-black px-5 py-24 text-[#f4f0e8] sm:px-8 lg:px-12 lg:py-36"
-      >
+      <section className="bg-black px-5 py-24 text-[#f4f0e8] sm:px-8 lg:px-12 lg:py-36">
         <div className="mx-auto max-w-[1344px] text-center">
           <p className="text-xs uppercase tracking-[0.2em] text-white/55">
             Your private Turkey begins here
@@ -369,8 +393,8 @@ export default function Home() {
             Tell us what you imagine. We&apos;ll return with first ideas for a
             journey that is entirely yours.
           </p>
-          <a
-            href="mailto:hello@privateturkeytour.com"
+          <Link
+            href="/plan-your-trip"
             className={cn(
               buttonVariants({ variant: "outline", size: "lg" }),
               "mt-10 h-12 rounded-full border-white bg-white px-7 text-black hover:bg-transparent hover:text-white",
@@ -378,26 +402,9 @@ export default function Home() {
           >
             Start planning
             <ArrowUpRight aria-hidden="true" />
-          </a>
+          </Link>
         </div>
       </section>
-
-      <footer className="bg-black px-5 pb-8 text-[#f4f0e8] sm:px-8 lg:px-12">
-        <div className="mx-auto flex max-w-[1344px] flex-col gap-6 border-t border-white/15 pt-8 text-sm text-white/50 sm:flex-row sm:items-center sm:justify-between">
-          <p>© {new Date().getFullYear()} Private Turkey Tour</p>
-          <div className="flex gap-6">
-            <a
-              className="hover:text-white"
-              href="mailto:hello@privateturkeytour.com"
-            >
-              Email
-            </a>
-            <a className="hover:text-white" href="#top">
-              Back to top
-            </a>
-          </div>
-        </div>
-      </footer>
     </main>
   );
 }
