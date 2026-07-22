@@ -4,24 +4,36 @@
 ## Primary topics & focus keywords
 - Private Turkey tours / private Turkey tour
 - Turkey itinerary (7 day, 10 day, 14 day)
-- Best time to visit Turkey
+- Best time to visit Turkey / private Turkey tour cost
+- Cappadocia hot air balloon / Istanbul food tour / private gulet cruise Turkey
+- Turkey honeymoon / family Turkey tour
+- Pamukkale Turkey
 - How to plan a trip to Turkey
-- Private Istanbul tour, private Cappadocia tour, private Ephesus tour
-- Turquoise Coast Turkey / private gulet cruise Turkey
 - Private vs group Turkey tours
 
 ## Primary pages
-- [Private Turkey Tours](https://privateturkeytour.com/private-turkey-tours): How tailor-made private journeys are designed
-- [Destinations](https://privateturkeytour.com/destinations): Best places to visit in Turkey privately
-- [Itineraries](https://privateturkeytour.com/itineraries): Turkey itinerary ideas for 7, 10, and 14 days
-- [Guides](https://privateturkeytour.com/guides): Turkey travel guide for private planning
-- [Plan your trip](https://privateturkeytour.com/plan-your-trip): Start a custom itinerary conversation
+- [Private Turkey Tours](https://privateturkeytour.com/private-turkey-tours)
+- [Destinations](https://privateturkeytour.com/destinations)
+- [Itineraries](https://privateturkeytour.com/itineraries)
+- [Experiences](https://privateturkeytour.com/experiences)
+- [Guides](https://privateturkeytour.com/guides)
+- [Plan your trip](https://privateturkeytour.com/plan-your-trip)
 
 ## Destinations
 - [Private Istanbul Tour](https://privateturkeytour.com/destinations/istanbul)
 - [Private Cappadocia Tour](https://privateturkeytour.com/destinations/cappadocia)
 - [Private Ephesus Tour](https://privateturkeytour.com/destinations/ephesus)
+- [Pamukkale Turkey](https://privateturkeytour.com/destinations/pamukkale)
 - [Turquoise Coast Turkey](https://privateturkeytour.com/destinations/turquoise-coast)
+
+## Experiences
+- [Cappadocia Hot Air Balloon](https://privateturkeytour.com/experiences/cappadocia-hot-air-balloon)
+- [Istanbul Food Tour](https://privateturkeytour.com/experiences/istanbul-food-tour)
+- [Private Gulet Cruise](https://privateturkeytour.com/experiences/gulet-cruise)
+
+## Audience clusters
+- [Turkey Honeymoon](https://privateturkeytour.com/private-turkey-tours/honeymoon)
+- [Family Turkey Tour](https://privateturkeytour.com/private-turkey-tours/family)
 
 ## Itineraries
 - [7 Day Turkey Itinerary](https://privateturkeytour.com/itineraries/7-day-classic)
@@ -32,6 +44,7 @@
 - [Best time to visit Turkey](https://privateturkeytour.com/guides/best-time-to-visit-turkey)
 - [How to plan a trip to Turkey](https://privateturkeytour.com/guides/how-to-plan-a-private-turkey-trip)
 - [Private vs group Turkey tours](https://privateturkeytour.com/guides/private-vs-group-turkey-tours)
+- [Private Turkey tour cost](https://privateturkeytour.com/guides/private-turkey-tour-cost)
 
 ## Full
 - [llms-full.txt](https://privateturkeytour.com/llms-full.txt)

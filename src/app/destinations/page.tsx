@@ -14,7 +14,7 @@ import { cn } from "@/lib/utils";
 export const metadata = buildMetadata({
   title: "Best Places to Visit in Turkey for Private Tours",
   description:
-    "Explore the best places to visit in Turkey on a private tour—Istanbul, Cappadocia, Ephesus, and the Turquoise Coast designed around your pace.",
+    "Explore the best places to visit in Turkey on a private tour—Istanbul, Cappadocia, Ephesus, Pamukkale, and the Turquoise Coast designed around your pace.",
   path: "/destinations",
   keywords: keywordList(pageKeywords.destinations),
 });
@@ -32,7 +32,7 @@ export default function DestinationsPage() {
         eyebrow="Destination hub"
         title="Best places to visit in Turkey—privately."
         description="These Turkey destinations form the backbone of most private tours. Start here, then open the place that matches the chapter you want first."
-        answer="The most requested private Turkey destinations—and best places to visit in Turkey for first-timers—are Istanbul, Cappadocia, Ephesus & the Aegean, and the Turquoise Coast, often combined in 7- to 14-day tailor-made itineraries."
+        answer="The most requested private Turkey destinations—and best places to visit in Turkey for first-timers—are Istanbul, Cappadocia, Ephesus & the Aegean, Pamukkale, and the Turquoise Coast, often combined in 7- to 14-day tailor-made itineraries."
         breadcrumbs={breadcrumbs}
       />
 

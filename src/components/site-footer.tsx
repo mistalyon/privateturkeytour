@@ -9,6 +9,7 @@ const columns = [
       { href: "/private-turkey-tours", label: "Private Turkey Tours" },
       { href: "/destinations", label: "Destinations" },
       { href: "/itineraries", label: "Itineraries" },
+      { href: "/experiences", label: "Experiences" },
       { href: "/guides", label: "Guides" },
     ],
   },

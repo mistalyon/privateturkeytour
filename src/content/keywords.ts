@@ -219,6 +219,93 @@ export const pageKeywords = {
     ],
     volume: "M",
   },
+  balloon: {
+    focus: "cappadocia hot air balloon",
+    secondary: [
+      "cappadocia balloon ride",
+      "hot air balloon cappadocia",
+      "cappadocia balloon cost",
+      "best balloon tour cappadocia",
+      "cappadocia sunrise balloon",
+    ],
+    volume: "VH",
+  },
+  foodTour: {
+    focus: "istanbul food tour",
+    secondary: [
+      "private istanbul food tour",
+      "istanbul culinary tour",
+      "kadikoy food tour",
+      "istanbul street food tour",
+      "best food tour istanbul",
+    ],
+    volume: "H",
+  },
+  gulet: {
+    focus: "private gulet cruise turkey",
+    secondary: [
+      "gulet cruise turkey",
+      "turkey yacht charter",
+      "fethiye gulet cruise",
+      "gocek private boat",
+      "turquoise coast yacht",
+    ],
+    volume: "M",
+  },
+  honeymoon: {
+    focus: "turkey honeymoon",
+    secondary: [
+      "honeymoon in turkey",
+      "turkey honeymoon packages",
+      "romantic turkey itinerary",
+      "cappadocia honeymoon",
+      "private honeymoon turkey",
+    ],
+    volume: "H",
+  },
+  family: {
+    focus: "family turkey tour",
+    secondary: [
+      "turkey family vacation",
+      "private family tour turkey",
+      "turkey with kids",
+      "family friendly turkey itinerary",
+      "best family tour turkey",
+    ],
+    volume: "M",
+  },
+  pamukkale: {
+    focus: "pamukkale turkey",
+    secondary: [
+      "private pamukkale tour",
+      "pamukkale and hierapolis",
+      "pamukkale from denizli",
+      "cotton castle turkey",
+      "pamukkale day trip",
+    ],
+    volume: "VH",
+  },
+  tourCost: {
+    focus: "private turkey tour cost",
+    secondary: [
+      "how much does a private turkey tour cost",
+      "turkey private tour prices",
+      "cost of private tour turkey",
+      "luxury turkey tour cost",
+      "private turkey tour budget",
+    ],
+    volume: "H",
+  },
+  experiences: {
+    focus: "turkey experiences",
+    secondary: [
+      "cappadocia hot air balloon",
+      "istanbul food tour",
+      "private gulet cruise turkey",
+      "best things to do in turkey",
+    ],
+    volume: "H",
+  },
 } as const satisfies Record<string, KeywordSet>;
 
 export function keywordList(set: KeywordSet): string[] {

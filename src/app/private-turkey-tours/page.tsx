@@ -86,25 +86,29 @@ export default function PrivateTurkeyToursPage() {
               {
                 title: "Cultural & heritage",
                 body: "Istanbul, Ephesus, and specialist guiding for travelers who want depth without rushing.",
+                href: "/destinations",
               },
               {
                 title: "Honeymoon & couples",
                 body: "Quiet stays, private dinners, and coastal or cave-hotel evenings shaped for two.",
+                href: "/private-turkey-tours/honeymoon",
               },
               {
                 title: "Family & multi-gen",
                 body: "Flexible pacing, shorter ruin visits, and logistics that respect different energy levels.",
+                href: "/private-turkey-tours/family",
               },
             ].map((item) => (
-              <article
+              <Link
                 key={item.title}
-                className="border border-black/10 bg-[#efe9df] p-6"
+                href={item.href}
+                className="border border-black/10 bg-[#efe9df] p-6 transition hover:border-black/25"
               >
                 <h3 className="font-heading text-2xl">{item.title}</h3>
                 <p className="mt-3 text-sm leading-7 text-black/65">
                   {item.body}
                 </p>
-              </article>
+              </Link>
             ))}
           </div>
         </div>
@@ -125,14 +129,14 @@ export default function PrivateTurkeyToursPage() {
       <RelatedLinks
         items={[
           {
-            title: "How it works",
-            href: "/how-it-works",
-            description: "From first conversation to arrival day.",
+            title: "Turkey experiences",
+            href: "/experiences",
+            description: "Balloon, food tours, and private gulet days.",
           },
           {
-            title: "Private vs group",
-            href: "/guides/private-vs-group-turkey-tours",
-            description: "A clear comparison before you decide.",
+            title: "Private Turkey tour cost",
+            href: "/guides/private-turkey-tour-cost",
+            description: "What actually drives the price.",
           },
           {
             title: "Plan your trip",

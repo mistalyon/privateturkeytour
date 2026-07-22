@@ -131,9 +131,9 @@ export const destinations: Destination[] = [
     ],
     related: [
       {
-        title: "7-Day Classic Private Turkey",
-        href: "/itineraries/7-day-classic",
-        description: "A focused private loop including Cappadocia.",
+        title: "Cappadocia hot air balloon",
+        href: "/experiences/cappadocia-hot-air-balloon",
+        description: "How we plan sunrise flights and weather backups.",
       },
       {
         title: "Best time to visit Turkey",
@@ -277,6 +277,76 @@ export const destinations: Destination[] = [
         title: "Ephesus & Aegean",
         href: "/destinations/ephesus",
         description: "Link antiquity with the coast.",
+      },
+    ],
+    updatedAt: "2026-07-22",
+  },
+  {
+    slug: "pamukkale",
+    name: "Pamukkale",
+    note: "White terraces & Hierapolis",
+    image: "/pamukkale.jpg",
+    focusKeyword: pageKeywords.pamukkale.focus,
+    secondaryKeywords: [...pageKeywords.pamukkale.secondary],
+    title: "Pamukkale Turkey: Private Tour to the Cotton Castle",
+    description:
+      "Visit Pamukkale Turkey on a private tour—white travertine terraces, Hierapolis ruins, and thermal pools with a licensed guide and flexible timing.",
+    answer:
+      "A private Pamukkale tour combines the white travertine terraces (the Cotton Castle), ancient Hierapolis, and optional thermal time with a guide and private transfer—usually as a day chapter linked to Ephesus, Cappadocia, or the Aegean.",
+    bestTime:
+      "April–June and September–November for milder walking temperatures on the terraces and Hierapolis.",
+    highlights: [
+      "Travertine terraces with timed private pacing",
+      "Hierapolis ruins without coach rush",
+      "Optional thermal pool time",
+      "Easy links from Denizli, Ephesus, or Cappadocia routes",
+    ],
+    sections: [
+      {
+        heading: "Why visit Pamukkale Turkey privately?",
+        body: "Pamukkale is spectacular and popular. A private Pamukkale tour helps you arrive at better hours, walk Hierapolis with context, and avoid feeling herded across the travertines. You control how long you linger for photographs versus shade.",
+      },
+      {
+        heading: "Pamukkale and Hierapolis in one coherent day",
+        body: "Most travelers want both the Cotton Castle terraces and Hierapolis. Privately, we sequence entries, footwear rules, and heat breaks so the day feels like discovery—not a checklist sprint from a coach parking lot.",
+      },
+      {
+        heading: "How Pamukkale fits a private Turkey itinerary",
+        body: "Pamukkale often sits between Cappadocia and Ephesus, or as an Aegean add-on. It is rarely a standalone week—but as a private day trip or overnight it adds a landscape chapter most first-timers want to see.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Is Pamukkale worth it on a private Turkey tour?",
+        answer:
+          "Yes for most first-timers—especially when timing and Hierapolis guiding are handled privately. If you dislike any thermal tourism, we can keep the visit focused on landscape and archaeology.",
+      },
+      {
+        question: "Can I swim at Pamukkale?",
+        answer:
+          "Rules and open pools change over time. We confirm current access before your date and plan alternatives if swimming sections are restricted.",
+      },
+      {
+        question: "How long do I need for Pamukkale?",
+        answer:
+          "A focused private half-day to full day covers terraces and Hierapolis. An overnight helps if you want sunset light and a quieter morning.",
+      },
+    ],
+    related: [
+      {
+        title: "Private Ephesus Tour",
+        href: "/destinations/ephesus",
+        description: "Pair antiquity chapters on the Aegean arc.",
+      },
+      {
+        title: "10 Day Turkey Itinerary",
+        href: "/itineraries/10-day-classic",
+        description: "See how Pamukkale can extend a classic route.",
+      },
+      {
+        title: "Private Turkey Tours",
+        href: "/private-turkey-tours",
+        description: "Design the fuller private journey.",
       },
     ],
     updatedAt: "2026-07-22",

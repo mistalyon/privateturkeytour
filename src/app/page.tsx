@@ -265,6 +265,53 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="border-y border-black/10 bg-[#e9e3d8] px-5 py-24 sm:px-8 lg:px-12 lg:py-28">
+        <div className="mx-auto max-w-[1344px]">
+          <div className="flex flex-col justify-between gap-6 md:flex-row md:items-end">
+            <div>
+              <p className="eyebrow">Signature experiences</p>
+              <h2 className="mt-5 font-heading text-[clamp(2.8rem,5vw,4.5rem)] leading-none tracking-[-0.045em]">
+                Balloon mornings, food walks, sea days.
+              </h2>
+            </div>
+            <Link
+              href="/experiences"
+              className="text-sm underline underline-offset-4 hover:text-black/70"
+            >
+              Explore experiences
+            </Link>
+          </div>
+          <div className="mt-10 grid gap-4 md:grid-cols-3">
+            {[
+              {
+                href: "/experiences/cappadocia-hot-air-balloon",
+                title: "Cappadocia hot air balloon",
+                body: "Sunrise flights with weather-smart backups.",
+              },
+              {
+                href: "/experiences/istanbul-food-tour",
+                title: "Istanbul food tour",
+                body: "Private culinary walks across two continents.",
+              },
+              {
+                href: "/experiences/gulet-cruise",
+                title: "Private gulet cruise",
+                body: "Turquoise Coast coves without cabin strangers.",
+              },
+            ].map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="border border-black/10 bg-[#f4f0e8] p-7 transition hover:border-black/30"
+              >
+                <h3 className="font-heading text-2xl">{item.title}</h3>
+                <p className="mt-3 text-sm leading-7 text-black/60">{item.body}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="px-5 py-24 sm:px-8 lg:px-12 lg:py-36">
         <div className="mx-auto grid max-w-[1344px] gap-16 lg:grid-cols-2 lg:items-center lg:gap-24">
           <div className="relative min-h-[600px] overflow-hidden sm:min-h-[720px]">

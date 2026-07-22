@@ -62,3 +62,36 @@ export type Guide = {
   updatedAt: string;
   publishedAt: string;
 };
+
+export type Experience = {
+  slug: string;
+  name: string;
+  focusKeyword: string;
+  secondaryKeywords: string[];
+  title: string;
+  description: string;
+  answer: string;
+  image: string;
+  duration: string;
+  bestFor: string;
+  sections: { heading: string; body: string }[];
+  faqs: FaqItem[];
+  related: ContentLink[];
+  updatedAt: string;
+};
+
+export type Audience = {
+  slug: string;
+  name: string;
+  focusKeyword: string;
+  secondaryKeywords: string[];
+  title: string;
+  description: string;
+  answer: string;
+  image: string;
+  highlights: string[];
+  sections: { heading: string; body: string }[];
+  faqs: FaqItem[];
+  related: ContentLink[];
+  updatedAt: string;
+};

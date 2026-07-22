@@ -204,6 +204,72 @@ export const guides: Guide[] = [
       },
     ],
   },
+  {
+    slug: "private-turkey-tour-cost",
+    name: "Private Turkey Tour Cost",
+    focusKeyword: pageKeywords.tourCost.focus,
+    secondaryKeywords: [...pageKeywords.tourCost.secondary],
+    title: "Private Turkey Tour Cost: What Affects the Price",
+    description:
+      "Understand private Turkey tour cost drivers—trip length, hotels, guiding, flights, and season—so you can budget a tailor-made journey honestly.",
+    answer:
+      "Private Turkey tour cost varies mainly by trip length, hotel category, private guiding days, domestic flights, and season. Think in ranges by style—not a single package price—because a boutique 7-day journey and a luxury 14-day coast itinerary are different products.",
+    image: "/detail.jpg",
+    publishedAt: "2026-07-22",
+    updatedAt: "2026-07-22",
+    sections: [
+      {
+        heading: "What drives private Turkey tour prices?",
+        body: "The biggest levers are nights and hotel tier, how many full private guiding days you want, domestic flights versus long transfers, and peak versus shoulder season. Experiences like a Cappadocia hot air balloon or a private gulet cruise sit on top of the base itinerary cost.",
+      },
+      {
+        heading: "How to think about budget tiers",
+        body: "A comfortable boutique private journey costs less than an ultra-luxury version with top cave suites and fine dining every night. Private does not automatically mean maximum luxury—it means tailored. We quote options so you can choose where to invest: stays, guiding depth, or signature experiences.",
+      },
+      {
+        heading: "Why ranges beat fake ‘from’ prices",
+        body: "Two couples on the same 10 day Turkey itinerary can spend very differently based on room category and balloon choices. We share transparent drivers and sample ranges in your proposal after seeing dates and style—more useful than a marketing ‘from’ that ignores reality.",
+      },
+      {
+        heading: "Ways to control cost without killing the trip",
+        body: "Travel in shoulder season, keep guiding focused on high-value days, choose strong mid-boutique hotels, and limit one-night hops. A well-designed private Turkey tour often feels calmer—and better value—than stacking mid-range group packages plus stress.",
+      },
+    ],
+    faqs: [
+      {
+        question: "How much does a private Turkey tour cost per day?",
+        answer:
+          "It depends on hotel tier and inclusions. After a short brief we can share realistic daily ranges for your dates—more accurate than a generic website number.",
+      },
+      {
+        question: "Is a private Turkey tour worth the cost vs a group package?",
+        answer:
+          "Often yes when flexibility, privacy, or family pacing matter. You pay more than a coach seat, but you buy recovered hours, better timing at busy sites, and stays chosen for you.",
+      },
+      {
+        question: "What is usually included in the quote?",
+        answer:
+          "Typically design work, private guides on touring days, handpicked stays, transfers or domestic flights as planned, and in-country support. Balloons, gulets, and some tickets may be optional line items.",
+      },
+    ],
+    related: [
+      {
+        title: "Private Turkey Tours",
+        href: "/private-turkey-tours",
+        description: "What tailor-made journeys include.",
+      },
+      {
+        title: "How to plan a trip to Turkey",
+        href: "/guides/how-to-plan-a-private-turkey-trip",
+        description: "Fix length and regions before budgeting.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Share dates for a tailored cost outline.",
+      },
+    ],
+  },
 ];
 
 export function getGuide(slug: string) {
