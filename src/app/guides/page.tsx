@@ -11,7 +11,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "Turkey Travel Guide for Private Tours",
   description:
-    "Turkey travel guide pages for private tours—best time to visit Turkey, how to plan a trip to Turkey, and private vs group Turkey tours.",
+    "Turkey travel guide pages for private tours—best time to visit, Turkey in May/October, things to do in Istanbul and Cappadocia, planning steps, cost, and private vs group.",
   path: "/guides",
   keywords: keywordList(pageKeywords.guides),
 });

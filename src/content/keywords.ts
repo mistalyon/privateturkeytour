@@ -306,6 +306,50 @@ export const pageKeywords = {
     ],
     volume: "H",
   },
+  thingsIstanbul: {
+    focus: "things to do in istanbul",
+    secondary: [
+      "best things to do in istanbul",
+      "istanbul attractions",
+      "what to do in istanbul",
+      "istanbul sightseeing",
+      "must see istanbul",
+    ],
+    volume: "VH",
+  },
+  thingsCappadocia: {
+    focus: "things to do in cappadocia",
+    secondary: [
+      "best things to do in cappadocia",
+      "cappadocia attractions",
+      "what to do in cappadocia",
+      "cappadocia activities",
+      "goreme things to do",
+    ],
+    volume: "H",
+  },
+  turkeyInMay: {
+    focus: "turkey in may",
+    secondary: [
+      "visit turkey in may",
+      "turkey weather in may",
+      "best places to visit in turkey in may",
+      "cappadocia in may",
+      "istanbul in may",
+    ],
+    volume: "H",
+  },
+  turkeyInOctober: {
+    focus: "turkey in october",
+    secondary: [
+      "visit turkey in october",
+      "turkey weather in october",
+      "best time october turkey",
+      "cappadocia in october",
+      "turkey autumn travel",
+    ],
+    volume: "H",
+  },
 } as const satisfies Record<string, KeywordSet>;
 
 export function keywordList(set: KeywordSet): string[] {

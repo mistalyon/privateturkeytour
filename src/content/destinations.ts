@@ -61,19 +61,19 @@ export const destinations: Destination[] = [
     ],
     related: [
       {
+        title: "Things to do in Istanbul",
+        href: "/guides/things-to-do-in-istanbul",
+        description: "Must-sees and neighborhood pacing for first-timers.",
+      },
+      {
+        title: "Istanbul food tour",
+        href: "/experiences/istanbul-food-tour",
+        description: "Private culinary walks across two continents.",
+      },
+      {
         title: "10-Day Classic Private Turkey",
         href: "/itineraries/10-day-classic",
         description: "Istanbul, Cappadocia, and Ephesus in one private journey.",
-      },
-      {
-        title: "How to plan a private Turkey trip",
-        href: "/guides/how-to-plan-a-private-turkey-trip",
-        description: "A practical framework before you lock dates.",
-      },
-      {
-        title: "Private Turkey Tours",
-        href: "/private-turkey-tours",
-        description: "How bespoke journeys across Türkiye are designed.",
       },
     ],
     updatedAt: "2026-07-22",
@@ -131,6 +131,11 @@ export const destinations: Destination[] = [
     ],
     related: [
       {
+        title: "Things to do in Cappadocia",
+        href: "/guides/things-to-do-in-cappadocia",
+        description: "Valleys, balloons, underground cities, cave stays.",
+      },
+      {
         title: "Cappadocia hot air balloon",
         href: "/experiences/cappadocia-hot-air-balloon",
         description: "How we plan sunrise flights and weather backups.",
@@ -139,11 +144,6 @@ export const destinations: Destination[] = [
         title: "Best time to visit Turkey",
         href: "/guides/best-time-to-visit-turkey",
         description: "Season-by-season guidance for balloons and valleys.",
-      },
-      {
-        title: "Istanbul private tours",
-        href: "/destinations/istanbul",
-        description: "Begin on the Bosphorus before flying inland.",
       },
     ],
     updatedAt: "2026-07-22",
