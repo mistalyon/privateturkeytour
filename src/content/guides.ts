@@ -526,6 +526,216 @@ export const guides: Guide[] = [
       },
     ],
   },
+  {
+    slug: "things-to-do-in-ephesus",
+    name: "Things to Do in Ephesus",
+    focusKeyword: pageKeywords.thingsEphesus.focus,
+    secondaryKeywords: [...pageKeywords.thingsEphesus.secondary],
+    title: "Things to Do in Ephesus: Ruins, Terrace Houses & Nearby",
+    description:
+      "Best things to do in Ephesus on a private tour—Library of Celsus, Terrace Houses, House of the Virgin Mary, Şirince, and how long to allow.",
+    answer:
+      "The best things to do in Ephesus are a private guided walk of the main ruins (including the Library of Celsus), Terrace Houses when open, and optional House of the Virgin Mary or Şirince—best timed early to avoid cruise-ship peaks.",
+    image: "/ephesus.jpg",
+    publishedAt: "2026-07-26",
+    updatedAt: "2026-07-26",
+    sections: [
+      {
+        heading: "Core Ephesus attractions worth your hours",
+        body: "Focus on the Curetes Street axis, the Library of Celsus, the Great Theatre, and Terrace Houses for domestic detail most visitors miss. A private Ephesus tour lets you enter at smarter hours and leave when heat or crowds rise.",
+      },
+      {
+        heading: "House of the Virgin Mary and Şirince",
+        body: "Many travelers add the House of the Virgin Mary and a village lunch in Şirince. Privately, these become calm extensions—not rushed coach photo stops.",
+      },
+      {
+        heading: "How long do you need?",
+        body: "A focused half-day covers the core site. A full day allows Terrace Houses, nearby sanctuaries, and an Aegean overnight before the Turquoise Coast.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Is Ephesus worth it without a guide?",
+        answer:
+          "You can walk it alone, but a specialist private guide transforms marble into story—especially valuable on a first visit.",
+      },
+      {
+        question: "When is Ephesus least crowded?",
+        answer:
+          "Early morning and late afternoon outside peak cruise windows. Private timing is the real advantage.",
+      },
+    ],
+    related: [
+      {
+        title: "Private Ephesus Tour",
+        href: "/destinations/ephesus",
+        description: "Full destination page for private Aegean days.",
+      },
+      {
+        title: "10 Day Turkey Itinerary",
+        href: "/itineraries/10-day-classic",
+        description: "Where Ephesus sits in the classic arc.",
+      },
+      {
+        title: "Pamukkale day trip",
+        href: "/guides/pamukkale-day-trip",
+        description: "Often combined on western Turkey routes.",
+      },
+    ],
+  },
+  {
+    slug: "pamukkale-day-trip",
+    name: "Pamukkale Day Trip",
+    focusKeyword: pageKeywords.pamukkaleDayTrip.focus,
+    secondaryKeywords: [...pageKeywords.pamukkaleDayTrip.secondary],
+    title: "Pamukkale Day Trip: Cotton Castle & Hierapolis Guide",
+    description:
+      "Plan a Pamukkale day trip or overnight—travertines, Hierapolis, swimming rules, and how a private transfer changes the experience.",
+    answer:
+      "A Pamukkale day trip typically combines the white travertine terraces and Hierapolis ruins in one focused day; privately, better timing and pacing make the Cotton Castle feel like a landscape chapter rather than a coach sprint.",
+    image: "/pamukkale.jpg",
+    publishedAt: "2026-07-26",
+    updatedAt: "2026-07-26",
+    sections: [
+      {
+        heading: "Is Pamukkale worth visiting on a private Turkey tour?",
+        body: "For most first-timers yes—especially when Hierapolis is guided well and terrace time is not rushed. If thermal tourism does not appeal, keep the visit landscape-focused.",
+      },
+      {
+        heading: "Day trip vs overnight",
+        body: "A day trip works from Denizli or as a link between Cappadocia and Ephesus. An overnight helps for sunset light and a quieter morning on the terraces.",
+      },
+      {
+        heading: "Practical notes for the Cotton Castle",
+        body: "Footwear and swimming access rules can change. We confirm current conditions before your date and plan shade, water, and photo stops accordingly.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Can Pamukkale be combined with Ephesus?",
+        answer:
+          "Yes. Many private western Turkey routes place Pamukkale between Cappadocia and Ephesus, or as an Aegean add-on.",
+      },
+      {
+        question: "How long is a private Pamukkale tour?",
+        answer:
+          "Half-day to full-day depending on Hierapolis depth and whether you overnight nearby.",
+      },
+    ],
+    related: [
+      {
+        title: "Pamukkale Turkey",
+        href: "/destinations/pamukkale",
+        description: "Destination deep-dive for private visits.",
+      },
+      {
+        title: "Things to do in Ephesus",
+        href: "/guides/things-to-do-in-ephesus",
+        description: "Pair antiquity chapters on the same arc.",
+      },
+      {
+        title: "14 Day Grand",
+        href: "/itineraries/14-day-grand",
+        description: "Room to include Pamukkale without rushing.",
+      },
+    ],
+  },
+  {
+    slug: "turkey-in-september",
+    name: "Turkey in September",
+    focusKeyword: pageKeywords.turkeyInSeptember.focus,
+    secondaryKeywords: [...pageKeywords.turkeyInSeptember.secondary],
+    title: "Turkey in September: Warm Seas & Shoulder-Season Calm",
+    description:
+      "Visit Turkey in September for warm Turquoise Coast seas, strong Cappadocia light, and private-tour pacing before autumn crowds thin further.",
+    answer:
+      "Turkey in September is a premium private-tour window: seas stay warm, Istanbul and Cappadocia remain comfortable, Ephesus is manageable with early starts, and shoulder demand is high—so book preferred cave hotels early.",
+    image: "/coast.jpg",
+    publishedAt: "2026-07-26",
+    updatedAt: "2026-07-26",
+    sections: [
+      {
+        heading: "Why September works for private Turkey tours",
+        body: "You keep summer’s swimming potential without August’s peak intensity. Cultural days feel spacious; coastal evenings stay long. Ideal for honeymoons and 10–14 day itineraries.",
+      },
+      {
+        heading: "Region-by-region in September",
+        body: "Istanbul: excellent walking. Cappadocia: strong balloon odds and golden light. Ephesus: start early. Turquoise Coast: prime for private gulet or hotel-based sea days.",
+      },
+    ],
+    faqs: [
+      {
+        question: "September vs October in Turkey?",
+        answer:
+          "September is usually warmer for swimming; October often quieter with softer light. Both are excellent private-tour months.",
+      },
+    ],
+    related: [
+      {
+        title: "Turkey in October",
+        href: "/guides/turkey-in-october",
+        description: "Compare the two autumn windows.",
+      },
+      {
+        title: "Turkey in May",
+        href: "/guides/turkey-in-may",
+        description: "Spring’s matching shoulder season.",
+      },
+      {
+        title: "Private gulet cruise",
+        href: "/experiences/gulet-cruise",
+        description: "September sea days on the coast.",
+      },
+    ],
+  },
+  {
+    slug: "turkey-in-winter",
+    name: "Turkey in Winter",
+    focusKeyword: pageKeywords.turkeyInWinter.focus,
+    secondaryKeywords: [...pageKeywords.turkeyInWinter.secondary],
+    title: "Turkey in Winter: Istanbul Mood, Quieter Sites & Flexible Plans",
+    description:
+      "Visit Turkey in winter for atmospheric Istanbul days, quieter major sites, and private pacing—with honest notes on Cappadocia balloons and coastal weather.",
+    answer:
+      "Turkey in winter suits travelers who prioritize Istanbul culture, quieter museums, and value over beach weather. Cappadocia can be magical with snow but sees more balloon cancellations; private itineraries stay flexible.",
+    image: "/istanbul.jpg",
+    publishedAt: "2026-07-26",
+    updatedAt: "2026-07-26",
+    sections: [
+      {
+        heading: "Best winter chapters",
+        body: "Istanbul shines in winter—cozy restaurants, softer queues, atmospheric Bosphorus light. Pair with Cappadocia if you accept weather-first balloon odds, or keep the trip city-focused.",
+      },
+      {
+        heading: "What to expect regionally",
+        body: "Coast and Ephesus are quieter and cooler. Pack layers. Private guiding helps you pivot museum-heavy when rain arrives.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Is winter a good time for a first Turkey trip?",
+        answer:
+          "Yes if you love cities and do not need swimming. For classic icons plus coast, prefer spring or autumn.",
+      },
+    ],
+    related: [
+      {
+        title: "Best time to visit Turkey",
+        href: "/guides/best-time-to-visit-turkey",
+        description: "Full season comparison.",
+      },
+      {
+        title: "Things to do in Istanbul",
+        href: "/guides/things-to-do-in-istanbul",
+        description: "Strong winter focus destination.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Share winter dates for an honest outline.",
+      },
+    ],
+  },
 ];
 
 export function getGuide(slug: string) {

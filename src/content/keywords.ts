@@ -350,6 +350,61 @@ export const pageKeywords = {
     ],
     volume: "H",
   },
+  thingsEphesus: {
+    focus: "things to do in ephesus",
+    secondary: [
+      "ephesus attractions",
+      "what to see in ephesus",
+      "ephesus ruins tour",
+      "library of celsus",
+      "house of the virgin mary",
+    ],
+    volume: "M",
+  },
+  pamukkaleDayTrip: {
+    focus: "pamukkale day trip",
+    secondary: [
+      "pamukkale from denizli",
+      "pamukkale hierapolis tour",
+      "cotton castle turkey",
+      "is pamukkale worth visiting",
+      "private pamukkale tour",
+    ],
+    volume: "H",
+  },
+  turkeyInSeptember: {
+    focus: "turkey in september",
+    secondary: [
+      "visit turkey in september",
+      "turkey weather in september",
+      "cappadocia in september",
+      "best time september turkey",
+      "turkey shoulder season",
+    ],
+    volume: "H",
+  },
+  turkeyInWinter: {
+    focus: "turkey in winter",
+    secondary: [
+      "visit turkey in winter",
+      "istanbul in winter",
+      "cappadocia in winter",
+      "turkey december travel",
+      "best winter destinations turkey",
+    ],
+    volume: "M",
+  },
+  luxury: {
+    focus: "luxury turkey tour",
+    secondary: [
+      "luxury private turkey tour",
+      "luxury turkey itinerary",
+      "high end turkey travel",
+      "bespoke luxury turkey",
+      "luxury cappadocia tour",
+    ],
+    volume: "M",
+  },
 } as const satisfies Record<string, KeywordSet>;
 
 export function keywordList(set: KeywordSet): string[] {

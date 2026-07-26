@@ -81,7 +81,7 @@ export default function PrivateTurkeyToursPage() {
             </p>
           </article>
 
-          <div className="grid gap-4 md:grid-cols-3">
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {[
               {
                 title: "Cultural & heritage",
@@ -97,6 +97,11 @@ export default function PrivateTurkeyToursPage() {
                 title: "Family & multi-gen",
                 body: "Flexible pacing, shorter ruin visits, and logistics that respect different energy levels.",
                 href: "/private-turkey-tours/family",
+              },
+              {
+                title: "Luxury & elevated",
+                body: "Design-led stays, specialist guides, and refined pacing for a high-end private journey.",
+                href: "/private-turkey-tours/luxury",
               },
             ].map((item) => (
               <Link

@@ -1,10 +1,11 @@
 import { CtaBand } from "@/components/cta-band";
+import { EnquiryForm } from "@/components/enquiry-form";
 import { JsonLd } from "@/components/json-ld";
 import { PageHero } from "@/components/page-hero";
+import { keywordList, pageKeywords } from "@/content/keywords";
 import { breadcrumbSchema } from "@/lib/schema";
 import { buildMetadata } from "@/lib/seo";
 import { siteConfig } from "@/lib/site";
-import { keywordList, pageKeywords } from "@/content/keywords";
 
 export const metadata = buildMetadata({
   title: "Plan a Trip to Turkey | Private Tour Enquiry",
@@ -50,65 +51,18 @@ export default function PlanYourTripPage() {
               </li>
               <li>Any celebrations, access needs, or must-avoids</li>
             </ul>
-          </div>
-
-          <form
-            action={`mailto:${siteConfig.email}`}
-            method="post"
-            encType="text/plain"
-            className="border border-black/10 bg-[#efe9df] p-7 sm:p-10"
-          >
-            <label className="block text-sm text-black/70">
-              Name
-              <input
-                required
-                name="name"
-                className="mt-2 w-full border border-black/15 bg-[#f4f0e8] px-4 py-3 outline-none focus:border-black"
-              />
-            </label>
-            <label className="mt-5 block text-sm text-black/70">
-              Email
-              <input
-                required
-                type="email"
-                name="email"
-                className="mt-2 w-full border border-black/15 bg-[#f4f0e8] px-4 py-3 outline-none focus:border-black"
-              />
-            </label>
-            <label className="mt-5 block text-sm text-black/70">
-              Travel dates / month
-              <input
-                name="dates"
-                className="mt-2 w-full border border-black/15 bg-[#f4f0e8] px-4 py-3 outline-none focus:border-black"
-              />
-            </label>
-            <label className="mt-5 block text-sm text-black/70">
-              Tell us about the trip
-              <textarea
-                required
-                name="message"
-                rows={6}
-                className="mt-2 w-full border border-black/15 bg-[#f4f0e8] px-4 py-3 outline-none focus:border-black"
-                placeholder="Trip length, companions, must-sees, pace, stay style..."
-              />
-            </label>
-            <button
-              type="submit"
-              className="mt-7 h-12 rounded-full bg-black px-7 text-sm text-[#f4f0e8] transition hover:bg-black/80"
-            >
-              Send planning request
-            </button>
-            <p className="mt-4 text-sm leading-7 text-black/55">
-              Prefer email directly? Write to{" "}
+            <p className="mt-8 text-sm leading-7 text-black/55">
+              Direct email always works:{" "}
               <a
                 className="underline underline-offset-4"
                 href={`mailto:${siteConfig.email}`}
               >
                 {siteConfig.email}
               </a>
-              .
             </p>
-          </form>
+          </div>
+
+          <EnquiryForm />
         </div>
       </section>
 

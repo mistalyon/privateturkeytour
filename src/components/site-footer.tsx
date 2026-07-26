@@ -9,6 +9,7 @@ const columns = [
       { href: "/private-turkey-tours", label: "Private Turkey Tours" },
       { href: "/private-turkey-tours/honeymoon", label: "Turkey Honeymoon" },
       { href: "/private-turkey-tours/family", label: "Family Turkey Tour" },
+      { href: "/private-turkey-tours/luxury", label: "Luxury Turkey Tour" },
       { href: "/itineraries", label: "Turkey Itineraries" },
       { href: "/experiences", label: "Turkey Experiences" },
     ],
@@ -44,12 +45,16 @@ const columns = [
         label: "Things to Do in Cappadocia",
       },
       {
+        href: "/guides/things-to-do-in-ephesus",
+        label: "Things to Do in Ephesus",
+      },
+      {
         href: "/guides/private-turkey-tour-cost",
         label: "Private Turkey Tour Cost",
       },
       {
-        href: "/guides/how-to-plan-a-private-turkey-trip",
-        label: "How to Plan a Trip to Turkey",
+        href: "/guides/turkey-in-september",
+        label: "Turkey in September",
       },
     ],
   },
@@ -109,7 +114,15 @@ export function SiteFooter() {
         <p>
           © {new Date().getFullYear()} {siteConfig.name}
         </p>
-        <p>Based in Türkiye · Private guided journeys worldwide</p>
+        <div className="flex flex-wrap gap-x-5 gap-y-2">
+          <Link className="hover:text-white" href="/privacy">
+            Privacy
+          </Link>
+          <Link className="hover:text-white" href="/terms">
+            Terms
+          </Link>
+          <span>Based in Türkiye · Private guided journeys</span>
+        </div>
       </div>
     </footer>
   );

@@ -41,6 +41,8 @@ export const staticPages = [
   { path: "/about", priority: 0.7, changeFrequency: "monthly" as const },
   { path: "/faq", priority: 0.75, changeFrequency: "monthly" as const },
   { path: "/contact", priority: 0.7, changeFrequency: "monthly" as const },
+  { path: "/privacy", priority: 0.3, changeFrequency: "yearly" as const },
+  { path: "/terms", priority: 0.3, changeFrequency: "yearly" as const },
 ];
 
 export function allContentPaths() {

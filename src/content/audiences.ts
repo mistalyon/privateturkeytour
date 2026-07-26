@@ -136,6 +136,68 @@ export const audiences: Audience[] = [
     ],
     updatedAt: "2026-07-22",
   },
+  {
+    slug: "luxury",
+    name: "Luxury",
+    focusKeyword: pageKeywords.luxury.focus,
+    secondaryKeywords: [...pageKeywords.luxury.secondary],
+    title: "Luxury Turkey Tour: Private High-End Itineraries",
+    description:
+      "Design a luxury Turkey tour with elevated stays, specialist guides, private transfers, and refined pacing across Istanbul, Cappadocia, and the coast.",
+    answer:
+      "A luxury Turkey tour is a fully private journey with elevated boutique or design hotels, specialist guiding, seamless logistics, and experiences chosen for privacy—cave suites, fine tables, and optional balloon or gulet days—without group schedules.",
+    image: "/detail.jpg",
+    highlights: [
+      "Design-led and elevated boutique stays",
+      "Specialist private guides in each region",
+      "Quiet timing at major sites",
+      "Optional balloon, food, and gulet upgrades",
+    ],
+    sections: [
+      {
+        heading: "What luxury means on a private Turkey tour",
+        body: "Luxury here is control and craft: room category, guide calibre, restaurant access, and recovery time. It is not a fixed five-star package—it is a bespoke luxury Turkey itinerary shaped around how you travel.",
+      },
+      {
+        heading: "Where luxury itineraries shine",
+        body: "Istanbul for design hotels and exceptional dining, Cappadocia for cave suites and balloon mornings, Ephesus with archaeology-minded guiding, and the Turquoise Coast for private boat privacy.",
+      },
+      {
+        heading: "How we quote high-end journeys",
+        body: "We separate stay tier, guiding depth, and signature experiences so you can invest where it matters. Transparent luxury Turkey tour cost drivers beat opaque ‘from’ prices.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Is a luxury Turkey tour only ultra five-star?",
+        answer:
+          "Not necessarily. Many travelers want elevated boutique character more than chain polish. We match the definition of luxury to your brief.",
+      },
+      {
+        question: "How long should a luxury private itinerary be?",
+        answer:
+          "Ten to fourteen days lets luxury pacing breathe. Seven days works if you keep the route to Istanbul and Cappadocia.",
+      },
+    ],
+    related: [
+      {
+        title: "Private Turkey tour cost",
+        href: "/guides/private-turkey-tour-cost",
+        description: "What actually drives elevated pricing.",
+      },
+      {
+        title: "Honeymoon Turkey",
+        href: "/private-turkey-tours/honeymoon",
+        description: "Romantic luxury for two.",
+      },
+      {
+        title: "14 Day Grand",
+        href: "/itineraries/14-day-grand",
+        description: "Room for coast and culture at a calm pace.",
+      },
+    ],
+    updatedAt: "2026-07-26",
+  },
 ];
 
 export function getAudience(slug: string) {
