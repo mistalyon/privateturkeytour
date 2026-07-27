@@ -6,7 +6,7 @@ import { RelatedLinks } from "@/components/related-links";
 import { keywordList, pageKeywords } from "@/content/keywords";
 import { breadcrumbSchema } from "@/lib/schema";
 import { buildMetadata } from "@/lib/seo";
-import { siteConfig } from "@/lib/site";
+import { siteConfig, whatsappEnquireUrl } from "@/lib/site";
 
 export const metadata = buildMetadata({
   title: "Plan a Trip to Turkey | Private Tour Enquiry",
@@ -21,9 +21,7 @@ const breadcrumbs = [
   { name: "Plan your trip", href: "/plan-your-trip" },
 ];
 
-const whatsappUrl = `https://wa.me/${siteConfig.whatsapp}?text=${encodeURIComponent(
-  "Merhaba, privateturkeytour.com sitesinden size ulaşıyorum.",
-)}`;
+const whatsappUrl = whatsappEnquireUrl();
 
 export default function PlanYourTripPage() {
   return (

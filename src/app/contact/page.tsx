@@ -7,11 +7,9 @@ import { RelatedLinks } from "@/components/related-links";
 import { keywordList, pageKeywords } from "@/content/keywords";
 import { breadcrumbSchema, faqSchema } from "@/lib/schema";
 import { buildMetadata } from "@/lib/seo";
-import { siteConfig } from "@/lib/site";
+import { siteConfig, whatsappEnquireUrl } from "@/lib/site";
 
-const whatsappUrl = `https://wa.me/${siteConfig.whatsapp}?text=${encodeURIComponent(
-  "Merhaba, privateturkeytour.com sitesinden size ulaşıyorum.",
-)}`;
+const whatsappUrl = whatsappEnquireUrl();
 
 export const metadata = buildMetadata({
   title: "Contact Private Turkey Tour | Enquire Now",

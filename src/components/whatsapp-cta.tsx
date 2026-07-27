@@ -1,10 +1,8 @@
 import Link from "next/link";
 
-import { siteConfig } from "@/lib/site";
+import { whatsappEnquireUrl } from "@/lib/site";
 
-const whatsappMessage =
-  "Merhaba, privateturkeytour.com sitesinden size ulaşıyorum.";
-const whatsappUrl = `https://wa.me/${siteConfig.whatsapp}?text=${encodeURIComponent(whatsappMessage)}`;
+const whatsappUrl = whatsappEnquireUrl();
 
 export function WhatsAppCta() {
   return (
@@ -13,7 +11,7 @@ export function WhatsAppCta() {
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-5 right-5 z-50 inline-flex items-center gap-2 rounded-full bg-[#25D366] px-5 py-3 text-sm font-semibold text-white shadow-lg transition hover:scale-[1.02] hover:bg-[#20c85b] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/80 focus-visible:ring-offset-2 focus-visible:ring-offset-[#25D366]"
-      aria-label="WhatsApp ile bize yazın"
+      aria-label="Message us on WhatsApp"
     >
       <svg
         aria-hidden
