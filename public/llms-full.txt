@@ -82,6 +82,12 @@ Spokes:
 - https://privateturkeytour.com/destinations/bodrum — private bodrum tour
 - https://privateturkeytour.com/destinations/gallipoli-troy — gallipoli and troy tour
 - https://privateturkeytour.com/destinations/gobekli-tepe — gobekli tepe tour
+- https://privateturkeytour.com/destinations/arslantepe — arslantepe mound
+- https://privateturkeytour.com/destinations/catalhoyuk — catalhoyuk
+- https://privateturkeytour.com/destinations/hattusa — hattusa tour
+- https://privateturkeytour.com/guides/turkey-archaeological-sites — archaeological sites in turkey
+- https://privateturkeytour.com/guides/gobekli-tepe-vs-catalhoyuk — gobekli tepe vs catalhoyuk
+- https://privateturkeytour.com/itineraries/southeast-turkey-4-day — southeast turkey itinerary
 
 ### Turkey Itineraries
 Intent: Pick trip length and sequence for a private journey

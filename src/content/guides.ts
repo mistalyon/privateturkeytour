@@ -1021,6 +1021,177 @@ export const guides: Guide[] = [
       },
     ],
   },
+  {
+    slug: "turkey-archaeological-sites",
+    name: "Archaeological Sites in Turkey",
+    focusKeyword: pageKeywords.archaeologicalSites.focus,
+    secondaryKeywords: [...pageKeywords.archaeologicalSites.secondary],
+    title: "Archaeological Sites in Turkey: Private Höyük & Ruin Tours",
+    description:
+      "Plan archaeological sites in Turkey on a private tour—Göbeklitepe, Arslantepe, Çatalhöyük, Hattuşa, Troy, Ephesus—with volume-led routing and licensed guides.",
+    answer:
+      "The strongest archaeological sites in Turkey for a private tour span prehistoric höyüks (Göbeklitepe, Çatalhöyük, Arslantepe), Hittite Hattuşa, and classical Troy and Ephesus—best visited with a licensed private guide and sequenced by region so southeast, central Anatolia, and the Aegean each get real daylight.",
+    image: "/ephesus.jpg",
+    sections: [
+      {
+        heading: "How to choose archaeological sites in Turkey privately",
+        body: "Turkey’s archaeology map is too large for one week. Privately, we start from your intent: prehistoric ritual and early cities, Hittite capitals, Homeric Troy, or classical Ephesus—and build a sellable route instead of a museum checklist.\n\nA höyük (mound) is a layered settlement tell. Göbeklitepe, Çatalhöyük, and Arslantepe are UNESCO-backed höyük or prehistoric landmarks with very different visitor experiences. Troy is a mound-rich classical story; Ephesus is a standing Greco-Roman city. Mixing them without geography burns travel days.",
+      },
+      {
+        heading: "Highest-intent prehistoric höyüks",
+        body: "Göbeklitepe near Şanlıurfa leads international search demand—T-pillars, visitor infrastructure, easy pairing with Gaziantep food. Çatalhöyük near Konya shows Neolithic urban life and pairs with Cappadocia arcs. Arslantepe Mound near Malatya (UNESCO 2021) narrates early state formation, palace bureaucracy before writing, and some of the earliest known swords—lower head-term volume than Göbeklitepe, high authority and differentiation for serious archaeology travelers.\n\nPrivate guiding matters most at höyüks: without context, mudbrick and shelters can feel abstract.",
+      },
+      {
+        heading: "Bronze Age to classical chapters",
+        body: "Hattuşa (Boğazkale) is the Hittite capital—vast, atmospheric, best with Alacahöyük when time allows. Troy pairs with Gallipoli on a private Istanbul extension. Ephesus remains the Aegean commercial giant for cruise and land travelers.\n\nWe do not force every UNESCO site into one itinerary. Volume and logistics decide which clusters earn nights.",
+      },
+      {
+        heading: "Private itinerary shapes that actually sell",
+        body: "Southeast 3–4 days: Gaziantep food + Göbeklitepe (+ Şanlıurfa). Central: Cappadocia + Çatalhöyük day. Malatya hinge: Arslantepe for travelers already crossing eastern Anatolia. Aegean: Ephesus with optional Seven Churches faith pacing. Northwest: Gallipoli and Troy from Istanbul.\n\nRead Göbeklitepe vs Çatalhöyük if you must pick one prehistoric headline, then enquire with dates.",
+      },
+      {
+        heading: "Enquire for an archaeology-led private Turkey tour",
+        body: "Share trip length, must-see sites, and fitness for walking ruins. We return a private outline with flight logic and cost drivers—not a fixed departure calendar. Start at plan your trip.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What are the best archaeological sites in Turkey for first-timers?",
+        answer:
+          "Ephesus, Göbeklitepe, and Troy cover the widest search demand. Add Çatalhöyük, Arslantepe, or Hattuşa when prehistoric or Hittite depth is the point of the trip.",
+      },
+      {
+        question: "What is a höyük?",
+        answer:
+          "A höyük is an archaeological settlement mound built from layers of occupation over millennia. Arslantepe, Çatalhöyük, and many Anatolian tells are höyüks; Göbeklitepe is a monumental prehistoric complex often discussed alongside them.",
+      },
+      {
+        question: "Can I see Göbeklitepe and Çatalhöyük on one short trip?",
+        answer:
+          "Not comfortably as day trips from the same hotel. They sit in different regions—plan separate chapters or a longer private itinerary.",
+      },
+      {
+        question: "Is a private guide worth it at archaeological sites?",
+        answer:
+          "Yes for most discerning travelers—site storytelling, pacing, and heat management change the day more than ticket access alone.",
+      },
+    ],
+    related: [
+      {
+        title: "Göbeklitepe Tour",
+        href: "/destinations/gobekli-tepe",
+        description: "Highest-intent prehistoric private day.",
+      },
+      {
+        title: "Arslantepe Mound",
+        href: "/destinations/arslantepe",
+        description: "UNESCO early-state höyük near Malatya.",
+      },
+      {
+        title: "Çatalhöyük",
+        href: "/destinations/catalhoyuk",
+        description: "Neolithic urban life near Konya.",
+      },
+      {
+        title: "Hattuşa Tour",
+        href: "/destinations/hattusa",
+        description: "Hittite capital with Alacahöyük option.",
+      },
+      {
+        title: "Göbeklitepe vs Çatalhöyük",
+        href: "/guides/gobekli-tepe-vs-catalhoyuk",
+        description: "Choose the right prehistoric headline.",
+      },
+      {
+        title: "Southeast Turkey itinerary",
+        href: "/itineraries/southeast-turkey-4-day",
+        description: "Gaziantep + Göbeklitepe private package.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Request an archaeology-led outline.",
+      },
+    ],
+    updatedAt: "2026-07-27",
+    publishedAt: "2026-07-27",
+  },
+  {
+    slug: "gobekli-tepe-vs-catalhoyuk",
+    name: "Göbeklitepe vs Çatalhöyük",
+    focusKeyword: pageKeywords.gobekliVsCatal.focus,
+    secondaryKeywords: [...pageKeywords.gobekliVsCatal.secondary],
+    title: "Göbeklitepe vs Çatalhöyük: Which to Visit on a Private Tour",
+    description:
+      "Compare Göbeklitepe vs Çatalhöyük for a private Turkey tour—age, visitor experience, logistics from Gaziantep or Konya, and which prehistoric site fits your trip.",
+    answer:
+      "Göbeklitepe vs Çatalhöyük is a choice between a monumental prehistoric ritual complex near Şanlıurfa (highest international search demand) and a Neolithic settlement höyük near Konya that shows early urban life—most private tours pick one headline site by region rather than forcing both into a short trip.",
+    image: "/detail.jpg",
+    sections: [
+      {
+        heading: "Quick verdict for private travelers",
+        body: "Choose Göbeklitepe if you want the ‘oldest monumental ritual architecture’ story, modern visitor infrastructure, and a Gaziantep food pairing. Choose Çatalhöyük if your private Turkey tour already touches Cappadocia/Konya and you care about Neolithic houses, art, and daily life archaeology.\n\nDoing both well usually means separate chapters—not one exhausted day.",
+      },
+      {
+        heading: "What you actually see at each site",
+        body: "Göbeklitepe: T-shaped pillars, animal carvings, shelters, and a strong interpretive arc about hunter-gatherer monumental building. Çatalhöyük: a settlement mound with reconstructed house contexts, wall art narratives, and a quieter, more abstract ruin field for many first-timers—guiding quality decides the day.\n\nArslantepe is a third path: early state palace bureaucracy near Malatya, not a substitute for either headline.",
+      },
+      {
+        heading: "Logistics and itinerary fit",
+        body: "Göbeklitepe pairs with Şanlıurfa and Gaziantep (see our southeast Turkey itinerary). Çatalhöyük pairs with Konya and Cappadocia flight hubs. Neither is a realistic same-day add-on from Istanbul alone without aviation and tight timing.\n\nFaith travelers focused on Ephesus should not treat these as interchangeable with Christian pilgrimage sites—they are prehistoric chapters.",
+      },
+      {
+        heading: "Enquire after you choose a headline",
+        body: "Tell us which prehistoric story matters and your trip length. We design the private day or multi-day spine around that choice. Start at plan your trip.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Which is older, Göbeklitepe or Çatalhöyük?",
+        answer:
+          "Göbeklitepe’s monumental phases are earlier in the prehistoric timeline than Çatalhöyük’s classic Neolithic town layers. Exact dating is specialist territory—we keep the visitor story accurate without overselling slogans.",
+      },
+      {
+        question: "Which is better for kids?",
+        answer:
+          "Göbeklitepe’s visual pillars often engage children more quickly. Çatalhöyük rewards curiosity when a guide brings house life alive—private pacing helps either way.",
+      },
+      {
+        question: "Can we visit both in four days?",
+        answer:
+          "Possible with flights and focused nights, but most private clients enjoy one deeply plus food or Cappadocia rather than racing both.",
+      },
+    ],
+    related: [
+      {
+        title: "Göbeklitepe Tour",
+        href: "/destinations/gobekli-tepe",
+        description: "Southeast prehistoric headline.",
+      },
+      {
+        title: "Çatalhöyük",
+        href: "/destinations/catalhoyuk",
+        description: "Neolithic settlement near Konya.",
+      },
+      {
+        title: "Archaeological sites in Turkey",
+        href: "/guides/turkey-archaeological-sites",
+        description: "Full höyük and ruins map for private tours.",
+      },
+      {
+        title: "Arslantepe Mound",
+        href: "/destinations/arslantepe",
+        description: "Early-state UNESCO höyük alternative.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Lock the prehistoric chapter privately.",
+      },
+    ],
+    updatedAt: "2026-07-27",
+    publishedAt: "2026-07-27",
+  },
 ];
 
 export function getGuide(slug: string) {

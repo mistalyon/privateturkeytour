@@ -39,6 +39,8 @@ const columns = [
       { href: "/destinations/antalya", label: "Private Antalya Tour" },
       { href: "/destinations/bodrum", label: "Private Bodrum Tour" },
       { href: "/destinations/gobekli-tepe", label: "Göbeklitepe Tour" },
+      { href: "/destinations/arslantepe", label: "Arslantepe Mound" },
+      { href: "/destinations/catalhoyuk", label: "Çatalhöyük" },
       {
         href: "/destinations/gallipoli-troy",
         label: "Gallipoli & Troy Tour",
@@ -64,6 +66,10 @@ const columns = [
       {
         href: "/guides/private-turkey-tour-cost",
         label: "Private Turkey Tour Cost",
+      },
+      {
+        href: "/guides/turkey-archaeological-sites",
+        label: "Archaeological Sites in Turkey",
       },
       {
         href: "/guides/things-to-do-in-istanbul",

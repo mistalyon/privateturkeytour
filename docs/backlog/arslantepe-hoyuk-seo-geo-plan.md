@@ -1,66 +1,43 @@
 # Backlog: Arslantepe + Türkiye höyükleri — SEO & GEO plan
 
-**Status:** queued (user 2026-07-27) — do not forget; execute as dedicated sprint.  
+**Status:** in progress / Phase 1 shipping (2026-07-27)  
 **Site context:** privateturkeytour.com — English-only sales site for private Turkey tours.  
-**North star:** archaeology/höyük demand → private guided days → multi-day southeast/central Anatolia itineraries.
+**North star:** archaeology/höyük demand → private guided days → multi-day Anatolia itineraries.
 
-## Goal
+## Locked IA (volume-led)
 
-Kapsamlı, arama hacmine dayalı konumlandırma: Arslantepe odaklı + Türkiye’deki önemli höyüklerin tamamı için topical map, hedef keyword’ler, GEO (LLM/answer engines), schema ve satış hunisi.
+| Priority | Focus keyword | URL | Role | Rel. volume |
+|----------|---------------|-----|------|-------------|
+| 1 | gobekli tepe tour | `/destinations/gobekli-tepe` | cluster (live) | VH |
+| 2 | archaeological sites in turkey | `/guides/turkey-archaeological-sites` | **pillar** | H |
+| 3 | catalhoyuk | `/destinations/catalhoyuk` | cluster | H |
+| 4 | arslantepe mound | `/destinations/arslantepe` | cluster (brand + UNESCO) | M |
+| 5 | hattusa tour | `/destinations/hattusa` | cluster (+ Alacahöyük mention) | M |
+| 6 | gobekli tepe vs catalhoyuk | `/guides/gobekli-tepe-vs-catalhoyuk` | support | M |
+| 7 | southeast turkey itinerary | `/itineraries/southeast-turkey-4-day` | product | M |
+| — | troy / ephesus | existing destinations | link, don’t duplicate | H/VH |
 
-## Positioning draft (to refine with volume data)
+**Defer (no thin stubs):** Kültepe, Beycesultan, Ani, Divriği — mention in pillar only until volume justifies a page.
 
-| Layer | Role | Example |
-|-------|------|---------|
-| Pillar | Money + authority hub | `/guides/turkey-archaeological-sites` or `/destinations/anatolian-hoyuks` (slug TBD by KW research) |
-| Cluster | Named site pages | Arslantepe, Göbeklitepe, Çatalhöyük, Troy höyük chapter, Hattuşa, Alacahöyük, Kültepe… |
-| Support | Planning / comparison | best höyüks to visit, Göbeklitepe vs Çatalhöyük, southeast Turkey itinerary |
-| Product | Sellable SKUs | private Göbeklitepe day, Gaziantep+Göbeklitepe 2–3 day, Arslantepe from Malatya/Kayseri arc |
+## Positioning
 
-**Sales rule:** every höyük page must answer “how this fits a private Turkey tour” + enquire CTA — not museum brochure copy only.
+- Pillar educates + routes to paid private days.  
+- Each höyük page sells **private guide + logistics + itinerary fit**, not brochure archaeology only.  
+- Arslantepe is authority/GEO differentiator (UNESCO 2021, early state, earliest swords narrative) even if head-term volume trails Göbeklitepe.  
+- Sales rule: Quick Answer + FAQ + RelatedLinks + plan-your-trip CTA on every page.
 
-## Keyword families to research (volume-first)
+## GEO / entity checklist
 
-1. **Head / VH–H:** gobekli tepe tour, catalhoyuk, troy turkey, hattusa, archaeological sites turkey  
-2. **Arslantepe cluster:** arslantepe, arslantepe mound, arslantepe unesco, malatya arslantepe tour  
-3. **Generic höyük:** hoyuk turkey, archaeological mound turkey, prehistoric sites turkey  
-4. **Itinerary money:** eastern turkey itinerary, southeast turkey tour, gaziantep gobekli tepe  
-5. **GEO questions:** what is a hoyuk, oldest temple turkey, unesco archaeological sites turkey  
+- [x] EN name + Turkish höyük form once in body  
+- [x] UNESCO / period / region in Quick Answer  
+- [x] FAQ for worth visiting / how long / from where  
+- [x] RelatedLinks across archaeology cluster  
+- [x] topical-map + llms when Phase 1 ships  
+- [ ] IndexNow after deploy  
 
-Validate with Ads/Keyword tools before locking focus keywords; prefer EN commercial + informational mix.
+## Phase 2 (later)
 
-## Entity / GEO checklist
-
-- [ ] Consistent EN naming + Turkish original in body once  
-- [ ] UNESCO / period / region facts in Quick Answer  
-- [ ] FAQ schema for “worth visiting”, “how long”, “from where”  
-- [ ] RelatedLinks to Ephesus, Troy/Gallipoli, Pamukkale, Gaziantep food, private tours hub  
-- [ ] `llms.txt` / topical-map spokes when live  
-- [ ] IndexNow after publish  
-
-## Site IA sketch (TBD after KW volumes)
-
-```
-Pillar: Anatolian archaeological sites / höyüks
-├── Arslantepe (priority named cluster)
-├── Göbeklitepe
-├── Çatalhöyük
-├── Hattuşa & Alacahöyük
-├── Troy (link existing Gallipoli–Troy; deepen höyük angle)
-├── Kültepe / other volume-backed sites
-└── Support: how to plan archaeology-focused private Turkey tour
-```
-
-## Execution order (when sprint starts)
-
-1. Volume scrape + prioritize top 8–12 entities  
-2. Lock focus keywords + slugs  
-3. Update `keywords.ts` + topical map  
-4. Write pillar + Arslantepe deep page first  
-5. Remaining clusters by volume  
-6. Product packaging (2–3 day SE Anatolia)  
-7. Deploy + IndexNow  
-
-## Out of scope until sprint
-
-Do not create thin stub pages for every höyük without volume justification.
+- Deepen Arslantepe with Malatya museum day product  
+- Photography/archaeology combo pages  
+- TR secondary entities only if EN commercial case exists  
+- Solo/women/multi-gen audiences (separate backlog)

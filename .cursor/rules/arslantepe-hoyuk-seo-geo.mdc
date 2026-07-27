@@ -3,25 +3,20 @@ description: Queued mega project — Arslantepe + Türkiye höyükleri SEO/GEO
 alwaysApply: true
 ---
 
-# Queued: Arslantepe & Türkiye höyükleri
+# Arslantepe & Türkiye höyükleri
 
-User requested a **comprehensive, search-volume-led SEO + GEO plan and site positioning** for **Arslantepe** and **all major höyüks (mounds) in Turkey**. Do not drop this from backlog.
+User wants a **volume-led SEO + GEO** program for **Arslantepe** and major Turkish höyüks. Phase 1 is shipping; do not abandon Phase 2.
 
-## When to execute
+## Locked Phase 1 URLs
 
-- Run as a dedicated sprint when the user asks, or after current money/day-trip product waves.
-- Do **not** ship thin one-off pages; plan IA, keywords, and GEO first.
+- Pillar: `/guides/turkey-archaeological-sites`
+- Clusters: `/destinations/arslantepe`, `/destinations/catalhoyuk`, `/destinations/hattusa`, `/destinations/gobekli-tepe`
+- Support: `/guides/gobekli-tepe-vs-catalhoyuk`
+- Product: `/itineraries/southeast-turkey-4-day`
+- Plan notes: `docs/backlog/arslantepe-hoyuk-seo-geo-plan.md`
 
-## Required deliverables (when started)
+## Rules
 
-1. Keyword research by volume/intent (EN primary; TR/secondary as needed for entity coverage)
-2. Site positioning: pillar vs cluster vs support; private-tour sales framing
-3. Topical map + URL slugs + internal links to existing destinations/itineraries
-4. Schema/entity plan (archaeological site, Place, FAQ, ItemList)
-5. Content briefs before writing full pages
-
-## Anchor entities (non-exhaustive)
-
-Arslantepe, Göbeklitepe, Çatalhöyük, Alacahöyük, Hattuşa/Boğazköy, Troy (Hisarlık), Kültepe/Kanesh, Beycesultan, Aslantepe aliases, and other high-demand höyük/prehistoric sites as volume justifies.
-
-Full working notes: `docs/backlog/arslantepe-hoyuk-seo-geo-plan.md`
+- No thin stubs for low-volume höyüks (Kültepe, etc.) until volume justifies.
+- Every archaeology page must sell private-tour fit + enquire CTA.
+- Prefer EN commercial keywords; Turkish names once for entity clarity.

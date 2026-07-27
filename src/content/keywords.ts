@@ -681,6 +681,72 @@ export const pageKeywords = {
     ],
     volume: "M",
   },
+  archaeologicalSites: {
+    focus: "archaeological sites in turkey",
+    secondary: [
+      "turkey archaeological sites",
+      "unesco archaeological sites turkey",
+      "prehistoric sites turkey",
+      "hoyuk turkey",
+      "best archaeological sites turkey",
+    ],
+    volume: "H",
+  },
+  arslantepe: {
+    focus: "arslantepe mound",
+    secondary: [
+      "arslantepe unesco",
+      "arslantepe malatya",
+      "arslantepe tour",
+      "private arslantepe visit",
+      "arslantepe hoyuk",
+    ],
+    volume: "M",
+  },
+  catalhoyuk: {
+    focus: "catalhoyuk",
+    secondary: [
+      "catalhoyuk turkey",
+      "catalhoyuk tour",
+      "private catalhoyuk visit",
+      "catalhoyuk from konya",
+      "neolithic catalhoyuk",
+    ],
+    volume: "H",
+  },
+  hattusa: {
+    focus: "hattusa tour",
+    secondary: [
+      "hattusha turkey",
+      "hattusa from ankara",
+      "bogazkale hittite capital",
+      "private hattusa tour",
+      "alacahoyuk day trip",
+    ],
+    volume: "M",
+  },
+  gobekliVsCatal: {
+    focus: "gobekli tepe vs catalhoyuk",
+    secondary: [
+      "gobeklitepe or catalhoyuk",
+      "which is older gobekli tepe catalhoyuk",
+      "neolithic sites turkey compare",
+      "best prehistoric site turkey",
+      "catalhoyuk vs gobeklitepe",
+    ],
+    volume: "M",
+  },
+  itinerarySoutheast: {
+    focus: "southeast turkey itinerary",
+    secondary: [
+      "gaziantep gobekli tepe itinerary",
+      "private southeast turkey tour",
+      "sanliurfa gaziantep tour",
+      "eastern turkey archaeology tour",
+      "4 day southeast turkey",
+    ],
+    volume: "M",
+  },
 } as const satisfies Record<string, KeywordSet>;
 
 export function keywordList(set: KeywordSet): string[] {

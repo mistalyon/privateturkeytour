@@ -645,6 +645,108 @@ export const itineraries: Itinerary[] = [
     ],
     updatedAt: "2026-07-27",
   },
+  {
+    slug: "southeast-turkey-4-day",
+    name: "Southeast Turkey — 4 Days",
+    days: 4,
+    focusKeyword: pageKeywords.itinerarySoutheast.focus,
+    secondaryKeywords: [...pageKeywords.itinerarySoutheast.secondary],
+    title: "4-Day Southeast Turkey Itinerary: Gaziantep & Göbeklitepe",
+    description:
+      "A private 4-day southeast Turkey itinerary—Gaziantep food, Göbeklitepe, Şanlıurfa, and optional archaeology depth—with licensed guides and realistic pacing.",
+    answer:
+      "This private 4-day southeast Turkey itinerary bases in Gaziantep and Şanlıurfa for a Gaziantep food chapter, a full Göbeklitepe day, and old-city time—so prehistoric archaeology and culinary travel each get real nights instead of a single exhausted fly-in.",
+    image: "/detail.jpg",
+    whoFor: "Archaeology and food travelers who want Göbeklitepe done properly with Antep cuisine",
+    includes: [
+      "Private guiding and transfers on touring days",
+      "Gaziantep culinary evening or food tour",
+      "Göbeklitepe private visit with context",
+      "Şanlıurfa old-city and museum options",
+      "Hotel direction for two bases or one hub",
+    ],
+    daysOutline: [
+      {
+        day: "Day 1",
+        title: "Arrive Gaziantep & food",
+        body: "Fly into Gaziantep, settle, and take a private food tour or chef-led dinner circuit—baklava, kebabs, and market context without rushing Göbeklitepe the same afternoon.",
+      },
+      {
+        day: "Day 2",
+        title: "Göbeklitepe focus",
+        body: "Private transfer and guided Göbeklitepe visit with pacing for shelters and interpretation. Return via Şanlıurfa museum or old city depending on energy and timing.",
+      },
+      {
+        day: "Day 3",
+        title: "Şanlıurfa depth",
+        body: "Old-city walks, optional additional archaeology (when relevant and open), and recovery dining. Keep the day flexible after yesterday’s site load.",
+      },
+      {
+        day: "Day 4",
+        title: "Depart or extend",
+        body: "Depart from Gaziantep/Şanlıurfa, or extend toward Malatya for Arslantepe on a longer private archaeology arc when flights allow.",
+      },
+    ],
+    sections: [
+      {
+        heading: "Why four days beats a Göbeklitepe day trip from afar",
+        body: "Fly-in day trips burn the experience. Four private days protect food, site daylight, and a buffer if heat or timing shifts. This is the commercial southeast package we recommend most often for archaeology-plus-cuisine briefs.\n\nSee Gaziantep food tour and Göbeklitepe destination pages for upsell detail.",
+      },
+      {
+        heading: "Optional Arslantepe or Cappadocia links",
+        body: "Arslantepe near Malatya is a powerful Phase-2 extension for höyük collectors—not forced into these four nights. Cappadocia usually sits before or after as a separate flight chapter.\n\nChristian pilgrimage and Seven Churches routes are Aegean products—keep them distinct unless the trip is long.",
+      },
+      {
+        heading: "Enquire for a southeast private quote",
+        body: "Share month, party size, and whether food or Göbeklitepe leads. We return hotels, guiding days, and cost drivers. Start at plan your trip.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Is 4 days enough for Gaziantep and Göbeklitepe?",
+        answer:
+          "Yes for a high-quality private chapter. Three nights can work if tightly planned; two nights usually feels rushed.",
+      },
+      {
+        question: "Can we add Arslantepe?",
+        answer:
+          "Yes with extra nights and Malatya logistics. Ask for an extended archaeology outline rather than compressing it into day four.",
+      },
+      {
+        question: "Do you include domestic flights?",
+        answer:
+          "We advise schedules and can include flight bookings in the quote when useful.",
+      },
+    ],
+    related: [
+      {
+        title: "Göbeklitepe Tour",
+        href: "/destinations/gobekli-tepe",
+        description: "Core prehistoric day of the package.",
+      },
+      {
+        title: "Gaziantep food tour",
+        href: "/experiences/gaziantep-food-tour",
+        description: "Culinary evening in Antep.",
+      },
+      {
+        title: "Arslantepe Mound",
+        href: "/destinations/arslantepe",
+        description: "Optional UNESCO höyük extension.",
+      },
+      {
+        title: "Archaeological sites in Turkey",
+        href: "/guides/turkey-archaeological-sites",
+        description: "Wider höyük and ruins map.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Request a southeast private outline.",
+      },
+    ],
+    updatedAt: "2026-07-27",
+  },
 ];
 
 export function getItinerary(slug: string) {

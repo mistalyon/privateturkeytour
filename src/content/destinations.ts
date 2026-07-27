@@ -852,6 +852,21 @@ export const destinations: Destination[] = [
         description: "Faith and antiquity arcs across Anatolia.",
       },
       {
+        title: "Archaeological sites in Turkey",
+        href: "/guides/turkey-archaeological-sites",
+        description: "Höyük and ruins map for private routing.",
+      },
+      {
+        title: "Arslantepe Mound",
+        href: "/destinations/arslantepe",
+        description: "UNESCO early-state höyük near Malatya.",
+      },
+      {
+        title: "Southeast Turkey itinerary",
+        href: "/itineraries/southeast-turkey-4-day",
+        description: "Gaziantep food plus Göbeklitepe package.",
+      },
+      {
         title: "Gallipoli & Troy",
         href: "/destinations/gallipoli-troy",
         description: "Another archaeology-led private chapter.",
@@ -860,6 +875,280 @@ export const destinations: Destination[] = [
         title: "Plan your trip",
         href: "/plan-your-trip",
         description: "Request a Göbeklitepe private outline.",
+      },
+    ],
+    updatedAt: "2026-07-27",
+  },
+  {
+    slug: "arslantepe",
+    name: "Arslantepe",
+    note: "Early state on the Euphrates plain",
+    image: "/detail.jpg",
+    focusKeyword: pageKeywords.arslantepe.focus,
+    secondaryKeywords: [...pageKeywords.arslantepe.secondary],
+    title: "Arslantepe Mound: Private UNESCO Höyük Tour near Malatya",
+    description:
+      "Visit Arslantepe Mound on a private tour—UNESCO höyük near Malatya, early palace complex, Royal Tomb context, and licensed guiding for serious archaeology travelers.",
+    answer:
+      "Arslantepe Mound (Arslantepe Höyüğü) is a UNESCO World Heritage archaeological höyük near Malatya whose Late Chalcolithic palace levels illustrate early state formation and bureaucracy before writing—best experienced on a private guided visit with time for the open-air museum narrative and, when useful, Malatya museum context.",
+    bestTime:
+      "April–June and September–November for milder walking weather on the mound. Summer needs early starts; winter is quieter with shorter daylight.",
+    highlights: [
+      "UNESCO (2021) höyük with palace and temple excavation narrative",
+      "Early state / pre-writing bureaucracy storytelling with a private guide",
+      "Royal Tomb and metalwork context (including earliest-sword scholarship)",
+      "Open-air museum pacing without coach rush",
+      "Optional Malatya museum and eastern Anatolia itinerary links",
+    ],
+    sections: [
+      {
+        heading: "Why Arslantepe matters on a private Turkey archaeology tour",
+        body: "Arslantepe is not a second Göbeklitepe. It is a different story: how elites, administration, and organized power appear in the archaeological record on the Malatya plain southwest of the Euphrates. The höyük rises roughly thirty meters and preserves occupation from the Chalcolithic deep into later Bronze Age and Hittite-period layers.\n\nFor private travelers who want depth beyond the highest-volume sites, Arslantepe is a differentiator—UNESCO-listed in 2021, Italian-led excavation legacy, and a palace complex that rewards guided reading of mudbrick, wall painting remnants, and site sequence.",
+      },
+      {
+        heading: "What you see on a private Arslantepe visit",
+        body: "The open-air museum walk focuses on the Late Chalcolithic palace-and-temple area under protective structures, interpretive panels, and often an audio narrative at entry. Privately, we slow the sections that explain storage, ceremonial space, and elite display—and we do not pretend every visitor will ‘see swords on site.’ Key metal finds are museum stories; the mound is about architecture and power.\n\nNeo-Hittite lion imagery and Melid associations enter later layers of the site’s long biography. A good private guide keeps periods distinct so the day does not blur into one generic ‘ancient ruins’ memory.",
+      },
+      {
+        heading: "How Arslantepe fits a private itinerary",
+        body: "Arslantepe works as a Malatya-centered half-day or full day, a hinge between Cappadocia and southeast chapters when flights or overland plans already touch eastern Anatolia, or as a dedicated archaeology add-on for travelers who have already done Göbeklitepe and want another UNESCO höyük with a state-formation thesis.\n\nIt is rarely the only reason for a first-time private Turkey tour—but as a serious cluster page in our archaeology topical map, it converts specialists and GEO queries that mass-market itineraries ignore. Pair with our archaeological sites in Turkey guide for regional sequencing.",
+      },
+      {
+        heading: "Practical private-tour notes",
+        body: "Expect walking on uneven surfaces, sun exposure, and a site that looks subtle until explained. Footwear, water, and honest timing beat rushed photo stops. We confirm opening hours and any conservation closures before your date.\n\nMalatya city logistics (hotel, museum, transfers) are part of the private quote when you overnight; day visitors from other hubs need realistic transfer math—we say no when the drive destroys the experience.",
+      },
+      {
+        heading: "Enquire for a private Arslantepe outline",
+        body: "Share whether Malatya is already on your route, trip length, and whether Göbeklitepe or Çatalhöyük is also planned. We return a private höyük day plan with guiding and transfer line items. Start at plan your trip.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Is Arslantepe worth visiting?",
+        answer:
+          "Yes for archaeology-minded travelers—especially with a private guide. Casual first-timers chasing only postcard ruins may prefer Ephesus or Göbeklitepe first.",
+      },
+      {
+        question: "How long do I need at Arslantepe Mound?",
+        answer:
+          "A focused private half-day covers the open-air museum well. Add Malatya museum time if artifact context matters to you.",
+      },
+      {
+        question: "Is Arslantepe a UNESCO site?",
+        answer:
+          "Yes. Arslantepe Mound was inscribed on the UNESCO World Heritage List in 2021 for its testimony to early state society in the Near East.",
+      },
+      {
+        question: "Can Arslantepe combine with Göbeklitepe?",
+        answer:
+          "Yes on a longer eastern/southeast private itinerary with flights or staged overnights. It is not a same-day double from one hotel.",
+      },
+      {
+        question: "How do I enquire for a private Arslantepe tour?",
+        answer:
+          "Send dates, starting city, and archaeology priorities. We outline guiding, transfers, and how Arslantepe links to your wider private Turkey tour.",
+      },
+    ],
+    related: [
+      {
+        title: "Archaeological sites in Turkey",
+        href: "/guides/turkey-archaeological-sites",
+        description: "Pillar map of höyüks and ruins for private tours.",
+      },
+      {
+        title: "Göbeklitepe Tour",
+        href: "/destinations/gobekli-tepe",
+        description: "Highest-volume prehistoric private day.",
+      },
+      {
+        title: "Çatalhöyük",
+        href: "/destinations/catalhoyuk",
+        description: "Neolithic settlement höyük near Konya.",
+      },
+      {
+        title: "Hattuşa Tour",
+        href: "/destinations/hattusa",
+        description: "Hittite capital chapter in central Anatolia.",
+      },
+      {
+        title: "Southeast Turkey itinerary",
+        href: "/itineraries/southeast-turkey-4-day",
+        description: "Gaziantep + Göbeklitepe product spine.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Request a private Arslantepe outline.",
+      },
+    ],
+    updatedAt: "2026-07-27",
+  },
+  {
+    slug: "catalhoyuk",
+    name: "Çatalhöyük",
+    note: "Neolithic town on the Konya plain",
+    image: "/detail.jpg",
+    focusKeyword: pageKeywords.catalhoyuk.focus,
+    secondaryKeywords: [...pageKeywords.catalhoyuk.secondary],
+    title: "Çatalhöyük Tour: Private Visit to the Neolithic Höyük",
+    description:
+      "Book a private Çatalhöyük tour near Konya—Neolithic settlement höyük, house-life archaeology, and itinerary links to Cappadocia without coach schedules.",
+    answer:
+      "A private Çatalhöyük tour is a guided visit to the UNESCO Neolithic settlement höyük on the Konya plain—focused on early urban house life, art, and mound stratigraphy—usually as a day chapter from Konya or a private add-on when Cappadocia already sits in your Turkey itinerary.",
+    bestTime:
+      "April–June and September–November for comfortable site walking. Summer works with morning timing; winter is quieter and colder.",
+    highlights: [
+      "UNESCO Neolithic settlement storytelling with a private guide",
+      "House-life and wall-art narratives beyond a quick photo stop",
+      "Practical pairing with Konya or Cappadocia nights",
+      "Quieter visitor profile than Göbeklitepe peak hours",
+      "Honest comparison if you must choose one prehistoric headline",
+    ],
+    sections: [
+      {
+        heading: "Why visit Çatalhöyük privately?",
+        body: "Çatalhöyük is one of the world’s most famous Neolithic settlements—a höyük of densely packed mudbrick houses entered from the roof, with art and burial practices that rewrote textbooks. On site, much of the magic is interpretive: private guiding turns subtle remains into a coherent early-city story.\n\nSearch demand is strong for the site name; conversion happens when travelers understand it is not Göbeklitepe’s pillar spectacle.",
+      },
+      {
+        heading: "Çatalhöyük vs Göbeklitepe on a private tour",
+        body: "Different regions, different theses. Göbeklitepe sells monumental ritual architecture near Şanlıurfa; Çatalhöyük sells Neolithic urban life near Konya. Read our comparison guide, then pick by geography.\n\nArslantepe remains a third UNESCO höyük path for early-state palace archaeology near Malatya.",
+      },
+      {
+        heading: "How Çatalhöyük fits Cappadocia and Konya plans",
+        body: "The most commercial private fit is a Konya overnight or a long day when your route already uses central Anatolia hubs. Forcing Çatalhöyük from Istanbul as a same-day product is rarely quality.\n\nWe quote vehicle, guiding, and whether a Konya museum stop earns its hour.",
+      },
+      {
+        heading: "Enquire for a private Çatalhöyük day",
+        body: "Share month, whether Cappadocia is booked, and fitness for site walking. We return a private outline. Start at plan your trip.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Is Çatalhöyük worth it?",
+        answer:
+          "Yes for archaeology travelers with a good guide. If you only want dramatic standing ruins, Ephesus or Göbeklitepe may satisfy more visually.",
+      },
+      {
+        question: "How far is Çatalhöyük from Cappadocia?",
+        answer:
+          "It is a regional drive via the Konya plain—not a short hop. We design it as a dedicated chapter, not a casual side stop.",
+      },
+      {
+        question: "Do I need a guide at Çatalhöyük?",
+        answer:
+          "Strongly recommended. Private guiding is what makes the höyük readable for non-specialists.",
+      },
+    ],
+    related: [
+      {
+        title: "Göbeklitepe vs Çatalhöyük",
+        href: "/guides/gobekli-tepe-vs-catalhoyuk",
+        description: "Choose the right prehistoric headline.",
+      },
+      {
+        title: "Private Cappadocia Tour",
+        href: "/destinations/cappadocia",
+        description: "Common central Anatolia pairing.",
+      },
+      {
+        title: "Arslantepe Mound",
+        href: "/destinations/arslantepe",
+        description: "Another UNESCO höyük with a state-formation story.",
+      },
+      {
+        title: "Archaeological sites in Turkey",
+        href: "/guides/turkey-archaeological-sites",
+        description: "Full private-tour archaeology map.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Request a Çatalhöyük private outline.",
+      },
+    ],
+    updatedAt: "2026-07-27",
+  },
+  {
+    slug: "hattusa",
+    name: "Hattuşa",
+    note: "Hittite capital at Boğazkale",
+    image: "/ephesus.jpg",
+    focusKeyword: pageKeywords.hattusa.focus,
+    secondaryKeywords: [...pageKeywords.hattusa.secondary],
+    title: "Hattuşa Tour: Private Visit to the Hittite Capital",
+    description:
+      "Book a private Hattuşa tour at Boğazkale—Hittite capital walls, temples, and optional Alacahöyük—with licensed guiding and realistic day-trip pacing from Ankara.",
+    answer:
+      "A private Hattuşa tour visits the UNESCO Hittite capital at Boğazkale with a licensed guide—city walls, temple precincts, and landscape scale—often as a long day from Ankara or an overnight central Anatolia chapter, optionally paired with Alacahöyük.",
+    bestTime:
+      "April–June and September–October for walking the vast site without peak heat. Summer requires early starts and shade discipline.",
+    highlights: [
+      "UNESCO Hittite capital with private pacing across a large site",
+      "Lion Gate, walls, and temple districts with guide context",
+      "Optional Alacahöyük add-on when daylight allows",
+      "Ankara day-trip or overnight options",
+      "Honest fitness brief for uneven terrain",
+    ],
+    sections: [
+      {
+        heading: "Why Hattuşa belongs on archaeology-led private tours",
+        body: "Hattuşa was the capital of the Hittite Empire—an expansive ruin field where landscape and fortification matter as much as any single monument. Privately, you control how far you walk and which gates and temples earn time.\n\nSearch volume trails Göbeklitepe and Ephesus, but niche demand from history travelers is real—and private guiding prevents the site from feeling empty rather than epic.",
+      },
+      {
+        heading: "Hattuşa and Alacahöyük in one private day",
+        body: "When daylight and energy allow, Alacahöyük adds another höyük-and-sphinx chapter nearby. We recommend the combo only when you accept a full, tiring archaeology day—not as a casual checklist.\n\nTravelers short on time should do Hattuşa well rather than both poorly.",
+      },
+      {
+        heading: "How Hattuşa fits a private Turkey itinerary",
+        body: "Best as an Ankara-centered day or a dedicated central Anatolia overnight between Istanbul and Cappadocia when flights align. It does not replace Ephesus or Göbeklitepe; it deepens Bronze Age Anatolia.\n\nSee our archaeological sites pillar for sequencing against Troy, Arslantepe, and Çatalhöyük.",
+      },
+      {
+        heading: "Enquire for a private Hattuşa outline",
+        body: "Share starting city, walking fitness, and whether Alacahöyük matters. We quote guiding and vehicle honestly. Start at plan your trip.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Can I visit Hattuşa as a day trip from Ankara?",
+        answer:
+          "Yes as a long private day. Overnight near Boğazkale softens the pace if you want deeper walking.",
+      },
+      {
+        question: "Is Hattuşa suitable for children?",
+        answer:
+          "Older children who like exploration can enjoy it; the site is large and sun-exposed. We adapt distance to the group.",
+      },
+      {
+        question: "Hattuşa or Göbeklitepe if I only pick one?",
+        answer:
+          "Most first-timers chasing prehistoric headlines pick Göbeklitepe. Choose Hattuşa when Hittite imperial history is the priority.",
+      },
+    ],
+    related: [
+      {
+        title: "Archaeological sites in Turkey",
+        href: "/guides/turkey-archaeological-sites",
+        description: "Where Hattuşa sits in the wider map.",
+      },
+      {
+        title: "Arslantepe Mound",
+        href: "/destinations/arslantepe",
+        description: "Earlier state-formation höyük near Malatya.",
+      },
+      {
+        title: "Gallipoli & Troy",
+        href: "/destinations/gallipoli-troy",
+        description: "Northwest archaeology and memory chapter.",
+      },
+      {
+        title: "Private Cappadocia Tour",
+        href: "/destinations/cappadocia",
+        description: "Common next or previous central stop.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Request a private Hattuşa day plan.",
       },
     ],
     updatedAt: "2026-07-27",
