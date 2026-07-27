@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { BrandMark } from "@/components/brand-mark";
 import { siteConfig } from "@/lib/site";
 
 const columns = [
@@ -91,9 +92,16 @@ export function SiteFooter() {
     <footer className="bg-black px-5 pb-8 pt-16 text-[#f4f0e8] sm:px-8 lg:px-12">
       <div className="mx-auto grid max-w-[1344px] gap-12 border-b border-white/15 pb-12 lg:grid-cols-[1.15fr_1fr_1fr_1fr_1fr]">
         <div>
-          <p className="font-heading text-3xl tracking-[-0.03em]">
-            Private Turkey Tour
-          </p>
+          <Link
+            href="/"
+            className="inline-flex items-center gap-3 text-[#f4f0e8]"
+            aria-label="Private Turkey Tour home"
+          >
+            <BrandMark className="size-9 text-[#f4f0e8]" />
+            <span className="font-heading text-3xl tracking-[-0.03em]">
+              Private Turkey Tour
+            </span>
+          </Link>
           <p className="mt-4 max-w-sm text-sm leading-7 text-white/55">
             Private Turkey tours and custom itineraries across Türkiye—licensed
             local guides, boutique stays, and seamless in-country care from

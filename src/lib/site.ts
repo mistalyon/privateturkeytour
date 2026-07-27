@@ -13,7 +13,7 @@ export const siteConfig = {
   tagline: "Private Turkey tours, made yours",
   foundedYear: 2012,
   location: "Türkiye",
-  logo: "/detail.jpg",
+  logo: "/brand/mark.svg",
 } as const;
 
 export type BreadcrumbItem = {

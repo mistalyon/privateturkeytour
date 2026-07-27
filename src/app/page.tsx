@@ -10,6 +10,7 @@ import {
   Star,
 } from "lucide-react";
 
+import { BrandMark } from "@/components/brand-mark";
 import { FaqList } from "@/components/faq-list";
 import { JsonLd } from "@/components/json-ld";
 import { buttonVariants } from "@/components/ui/button";
@@ -103,7 +104,10 @@ export default function Home() {
         <div className="mx-auto grid min-h-[700px] max-w-[1440px] lg:min-h-[calc(100vh-80px)] lg:grid-cols-[1.06fr_0.94fr]">
           <div className="flex flex-col justify-between px-5 py-12 sm:px-8 sm:py-16 lg:px-12 lg:py-20">
             <div className="max-w-3xl">
-              <p className="eyebrow">Private Turkey Tour</p>
+              <div className="flex items-center gap-3">
+                <BrandMark className="size-7 text-black" />
+                <p className="eyebrow">Private Turkey Tour</p>
+              </div>
               <h1 className="mt-8 max-w-[900px] font-heading text-[clamp(3.4rem,7.5vw,7.2rem)] leading-[0.84] tracking-[-0.06em]">
                 Private Turkey Tours
                 <span className="mt-2 block italic text-[0.82em] tracking-[-0.04em]">

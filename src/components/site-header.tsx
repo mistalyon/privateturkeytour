@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 
+import { SiteLogo } from "@/components/site-logo";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -30,13 +31,7 @@ export function SiteHeader({
       )}
     >
       <div className="mx-auto flex h-20 max-w-[1440px] items-center justify-between px-5 sm:px-8 lg:px-12">
-        <Link
-          href="/"
-          className="font-heading text-xl leading-none tracking-[-0.03em] sm:text-2xl"
-          aria-label="Private Turkey Tour home"
-        >
-          Private Turkey Tour
-        </Link>
+        <SiteLogo />
         <nav
           className="hidden items-center gap-8 text-sm lg:flex"
           aria-label="Primary navigation"
