@@ -1,14 +1,17 @@
 import Image from "next/image";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { CtaBand } from "@/components/cta-band";
 import { FaqList } from "@/components/faq-list";
 import { JsonLd } from "@/components/json-ld";
 import { PageHero } from "@/components/page-hero";
+import { ProseSections } from "@/components/prose-sections";
 import { RelatedLinks } from "@/components/related-links";
 import {
   getItinerary,
   getItinerarySlugs,
+  itineraries,
 } from "@/content/itineraries";
 import {
   breadcrumbSchema,
@@ -132,6 +135,17 @@ export default async function ItineraryPage({ params }: Props) {
         </div>
       </section>
 
+      {itinerary.sections?.length ? (
+        <section className="px-5 py-16 sm:px-8 lg:px-12">
+          <div className="mx-auto max-w-[760px]">
+            <ProseSections
+              sections={itinerary.sections}
+              bodyClassName="mt-4 text-lg leading-8 text-black/65"
+            />
+          </div>
+        </section>
+      ) : null}
+
       <section className="px-5 py-16 sm:px-8 lg:px-12">
         <div className="mx-auto max-w-[1100px]">
           <p className="eyebrow">FAQ</p>
@@ -146,6 +160,23 @@ export default async function ItineraryPage({ params }: Props) {
 
       <RelatedLinks items={itinerary.related} />
       <CtaBand title="Customize this itinerary." />
+
+      <section className="border-t border-black/10 px-5 py-10 sm:px-8 lg:px-12">
+        <div className="mx-auto flex max-w-[1100px] flex-wrap gap-4 text-sm text-black/55">
+          <span>Compare lengths:</span>
+          {itineraries
+            .filter((item) => item.slug !== itinerary.slug)
+            .map((item) => (
+              <Link
+                key={item.slug}
+                className="underline underline-offset-4 hover:text-black"
+                href={`/itineraries/${item.slug}`}
+              >
+                {item.days}-day
+              </Link>
+            ))}
+        </div>
+      </section>
     </main>
   );
 }

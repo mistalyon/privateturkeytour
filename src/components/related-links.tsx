@@ -14,7 +14,7 @@ export function RelatedLinks({
     <section className="px-5 py-16 sm:px-8 lg:px-12 lg:py-20">
       <div className="mx-auto max-w-[1100px]">
         <p className="eyebrow">{title}</p>
-        <div className="mt-8 grid gap-4 md:grid-cols-3">
+        <div className="mt-8 grid gap-4 sm:grid-cols-2 md:grid-cols-3">
           {items.map((item) => (
             <Link
               key={item.href}

@@ -42,6 +42,7 @@ export type Itinerary = {
   whoFor: string;
   includes: string[];
   daysOutline: { day: string; title: string; body: string }[];
+  sections?: { heading: string; body: string }[];
   faqs: FaqItem[];
   related: ContentLink[];
   updatedAt: string;

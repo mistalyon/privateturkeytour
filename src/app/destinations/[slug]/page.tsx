@@ -6,14 +6,15 @@ import { CtaBand } from "@/components/cta-band";
 import { FaqList } from "@/components/faq-list";
 import { JsonLd } from "@/components/json-ld";
 import { PageHero } from "@/components/page-hero";
+import { ProseSections } from "@/components/prose-sections";
 import { RelatedLinks } from "@/components/related-links";
 import {
   destinations,
   getDestination,
   getDestinationSlugs,
 } from "@/content/destinations";
+import { absoluteUrl, buildMetadata } from "@/lib/seo";
 import { breadcrumbSchema, faqSchema } from "@/lib/schema";
-import { buildMetadata } from "@/lib/seo";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -66,7 +67,9 @@ export default async function DestinationPage({ params }: Props) {
             "@type": "TouristDestination",
             name: destination.name,
             description: destination.description,
-            image: `https://privateturkeytour.com${destination.image}`,
+            url: absoluteUrl(`/destinations/${destination.slug}`),
+            image: absoluteUrl(destination.image),
+            touristType: "Private travelers",
           },
         ]}
       />
@@ -108,18 +111,7 @@ export default async function DestinationPage({ params }: Props) {
               ))}
             </ul>
           </div>
-          <div className="space-y-10">
-            {destination.sections.map((section) => (
-              <article key={section.heading}>
-                <h2 className="font-heading text-3xl tracking-[-0.03em] sm:text-4xl">
-                  {section.heading}
-                </h2>
-                <p className="mt-4 text-base leading-8 text-black/65">
-                  {section.body}
-                </p>
-              </article>
-            ))}
-          </div>
+          <ProseSections sections={destination.sections} />
         </div>
       </section>
 

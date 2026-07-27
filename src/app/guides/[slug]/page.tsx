@@ -5,6 +5,7 @@ import { CtaBand } from "@/components/cta-band";
 import { FaqList } from "@/components/faq-list";
 import { JsonLd } from "@/components/json-ld";
 import { PageHero } from "@/components/page-hero";
+import { ProseSections } from "@/components/prose-sections";
 import { RelatedLinks } from "@/components/related-links";
 import { getGuide, getGuideSlugs } from "@/content/guides";
 import { articleSchema, breadcrumbSchema, faqSchema } from "@/lib/schema";
@@ -86,22 +87,11 @@ export default async function GuidePage({ params }: Props) {
       </section>
 
       <section className="px-5 py-16 sm:px-8 lg:px-12 lg:py-24">
-        <div className="mx-auto max-w-[760px] space-y-12">
-          {guide.sections.map((section) => (
-            <article key={section.heading}>
-              <h2 className="font-heading text-3xl tracking-[-0.03em] sm:text-4xl">
-                {section.heading}
-              </h2>
-              {section.body.split(/\n\n+/).map((paragraph) => (
-                <p
-                  key={paragraph.slice(0, 48)}
-                  className="mt-4 text-lg leading-8 text-black/65"
-                >
-                  {paragraph}
-                </p>
-              ))}
-            </article>
-          ))}
+        <div className="mx-auto max-w-[760px]">
+          <ProseSections
+            sections={guide.sections}
+            bodyClassName="mt-4 text-lg leading-8 text-black/65"
+          />
         </div>
       </section>
 

@@ -70,6 +70,16 @@ export const guides: Guide[] = [
         href: "/plan-your-trip",
         description: "Share your month and we shape the first outline.",
       },
+      {
+        title: "Turkey in September",
+        href: "/guides/turkey-in-september",
+        description: "Warm-sea autumn window.",
+      },
+      {
+        title: "Turkey in winter",
+        href: "/guides/turkey-in-winter",
+        description: "Honest winter expectations.",
+      },
     ],
   },
   {
@@ -135,6 +145,21 @@ export const guides: Guide[] = [
         title: "7-Day Classic",
         href: "/itineraries/7-day-classic",
         description: "A compact example if time is limited.",
+      },
+      {
+        title: "Destinations",
+        href: "/destinations",
+        description: "Choose your chapters.",
+      },
+      {
+        title: "Private Turkey tour cost",
+        href: "/guides/private-turkey-tour-cost",
+        description: "Budget drivers before you enquire.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Send the brief.",
       },
     ],
   },
@@ -202,6 +227,16 @@ export const guides: Guide[] = [
         href: "/plan-your-trip",
         description: "Start a private itinerary conversation.",
       },
+      {
+        title: "How it works",
+        href: "/how-it-works",
+        description: "Private process from brief to arrival.",
+      },
+      {
+        title: "Family Turkey Tour",
+        href: "/private-turkey-tours/family",
+        description: "Why families go private.",
+      },
     ],
   },
   {
@@ -267,6 +302,21 @@ export const guides: Guide[] = [
         title: "Plan your trip",
         href: "/plan-your-trip",
         description: "Share dates for a tailored cost outline.",
+      },
+      {
+        title: "Luxury Turkey Tour",
+        href: "/private-turkey-tours/luxury",
+        description: "Where elevated spend goes.",
+      },
+      {
+        title: "10 Day Classic",
+        href: "/itineraries/10-day-classic",
+        description: "A common quote length.",
+      },
+      {
+        title: "Contact",
+        href: "/contact",
+        description: "Ask for a range with your dates.",
       },
     ],
   },
@@ -334,6 +384,16 @@ export const guides: Guide[] = [
         href: "/itineraries/7-day-classic",
         description: "Istanbul plus Cappadocia in one week.",
       },
+      {
+        title: "Private Turkey Tours",
+        href: "/private-turkey-tours",
+        description: "Fold Istanbul into a full journey.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Book private Istanbul days.",
+      },
     ],
   },
   {
@@ -400,6 +460,21 @@ export const guides: Guide[] = [
         href: "/guides/best-time-to-visit-turkey",
         description: "When valleys and balloons feel best.",
       },
+      {
+        title: "Turkey in May",
+        href: "/guides/turkey-in-may",
+        description: "Strong balloon shoulder month.",
+      },
+      {
+        title: "Private Turkey Tours",
+        href: "/private-turkey-tours",
+        description: "Build Cappadocia into the full trip.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Reserve cave stays early.",
+      },
     ],
   },
   {
@@ -407,26 +482,34 @@ export const guides: Guide[] = [
     name: "Turkey in May",
     focusKeyword: pageKeywords.turkeyInMay.focus,
     secondaryKeywords: [...pageKeywords.turkeyInMay.secondary],
-    title: "Turkey in May: Weather, Crowds & Private Tour Tips",
+    title: "Turkey in May: Best Spring Month for Private Tours",
     description:
-      "Visit Turkey in May for mild weather, strong Cappadocia balloon odds, and lighter crowds—how to plan Istanbul, Ephesus, and coast days privately.",
+      "Visit Turkey in May for mild weather, strong Cappadocia balloon odds, and lighter crowds—how to plan Istanbul, Ephesus, and coast days on a private Turkey tour.",
     answer:
-      "Turkey in May is one of the best months for a private tour: comfortable walking temperatures in Istanbul and Cappadocia, improving balloon odds, cooler Ephesus mornings, and early swimming on the Turquoise Coast—before peak summer heat and crowds.",
+      "Turkey in May is one of the best months for a private tour: comfortable walking temperatures in Istanbul and Cappadocia, improving balloon odds, cooler Ephesus mornings, and early swimming on the Turquoise Coast—before peak summer heat and crowds. Book cave hotels early; May is peak shoulder demand.",
     image: "/cappadocia.jpg",
     publishedAt: "2026-07-22",
-    updatedAt: "2026-07-22",
+    updatedAt: "2026-07-27",
     sections: [
       {
+        heading: "Why May is a top month to buy a private Turkey tour",
+        body: "May sits in the spring shoulder with long days, mild walking weather, and seas that begin to invite swimming late in the month. For private Turkey tours, that mix sells: culture without August heat, coast without freezing water, and balloon odds that are statistically strong in Cappadocia.\n\nIf your dates are flexible, May and September are the two months we push hardest for honeymoons, couples, and first-timers who want a full classic arc.",
+      },
+      {
         heading: "Turkey weather in May by region",
-        body: "Istanbul is pleasant for full walking days. Cappadocia is ideal for valleys and balloons. Ephesus is warmer but manageable with early starts. The Turquoise Coast begins to feel swimmable late in the month. May is peak shoulder demand—book cave hotels early.",
+        body: "Istanbul is pleasant for full walking days on a private Istanbul tour. Cappadocia is ideal for valleys and balloons. Ephesus is warmer but manageable with early starts. The Turquoise Coast begins to feel swimmable late in the month.\n\nMay is peak shoulder demand—preferred cave suites and quality gulet days move first. Sharing dates early is part of getting the trip you want to buy.",
       },
       {
-        heading: "Best places to visit in Turkey in May",
-        body: "A classic private route works beautifully: Istanbul → Cappadocia → Ephesus, with optional coast nights. Honeymoon and family itineraries both thrive in May because days are long without midsummer intensity.",
+        heading: "Best private itineraries for Turkey in May",
+        body: "A classic private route works beautifully: Istanbul → Cappadocia → Ephesus, with optional coast nights on 14-day trips. Seven days covers Istanbul and Cappadocia. Ten days adds Ephesus. Fourteen days finish on the Turquoise Coast.\n\nHoneymoon and family itineraries both thrive in May because days are long without midsummer intensity. See our itinerary hub, then enquire for a May-specific night split.",
       },
       {
-        heading: "What to pack and how to pace May days",
-        body: "Layers for cooler mornings, sun protection for midday ruins, and flexible clothing for possible spring showers. Privately, we keep museum blocks earlier and leave golden hour for viewpoints.",
+        heading: "What to pack and how we pace May days",
+        body: "Layers for cooler mornings, sun protection for midday ruins, and flexible clothing for possible spring showers. Privately, we keep museum blocks earlier and leave golden hour for viewpoints.\n\nBalloon mornings still need Plan B. We never sell a May Cappadocia stay that collapses if one sunrise is grounded.",
+      },
+      {
+        heading: "Book Turkey in May with us",
+        body: "Send May dates, trip length, and whether coast swimming is a must. We return a private outline with stays, guiding, and signature experiences—ready to refine and confirm. Start at plan your trip.",
       },
     ],
     faqs: [
@@ -438,12 +521,17 @@ export const guides: Guide[] = [
       {
         question: "Are Cappadocia balloons reliable in May?",
         answer:
-          "May is statistically strong, but never guaranteed. We still plan a backup morning or Plan B.",
+          "May is statistically strong, but never guaranteed. We still plan a backup morning or Plan B inside every private Cappadocia chapter.",
       },
       {
         question: "How far ahead should I book Turkey in May?",
         answer:
           "Three to six months is comfortable for preferred cave hotels and guides—May is a popular shoulder window.",
+      },
+      {
+        question: "May vs September for a private Turkey tour?",
+        answer:
+          "Both are excellent. September often wins for warmer seas; May wins for spring light and slightly earlier shoulder energy. Tell us beach priority and we recommend.",
       },
     ],
     related: [
@@ -453,14 +541,29 @@ export const guides: Guide[] = [
         description: "Full season-by-season overview.",
       },
       {
+        title: "Turkey in September",
+        href: "/guides/turkey-in-september",
+        description: "Autumn twin for warm-sea shoulder travel.",
+      },
+      {
         title: "Turkey in October",
         href: "/guides/turkey-in-october",
-        description: "May’s autumn twin for private tours.",
+        description: "May’s autumn counterpart.",
       },
       {
         title: "10 Day Turkey Itinerary",
         href: "/itineraries/10-day-classic",
         description: "A May-friendly classic private route.",
+      },
+      {
+        title: "Cappadocia hot air balloon",
+        href: "/experiences/cappadocia-hot-air-balloon",
+        description: "Strong May balloon window with Plan B.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Hold May dates for a private outline.",
       },
     ],
   },
@@ -469,26 +572,34 @@ export const guides: Guide[] = [
     name: "Turkey in October",
     focusKeyword: pageKeywords.turkeyInOctober.focus,
     secondaryKeywords: [...pageKeywords.turkeyInOctober.secondary],
-    title: "Turkey in October: Autumn Light, Warm Seas & Fewer Crowds",
+    title: "Turkey in October: Autumn Light & Private Tour Value",
     description:
       "Visit Turkey in October for excellent light, warm Turquoise Coast seas, and strong private-tour pacing across Istanbul, Cappadocia, and Ephesus.",
     answer:
-      "Turkey in October rivals May as a top private-tour month: milder crowds than summer, excellent Cappadocia light and balloon odds, comfortable Istanbul walking, and seas that often remain warm enough for swimming on the Turquoise Coast.",
+      "Turkey in October rivals May as a top private-tour month: milder crowds than summer, excellent Cappadocia light and balloon odds, comfortable Istanbul walking, and seas that often remain warm enough for swimming on the Turquoise Coast—especially early to mid-October.",
     image: "/coast.jpg",
     publishedAt: "2026-07-22",
-    updatedAt: "2026-07-22",
+    updatedAt: "2026-07-27",
     sections: [
       {
         heading: "Why October is a private-tour sweet spot",
-        body: "Autumn travel in Turkey balances culture and coast. You can still swim early–mid October in many coastal years, while inland sites feel calmer than August. Photographers love the softer light in Cappadocia and along the Bosphorus.",
+        body: "Autumn travel in Turkey balances culture and coast. You can still swim early–mid October in many coastal years, while inland sites feel calmer than August. Photographers love the softer light in Cappadocia and along the Bosphorus.\n\nFor sales: October attracts discerning travelers who want comfort without peak-summer friction. That is exactly who private Turkey tours are built for.",
       },
       {
         heading: "Turkey weather in October by chapter",
-        body: "Istanbul is ideal for long private walking days. Cappadocia is excellent for valleys and balloons. Ephesus is cooler than summer. The coast remains inviting—especially for a private gulet day or Kaş/Fethiye nights at the end of a 14-day route.",
+        body: "Istanbul is ideal for long private walking days. Cappadocia is excellent for valleys and balloons. Ephesus is cooler than summer. The coast remains inviting—especially for a private gulet day or Kaş/Fethiye nights at the end of a 14-day route.\n\nLate October can cool for swimming—tell us beach priority and we place coast nights earlier in the month or earlier in the itinerary.",
+      },
+      {
+        heading: "Best October private itinerary shapes",
+        body: "10 days: Istanbul–Cappadocia–Ephesus. 14 days: add Turquoise Coast. Honeymoon versions lean cave suites and coastal privacy. Luxury versions elevate stays and dining without changing the geographic spine.\n\nCompare with Turkey in September if you want warmer seas, or Turkey in May for the spring twin.",
       },
       {
         heading: "Booking notes for October trips",
-        body: "October is popular with discerning travelers. Secure preferred stays early, especially cave suites and boutique coastal hotels. We design flexible balloon windows and keep one soft day for weather or mood.",
+        body: "October is popular with discerning travelers. Secure preferred stays early, especially cave suites and boutique coastal hotels. We design flexible balloon windows and keep one soft day for weather or mood.\n\nCost is often better value than August for comfort—see private Turkey tour cost for drivers, then enquire with October dates.",
+      },
+      {
+        heading: "Enquire for an October private Turkey tour",
+        body: "Share October dates, trip length, and swimming priority. We draft a private outline with honest sea expectations and signature experiences. Start at plan your trip or WhatsApp from the site.",
       },
     ],
     faqs: [
@@ -507,12 +618,22 @@ export const guides: Guide[] = [
         answer:
           "Yes. Cave hotels, coastal privacy, and comfortable evenings make October one of the strongest romantic windows.",
       },
+      {
+        question: "Should first-timers choose October?",
+        answer:
+          "Yes if you want culture plus possible swimming without summer intensity. It is one of our most recommended private-tour months.",
+      },
     ],
     related: [
       {
         title: "Turkey in May",
         href: "/guides/turkey-in-may",
         description: "The spring counterpart to October.",
+      },
+      {
+        title: "Turkey in September",
+        href: "/guides/turkey-in-september",
+        description: "Warmer-sea autumn alternative.",
       },
       {
         title: "Private gulet cruise",
@@ -523,6 +644,16 @@ export const guides: Guide[] = [
         title: "Honeymoon Turkey",
         href: "/private-turkey-tours/honeymoon",
         description: "Romantic private itinerary shapes.",
+      },
+      {
+        title: "14 Day Grand",
+        href: "/itineraries/14-day-grand",
+        description: "Room for coast in October light.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Request an October private outline.",
       },
     ],
   },
@@ -603,6 +734,21 @@ export const guides: Guide[] = [
         href: "/guides/pamukkale-day-trip",
         description: "Often combined on western Turkey routes.",
       },
+      {
+        title: "Private Turkey Tours",
+        href: "/private-turkey-tours",
+        description: "Ephesus inside a full private tour.",
+      },
+      {
+        title: "Turkey in September",
+        href: "/guides/turkey-in-september",
+        description: "Cooler marble mornings.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Add Ephesus to your quote.",
+      },
     ],
   },
   {
@@ -677,6 +823,21 @@ export const guides: Guide[] = [
         title: "14 Day Grand",
         href: "/itineraries/14-day-grand",
         description: "Room to include Pamukkale without rushing.",
+      },
+      {
+        title: "Private Turkey Tours",
+        href: "/private-turkey-tours",
+        description: "Western Turkey private arcs.",
+      },
+      {
+        title: "10 Day Classic",
+        href: "/itineraries/10-day-classic",
+        description: "Where Pamukkale can fit.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Day trip or overnight quote.",
       },
     ],
   },
@@ -753,6 +914,21 @@ export const guides: Guide[] = [
         href: "/experiences/gulet-cruise",
         description: "September sea days on the coast.",
       },
+      {
+        title: "Best time to visit Turkey",
+        href: "/guides/best-time-to-visit-turkey",
+        description: "Full season framework.",
+      },
+      {
+        title: "14 Day Grand",
+        href: "/itineraries/14-day-grand",
+        description: "Coast-friendly September length.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Hold September inventory.",
+      },
     ],
   },
   {
@@ -827,6 +1003,21 @@ export const guides: Guide[] = [
         title: "Plan your trip",
         href: "/plan-your-trip",
         description: "Share winter dates for an honest outline.",
+      },
+      {
+        title: "Private Istanbul Tour",
+        href: "/destinations/istanbul",
+        description: "Winter’s strongest chapter.",
+      },
+      {
+        title: "Private Turkey Tours",
+        href: "/private-turkey-tours",
+        description: "Honest winter private shapes.",
+      },
+      {
+        title: "Contact",
+        href: "/contact",
+        description: "Ask if winter fits your brief.",
       },
     ],
   },

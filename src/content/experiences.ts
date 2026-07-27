@@ -32,6 +32,10 @@ export const experiences: Experience[] = [
         heading: "What if the Cappadocia balloon is cancelled?",
         body: "Weather wins. A good private designer already has a Plan B: quieter valleys at sunrise, a photography stop, pottery or winery time, or shifting the flight to a spare morning. Never build an entire Cappadocia trip around a single non-refundable balloon slot without a buffer night.",
       },
+      {
+        heading: "Add a balloon morning to your private tour",
+        body: "Share Cappadocia nights and balloon priority. We reserve reputable operators, build a spare morning when possible, and quote the flight as a clear line item inside your private Turkey tour. Enquire via plan your trip.",
+      },
     ],
     faqs: [
       {
@@ -66,8 +70,23 @@ export const experiences: Experience[] = [
         href: "/guides/best-time-to-visit-turkey",
         description: "Season windows that favor balloon odds.",
       },
+      {
+        title: "Things to do in Cappadocia",
+        href: "/guides/things-to-do-in-cappadocia",
+        description: "Ground days when balloons are grounded.",
+      },
+      {
+        title: "Turkey honeymoon",
+        href: "/private-turkey-tours/honeymoon",
+        description: "Sunrise romance with weather backups.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Add balloon mornings to your private quote.",
+      },
     ],
-    updatedAt: "2026-07-22",
+    updatedAt: "2026-07-27",
   },
   {
     slug: "istanbul-food-tour",
@@ -95,6 +114,10 @@ export const experiences: Experience[] = [
         heading: "Dietary needs and family pacing",
         body: "Private food tours adapt easily for vegetarian, pescatarian, gluten-conscious, or low-spice preferences. Families can shorten stops and skip late-night venues. Tell us allergies early—Turkish hospitality is generous, and clarity keeps the day relaxed.",
       },
+      {
+        heading: "Book a private Istanbul food tour",
+        body: "Fold a culinary walk into your private Istanbul chapter or full private Turkey tour. Share dietary needs and whether you want Europe, Asia, or both—we quote the guide and pacing inside your itinerary outline. Enquire via plan your trip.",
+      },
     ],
     faqs: [
       {
@@ -120,6 +143,11 @@ export const experiences: Experience[] = [
         description: "Landmarks and neighborhoods around your food day.",
       },
       {
+        title: "Things to do in Istanbul",
+        href: "/guides/things-to-do-in-istanbul",
+        description: "Balance icons with tasting pace.",
+      },
+      {
         title: "Honeymoon Turkey",
         href: "/private-turkey-tours/honeymoon",
         description: "Culinary evenings designed for two.",
@@ -129,8 +157,18 @@ export const experiences: Experience[] = [
         href: "/private-turkey-tours",
         description: "How experiences fit a full private journey.",
       },
+      {
+        title: "7 Day Turkey Itinerary",
+        href: "/itineraries/7-day-classic",
+        description: "Room for a food walk in Istanbul nights.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Add a private food tour to your outline.",
+      },
     ],
-    updatedAt: "2026-07-22",
+    updatedAt: "2026-07-27",
   },
   {
     slug: "gulet-cruise",
@@ -157,6 +195,10 @@ export const experiences: Experience[] = [
       {
         heading: "How a gulet fits a grand Turkey itinerary",
         body: "Classic sequencing is Istanbul → Cappadocia → Ephesus → Turquoise Coast. A private gulet cruise becomes the soft landing after archaeology and cities—especially popular on honeymoon Turkey and 14-day grand routes.",
+      },
+      {
+        heading: "Enquire for a private gulet cruise",
+        body: "Tell us trip length, seasickness tolerance, and whether you want one boat day or a multi-night charter. We match boats and coastal bases, then fold the sea chapter into your private Turkey tour quote. Start at plan your trip.",
       },
     ],
     faqs: [
@@ -192,8 +234,23 @@ export const experiences: Experience[] = [
         href: "/private-turkey-tours/honeymoon",
         description: "Quiet coastal privacy for two.",
       },
+      {
+        title: "Luxury Turkey Tour",
+        href: "/private-turkey-tours/luxury",
+        description: "Elevated sea days and stays.",
+      },
+      {
+        title: "Turkey in September",
+        href: "/guides/turkey-in-september",
+        description: "Prime warm-sea gulet month.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Charter or day-boat options in your quote.",
+      },
     ],
-    updatedAt: "2026-07-22",
+    updatedAt: "2026-07-27",
   },
 ];
 

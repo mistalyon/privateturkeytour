@@ -5,13 +5,15 @@ import { CtaBand } from "@/components/cta-band";
 import { FaqList } from "@/components/faq-list";
 import { JsonLd } from "@/components/json-ld";
 import { PageHero } from "@/components/page-hero";
+import { ProseSections } from "@/components/prose-sections";
 import { RelatedLinks } from "@/components/related-links";
 import {
   getExperience,
   getExperienceSlugs,
 } from "@/content/experiences";
+import { absoluteUrl, buildMetadata } from "@/lib/seo";
 import { breadcrumbSchema, faqSchema } from "@/lib/schema";
-import { buildMetadata } from "@/lib/seo";
+import { siteConfig } from "@/lib/site";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -63,7 +65,13 @@ export default async function ExperiencePage({ params }: Props) {
             "@type": "TouristAttraction",
             name: experience.name,
             description: experience.description,
-            image: `https://privateturkeytour.com${experience.image}`,
+            url: absoluteUrl(`/experiences/${experience.slug}`),
+            image: absoluteUrl(experience.image),
+            provider: {
+              "@type": "TravelAgency",
+              name: siteConfig.name,
+              url: siteConfig.url,
+            },
           },
         ]}
       />
@@ -101,18 +109,7 @@ export default async function ExperiencePage({ params }: Props) {
               {experience.bestFor}
             </p>
           </div>
-          <div className="space-y-10">
-            {experience.sections.map((section) => (
-              <article key={section.heading}>
-                <h2 className="font-heading text-3xl tracking-[-0.03em] sm:text-4xl">
-                  {section.heading}
-                </h2>
-                <p className="mt-4 text-base leading-8 text-black/65">
-                  {section.body}
-                </p>
-              </article>
-            ))}
-          </div>
+          <ProseSections sections={experience.sections} />
         </div>
       </section>
 
