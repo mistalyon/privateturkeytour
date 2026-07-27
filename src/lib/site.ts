@@ -14,6 +14,7 @@ export const siteConfig = {
   foundedYear: 2012,
   location: "Türkiye",
   logo: "/brand/mark.svg",
+  gaId: "G-H54C4ZXL3B",
 } as const;
 
 export type BreadcrumbItem = {
