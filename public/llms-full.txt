@@ -23,6 +23,8 @@ Site language: English. Commercial intent: sell tailor-made private Turkey tours
 - Pamukkale day trip from Antalya / Cappadocia day trip from Antalya
 - Princes Islands tour from Istanbul / Bursa day trip from Istanbul
 - Istanbul cooking class
+- Gobekli tepe tour / gaziantep food tour / cappadocia photography tour
+- Christian turkey tour
 
 ## Topical map
 ### Private Travel Services
@@ -44,6 +46,8 @@ Spokes:
 - https://privateturkeytour.com/experiences/princes-islands-tour — princes islands tour from istanbul
 - https://privateturkeytour.com/experiences/bursa-day-trip-from-istanbul — bursa day trip from istanbul
 - https://privateturkeytour.com/experiences/istanbul-cooking-class — istanbul cooking class
+- https://privateturkeytour.com/experiences/gaziantep-food-tour — gaziantep food tour
+- https://privateturkeytour.com/experiences/cappadocia-photography-tour — cappadocia photography tour
 - https://privateturkeytour.com/experiences/cappadocia-hot-air-balloon
 - https://privateturkeytour.com/experiences/istanbul-food-tour
 - https://privateturkeytour.com/experiences/gulet-cruise
@@ -60,6 +64,7 @@ Spokes:
 - https://privateturkeytour.com/private-turkey-tours/family — family turkey tour
 - https://privateturkeytour.com/private-turkey-tours/luxury — luxury turkey tour
 - https://privateturkeytour.com/private-turkey-tours/christmas-new-year — turkey christmas new year tour
+- https://privateturkeytour.com/private-turkey-tours/christian-pilgrimage — christian turkey tour
 - https://privateturkeytour.com/how-it-works — how private turkey tours work
 - https://privateturkeytour.com/guides/private-turkey-tour-cost — private turkey tour cost
 - https://privateturkeytour.com/guides/private-vs-group-turkey-tours — private vs group turkey tours
@@ -76,6 +81,7 @@ Spokes:
 - https://privateturkeytour.com/destinations/antalya — private antalya tour
 - https://privateturkeytour.com/destinations/bodrum — private bodrum tour
 - https://privateturkeytour.com/destinations/gallipoli-troy — gallipoli and troy tour
+- https://privateturkeytour.com/destinations/gobekli-tepe — gobekli tepe tour
 
 ### Turkey Itineraries
 Intent: Pick trip length and sequence for a private journey
@@ -98,6 +104,8 @@ Spokes:
 - https://privateturkeytour.com/experiences/gulet-cruise — private gulet cruise turkey
 - https://privateturkeytour.com/experiences/cappadocia-jeep-safari — cappadocia jeep safari
 - https://privateturkeytour.com/experiences/istanbul-cooking-class — istanbul cooking class
+- https://privateturkeytour.com/experiences/gaziantep-food-tour — gaziantep food tour
+- https://privateturkeytour.com/experiences/cappadocia-photography-tour — cappadocia photography tour
 
 ### Turkey Travel Guides
 Intent: Answer planning questions before booking a private tour

@@ -774,6 +774,96 @@ export const destinations: Destination[] = [
     ],
     updatedAt: "2026-07-27",
   },
+  {
+    slug: "gobekli-tepe",
+    name: "Göbeklitepe",
+    note: "Dawn of monumental ritual",
+    image: "/detail.jpg",
+    focusKeyword: pageKeywords.gobekliTepe.focus,
+    secondaryKeywords: [...pageKeywords.gobekliTepe.secondary],
+    title: "Göbeklitepe Tour: Private Visit from Şanlıurfa & Gaziantep",
+    description:
+      "Book a private Göbeklitepe tour with a licensed guide—Şanlıurfa logistics, site pacing, museum context, and links to Gaziantep food or wider southeast Turkey days.",
+    answer:
+      "A private Göbeklitepe tour pairs a licensed guide with timed site pacing near Şanlıurfa, usually as a day trip from Gaziantep or Şanlıurfa—or as the archaeology anchor of a short southeast Turkey private itinerary—so the T-pillars and visitor flow stay coherent, not rushed.",
+    bestTime:
+      "March–May and September–November for milder walking weather. Summer works with early starts; winter is quieter but colder and shorter daylight.",
+    highlights: [
+      "Private guiding at Göbeklitepe with context, not a checklist stop",
+      "Şanlıurfa museum and old-city pairing when time allows",
+      "Gaziantep culinary nights before or after the site day",
+      "Honest day-trip vs overnight recommendations",
+      "Optional Karahantepe or other regional archaeology when relevant",
+    ],
+    sections: [
+      {
+        heading: "Why visit Göbeklitepe on a private Turkey tour?",
+        body: "Göbeklitepe is one of the highest-intent archaeology searches in Turkey travel. Privately, you control arrival timing, how long you stay under the shelters, and whether Şanlıurfa’s museum deepens the story the same day.\n\nWe sell it as a serious archaeology chapter—not a photo stop bolted onto an unrelated resort week. If höyüks and prehistoric sites are your north star, this page is the commercial gateway; a fuller Anatolian höyük map (including Arslantepe) is planned as its own topical cluster.",
+      },
+      {
+        heading: "Gaziantep, Şanlıurfa, or a short southeast arc?",
+        body: "Many travelers fly Gaziantep for food, then day-trip to Göbeklitepe. Others base in Şanlıurfa for closer access and old-city evenings. A two- to three-night private arc often beats a single exhausted day.\n\nPair with a Gaziantep food tour the night before or after. Longer private Turkey tours can add Göbeklitepe after Cappadocia or as a standalone southeast extension.",
+      },
+      {
+        heading: "What a quality private Göbeklitepe day includes",
+        body: "Licensed guiding, private transfer, site entry logistics, and enough time to understand enclosure symbolism without being herded. Heat, queues, and shelter rules change—we brief current conditions before your date.\n\nPhotography-minded travelers should say so early; light and crowd patterns affect pacing.",
+      },
+      {
+        heading: "Enquire for a private Göbeklitepe outline",
+        body: "Share month, whether Gaziantep food matters, and trip length. We return day-trip vs overnight options with cost drivers. Start at plan your trip.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Can I visit Göbeklitepe as a day trip from Gaziantep?",
+        answer:
+          "Yes—it is a common private day trip. Overnight in Şanlıurfa or a two-night southeast stay feels better if museum time and food matter equally.",
+      },
+      {
+        question: "Do I need a private guide at Göbeklitepe?",
+        answer:
+          "Not legally required, but a licensed private guide transforms the site from impressive stones into a coherent prehistoric narrative—worth it for most travelers.",
+      },
+      {
+        question: "How long do I need at Göbeklitepe?",
+        answer:
+          "Plan a focused half-day at the site itself, plus transfer time. Add Şanlıurfa museum and old city if you want a full archaeology day.",
+      },
+      {
+        question: "Can Göbeklitepe fit a classic Istanbul–Cappadocia itinerary?",
+        answer:
+          "Yes as a flight extension. It is not a same-day add-on from Cappadocia; treat southeast as its own chapter.",
+      },
+    ],
+    related: [
+      {
+        title: "Gaziantep food tour",
+        href: "/experiences/gaziantep-food-tour",
+        description: "Culinary nights around your site day.",
+      },
+      {
+        title: "Private Cappadocia Tour",
+        href: "/destinations/cappadocia",
+        description: "Common flight link before southeast.",
+      },
+      {
+        title: "Christian Turkey Tour",
+        href: "/private-turkey-tours/christian-pilgrimage",
+        description: "Faith and antiquity arcs across Anatolia.",
+      },
+      {
+        title: "Gallipoli & Troy",
+        href: "/destinations/gallipoli-troy",
+        description: "Another archaeology-led private chapter.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Request a Göbeklitepe private outline.",
+      },
+    ],
+    updatedAt: "2026-07-27",
+  },
 ];
 
 export function getDestination(slug: string) {

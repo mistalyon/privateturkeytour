@@ -72,6 +72,11 @@ const audienceCards = [
     body: "Festive Istanbul nights and winter Cappadocia chapters without rigid holiday packages.",
     href: "/private-turkey-tours/christmas-new-year",
   },
+  {
+    title: "Christian pilgrimage",
+    body: "Ephesus and Seven Churches arcs with private timing for faith-led groups and families.",
+    href: "/private-turkey-tours/christian-pilgrimage",
+  },
 ];
 
 const privateCluster = topicalClusters.find((c) => c.id === "private-tours");

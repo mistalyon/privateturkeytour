@@ -865,6 +865,142 @@ export const experiences: Experience[] = [
     ],
     updatedAt: "2026-07-27",
   },
+  {
+    slug: "gaziantep-food-tour",
+    name: "Gaziantep Food Tour",
+    focusKeyword: pageKeywords.gaziantepFood.focus,
+    secondaryKeywords: [...pageKeywords.gaziantepFood.secondary],
+    title: "Gaziantep Food Tour: Private Culinary Walk in Antep",
+    description:
+      "Book a private Gaziantep food tour—baklava counters, kebabs, pistachio sweets, and market bites with a local culinary guide, often paired with Göbeklitepe.",
+    answer:
+      "A private Gaziantep food tour is a guided culinary walk through baklava ateliers, kebab houses, markets, and specialty sweets—typically half a day to a full evening—designed around your spice tolerance and often paired with a Göbeklitepe archaeology day.",
+    image: "/detail.jpg",
+    duration: "Half day to evening · ~3–5 hours",
+    bestFor: "Food travelers and Göbeklitepe visitors basing in Gaziantep",
+    sections: [
+      {
+        heading: "Why Gaziantep belongs on a private Turkey food map",
+        body: "Gaziantep is one of Turkey’s strongest culinary cities—pistachio baklava, kebabs, and market culture with serious local pride. Privately, you skip random tourist menus and move between counters that match your appetite and dietary needs.\n\nFor many travelers, Antep food is the reason to overnight before or after Göbeklitepe.",
+      },
+      {
+        heading: "What a private Gaziantep food tour covers",
+        body: "Classic arcs include baklava tasting, kebab or lahmacun stops, spice and pistachio shops, and a sit-down finale. We tune heat level, walking distance, and whether lunch or dinner leads.\n\nVegetarian paths exist but need early notice in a meat-forward food culture.",
+      },
+      {
+        heading: "Pair food with Göbeklitepe",
+        body: "Best private pattern: arrive Gaziantep, evening food tour, next-day Göbeklitepe (and Şanlıurfa if time allows). Same-day food-plus-site is possible but rushed.\n\nEnquire with dates and hunger priorities via plan your trip.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Is Gaziantep worth it only for food?",
+        answer:
+          "For many food-led travelers yes—even without Göbeklitepe. Combined with the site, it becomes a high-intent southeast mini-chapter.",
+      },
+      {
+        question: "How long is a Gaziantep food tour?",
+        answer:
+          "Most private walks run 3–5 hours. Full gourmet days are available when Antep is the main reason for the stop.",
+      },
+      {
+        question: "Can we do food and Göbeklitepe the same day?",
+        answer:
+          "Possible but tiring. We usually recommend food one evening and the site the next morning.",
+      },
+    ],
+    related: [
+      {
+        title: "Göbeklitepe Tour",
+        href: "/destinations/gobekli-tepe",
+        description: "Archaeology day paired with Antep nights.",
+      },
+      {
+        title: "Istanbul food tour",
+        href: "/experiences/istanbul-food-tour",
+        description: "Culinary walks on the Bosphorus end of the trip.",
+      },
+      {
+        title: "Istanbul cooking class",
+        href: "/experiences/istanbul-cooking-class",
+        description: "Hands-on cooking in the city.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Request a Gaziantep food outline.",
+      },
+    ],
+    updatedAt: "2026-07-27",
+  },
+  {
+    slug: "cappadocia-photography-tour",
+    name: "Cappadocia Photography Tour",
+    focusKeyword: pageKeywords.photographyTour.focus,
+    secondaryKeywords: [...pageKeywords.photographyTour.secondary],
+    title: "Cappadocia Photography Tour: Private Sunrise & Valley Shoots",
+    description:
+      "Book a private Cappadocia photography tour—sunrise balloons, valley light, jeep viewpoints, and guide pacing built for cameras—not coach photo stops.",
+    answer:
+      "A private Cappadocia photography tour is a guided shoot day (or half-day) timed for sunrise balloon launches, valley light, and viewpoint access with a private vehicle—so composition and waiting for light come before a fixed tourist checklist.",
+    image: "/cappadocia.jpg",
+    duration: "Half day to full day · sunrise sessions common",
+    bestFor: "Photographers, honeymooners, and travelers who want image-led pacing",
+    sections: [
+      {
+        heading: "Why private photography beats group valley stops",
+        body: "Group tours move on a clock. Privately, you wait for cloud breaks, shift angles, and use jeep tracks or short walks without apologizing to a coach.\n\nBalloon mornings, golden-hour chimneys, and blue-hour cave hotels are the usual private brief—we build Plan B when wind grounds flights.",
+      },
+      {
+        heading: "Sunrise, jeep, or full-day photo itinerary",
+        body: "Popular shapes: sunrise balloon + short ground shoot; half-day jeep viewpoints; full day mixing valleys, underground exteriors, and sunset. Istanbul photography add-ons can bookend longer private Turkey tours.\n\nTell us kit level (phone vs pro glass) so pacing matches setup time.",
+      },
+      {
+        heading: "Book a private Cappadocia photo day",
+        body: "Share dates, must-have shots, and fitness for short hikes. We quote guiding and vehicle as clear line items. Start at plan your trip.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Do I need a professional camera?",
+        answer:
+          "No—phones work. Pros get more time for tripods and composition; tell us your kit so we plan stops accordingly.",
+      },
+      {
+        question: "Can photography pair with a balloon flight?",
+        answer:
+          "Yes. Many private days fly at sunrise then continue on the ground. Weather cancellations need a spare morning when possible.",
+      },
+      {
+        question: "Is a jeep useful for photography?",
+        answer:
+          "Often yes for viewpoint density and sunset positions. See also our Cappadocia jeep safari experience.",
+      },
+    ],
+    related: [
+      {
+        title: "Cappadocia Hot Air Balloon",
+        href: "/experiences/cappadocia-hot-air-balloon",
+        description: "Aerial chapter when weather allows.",
+      },
+      {
+        title: "Cappadocia Jeep Safari",
+        href: "/experiences/cappadocia-jeep-safari",
+        description: "Viewpoint access for golden hour.",
+      },
+      {
+        title: "Private Cappadocia Tour",
+        href: "/destinations/cappadocia",
+        description: "Full destination chapter around shoots.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Request a photography-day quote.",
+      },
+    ],
+    updatedAt: "2026-07-27",
+  },
 ];
 
 export function getExperience(slug: string) {

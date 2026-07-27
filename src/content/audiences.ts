@@ -370,6 +370,98 @@ export const audiences: Audience[] = [
     ],
     updatedAt: "2026-07-27",
   },
+  {
+    slug: "christian-pilgrimage",
+    name: "Christian Pilgrimage",
+    focusKeyword: pageKeywords.christianPilgrimage.focus,
+    secondaryKeywords: [...pageKeywords.christianPilgrimage.secondary],
+    title: "Christian Turkey Tour: Private Biblical & Seven Churches Journeys",
+    description:
+      "Plan a private Christian Turkey tour—Ephesus, Seven Churches of Asia routes, biblical sites, and respectful pacing with licensed guides—not a fixed group pilgrimage bus.",
+    answer:
+      "A private Christian Turkey tour is a tailor-made faith-and-history journey focusing on sites such as Ephesus, the Seven Churches of Asia arc, and related biblical landscapes—with licensed guiding, flexible worship or reflection time, and logistics designed for your group rather than a fixed coach pilgrimage.",
+    image: "/ephesus.jpg",
+    highlights: [
+      "Ephesus and House of the Virgin Mary with private timing",
+      "Seven Churches of Asia routing when trip length allows",
+      "Licensed guides comfortable with faith-context storytelling",
+      "Optional Istanbul church and old-city chapters",
+      "Respectful pacing for multi-gen pilgrimage groups",
+    ],
+    sections: [
+      {
+        heading: "Why travel Christian Turkey privately?",
+        body: "Group pilgrimage buses run fixed hymns-and-checklist days. Privately, you choose which Seven Churches matter most, how long to linger at Ephesus, and whether reflection time is quiet or pastor-led.\n\nThat control is the product—especially for families, church groups under 12, and travelers combining faith with Cappadocia or Istanbul culture.",
+      },
+      {
+        heading: "Classic private pilgrimage shapes",
+        body: "Popular arcs: Istanbul + Ephesus focus; Aegean Seven Churches circuit over 7–10 days; Ephesus day from Kuşadası for cruise pilgrims; longer journeys adding Cappadocia cave churches.\n\nSoutheast archaeology (Göbeklitepe) is a different chapter—powerful historically, not a substitute for New Testament geography. We keep the theology and timeline honest in the outline.",
+      },
+      {
+        heading: "What we arrange on a faith-led private tour",
+        body: "Licensed guides, private vehicle, site entries, hotel selection near key stops, and optional meeting space for group prayer or briefing. Dietary needs and Sunday timing are designed in early.\n\nCruise passengers should send port times for a private Ephesus shore day instead of the ship’s large-group option.",
+      },
+      {
+        heading: "Enquire for a Christian Turkey tour outline",
+        body: "Share denomination context if useful, must-see sites, group size, and dates. We return a private pilgrimage spine with cost drivers. Start at plan your trip.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Can you cover all Seven Churches of Asia?",
+        answer:
+          "Yes on a dedicated multi-day Aegean itinerary. Shorter trips usually prioritize Ephesus plus a realistic subset—we recommend honestly rather than racing all seven poorly.",
+      },
+      {
+        question: "Is this only for large church groups?",
+        answer:
+          "No. Couples, families, and small groups use the same private model. Larger groups need earlier hotel holds.",
+      },
+      {
+        question: "Can pilgrimage combine with Cappadocia?",
+        answer:
+          "Yes—cave churches and Göreme open-air museum fit after or before the Aegean faith arc when flights allow.",
+      },
+      {
+        question: "Do guides provide religious teaching?",
+        answer:
+          "Licensed guides provide historical and site context. Pastoral teaching can be led by your own clergy; we coordinate timing and space.",
+      },
+    ],
+    related: [
+      {
+        title: "Private Ephesus Tour",
+        href: "/destinations/ephesus",
+        description: "Core Aegean antiquity and faith site.",
+      },
+      {
+        title: "Ephesus from Kuşadası",
+        href: "/experiences/ephesus-tour-from-kusadasi",
+        description: "Private shore excursion for cruise pilgrims.",
+      },
+      {
+        title: "Things to do in Ephesus",
+        href: "/guides/things-to-do-in-ephesus",
+        description: "Ruin priorities for a focused day.",
+      },
+      {
+        title: "Göbeklitepe Tour",
+        href: "/destinations/gobekli-tepe",
+        description: "Separate prehistoric archaeology chapter.",
+      },
+      {
+        title: "Family Turkey Tour",
+        href: "/private-turkey-tours/family",
+        description: "Multi-gen pacing that fits pilgrimage groups.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Request a private faith-tour outline.",
+      },
+    ],
+    updatedAt: "2026-07-27",
+  },
 ];
 
 export function getAudience(slug: string) {

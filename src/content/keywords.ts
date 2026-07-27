@@ -637,6 +637,50 @@ export const pageKeywords = {
     ],
     volume: "H",
   },
+  gobekliTepe: {
+    focus: "gobekli tepe tour",
+    secondary: [
+      "private gobekli tepe tour",
+      "gobeklitepe from gaziantep",
+      "gobekli tepe day trip",
+      "sanliurfa gobekli tepe",
+      "gobekli tepe private guide",
+    ],
+    volume: "VH",
+  },
+  gaziantepFood: {
+    focus: "gaziantep food tour",
+    secondary: [
+      "gaziantep culinary tour",
+      "private gaziantep food tour",
+      "best food in gaziantep",
+      "antep baklava tour",
+      "southeast turkey food tour",
+    ],
+    volume: "H",
+  },
+  photographyTour: {
+    focus: "cappadocia photography tour",
+    secondary: [
+      "private cappadocia photography tour",
+      "istanbul photography tour",
+      "turkey photography tour private",
+      "sunrise photography cappadocia",
+      "photo tour turkey",
+    ],
+    volume: "M",
+  },
+  christianPilgrimage: {
+    focus: "christian turkey tour",
+    secondary: [
+      "seven churches of asia tour",
+      "biblical turkey tour",
+      "private pilgrimage turkey",
+      "ephesus christian tour",
+      "turkey faith tour private",
+    ],
+    volume: "M",
+  },
 } as const satisfies Record<string, KeywordSet>;
 
 export function keywordList(set: KeywordSet): string[] {

@@ -15,6 +15,10 @@ const columns = [
         href: "/private-turkey-tours/christmas-new-year",
         label: "Christmas & New Year",
       },
+      {
+        href: "/private-turkey-tours/christian-pilgrimage",
+        label: "Christian Turkey Tour",
+      },
       { href: "/itineraries", label: "Turkey Itineraries" },
       { href: "/experiences", label: "Turkey Experiences" },
       { href: "/services", label: "Private Services" },
@@ -34,6 +38,7 @@ const columns = [
       },
       { href: "/destinations/antalya", label: "Private Antalya Tour" },
       { href: "/destinations/bodrum", label: "Private Bodrum Tour" },
+      { href: "/destinations/gobekli-tepe", label: "Göbeklitepe Tour" },
       {
         href: "/destinations/gallipoli-troy",
         label: "Gallipoli & Troy Tour",
