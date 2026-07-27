@@ -484,6 +484,196 @@ export const destinations: Destination[] = [
     ],
     updatedAt: "2026-07-27",
   },
+  {
+    slug: "antalya",
+    name: "Antalya",
+    note: "Mediterranean capital & golf coast",
+    image: "/coast.jpg",
+    focusKeyword: pageKeywords.antalya.focus,
+    secondaryKeywords: [...pageKeywords.antalya.secondary],
+    title: "Private Antalya Tour: Old Town, Coast & Day Trips",
+    description:
+      "Book a private Antalya tour with a local guide—Kaleiçi Old Town, waterfall day trips, beaches, and golf-coast links without coach schedules.",
+    answer:
+      "A private Antalya tour pairs a licensed guide and driver with Kaleiçi Old Town, marina walks, optional waterfall or ancient-site day trips, and easy links to Belek golf or the Turquoise Coast—so Mediterranean time feels designed, not resort-only.",
+    bestTime:
+      "April–June and September–November for walking weather and warm seas. July–August suits beach-first travelers who accept heat. Winter works for golf and city culture with quieter Old Town.",
+    highlights: [
+      "Kaleiçi Old Town and Hadrian’s Gate with quiet timing",
+      "Marina and cliff viewpoints without coach rush",
+      "Day trips to Düden/Kurşunlu falls or ancient Perge Aspendos",
+      "Easy add-on to Belek golf or Kaş/Fethiye coast nights",
+      "Airport and hotel transfers folded into the private plan",
+    ],
+    sections: [
+      {
+        heading: "Why choose a private Antalya tour?",
+        body: "Antalya is often sold as a resort base. Privately, it becomes a Mediterranean city chapter: Roman gates, Ottoman lanes, cliff light, and day trips that match your energy—not a fixed coach loop from the hotel lobby.\n\nThat is the sales case. Families, golfers, and culture travelers use Antalya differently; a private Antalya tour builds the version you will actually enjoy, then links cleanly to the rest of Turkey.",
+      },
+      {
+        heading: "Signature private days in and around Antalya",
+        body: "Start with Kaleiçi, the marina, and panoramic cliff viewpoints. Add waterfall mornings, Perge and Aspendos for antiquity, or a beach-and-lunch day when the trip needs recovery. Golf travelers base near Belek and keep Antalya city as a flexible half-day or evening.\n\nWant more coast? Continue west toward Kaş, Fethiye, or a private gulet. Want culture depth? Link Antalya after Ephesus or Cappadocia on longer private Turkey tours.",
+      },
+      {
+        heading: "How Antalya fits a private Turkey itinerary",
+        body: "Antalya works as a fly-and-relax finish, a golf week with one culture day, or a Mediterranean hinge between Aegean ruins and the Turquoise Coast. It is rarely the only stop on a first private Turkey tour—but as two to four nights it sells sun, food, and easy logistics.\n\nShare whether golf, Old Town, or beach leads. We quote nights, day trips, and transfers in one outline.",
+      },
+      {
+        heading: "Enquire for a private Antalya outline",
+        body: "Tell us travel month, hotel area (city, Lara, Belek, or further west), and must-sees. We return a private Antalya day plan plus any golf, yacht, or onward coast links. Start at plan your trip.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Is Antalya worth it on a private Turkey tour?",
+        answer:
+          "Yes when you want Mediterranean light after Istanbul and Cappadocia, or a golf/beach base with one strong culture day. Pure history-first travelers may prefer more Ephesus or Istanbul nights instead.",
+      },
+      {
+        question: "What is included in a private Antalya tour?",
+        answer:
+          "Typically a licensed guide, private vehicle, timed Old Town and day-trip pacing, and hotel or airport transfers as quoted—shaped around golf, beach, or culture priorities.",
+      },
+      {
+        question: "Can Antalya include golf and Old Town?",
+        answer:
+          "Yes. Many private Antalya stays use Belek for golf and keep one flexible Antalya city half-day or evening for Kaleiçi and marina time.",
+      },
+      {
+        question: "How many nights in Antalya?",
+        answer:
+          "Two to four nights suits most private itineraries. Golf weeks run longer. One night only works as a transit hinge if flights force it.",
+      },
+      {
+        question: "How do I enquire for a private Antalya tour?",
+        answer:
+          "Send dates, preferred base, and whether golf, waterfalls, or Old Town lead. We outline guiding days and how Antalya links to coast or inland chapters.",
+      },
+    ],
+    related: [
+      {
+        title: "Turquoise Coast Turkey",
+        href: "/destinations/turquoise-coast",
+        description: "Continue west for Kaş, Fethiye, and gulet days.",
+      },
+      {
+        title: "Turkey golf holiday",
+        href: "/services/turkey-golf",
+        description: "Belek and Antalya golf packages privately arranged.",
+      },
+      {
+        title: "Private gulet cruise",
+        href: "/experiences/gulet-cruise",
+        description: "Mediterranean privacy on the water.",
+      },
+      {
+        title: "Private yacht Turkey",
+        href: "/services/private-yacht-turkey",
+        description: "Day charter or multi-day yacht options.",
+      },
+      {
+        title: "14 Day Grand",
+        href: "/itineraries/14-day-grand",
+        description: "Room for Mediterranean finish nights.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Request a private Antalya outline.",
+      },
+    ],
+    updatedAt: "2026-07-27",
+  },
+  {
+    slug: "gallipoli-troy",
+    name: "Gallipoli & Troy",
+    note: "Memory, myth & the Dardanelles",
+    image: "/detail.jpg",
+    focusKeyword: pageKeywords.gallipoliTroy.focus,
+    secondaryKeywords: [...pageKeywords.gallipoliTroy.secondary],
+    title: "Gallipoli and Troy Tour: Private Day Trip from Istanbul",
+    description:
+      "Book a private Gallipoli and Troy tour from Istanbul—ANZAC sites, Çanakkale, and the legendary Troy ruins with a licensed guide and private vehicle.",
+    answer:
+      "A private Gallipoli and Troy tour combines the Gallipoli Peninsula memorial sites with ancient Troy near Çanakkale, usually as a long day trip or overnight from Istanbul with a private guide and driver—so remembrance and archaeology stay paced, not rushed by a coach clock.",
+    bestTime:
+      "April–June and September–November for milder walking weather. April–May suits ANZAC remembrance travel; summer works with earlier starts; winter is quieter but colder and shorter daylight.",
+    highlights: [
+      "Private pacing at Gallipoli memorials and battlefields",
+      "Troy ruins with myth-and-archaeology context",
+      "Çanakkale ferry and Dardanelles views",
+      "Day trip or overnight options from Istanbul",
+      "Respectful timing for remembrance travelers",
+    ],
+    sections: [
+      {
+        heading: "Why visit Gallipoli and Troy privately?",
+        body: "Gallipoli asks for quiet and context. Troy asks for imagination grounded in archaeology. A private Gallipoli and Troy tour lets you spend longer where the story matters to you—ANZAC Cove, Lone Pine, Chunuk Bair, or the Troy citadel—without a fixed group timetable.\n\nThat privacy is the product: remembrance without being herded, and Troy without a ten-minute photo stop.",
+      },
+      {
+        heading: "Day trip vs overnight from Istanbul",
+        body: "A long private day trip from Istanbul is possible and popular. An overnight in Çanakkale softens the drive, protects daylight at both sites, and feels more respectful on remembrance-focused trips. We recommend honestly based on season, ages, and how much Gallipoli depth you want.\n\nCruise and land travelers can also join Gallipoli or Troy as a focused half-region day when Istanbul nights are limited.",
+      },
+      {
+        heading: "How Gallipoli & Troy fit a private Turkey tour",
+        body: "Most first-time private Turkey tours keep Istanbul and Cappadocia as the spine, then add Gallipoli and Troy when family history, ANZAC travel, or Homeric interest is strong. It pairs cleanly before Cappadocia or as a dedicated Istanbul extension.\n\nSee our Gallipoli–Troy itinerary outline for a two-day private shape, then enquire with dates.",
+      },
+      {
+        heading: "Enquire for a private Gallipoli and Troy tour",
+        body: "Share whether day trip or overnight, any memorial focus, and travel month. We return timing, guiding, and logistics in one clear quote. Start at plan your trip.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Can Gallipoli and Troy be done in one day from Istanbul?",
+        answer:
+          "Yes as a long private day with early departure. Overnight is more comfortable if you want deeper battlefield time and unhurried Troy.",
+      },
+      {
+        question: "Is a private guide worth it at Gallipoli?",
+        answer:
+          "Yes for most travelers—context, site order, and respectful pacing change the day. Remembrance visitors especially benefit from private timing.",
+      },
+      {
+        question: "Can we visit only Gallipoli or only Troy?",
+        answer:
+          "Yes. Many private itineraries focus on one site when time is short. Tell us the priority and we design the day accordingly.",
+      },
+      {
+        question: "Is this suitable for ANZAC Day travel?",
+        answer:
+          "We can plan around remembrance dates with realistic expectations about crowds and dawn services. Share your dates early so logistics stay respectful and feasible.",
+      },
+    ],
+    related: [
+      {
+        title: "Gallipoli & Troy itinerary",
+        href: "/itineraries/gallipoli-troy-2-day",
+        description: "Two-day private outline from Istanbul.",
+      },
+      {
+        title: "Private Istanbul Tour",
+        href: "/destinations/istanbul",
+        description: "Start or end the chapter in the city.",
+      },
+      {
+        title: "7 Day Classic",
+        href: "/itineraries/7-day-classic",
+        description: "Add Gallipoli as an Istanbul extension.",
+      },
+      {
+        title: "Turkey in winter",
+        href: "/guides/turkey-in-winter",
+        description: "Quieter memorial travel with shorter days.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Request a private Gallipoli–Troy quote.",
+      },
+    ],
+    updatedAt: "2026-07-27",
+  },
 ];
 
 export function getDestination(slug: string) {

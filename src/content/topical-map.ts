@@ -55,6 +55,13 @@ export const topicalClusters: TopicalCluster[] = [
         role: "cluster",
       },
       {
+        slug: "christmas-new-year",
+        title: "Christmas & New Year Turkey",
+        href: "/private-turkey-tours/christmas-new-year",
+        focusKeyword: "turkey christmas new year tour",
+        role: "cluster",
+      },
+      {
         slug: "how-it-works",
         title: "How Private Turkey Tours Work",
         href: "/how-it-works",
@@ -124,6 +131,20 @@ export const topicalClusters: TopicalCluster[] = [
         focusKeyword: "turquoise coast turkey",
         role: "cluster",
       },
+      {
+        slug: "antalya",
+        title: "Private Antalya Tour",
+        href: "/destinations/antalya",
+        focusKeyword: "private antalya tour",
+        role: "cluster",
+      },
+      {
+        slug: "gallipoli-troy",
+        title: "Gallipoli & Troy Tour",
+        href: "/destinations/gallipoli-troy",
+        focusKeyword: "gallipoli and troy tour",
+        role: "cluster",
+      },
     ],
   },
   {
@@ -171,6 +192,13 @@ export const topicalClusters: TopicalCluster[] = [
         title: "5-Day Istanbul & Cappadocia",
         href: "/itineraries/istanbul-cappadocia-5-day",
         focusKeyword: "istanbul and cappadocia private tour",
+        role: "cluster",
+      },
+      {
+        slug: "gallipoli-troy-2-day",
+        title: "2-Day Gallipoli & Troy",
+        href: "/itineraries/gallipoli-troy-2-day",
+        focusKeyword: "gallipoli troy itinerary",
         role: "cluster",
       },
       {
@@ -227,6 +255,13 @@ export const topicalClusters: TopicalCluster[] = [
         title: "Ephesus from Kuşadası",
         href: "/experiences/ephesus-tour-from-kusadasi",
         focusKeyword: "ephesus tour from kusadasi",
+        role: "cluster",
+      },
+      {
+        slug: "jeep-safari",
+        title: "Cappadocia Jeep Safari",
+        href: "/experiences/cappadocia-jeep-safari",
+        focusKeyword: "cappadocia jeep safari",
         role: "cluster",
       },
     ],

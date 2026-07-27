@@ -15,8 +15,11 @@ Site language: English. Commercial intent: sell tailor-made private Turkey tours
 - Private yacht Turkey / private gulet cruise Turkey
 - Turkey golf holiday (Belek)
 - Private helicopter Turkey / private jet Turkey
-- Cappadocia hot air balloon / Istanbul food tour
+- Cappadocia hot air balloon / Istanbul food tour / Cappadocia jeep safari
 - Turkey honeymoon, family Turkey tour, luxury Turkey tour
+- Turkey Christmas New Year tour
+- Private Antalya tour / Gallipoli and Troy tour
+- Pamukkale Turkey / Pamukkale day trip
 
 ## Topical map
 ### Private Travel Services
@@ -32,6 +35,7 @@ Spokes:
 ### Signature Experiences (expanded)
 - https://privateturkeytour.com/experiences/private-bosphorus-cruise — private bosphorus cruise
 - https://privateturkeytour.com/experiences/ephesus-tour-from-kusadasi — ephesus tour from kusadasi
+- https://privateturkeytour.com/experiences/cappadocia-jeep-safari — cappadocia jeep safari
 - https://privateturkeytour.com/experiences/cappadocia-hot-air-balloon
 - https://privateturkeytour.com/experiences/istanbul-food-tour
 - https://privateturkeytour.com/experiences/gulet-cruise
@@ -39,6 +43,7 @@ Spokes:
 ### Short money packages
 - https://privateturkeytour.com/itineraries/istanbul-cappadocia-3-day — istanbul cappadocia tour
 - https://privateturkeytour.com/itineraries/istanbul-cappadocia-5-day — istanbul and cappadocia private tour
+- https://privateturkeytour.com/itineraries/gallipoli-troy-2-day — gallipoli troy itinerary
 ### Private Turkey Tours
 Intent: Buy / enquire about a tailor-made private Turkey tour
 Pillar: https://privateturkeytour.com/private-turkey-tours — private turkey tours
@@ -46,6 +51,7 @@ Spokes:
 - https://privateturkeytour.com/private-turkey-tours/honeymoon — turkey honeymoon
 - https://privateturkeytour.com/private-turkey-tours/family — family turkey tour
 - https://privateturkeytour.com/private-turkey-tours/luxury — luxury turkey tour
+- https://privateturkeytour.com/private-turkey-tours/christmas-new-year — turkey christmas new year tour
 - https://privateturkeytour.com/how-it-works — how private turkey tours work
 - https://privateturkeytour.com/guides/private-turkey-tour-cost — private turkey tour cost
 - https://privateturkeytour.com/guides/private-vs-group-turkey-tours — private vs group turkey tours
@@ -59,6 +65,8 @@ Spokes:
 - https://privateturkeytour.com/destinations/ephesus — private ephesus tour
 - https://privateturkeytour.com/destinations/pamukkale — pamukkale turkey
 - https://privateturkeytour.com/destinations/turquoise-coast — turquoise coast turkey
+- https://privateturkeytour.com/destinations/antalya — private antalya tour
+- https://privateturkeytour.com/destinations/gallipoli-troy — gallipoli and troy tour
 
 ### Turkey Itineraries
 Intent: Pick trip length and sequence for a private journey
@@ -67,6 +75,9 @@ Spokes:
 - https://privateturkeytour.com/itineraries/7-day-classic — 7 day turkey itinerary
 - https://privateturkeytour.com/itineraries/10-day-classic — 10 day turkey itinerary
 - https://privateturkeytour.com/itineraries/14-day-grand — 14 day turkey itinerary
+- https://privateturkeytour.com/itineraries/istanbul-cappadocia-3-day — istanbul cappadocia tour
+- https://privateturkeytour.com/itineraries/istanbul-cappadocia-5-day — istanbul and cappadocia private tour
+- https://privateturkeytour.com/itineraries/gallipoli-troy-2-day — gallipoli troy itinerary
 - https://privateturkeytour.com/guides/how-to-plan-a-private-turkey-trip — how to plan a trip to turkey
 
 ### Signature Experiences
@@ -76,6 +87,7 @@ Spokes:
 - https://privateturkeytour.com/experiences/cappadocia-hot-air-balloon — cappadocia hot air balloon
 - https://privateturkeytour.com/experiences/istanbul-food-tour — istanbul food tour
 - https://privateturkeytour.com/experiences/gulet-cruise — private gulet cruise turkey
+- https://privateturkeytour.com/experiences/cappadocia-jeep-safari — cappadocia jeep safari
 
 ### Turkey Travel Guides
 Intent: Answer planning questions before booking a private tour

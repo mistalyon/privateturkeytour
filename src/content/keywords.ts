@@ -516,6 +516,61 @@ export const pageKeywords = {
     ],
     volume: "H",
   },
+  antalya: {
+    focus: "private antalya tour",
+    secondary: [
+      "antalya private guide",
+      "things to do in antalya",
+      "antalya day trip private",
+      "old town antalya tour",
+      "belek antalya private tour",
+    ],
+    volume: "H",
+  },
+  gallipoliTroy: {
+    focus: "gallipoli and troy tour",
+    secondary: [
+      "private gallipoli tour",
+      "troy tour from istanbul",
+      "gallipoli day trip private",
+      "çanakkale private tour",
+      "gallipoli anzac tour private",
+    ],
+    volume: "H",
+  },
+  jeepSafari: {
+    focus: "cappadocia jeep safari",
+    secondary: [
+      "private jeep safari cappadocia",
+      "cappadocia atv tour",
+      "goreme jeep tour",
+      "cappadocia sunset jeep",
+      "valley jeep safari turkey",
+    ],
+    volume: "H",
+  },
+  christmasNewYear: {
+    focus: "turkey christmas new year tour",
+    secondary: [
+      "turkey new year holiday",
+      "christmas in istanbul",
+      "cappadocia new year",
+      "turkey christmas packages",
+      "private turkey winter holiday",
+    ],
+    volume: "M",
+  },
+  itineraryGallipoliTroy: {
+    focus: "gallipoli troy itinerary",
+    secondary: [
+      "istanbul gallipoli troy tour",
+      "2 day gallipoli troy private",
+      "çanakkale private itinerary",
+      "gallipoli and troy from istanbul",
+      "private anzac and troy tour",
+    ],
+    volume: "M",
+  },
 } as const satisfies Record<string, KeywordSet>;
 
 export function keywordList(set: KeywordSet): string[] {

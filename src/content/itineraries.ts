@@ -558,6 +558,93 @@ export const itineraries: Itinerary[] = [
     ],
     updatedAt: "2026-07-27",
   },
+  {
+    slug: "gallipoli-troy-2-day",
+    name: "Gallipoli & Troy — 2 Days",
+    days: 2,
+    focusKeyword: pageKeywords.itineraryGallipoliTroy.focus,
+    secondaryKeywords: [...pageKeywords.itineraryGallipoliTroy.secondary],
+    title: "2-Day Gallipoli & Troy Private Tour from Istanbul",
+    description:
+      "A private 2-day Gallipoli and Troy itinerary from Istanbul—battlefield remembrance, Çanakkale overnight, and unhurried Troy ruins with guide and driver.",
+    answer:
+      "This private 2-day Gallipoli and Troy itinerary leaves Istanbul for the Gallipoli Peninsula, overnight in Çanakkale, then visits ancient Troy before returning—so remembrance and archaeology each get real daylight instead of a single exhausted day trip.",
+    image: "/detail.jpg",
+    whoFor: "ANZAC and remembrance travelers, mythology fans, and anyone wanting Gallipoli depth without a rushed Istanbul day trip",
+    includes: [
+      "Private guide and vehicle from Istanbul",
+      "Gallipoli Peninsula memorial sites with respectful pacing",
+      "Çanakkale overnight with dinner direction",
+      "Troy ruins with archaeology context",
+      "Return to Istanbul or onward flight link",
+    ],
+    daysOutline: [
+      {
+        day: "Day 1",
+        title: "Istanbul to Gallipoli & Çanakkale",
+        body: "Early private departure from Istanbul. Guided Gallipoli sites based on your focus—ANZAC Cove, Lone Pine, Chunuk Bair, or broader peninsula context—then ferry or road link to Çanakkale for overnight.",
+      },
+      {
+        day: "Day 2",
+        title: "Troy & return",
+        body: "Morning at ancient Troy with guide context for myth and excavation layers. Afternoon return to Istanbul, or connect toward Cappadocia/airport as your wider private Turkey tour requires.",
+      },
+    ],
+    sections: [
+      {
+        heading: "Why two days beats a single Gallipoli–Troy day trip",
+        body: "One long day from Istanbul is possible; two days protect energy, daylight, and emotional space at Gallipoli. Troy then feels like a proper archaeology chapter—not a checkbox after a dark drive home.\n\nThis is the itinerary we recommend when Gallipoli matters as much as Istanbul museums.",
+      },
+      {
+        heading: "How it links to a wider private Turkey tour",
+        body: "Run this as an Istanbul extension before Cappadocia, or as a dedicated remembrance add-on after a city stay. Families sometimes split focus—one deeper Gallipoli day, lighter Troy—or the reverse for mythology-first travelers.\n\nWant only one site? We compress to a focused private day instead of forcing both.",
+      },
+      {
+        heading: "Enquire for a 2-day Gallipoli & Troy quote",
+        body: "Share month, hotel pickup area, and memorial priorities. We return timing, overnight suggestion, and cost drivers. Start at plan your trip.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Is 2 days enough for Gallipoli and Troy?",
+        answer:
+          "Yes for a high-quality private visit. Extra Gallipoli depth is possible with a third day if battlefield history is the main purpose of the trip.",
+      },
+      {
+        question: "Can this start from a cruise port?",
+        answer:
+          "Sometimes—share port and times early. Many cruise windows only allow Gallipoli or Troy, not both at private quality.",
+      },
+      {
+        question: "Do you arrange the Çanakkale hotel?",
+        answer:
+          "Yes. We propose a practical overnight matched to your style, then refine after your preferences.",
+      },
+    ],
+    related: [
+      {
+        title: "Gallipoli & Troy destination",
+        href: "/destinations/gallipoli-troy",
+        description: "Full destination page for the region.",
+      },
+      {
+        title: "Private Istanbul Tour",
+        href: "/destinations/istanbul",
+        description: "Bookend the chapter in the city.",
+      },
+      {
+        title: "7 Day Classic",
+        href: "/itineraries/7-day-classic",
+        description: "Add this before Cappadocia on a longer trip.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Request a 2-day private outline.",
+      },
+    ],
+    updatedAt: "2026-07-27",
+  },
 ];
 
 export function getItinerary(slug: string) {

@@ -404,7 +404,93 @@ export const experiences: Experience[] = [
     ],
     updatedAt: "2026-07-27",
   },
-
+  {
+    slug: "cappadocia-jeep-safari",
+    name: "Cappadocia Jeep Safari",
+    focusKeyword: pageKeywords.jeepSafari.focus,
+    secondaryKeywords: [...pageKeywords.jeepSafari.secondary],
+    title: "Cappadocia Jeep Safari: Private Valley Adventure",
+    description:
+      "Book a private Cappadocia jeep safari through fairy-chimney valleys—sunset viewpoints, off-road tracks, and flexible stops without a packed group convoy.",
+    answer:
+      "A private Cappadocia jeep safari is a guided off-road valley drive—typically half a day or a sunset run—visiting viewpoints and tracks around Göreme with a private vehicle so you control photo stops, pace, and whether kids or photographers lead the day.",
+    image: "/cappadocia.jpg",
+    duration: "Half day · ~3–4 hours · Sunset option available",
+    bestFor: "Families, photographers, and active travelers wanting valleys beyond walking pace",
+    sections: [
+      {
+        heading: "What a private Cappadocia jeep safari feels like",
+        body: "You leave the cave hotel by private jeep or 4x4, weave between fairy chimneys, and stop where light and landscape peak—Red Valley viewpoints, quieter tracks, and photo ledges that group convoys rush past. Privately, the driver waits for your shots and skips dusty bottlenecks when another route is better.\n\nIt is adventure without losing the private-tour standard: no megaphone, no fixed souvenir stop clock.",
+      },
+      {
+        heading: "Jeep safari vs walking valleys vs ATV",
+        body: "Walking suits travelers who want slow geology and cave churches. ATV is louder and more physical. A Cappadocia jeep safari covers more ground with less effort—ideal after a balloon morning, with kids, or when heat makes long hikes unwise.\n\nWe often pair jeep in the afternoon with a gentle morning valley or underground city so the day stays balanced.",
+      },
+      {
+        heading: "Sunset jeep safaris and private upgrades",
+        body: "Sunset runs sell the golden chimneys and are popular on honeymoon and photography briefs. We can keep the vehicle private (not a shared safari truck) and add a short sparkling toast or viewpoint picnic when the brief calls for celebration.\n\nWeather and track conditions matter—winter mud or summer dust can change the route, and a good private plan already has Plan B viewpoints.",
+      },
+      {
+        heading: "Add a jeep safari to your Cappadocia chapter",
+        body: "Share Cappadocia nights, fitness level, and whether sunset or midday suits you. We quote the private jeep as a clear line item inside your private Turkey tour. Enquire via plan your trip.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Is a Cappadocia jeep safari worth it?",
+        answer:
+          "Yes when you want valley scale without a long hike, or a sunset chapter after balloon or underground city. Pure walkers may prefer guided valley hiking instead.",
+      },
+      {
+        question: "Is the jeep safari private or shared?",
+        answer:
+          "We arrange private vehicles for our tours. Shared safari trucks exist in the market; privately you control stops and group size.",
+      },
+      {
+        question: "Can children join a Cappadocia jeep safari?",
+        answer:
+          "Usually yes with age-appropriate seating and a calmer route. Tell us ages early so we match vehicle and track choice.",
+      },
+      {
+        question: "Can we combine jeep safari with a hot air balloon?",
+        answer:
+          "Yes—balloon mornings and afternoon or sunset jeep work well together if you protect recovery time between them.",
+      },
+    ],
+    related: [
+      {
+        title: "Private Cappadocia Tour",
+        href: "/destinations/cappadocia",
+        description: "Valleys, caves, and balloon planning in one chapter.",
+      },
+      {
+        title: "Cappadocia Hot Air Balloon",
+        href: "/experiences/cappadocia-hot-air-balloon",
+        description: "Pair sunrise air with afternoon jeep.",
+      },
+      {
+        title: "Things to do in Cappadocia",
+        href: "/guides/things-to-do-in-cappadocia",
+        description: "Ground days beyond the jeep tracks.",
+      },
+      {
+        title: "7 Day Classic",
+        href: "/itineraries/7-day-classic",
+        description: "Istanbul + Cappadocia with room for jeep.",
+      },
+      {
+        title: "Family Turkey Tour",
+        href: "/private-turkey-tours/family",
+        description: "Active pacing that works with kids.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Add a private jeep safari to your quote.",
+      },
+    ],
+    updatedAt: "2026-07-27",
+  },
 ];
 
 export function getExperience(slug: string) {

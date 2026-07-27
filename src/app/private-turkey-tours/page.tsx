@@ -67,6 +67,11 @@ const audienceCards = [
     body: "Design-led stays, specialist guides, and refined pacing for a high-end private journey.",
     href: "/private-turkey-tours/luxury",
   },
+  {
+    title: "Christmas & New Year",
+    body: "Festive Istanbul nights and winter Cappadocia chapters without rigid holiday packages.",
+    href: "/private-turkey-tours/christmas-new-year",
+  },
 ];
 
 const privateCluster = topicalClusters.find((c) => c.id === "private-tours");

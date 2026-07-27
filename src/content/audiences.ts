@@ -278,6 +278,98 @@ export const audiences: Audience[] = [
     ],
     updatedAt: "2026-07-27",
   },
+  {
+    slug: "christmas-new-year",
+    name: "Christmas & New Year",
+    focusKeyword: pageKeywords.christmasNewYear.focus,
+    secondaryKeywords: [...pageKeywords.christmasNewYear.secondary],
+    title: "Turkey Christmas & New Year: Private Winter Holiday Packages",
+    description:
+      "Plan a private Turkey Christmas or New Year holiday—Istanbul lights, Cappadocia winter atmosphere, and flexible festive nights without group package constraints.",
+    answer:
+      "A private Turkey Christmas or New Year holiday works best as a tailor-made winter journey: Istanbul for festive city energy, optional Cappadocia for snow-dusted valleys and balloon attempts, and quieter guiding days—so holiday dates feel special without a fixed group Christmas package.",
+    image: "/istanbul.jpg",
+    highlights: [
+      "Istanbul festive lights, markets, and winter dining",
+      "Optional Cappadocia cave stays in winter atmosphere",
+      "Flexible New Year’s Eve dinner and hotel plans",
+      "Weather-smart balloon and jeep backups",
+      "Private transfers when holiday traffic peaks",
+    ],
+    sections: [
+      {
+        heading: "Why book Turkey for Christmas or New Year privately?",
+        body: "Holiday weeks sell out hotel categories and inflate group packages. Privately, you lock the stays and nights that matter—New Year’s Eve dinner style, cave suite vs city design hotel—and keep daytime touring flexible when weather shifts.\n\nTurkey is not a classic white-Christmas destination everywhere, but Istanbul winter culture and Cappadocia snow days can be magical when expectations are set honestly.",
+      },
+      {
+        heading: "Classic private Christmas / New Year shapes",
+        body: "Popular private outlines: 5–7 nights Istanbul-focused festive city; Istanbul + Cappadocia for a winter highlight package; longer luxury arcs if you already love cold-weather travel. We protect buffer mornings for Cappadocia balloon weather and keep New Year’s Eve logistics explicit in the quote.\n\nGolf and Antalya coast can work for milder Mediterranean winters when beach is not the point—think spa, Old Town, and golf instead.",
+      },
+      {
+        heading: "What to expect in December and early January",
+        body: "Istanbul is cool, atmospheric, and museum-strong. Cappadocia can be snowy and photogenic with higher balloon cancellation odds. Coastal Antalya stays milder. We recommend layers, realistic outdoor windows, and indoor-rich days—see also our Turkey in winter guide.\n\nFestive markups apply at top hotels; early enquiry protects the room categories you actually want.",
+      },
+      {
+        heading: "Enquire for a Christmas or New Year private package",
+        body: "Share exact holiday dates, party size, and whether New Year’s Eve dinner or Cappadocia snow leads. We return a private winter outline with stay direction and cost drivers. Start at plan your trip.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Is Turkey good for Christmas holidays?",
+        answer:
+          "Yes for travelers who want culture and atmosphere over a guaranteed white Christmas. Istanbul shines for festive city energy; Cappadocia adds winter landscape when weather cooperates.",
+      },
+      {
+        question: "Can we celebrate New Year’s Eve in Cappadocia?",
+        answer:
+          "Yes—many couples prefer cave-hotel dinners and quieter valleys. Istanbul offers bigger festive energy. Tell us the mood you want and we match the base.",
+      },
+      {
+        question: "Are Christmas and New Year more expensive?",
+        answer:
+          "Peak festive dates often carry hotel premiums and limited suite inventory. Early booking and flexible star-tier choices keep the private package coherent.",
+      },
+      {
+        question: "What if the Cappadocia balloon is cancelled in winter?",
+        answer:
+          "Cancellations are more common. We build spare mornings and ground alternatives—jeep viewpoints, valleys, or pottery—so the holiday chapter still feels full.",
+      },
+    ],
+    related: [
+      {
+        title: "Turkey in winter",
+        href: "/guides/turkey-in-winter",
+        description: "Season reality for December and January.",
+      },
+      {
+        title: "5-Day Istanbul & Cappadocia",
+        href: "/itineraries/istanbul-cappadocia-5-day",
+        description: "Strong short spine for festive weeks.",
+      },
+      {
+        title: "Private Istanbul Tour",
+        href: "/destinations/istanbul",
+        description: "Winter city days and festive evenings.",
+      },
+      {
+        title: "Cappadocia Hot Air Balloon",
+        href: "/experiences/cappadocia-hot-air-balloon",
+        description: "Plan balloon mornings with winter backups.",
+      },
+      {
+        title: "Luxury Turkey Tour",
+        href: "/private-turkey-tours/luxury",
+        description: "Elevate festive stays and dinners.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Request a Christmas or New Year outline.",
+      },
+    ],
+    updatedAt: "2026-07-27",
+  },
 ];
 
 export function getAudience(slug: string) {

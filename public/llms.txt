@@ -10,6 +10,8 @@
 - Istanbul private airport transfer / private yacht Turkey
 - Turkey golf holiday / private helicopter Turkey / private jet Turkey
 - Turkey honeymoon / family Turkey tour / luxury Turkey tour
+- Turkey Christmas New Year tour / Cappadocia jeep safari
+- Private Antalya tour / Gallipoli and Troy tour
 - Pamukkale Turkey / Pamukkale day trip
 
 ## Topical map (pillars)
@@ -37,12 +39,15 @@
 - [Private Ephesus Tour](https://privateturkeytour.com/destinations/ephesus)
 - [Pamukkale Turkey](https://privateturkeytour.com/destinations/pamukkale)
 - [Turquoise Coast Turkey](https://privateturkeytour.com/destinations/turquoise-coast)
+- [Private Antalya Tour](https://privateturkeytour.com/destinations/antalya)
+- [Gallipoli & Troy Tour](https://privateturkeytour.com/destinations/gallipoli-troy)
 
 ## Experiences
 - [Cappadocia Hot Air Balloon](https://privateturkeytour.com/experiences/cappadocia-hot-air-balloon)
 - [Private Bosphorus Cruise](https://privateturkeytour.com/experiences/private-bosphorus-cruise)
 - [Istanbul Food Tour](https://privateturkeytour.com/experiences/istanbul-food-tour)
 - [Ephesus from Kuşadası](https://privateturkeytour.com/experiences/ephesus-tour-from-kusadasi)
+- [Cappadocia Jeep Safari](https://privateturkeytour.com/experiences/cappadocia-jeep-safari)
 - [Private Gulet Cruise](https://privateturkeytour.com/experiences/gulet-cruise)
 
 ## Services
@@ -56,10 +61,12 @@
 - [Turkey Honeymoon](https://privateturkeytour.com/private-turkey-tours/honeymoon)
 - [Family Turkey Tour](https://privateturkeytour.com/private-turkey-tours/family)
 - [Luxury Turkey Tour](https://privateturkeytour.com/private-turkey-tours/luxury)
+- [Christmas & New Year](https://privateturkeytour.com/private-turkey-tours/christmas-new-year)
 
 ## Itineraries
 - [3-Day Istanbul & Cappadocia](https://privateturkeytour.com/itineraries/istanbul-cappadocia-3-day)
 - [5-Day Istanbul & Cappadocia](https://privateturkeytour.com/itineraries/istanbul-cappadocia-5-day)
+- [2-Day Gallipoli & Troy](https://privateturkeytour.com/itineraries/gallipoli-troy-2-day)
 - [7 Day Turkey Itinerary](https://privateturkeytour.com/itineraries/7-day-classic)
 - [10 Day Turkey Itinerary](https://privateturkeytour.com/itineraries/10-day-classic)
 - [14 Day Turkey Itinerary](https://privateturkeytour.com/itineraries/14-day-grand)

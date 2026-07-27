@@ -11,6 +11,10 @@ const columns = [
       { href: "/private-turkey-tours/honeymoon", label: "Turkey Honeymoon" },
       { href: "/private-turkey-tours/family", label: "Family Turkey Tour" },
       { href: "/private-turkey-tours/luxury", label: "Luxury Turkey Tour" },
+      {
+        href: "/private-turkey-tours/christmas-new-year",
+        label: "Christmas & New Year",
+      },
       { href: "/itineraries", label: "Turkey Itineraries" },
       { href: "/experiences", label: "Turkey Experiences" },
       { href: "/services", label: "Private Services" },
@@ -27,6 +31,11 @@ const columns = [
       {
         href: "/destinations/turquoise-coast",
         label: "Turquoise Coast Turkey",
+      },
+      { href: "/destinations/antalya", label: "Private Antalya Tour" },
+      {
+        href: "/destinations/gallipoli-troy",
+        label: "Gallipoli & Troy Tour",
       },
     ],
   },
