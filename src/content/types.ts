@@ -96,3 +96,22 @@ export type Audience = {
   related: ContentLink[];
   updatedAt: string;
 };
+
+export type Service = {
+  slug: string;
+  name: string;
+  focusKeyword: string;
+  secondaryKeywords: string[];
+  title: string;
+  description: string;
+  answer: string;
+  image: string;
+  category: "transfer" | "aviation" | "marine" | "sport";
+  duration: string;
+  bestFor: string;
+  highlights: string[];
+  sections: { heading: string; body: string }[];
+  faqs: FaqItem[];
+  related: ContentLink[];
+  updatedAt: string;
+};

@@ -13,6 +13,7 @@ const columns = [
       { href: "/private-turkey-tours/luxury", label: "Luxury Turkey Tour" },
       { href: "/itineraries", label: "Turkey Itineraries" },
       { href: "/experiences", label: "Turkey Experiences" },
+      { href: "/services", label: "Private Services" },
     ],
   },
   {
@@ -77,6 +78,9 @@ const columns = [
   {
     title: "Plan",
     links: [
+      { href: "/services/istanbul-airport-transfer", label: "Airport Transfer" },
+      { href: "/services/private-yacht-turkey", label: "Private Yacht" },
+      { href: "/services/turkey-golf", label: "Turkey Golf" },
       { href: "/how-it-works", label: "How It Works" },
       { href: "/plan-your-trip", label: "Plan Your Trip" },
       { href: "/faq", label: "FAQ" },

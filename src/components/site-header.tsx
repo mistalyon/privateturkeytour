@@ -10,8 +10,8 @@ const navItems = [
   { href: "/destinations", label: "Destinations" },
   { href: "/itineraries", label: "Itineraries" },
   { href: "/experiences", label: "Experiences" },
+  { href: "/services", label: "Services" },
   { href: "/guides", label: "Guides" },
-  { href: "/how-it-works", label: "How it works" },
 ];
 
 export function SiteHeader({

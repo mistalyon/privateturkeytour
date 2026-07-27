@@ -3,6 +3,7 @@ import { destinations } from "@/content/destinations";
 import { experiences } from "@/content/experiences";
 import { guides } from "@/content/guides";
 import { itineraries } from "@/content/itineraries";
+import { services } from "@/content/services";
 import { absoluteUrl } from "@/lib/seo";
 
 export const staticPages = [
@@ -25,6 +26,11 @@ export const staticPages = [
   {
     path: "/experiences",
     priority: 0.88,
+    changeFrequency: "weekly" as const,
+  },
+  {
+    path: "/services",
+    priority: 0.9,
     changeFrequency: "weekly" as const,
   },
   { path: "/guides", priority: 0.85, changeFrequency: "weekly" as const },
@@ -51,6 +57,7 @@ export function allContentPaths() {
     ...destinations.map((item) => `/destinations/${item.slug}`),
     ...itineraries.map((item) => `/itineraries/${item.slug}`),
     ...experiences.map((item) => `/experiences/${item.slug}`),
+    ...services.map((item) => `/services/${item.slug}`),
     ...audiences.map((item) => `/private-turkey-tours/${item.slug}`),
     ...guides.map((item) => `/guides/${item.slug}`),
   ];
@@ -83,6 +90,12 @@ export function sitemapEntries() {
       lastModified: new Date(item.updatedAt),
       changeFrequency: "monthly" as const,
       priority: 0.84,
+    })),
+    ...services.map((item) => ({
+      url: absoluteUrl(`/services/${item.slug}`),
+      lastModified: new Date(item.updatedAt),
+      changeFrequency: "monthly" as const,
+      priority: 0.87,
     })),
     ...audiences.map((item) => ({
       url: absoluteUrl(`/private-turkey-tours/${item.slug}`),

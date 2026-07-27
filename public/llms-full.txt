@@ -7,21 +7,38 @@ Site language: English. Commercial intent: sell tailor-made private Turkey tours
 
 ## Core offers & focus keywords
 - Private Turkey tours / private Turkey tour / tailor-made Turkey tour
+- Short packages: Istanbul Cappadocia tour (3 day) / Istanbul and Cappadocia private tour (5 day)
 - Turkey itinerary ideas: 7 day, 10 day, 14 day
 - Private Istanbul tour, private Cappadocia tour, private Ephesus tour
-- Pamukkale Turkey / Cotton Castle private day / Pamukkale day trip
-- Turquoise Coast Turkey / private gulet cruise Turkey
-- Cappadocia hot air balloon planning (weather-dependent)
-- Istanbul food tour (private culinary walks)
+- Private Bosphorus cruise / Ephesus tour from Kuşadası
+- Istanbul private airport transfer
+- Private yacht Turkey / private gulet cruise Turkey
+- Turkey golf holiday (Belek)
+- Private helicopter Turkey / private jet Turkey
+- Cappadocia hot air balloon / Istanbul food tour
 - Turkey honeymoon, family Turkey tour, luxury Turkey tour
-- Things to do in Istanbul / Cappadocia / Ephesus
-- Turkey in May / September / October / winter
-- Best time to visit Turkey (April–June and September–October strongest)
-- Private Turkey tour cost drivers (length, hotels, guiding, season)
-- How to plan a trip to Turkey as a private journey
-- Private vs group Turkey tours comparison
 
 ## Topical map
+### Private Travel Services
+Intent: Book high-intent add-ons and VIP logistics
+Pillar: https://privateturkeytour.com/services
+Spokes:
+- https://privateturkeytour.com/services/istanbul-airport-transfer — istanbul private airport transfer
+- https://privateturkeytour.com/services/private-yacht-turkey — private yacht turkey
+- https://privateturkeytour.com/services/turkey-golf — turkey golf holiday
+- https://privateturkeytour.com/services/private-helicopter-turkey — private helicopter turkey
+- https://privateturkeytour.com/services/private-jet-turkey — private jet turkey
+
+### Signature Experiences (expanded)
+- https://privateturkeytour.com/experiences/private-bosphorus-cruise — private bosphorus cruise
+- https://privateturkeytour.com/experiences/ephesus-tour-from-kusadasi — ephesus tour from kusadasi
+- https://privateturkeytour.com/experiences/cappadocia-hot-air-balloon
+- https://privateturkeytour.com/experiences/istanbul-food-tour
+- https://privateturkeytour.com/experiences/gulet-cruise
+
+### Short money packages
+- https://privateturkeytour.com/itineraries/istanbul-cappadocia-3-day — istanbul cappadocia tour
+- https://privateturkeytour.com/itineraries/istanbul-cappadocia-5-day — istanbul and cappadocia private tour
 ### Private Turkey Tours
 Intent: Buy / enquire about a tailor-made private Turkey tour
 Pillar: https://privateturkeytour.com/private-turkey-tours — private turkey tours

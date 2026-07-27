@@ -3,20 +3,21 @@
 
 ## Primary topics & focus keywords
 - Private Turkey tours / private Turkey tour
-- Turkey itinerary (7 day, 10 day, 14 day)
+- Turkey itinerary (3/5 Istanbul–Cappadocia, 7/10/14 day)
 - Best time to visit Turkey / private Turkey tour cost
-- Cappadocia hot air balloon / Istanbul food tour / private gulet cruise Turkey
+- Cappadocia hot air balloon / private Bosphorus cruise / Istanbul food tour
+- Ephesus tour from Kuşadası / private gulet cruise Turkey
+- Istanbul private airport transfer / private yacht Turkey
+- Turkey golf holiday / private helicopter Turkey / private jet Turkey
 - Turkey honeymoon / family Turkey tour / luxury Turkey tour
 - Pamukkale Turkey / Pamukkale day trip
-- How to plan a trip to Turkey
-- Private vs group Turkey tours
-- Turkey in May / September / October / winter
 
 ## Topical map (pillars)
 - Pillar: [Private Turkey Tours](https://privateturkeytour.com/private-turkey-tours) — private turkey tours
 - Pillar: [Destinations](https://privateturkeytour.com/destinations) — turkey destinations
 - Pillar: [Itineraries](https://privateturkeytour.com/itineraries) — turkey itinerary
 - Pillar: [Experiences](https://privateturkeytour.com/experiences) — signature private experiences
+- Pillar: [Services](https://privateturkeytour.com/services) — transfers, yacht, golf, aviation
 - Pillar: [Guides](https://privateturkeytour.com/guides) — turkey travel guide
 
 ## Primary pages
@@ -24,6 +25,7 @@
 - [Destinations](https://privateturkeytour.com/destinations)
 - [Itineraries](https://privateturkeytour.com/itineraries)
 - [Experiences](https://privateturkeytour.com/experiences)
+- [Services](https://privateturkeytour.com/services)
 - [Guides](https://privateturkeytour.com/guides)
 - [How it works](https://privateturkeytour.com/how-it-works)
 - [Plan your trip](https://privateturkeytour.com/plan-your-trip)
@@ -38,8 +40,17 @@
 
 ## Experiences
 - [Cappadocia Hot Air Balloon](https://privateturkeytour.com/experiences/cappadocia-hot-air-balloon)
+- [Private Bosphorus Cruise](https://privateturkeytour.com/experiences/private-bosphorus-cruise)
 - [Istanbul Food Tour](https://privateturkeytour.com/experiences/istanbul-food-tour)
+- [Ephesus from Kuşadası](https://privateturkeytour.com/experiences/ephesus-tour-from-kusadasi)
 - [Private Gulet Cruise](https://privateturkeytour.com/experiences/gulet-cruise)
+
+## Services
+- [Istanbul Airport Transfer](https://privateturkeytour.com/services/istanbul-airport-transfer)
+- [Private Yacht Turkey](https://privateturkeytour.com/services/private-yacht-turkey)
+- [Turkey Golf Holiday](https://privateturkeytour.com/services/turkey-golf)
+- [Private Helicopter Turkey](https://privateturkeytour.com/services/private-helicopter-turkey)
+- [Private Jet Turkey](https://privateturkeytour.com/services/private-jet-turkey)
 
 ## Audience clusters
 - [Turkey Honeymoon](https://privateturkeytour.com/private-turkey-tours/honeymoon)
@@ -47,6 +58,8 @@
 - [Luxury Turkey Tour](https://privateturkeytour.com/private-turkey-tours/luxury)
 
 ## Itineraries
+- [3-Day Istanbul & Cappadocia](https://privateturkeytour.com/itineraries/istanbul-cappadocia-3-day)
+- [5-Day Istanbul & Cappadocia](https://privateturkeytour.com/itineraries/istanbul-cappadocia-5-day)
 - [7 Day Turkey Itinerary](https://privateturkeytour.com/itineraries/7-day-classic)
 - [10 Day Turkey Itinerary](https://privateturkeytour.com/itineraries/10-day-classic)
 - [14 Day Turkey Itinerary](https://privateturkeytour.com/itineraries/14-day-grand)

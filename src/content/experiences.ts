@@ -252,6 +252,159 @@ export const experiences: Experience[] = [
     ],
     updatedAt: "2026-07-27",
   },
+
+  {
+    slug: "private-bosphorus-cruise",
+    name: "Private Bosphorus Cruise",
+    focusKeyword: pageKeywords.bosphorusCruise.focus,
+    secondaryKeywords: [...pageKeywords.bosphorusCruise.secondary],
+    title: "Private Bosphorus Cruise Istanbul | Yacht & Boat Hire",
+    description:
+      "Book a private Bosphorus cruise in Istanbul—sunset yacht hire, family boat time, or celebration charters with private routing between Europe and Asia.",
+    answer:
+      "A private Bosphorus cruise is a chartered boat or yacht on the Strait of Istanbul for your group only—timed for daylight sightseeing or sunset—ideal as a half-day upgrade inside a private Istanbul tour or as a standalone celebration on the water.",
+    image: "/istanbul.jpg",
+    duration: "2–4 hours typical · custom charters available",
+    bestFor: "Couples, families, honeymoons, and luxury travelers wanting private water time",
+    sections: [
+      {
+        heading: "Why a private Bosphorus cruise beats shared boats",
+        body: "Shared sightseeing boats run fixed loops and loud decks. Privately, you choose departure time, pace, and whether the mood is photography, celebration, or quiet wine at sunset.\n\nThis is one of the highest-intent Istanbul upsells we sell: easy to understand, high delight, and simple to add to any private Turkey tour that starts in the city.",
+      },
+      {
+        heading: "Yacht, classic boat, or short hop?",
+        body: "Options range from intimate private boats to larger yachts for groups. Some travelers want a short skyline loop; others want a longer charter with swim stops when season and vessel allow.\n\nFor multi-day Mediterranean charters, see private yacht Turkey or private gulet cruise—Bosphorus is the Istanbul chapter.",
+      },
+      {
+        heading: "Book your private Bosphorus boat",
+        body: "Share date, passenger count, sunset preference, and hotel area. We confirm vessel class and quote as a clear line item. Start at plan your trip.",
+      },
+    ],
+    faqs: [
+      {
+        question: "How long is a private Bosphorus cruise?",
+        answer:
+          "Most private charters run 2–4 hours. Longer celebrations are available when you want dining onboard or a slower route.",
+      },
+      {
+        question: "Is sunset the best time?",
+        answer:
+          "Sunset is the most requested—and books early in peak months. Daylight cruises are better for photography of both shores.",
+      },
+      {
+        question: "Can families bring children?",
+        answer:
+          "Yes when the vessel and safety briefing fit ages. Tell us ages early so we match the right boat.",
+      },
+    ],
+    related: [
+      {
+        title: "Private Istanbul Tour",
+        href: "/destinations/istanbul",
+        description: "Land days around your cruise.",
+      },
+      {
+        title: "Private yacht Turkey",
+        href: "/services/private-yacht-turkey",
+        description: "Modern yacht charters beyond the Bosphorus.",
+      },
+      {
+        title: "Istanbul food tour",
+        href: "/experiences/istanbul-food-tour",
+        description: "Culinary half-day on shore.",
+      },
+      {
+        title: "Turkey honeymoon",
+        href: "/private-turkey-tours/honeymoon",
+        description: "Romantic private water time.",
+      },
+      {
+        title: "5-Day Istanbul & Cappadocia",
+        href: "/itineraries/istanbul-cappadocia-5-day",
+        description: "Short private package with room for a cruise.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Request a Bosphorus charter quote.",
+      },
+    ],
+    updatedAt: "2026-07-27",
+  },
+  {
+    slug: "ephesus-tour-from-kusadasi",
+    name: "Ephesus from Kuşadası",
+    focusKeyword: pageKeywords.ephesusFromKusadasi.focus,
+    secondaryKeywords: [...pageKeywords.ephesusFromKusadasi.secondary],
+    title: "Ephesus Tour from Kuşadası: Private Shore Excursion",
+    description:
+      "Book a private Ephesus tour from Kuşadası for cruise passengers—licensed guide, Virgin Mary option, Terrace Houses, and on-time port return without a crowded shore bus.",
+    answer:
+      "A private Ephesus tour from Kuşadası is a cruise-ship shore excursion with your own licensed guide and vehicle—typically covering Ephesus, optional House of the Virgin Mary and Terrace Houses—timed to get you back to port with comfortable buffer before all-aboard.",
+    image: "/ephesus.jpg",
+    duration: "Half-day to full-day shore window",
+    bestFor: "Cruise passengers and travelers based in Kuşadası / Selçuk",
+    sections: [
+      {
+        heading: "Why cruise guests upgrade to private Ephesus",
+        body: "Large shore buses move on the ship’s clock and the crowd’s pace. Privately, you enter earlier when possible, skip the selfie crush at the Library of Celsus, and choose Virgin Mary or Terrace Houses based on mobility and interest.\n\nOn-time return is non-negotiable—we build buffers so your private Ephesus shore excursion never gambles with all-aboard.",
+      },
+      {
+        heading: "Classic private shore itineraries",
+        body: "Half-day: Ephesus highlights with specialist guide. Full window: Ephesus + Terrace Houses + House of the Virgin Mary or Şirince lunch when time allows.\n\nWheelchair or limited-mobility needs should be flagged early—marble and grades vary by section.",
+      },
+      {
+        heading: "Not on a cruise? Still book from Kuşadası",
+        body: "Hotel-based travelers in Kuşadası or Selçuk use the same private Ephesus product without ship constraints—often with a longer village lunch. See also our private Ephesus destination page and things to do in Ephesus guide.\n\nEnquire with ship name and port times (or hotel) via plan your trip.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Will I make it back before all-aboard?",
+        answer:
+          "That is the design priority. We plan route and buffers around your ship schedule and confirm meeting points clearly.",
+      },
+      {
+        question: "Can you include the House of the Virgin Mary?",
+        answer:
+          "Yes when your shore window allows. We advise honestly if time is too tight for a quality visit.",
+      },
+      {
+        question: "Is a private guide worth it vs the ship tour?",
+        answer:
+          "For most discerning travelers yes—timing, storytelling, and crowd management change the ruins entirely.",
+      },
+    ],
+    related: [
+      {
+        title: "Private Ephesus Tour",
+        href: "/destinations/ephesus",
+        description: "Full destination page for Aegean days.",
+      },
+      {
+        title: "Things to do in Ephesus",
+        href: "/guides/things-to-do-in-ephesus",
+        description: "What to prioritize on a shore day.",
+      },
+      {
+        title: "Pamukkale day trip",
+        href: "/guides/pamukkale-day-trip",
+        description: "Land-based add-on when not on a ship.",
+      },
+      {
+        title: "10 Day Classic",
+        href: "/itineraries/10-day-classic",
+        description: "Ephesus inside a full private tour.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Send ship times for a shore quote.",
+      },
+    ],
+    updatedAt: "2026-07-27",
+  },
+
 ];
 
 export function getExperience(slug: string) {

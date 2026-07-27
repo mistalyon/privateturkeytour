@@ -346,6 +346,218 @@ export const itineraries: Itinerary[] = [
     ],
     updatedAt: "2026-07-27",
   },
+
+  {
+    slug: "istanbul-cappadocia-3-day",
+    name: "3-Day Istanbul & Cappadocia Private",
+    days: 3,
+    focusKeyword: pageKeywords.itinerary3IstanbulCappadocia.focus,
+    secondaryKeywords: [...pageKeywords.itinerary3IstanbulCappadocia.secondary],
+    title: "Istanbul Cappadocia Tour: 3-Day Private Escape",
+    description:
+      "A private Istanbul Cappadocia tour in 3 days—Old City highlights, domestic flight, cave-hotel night, valleys, and optional balloon—built for short stays and high expectations.",
+    answer:
+      "A 3-day Istanbul Cappadocia tour typically pairs one focused private Istanbul day with a flight to Cappadocia for valleys, optional hot air balloon, and a cave-hotel overnight before return—ideal when time is limited but you still want Turkey’s two most iconic chapters privately.",
+    image: "/cappadocia.jpg",
+    whoFor:
+      "Cruise extensions, short city breaks, layover-rich travelers, and anyone searching for a compact Istanbul to Cappadocia private tour.",
+    includes: [
+      "Private guiding in Istanbul and Cappadocia",
+      "Domestic flight coordination Istanbul ↔ Cappadocia",
+      "Cave or boutique hotel night in Cappadocia",
+      "Private transfers and airport handling",
+      "Optional Cappadocia hot air balloon booking",
+    ],
+    daysOutline: [
+      {
+        day: "Day 1",
+        title: "Private Istanbul",
+        body: "Licensed private guide for Old City icons or a neighborhood-food mix, timed for energy after arrival. Evening hotel in Istanbul or late flight if routing demands.",
+      },
+      {
+        day: "Day 2",
+        title: "Fly to Cappadocia",
+        body: "Morning flight inland, private meet, valley highlights, cave-hotel check-in, and sunset viewpoint without a coach convoy.",
+      },
+      {
+        day: "Day 3",
+        title: "Balloon window & return",
+        body: "Optional sunrise balloon with Plan B, short final Cappadocia chapter, then flight back to Istanbul or onward departure.",
+      },
+    ],
+    sections: [
+      {
+        heading: "Why this Istanbul Cappadocia tour sells",
+        body: "It is the highest-intent short package in Turkey travel: two bucket-list regions without a full week. Privately, you keep timing, hotel class, and balloon decisions—without a fixed group clock.\n\nWe sell this as a complete mini private Turkey tour, not a rushed checklist. If you can add nights, the 5-day version breathes more.",
+      },
+      {
+        heading: "3-day vs 5-day vs 7-day",
+        body: "Three days is intensive but powerful. Five days adds a second Cappadocia night and softer Istanbul pacing. Seven days is the classic Istanbul + Cappadocia week.\n\nCruise guests and short city-break travelers usually buy 3 days. Couples who hate airports often stretch to 5.",
+      },
+      {
+        heading: "Book your private Istanbul–Cappadocia escape",
+        body: "Share arrival city, dates, and balloon priority. We quote flights, stays, guiding, and transfers as one private package. Start at plan your trip.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Is 3 days enough for Istanbul and Cappadocia?",
+        answer:
+          "Enough for a highlight reel—yes. Enough to linger—no. If you want neighborhood depth, choose 5 or 7 days.",
+      },
+      {
+        question: "Are domestic flights included?",
+        answer:
+          "We coordinate and can include flights in the quote, or design around tickets you already hold. Tell us which you prefer.",
+      },
+      {
+        question: "Can honeymooners take this route?",
+        answer:
+          "Yes—with cave suite priority, private dinners, and a softer Day 3. Many honeymoons start here then extend to the coast.",
+      },
+    ],
+    related: [
+      {
+        title: "5-Day Istanbul & Cappadocia",
+        href: "/itineraries/istanbul-cappadocia-5-day",
+        description: "More nights, less sprint.",
+      },
+      {
+        title: "7 Day Classic",
+        href: "/itineraries/7-day-classic",
+        description: "The fuller Istanbul + Cappadocia week.",
+      },
+      {
+        title: "Cappadocia hot air balloon",
+        href: "/experiences/cappadocia-hot-air-balloon",
+        description: "Optional sunrise upgrade.",
+      },
+      {
+        title: "Private jet Turkey",
+        href: "/services/private-jet-turkey",
+        description: "VIP hop instead of commercial flight.",
+      },
+      {
+        title: "Istanbul airport transfer",
+        href: "/services/istanbul-airport-transfer",
+        description: "VIP ground on arrival.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Request a 3-day private quote.",
+      },
+    ],
+    updatedAt: "2026-07-27",
+  },
+  {
+    slug: "istanbul-cappadocia-5-day",
+    name: "5-Day Istanbul & Cappadocia Private",
+    days: 5,
+    focusKeyword: pageKeywords.itinerary5IstanbulCappadocia.focus,
+    secondaryKeywords: [...pageKeywords.itinerary5IstanbulCappadocia.secondary],
+    title: "Istanbul and Cappadocia Private Tour: 5 Days",
+    description:
+      "A 5-day Istanbul and Cappadocia private tour with deeper city time, two Cappadocia nights, optional balloon, and private guiding—short Turkey, properly paced.",
+    answer:
+      "A 5-day Istanbul and Cappadocia private tour usually spends two nights in Istanbul and two in Cappadocia, with private guides, a domestic flight, cave or boutique stays, and an optional hot air balloon morning—the sweet spot between a 3-day sprint and a full 7-day week.",
+    image: "/istanbul.jpg",
+    whoFor:
+      "First-timers with less than a week, couples, and luxury travelers who want Istanbul and Cappadocia without coach packages.",
+    includes: [
+      "Private guides in both regions",
+      "Two nights Istanbul + two nights Cappadocia (typical)",
+      "Domestic flight coordination",
+      "Private transfers and designer support",
+      "Optional balloon and Bosphorus boat add-ons",
+    ],
+    daysOutline: [
+      {
+        day: "Days 1–2",
+        title: "Private Istanbul",
+        body: "Icons plus neighborhoods or food, private Bosphorus option, and a calmer evening rhythm before the inland flight.",
+      },
+      {
+        day: "Day 3",
+        title: "Fly to Cappadocia",
+        body: "Flight, private meet, valley afternoon, cave-hotel check-in, sunset viewpoint.",
+      },
+      {
+        day: "Day 4",
+        title: "Cappadocia depth",
+        body: "Optional balloon sunrise, underground city or second valley system, photography stops, soft evening.",
+      },
+      {
+        day: "Day 5",
+        title: "Depart",
+        body: "Final morning at leisure or short visit, then flight to Istanbul or international departure.",
+      },
+    ],
+    sections: [
+      {
+        heading: "Why 5 days beats a rushed 3-day package",
+        body: "The second Cappadocia night protects balloon weather and recovery. Istanbul gets a real second day instead of a half-day blur. Privately, that is the difference between ‘saw it’ and ‘felt it.’\n\nThis is our most recommended short private Turkey tour when clients ask for Istanbul and Cappadocia without a full week.",
+      },
+      {
+        heading: "Popular upgrades on the 5-day spine",
+        body: "Private Bosphorus cruise, Istanbul food tour, Cappadocia balloon, private jet hop, and VIP airport transfers. We quote upgrades as line items so you control spend.\n\nWant Ephesus too? Stretch to the 10-day classic rather than crushing a third region into five days.",
+      },
+      {
+        heading: "Enquire for a 5-day private quote",
+        body: "Share month, hotel style, and must-haves. We return night splits, flight logic, and cost drivers. Start at plan your trip.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Is 5 days better than 3 for Istanbul and Cappadocia?",
+        answer:
+          "Usually yes if balloon odds and Istanbul depth matter. Three days works for strict time limits; five days feels like a real private tour.",
+      },
+      {
+        question: "Can this be a luxury itinerary?",
+        answer:
+          "Yes—design hotels, cave suites, private boat, and aviation upgrades all fit this spine.",
+      },
+      {
+        question: "Do you include hotels?",
+        answer:
+          "Yes. We propose stays by style and budget, then refine after your preferences.",
+      },
+    ],
+    related: [
+      {
+        title: "3-Day Istanbul & Cappadocia",
+        href: "/itineraries/istanbul-cappadocia-3-day",
+        description: "The shorter highlight package.",
+      },
+      {
+        title: "7 Day Classic",
+        href: "/itineraries/7-day-classic",
+        description: "Full week in the same two regions.",
+      },
+      {
+        title: "Private Bosphorus Cruise",
+        href: "/experiences/private-bosphorus-cruise",
+        description: "Istanbul water upgrade.",
+      },
+      {
+        title: "Private jet Turkey",
+        href: "/services/private-jet-turkey",
+        description: "Replace the commercial hop.",
+      },
+      {
+        title: "Luxury Turkey Tour",
+        href: "/private-turkey-tours/luxury",
+        description: "Elevate the whole short journey.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Request a 5-day private outline.",
+      },
+    ],
+    updatedAt: "2026-07-27",
+  },
 ];
 
 export function getItinerary(slug: string) {

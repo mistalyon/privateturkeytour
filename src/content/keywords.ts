@@ -300,9 +300,10 @@ export const pageKeywords = {
     focus: "turkey experiences",
     secondary: [
       "cappadocia hot air balloon",
+      "private bosphorus cruise",
       "istanbul food tour",
       "private gulet cruise turkey",
-      "best things to do in turkey",
+      "ephesus tour from kusadasi",
     ],
     volume: "H",
   },
@@ -404,6 +405,116 @@ export const pageKeywords = {
       "luxury cappadocia tour",
     ],
     volume: "M",
+  },
+  itinerary3IstanbulCappadocia: {
+    focus: "istanbul cappadocia tour",
+    secondary: [
+      "private istanbul cappadocia tour",
+      "3 day istanbul cappadocia tour",
+      "istanbul to cappadocia private tour",
+      "short turkey tour istanbul cappadocia",
+      "cappadocia tour from istanbul",
+    ],
+    volume: "VH",
+  },
+  itinerary5IstanbulCappadocia: {
+    focus: "istanbul and cappadocia private tour",
+    secondary: [
+      "5 day istanbul cappadocia tour",
+      "istanbul cappadocia 5 days",
+      "private turkey tour 5 days",
+      "istanbul cappadocia itinerary",
+      "short private turkey tour",
+    ],
+    volume: "H",
+  },
+  bosphorusCruise: {
+    focus: "private bosphorus cruise",
+    secondary: [
+      "istanbul bosphorus private tour",
+      "private boat tour istanbul",
+      "bosphorus sunset cruise private",
+      "private yacht bosphorus",
+      "istanbul private boat hire",
+    ],
+    volume: "H",
+  },
+  ephesusFromKusadasi: {
+    focus: "ephesus tour from kusadasi",
+    secondary: [
+      "private ephesus tour from cruise",
+      "ephesus shore excursion private",
+      "kusadasi private tour",
+      "ephesus and virgin mary private tour",
+      "cruise port ephesus private guide",
+    ],
+    volume: "H",
+  },
+  services: {
+    focus: "private turkey travel services",
+    secondary: [
+      "istanbul airport transfer",
+      "private yacht turkey",
+      "turkey golf holiday",
+      "private helicopter turkey",
+      "private jet turkey",
+    ],
+    volume: "M",
+  },
+  airportTransfer: {
+    focus: "istanbul private airport transfer",
+    secondary: [
+      "istanbul airport vip transfer",
+      "ist airport private transfer",
+      "saw airport private transfer",
+      "istanbul hotel airport transfer",
+      "private transfer istanbul airport",
+    ],
+    volume: "H",
+  },
+  golf: {
+    focus: "turkey golf holiday",
+    secondary: [
+      "golf turkey antalya",
+      "belek golf packages",
+      "turkey golf tour",
+      "private golf turkey",
+      "best golf courses turkey",
+    ],
+    volume: "H",
+  },
+  helicopter: {
+    focus: "private helicopter turkey",
+    secondary: [
+      "istanbul helicopter tour",
+      "cappadocia helicopter",
+      "private helicopter transfer turkey",
+      "helicopter charter turkey",
+      "bosphorus helicopter flight",
+    ],
+    volume: "M",
+  },
+  privateJet: {
+    focus: "private jet turkey",
+    secondary: [
+      "private jet charter turkey",
+      "istanbul private jet",
+      "empty leg turkey",
+      "vip aviation turkey",
+      "private jet istanbul cappadocia",
+    ],
+    volume: "M",
+  },
+  yacht: {
+    focus: "private yacht turkey",
+    secondary: [
+      "turkey yacht charter",
+      "private yacht bodrum",
+      "gocek yacht charter",
+      "istanbul private yacht",
+      "mediterranean yacht charter turkey",
+    ],
+    volume: "H",
   },
 } as const satisfies Record<string, KeywordSet>;
 
