@@ -33,6 +33,7 @@ const columns = [
         label: "Turquoise Coast Turkey",
       },
       { href: "/destinations/antalya", label: "Private Antalya Tour" },
+      { href: "/destinations/bodrum", label: "Private Bodrum Tour" },
       {
         href: "/destinations/gallipoli-troy",
         label: "Gallipoli & Troy Tour",

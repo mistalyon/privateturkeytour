@@ -301,9 +301,9 @@ export const pageKeywords = {
     secondary: [
       "cappadocia hot air balloon",
       "private bosphorus cruise",
-      "istanbul food tour",
-      "private gulet cruise turkey",
-      "ephesus tour from kusadasi",
+      "istanbul cooking class",
+      "pamukkale day trip from antalya",
+      "princes islands tour from istanbul",
     ],
     volume: "H",
   },
@@ -570,6 +570,72 @@ export const pageKeywords = {
       "private anzac and troy tour",
     ],
     volume: "M",
+  },
+  bodrum: {
+    focus: "private bodrum tour",
+    secondary: [
+      "bodrum private guide",
+      "things to do in bodrum",
+      "bodrum yacht day private",
+      "bodrum castle tour",
+      "aegean bodrum private tour",
+    ],
+    volume: "H",
+  },
+  cappadociaFromAntalya: {
+    focus: "cappadocia day trip from antalya",
+    secondary: [
+      "cappadocia from antalya",
+      "antalya to cappadocia tour",
+      "private cappadocia tour from antalya",
+      "fly antalya cappadocia day trip",
+      "resort guest cappadocia tour",
+    ],
+    volume: "H",
+  },
+  pamukkaleFromAntalya: {
+    focus: "pamukkale day trip from antalya",
+    secondary: [
+      "pamukkale from antalya",
+      "antalya to pamukkale private tour",
+      "cotton castle from antalya",
+      "private pamukkale transfer antalya",
+      "hierapolis day trip antalya",
+    ],
+    volume: "H",
+  },
+  princesIslands: {
+    focus: "princes islands tour from istanbul",
+    secondary: [
+      "private princes islands tour",
+      "buyukada private tour",
+      "istanbul islands day trip",
+      "princes islands private guide",
+      "ferry tour istanbul islands",
+    ],
+    volume: "H",
+  },
+  bursaDayTrip: {
+    focus: "bursa day trip from istanbul",
+    secondary: [
+      "private bursa tour",
+      "uludag day trip istanbul",
+      "bursa and uludag private",
+      "green mosque bursa tour",
+      "istanbul to bursa private transfer",
+    ],
+    volume: "M",
+  },
+  cookingClass: {
+    focus: "istanbul cooking class",
+    secondary: [
+      "private turkish cooking class",
+      "istanbul culinary class",
+      "turkish cooking lesson istanbul",
+      "private chef experience istanbul",
+      "market and cooking class istanbul",
+    ],
+    volume: "H",
   },
 } as const satisfies Record<string, KeywordSet>;
 

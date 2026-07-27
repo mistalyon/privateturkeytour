@@ -11,7 +11,10 @@
 - Turkey golf holiday / private helicopter Turkey / private jet Turkey
 - Turkey honeymoon / family Turkey tour / luxury Turkey tour
 - Turkey Christmas New Year tour / Cappadocia jeep safari
-- Private Antalya tour / Gallipoli and Troy tour
+- Private Antalya tour / Private Bodrum tour / Gallipoli and Troy tour
+- Pamukkale day trip from Antalya / Cappadocia day trip from Antalya
+- Princes Islands tour from Istanbul / Bursa day trip from Istanbul
+- Istanbul cooking class / Cappadocia jeep safari
 - Pamukkale Turkey / Pamukkale day trip
 
 ## Topical map (pillars)
@@ -40,14 +43,20 @@
 - [Pamukkale Turkey](https://privateturkeytour.com/destinations/pamukkale)
 - [Turquoise Coast Turkey](https://privateturkeytour.com/destinations/turquoise-coast)
 - [Private Antalya Tour](https://privateturkeytour.com/destinations/antalya)
+- [Private Bodrum Tour](https://privateturkeytour.com/destinations/bodrum)
 - [Gallipoli & Troy Tour](https://privateturkeytour.com/destinations/gallipoli-troy)
 
 ## Experiences
 - [Cappadocia Hot Air Balloon](https://privateturkeytour.com/experiences/cappadocia-hot-air-balloon)
 - [Private Bosphorus Cruise](https://privateturkeytour.com/experiences/private-bosphorus-cruise)
 - [Istanbul Food Tour](https://privateturkeytour.com/experiences/istanbul-food-tour)
+- [Istanbul Cooking Class](https://privateturkeytour.com/experiences/istanbul-cooking-class)
 - [Ephesus from Kuşadası](https://privateturkeytour.com/experiences/ephesus-tour-from-kusadasi)
 - [Cappadocia Jeep Safari](https://privateturkeytour.com/experiences/cappadocia-jeep-safari)
+- [Pamukkale from Antalya](https://privateturkeytour.com/experiences/pamukkale-day-trip-from-antalya)
+- [Cappadocia from Antalya](https://privateturkeytour.com/experiences/cappadocia-day-trip-from-antalya)
+- [Princes’ Islands Tour](https://privateturkeytour.com/experiences/princes-islands-tour)
+- [Bursa Day Trip](https://privateturkeytour.com/experiences/bursa-day-trip-from-istanbul)
 - [Private Gulet Cruise](https://privateturkeytour.com/experiences/gulet-cruise)
 
 ## Services

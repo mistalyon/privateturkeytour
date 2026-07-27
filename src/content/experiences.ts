@@ -491,6 +491,380 @@ export const experiences: Experience[] = [
     ],
     updatedAt: "2026-07-27",
   },
+  {
+    slug: "cappadocia-day-trip-from-antalya",
+    name: "Cappadocia from Antalya",
+    focusKeyword: pageKeywords.cappadociaFromAntalya.focus,
+    secondaryKeywords: [...pageKeywords.cappadociaFromAntalya.secondary],
+    title: "Cappadocia Day Trip from Antalya: Private Tour Options",
+    description:
+      "Plan a Cappadocia day trip from Antalya—private flight logistics, valley highlights, optional balloon, and honest advice on day trip vs overnight.",
+    answer:
+      "A Cappadocia day trip from Antalya is possible via early flights and a packed private ground day, but most travelers enjoy Cappadocia more with at least one overnight—so balloon weather and valleys are not crushed into a single exhausted circuit.",
+    image: "/cappadocia.jpg",
+    duration: "Long day with flights · Overnight strongly recommended",
+    bestFor: "Antalya resort guests wanting Cappadocia highlights without a full Turkey redesign",
+    sections: [
+      {
+        heading: "Can you do Cappadocia from Antalya in one day?",
+        body: "Technically yes with early flights and a private driver-guide on the ground. Practically, balloon mornings, valley light, and cave-hotel atmosphere need more time. We sell same-day options only when dates are fixed and expectations are clear.\n\nThe better product for most Antalya guests is Antalya + 1–2 Cappadocia nights as a short private add-on.",
+      },
+      {
+        heading: "What a private Antalya–Cappadocia chapter includes",
+        body: "Flight timing, private airport transfers, a focused Göreme/valley day, optional balloon, and return or onward flights. We quote line items so resort guests see exactly what the day (or overnight) costs.\n\nIf Pamukkale is closer to your Antalya dates, compare our Pamukkale from Antalya day trip—often a stronger same-day product.",
+      },
+      {
+        heading: "Enquire from your Antalya hotel",
+        body: "Share hotel area, dates, and whether balloon is essential. We return flight-aware options: long day trip vs overnight Cappadocia. Start at plan your trip.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Is a Cappadocia day trip from Antalya worth it?",
+        answer:
+          "Only if overnight is impossible. For most travelers, one or two Cappadocia nights deliver far better value than a single compressed day.",
+      },
+      {
+        question: "Do you arrange flights?",
+        answer:
+          "We advise schedules and can include domestic flight bookings in your private quote when useful.",
+      },
+      {
+        question: "Can balloon be included on a day trip?",
+        answer:
+          "Rarely with good odds—balloon needs an early local morning. Overnight stays protect weather backups.",
+      },
+    ],
+    related: [
+      {
+        title: "Private Antalya Tour",
+        href: "/destinations/antalya",
+        description: "Resort and Old Town base planning.",
+      },
+      {
+        title: "Private Cappadocia Tour",
+        href: "/destinations/cappadocia",
+        description: "Full destination chapter when you overnight.",
+      },
+      {
+        title: "Pamukkale from Antalya",
+        href: "/experiences/pamukkale-day-trip-from-antalya",
+        description: "Often the stronger same-day option.",
+      },
+      {
+        title: "Cappadocia Hot Air Balloon",
+        href: "/experiences/cappadocia-hot-air-balloon",
+        description: "Plan balloon with overnight buffers.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Request Antalya–Cappadocia options.",
+      },
+    ],
+    updatedAt: "2026-07-27",
+  },
+  {
+    slug: "pamukkale-day-trip-from-antalya",
+    name: "Pamukkale from Antalya",
+    focusKeyword: pageKeywords.pamukkaleFromAntalya.focus,
+    secondaryKeywords: [...pageKeywords.pamukkaleFromAntalya.secondary],
+    title: "Pamukkale Day Trip from Antalya: Private Tour",
+    description:
+      "Book a private Pamukkale day trip from Antalya—white terraces, Hierapolis, hotel pickup, and flexible timing without coach-group schedules.",
+    answer:
+      "A private Pamukkale day trip from Antalya is a full-day road journey with hotel pickup, guided time on the travertine terraces and Hierapolis, and return in the evening—ideal for resort guests who want the Cotton Castle without redesigning their whole Turkey trip.",
+    image: "/pamukkale.jpg",
+    duration: "Full day · ~10–12 hours door to door typical",
+    bestFor: "Antalya and Belek hotel guests wanting a high-impact landscape day",
+    sections: [
+      {
+        heading: "Why Pamukkale from Antalya sells as a private day trip",
+        body: "The drive is long but doable in one private day. You skip mega-coach stops, control terrace and Hierapolis pacing, and return to your Antalya hotel the same night.\n\nFor many Belek and Lara guests, this is the single best inland day trip we sell from the Mediterranean coast.",
+      },
+      {
+        heading: "What the private day includes",
+        body: "Hotel pickup, private vehicle, licensed guiding at Pamukkale and Hierapolis, timed photo and shade breaks, and return transfer. We confirm footwear and swimming-pool rules before your date so expectations match reality.\n\nHeat matters—summer starts early; spring and autumn feel kinder on the white terraces.",
+      },
+      {
+        heading: "Day trip vs overnight vs Cappadocia instead",
+        body: "Same-day Pamukkale works. Overnight helps for sunset light. Cappadocia from Antalya usually needs flights and benefits from nights—not a fair same-day rival.\n\nTell us your hotel area and we recommend Pamukkale, Antalya culture days, or a short Cappadocia overnight honestly.",
+      },
+      {
+        heading: "Book Pamukkale from your Antalya stay",
+        body: "Share hotel name, preferred date, and party size. We quote a private full-day outline. Start at plan your trip.",
+      },
+    ],
+    faqs: [
+      {
+        question: "How long is Pamukkale from Antalya?",
+        answer:
+          "Expect a full day including drives. Exact timing depends on hotel area, season, and how long you linger at Hierapolis.",
+      },
+      {
+        question: "Is a private vehicle worth it vs a group bus?",
+        answer:
+          "Yes for most discerning travelers—pickup time, site order, and lunch stops stay under your control.",
+      },
+      {
+        question: "Can children do the day trip?",
+        answer:
+          "Yes with realistic expectations about drive length. We build snack and shade breaks into the private plan.",
+      },
+    ],
+    related: [
+      {
+        title: "Private Antalya Tour",
+        href: "/destinations/antalya",
+        description: "Base days around your resort stay.",
+      },
+      {
+        title: "Pamukkale Turkey",
+        href: "/destinations/pamukkale",
+        description: "Full destination page for the Cotton Castle.",
+      },
+      {
+        title: "Pamukkale day trip guide",
+        href: "/guides/pamukkale-day-trip",
+        description: "Day trip vs overnight planning.",
+      },
+      {
+        title: "Cappadocia from Antalya",
+        href: "/experiences/cappadocia-day-trip-from-antalya",
+        description: "When valleys matter more than terraces.",
+      },
+      {
+        title: "Turkey golf holiday",
+        href: "/services/turkey-golf",
+        description: "Pair Belek golf with one culture day.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Request a Pamukkale day-trip quote.",
+      },
+    ],
+    updatedAt: "2026-07-27",
+  },
+  {
+    slug: "princes-islands-tour",
+    name: "Princes’ Islands",
+    focusKeyword: pageKeywords.princesIslands.focus,
+    secondaryKeywords: [...pageKeywords.princesIslands.secondary],
+    title: "Princes Islands Tour from Istanbul: Private Day Trip",
+    description:
+      "Book a private Princes’ Islands tour from Istanbul—Büyükada or multi-island pacing, ferry logistics, phaeton-free walking plans, and seaside lunch.",
+    answer:
+      "A private Princes’ Islands tour from Istanbul is a ferry day to Büyükada and/or neighboring islands with private guiding, flexible walking or e-bike pacing, and lunch timing you control—ideal when you want sea air without a Bosphorus yacht charter.",
+    image: "/istanbul.jpg",
+    duration: "Full day · ferry + island time",
+    bestFor: "Families, couples, and first-timers wanting an easy Istanbul day trip",
+    sections: [
+      {
+        heading: "Why the Princes’ Islands work as a private Istanbul day",
+        body: "Car-free island lanes, pine shade, and sea views reset a dense Old City week. Privately, you choose Büyükada focus or a multi-island hop, avoid peak ferry crush when possible, and keep lunch quality high.\n\nIt is a soft day-trip sell: memorable, photogenic, and easy to add beside museums and food walks.",
+      },
+      {
+        heading: "How we pace Büyükada and beyond",
+        body: "Classic private days: morning ferry, hill and mansion viewpoints, seaside lunch, afternoon swim season permitting, return before evening. We update transport options (e-bike, walking, approved vehicles) as local rules change—no outdated phaeton promises.\n\nHeat and weekend crowds matter; weekday private pacing feels calmer.",
+      },
+      {
+        heading: "Book your private islands day",
+        body: "Share preferred date, hotel area, and whether swimming or culture leads. We confirm ferry timing and guide plan. Start at plan your trip.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Which island should we visit?",
+        answer:
+          "Büyükada suits most first private tours. Multi-island days work when you want variety and accept more ferry time.",
+      },
+      {
+        question: "Is it better than a Bosphorus cruise?",
+        answer:
+          "Different products. Islands = land-and-ferry day; Bosphorus cruise = private boat on the strait. Many travelers do both on longer Istanbul stays.",
+      },
+      {
+        question: "Can kids enjoy the Princes’ Islands?",
+        answer:
+          "Yes—especially with swimming season and shorter walking loops. Tell us ages so we match pace.",
+      },
+    ],
+    related: [
+      {
+        title: "Private Istanbul Tour",
+        href: "/destinations/istanbul",
+        description: "City days around your island trip.",
+      },
+      {
+        title: "Private Bosphorus Cruise",
+        href: "/experiences/private-bosphorus-cruise",
+        description: "Private water time on the strait.",
+      },
+      {
+        title: "Istanbul food tour",
+        href: "/experiences/istanbul-food-tour",
+        description: "Culinary half-day on the mainland.",
+      },
+      {
+        title: "Bursa day trip",
+        href: "/experiences/bursa-day-trip-from-istanbul",
+        description: "Another strong private day from the city.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Request a Princes’ Islands outline.",
+      },
+    ],
+    updatedAt: "2026-07-27",
+  },
+  {
+    slug: "bursa-day-trip-from-istanbul",
+    name: "Bursa Day Trip",
+    focusKeyword: pageKeywords.bursaDayTrip.focus,
+    secondaryKeywords: [...pageKeywords.bursaDayTrip.secondary],
+    title: "Bursa Day Trip from Istanbul: Private Tour",
+    description:
+      "Book a private Bursa day trip from Istanbul—Green Mosque, bazaars, Uludağ viewpoints in season, and Ottoman city pacing with a licensed guide.",
+    answer:
+      "A private Bursa day trip from Istanbul is a full-day journey across the Sea of Marmara with guided Ottoman landmarks, market time, and optional Uludağ mountain scenery in season—paced privately so the day is culture-first, not a checklist sprint.",
+    image: "/detail.jpg",
+    duration: "Full day · ferry or road options",
+    bestFor: "History lovers and travelers wanting an Istanbul day beyond the Old City",
+    sections: [
+      {
+        heading: "Why Bursa from Istanbul privately?",
+        body: "Bursa was an early Ottoman capital—green mosques, silk-market energy, and mountain backdrop. A private day trip lets you linger where the architecture matters and skip tourist-trap stops.\n\nIt pairs well after two dense Istanbul days when you still want history without another museum queue.",
+      },
+      {
+        heading: "City focus vs Uludağ add-on",
+        body: "Most private days emphasize the historic center and lunch. In season, Uludağ viewpoints or light mountain time can be added when weather and daylight allow—winter snow days need honest timing talk.\n\nWe confirm ferry vs road routing based on your hotel side and season.",
+      },
+      {
+        heading: "Enquire for a private Bursa day",
+        body: "Share date, hotel area, and whether Uludağ matters. We return a private full-day outline. Start at plan your trip.",
+      },
+    ],
+    faqs: [
+      {
+        question: "How long is a Bursa day trip from Istanbul?",
+        answer:
+          "A full day. Exact hours depend on ferry/road choice, season, and whether Uludağ is included.",
+      },
+      {
+        question: "Is Bursa worth it vs more Istanbul neighborhoods?",
+        answer:
+          "Yes if Ottoman architecture and a change of city scale appeal. If you prefer seaside air, consider Princes’ Islands instead.",
+      },
+      {
+        question: "Can we combine Bursa with Gallipoli?",
+        answer:
+          "Not comfortably in one quality day. Keep Gallipoli–Troy as its own chapter.",
+      },
+    ],
+    related: [
+      {
+        title: "Private Istanbul Tour",
+        href: "/destinations/istanbul",
+        description: "Bookend the day in the city.",
+      },
+      {
+        title: "Princes’ Islands tour",
+        href: "/experiences/princes-islands-tour",
+        description: "Sea-air alternative day trip.",
+      },
+      {
+        title: "Gallipoli & Troy",
+        href: "/destinations/gallipoli-troy",
+        description: "Longer remembrance and archaeology chapter.",
+      },
+      {
+        title: "Things to do in Istanbul",
+        href: "/guides/things-to-do-in-istanbul",
+        description: "Balance city days with day trips.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Request a Bursa day-trip quote.",
+      },
+    ],
+    updatedAt: "2026-07-27",
+  },
+  {
+    slug: "istanbul-cooking-class",
+    name: "Istanbul Cooking Class",
+    focusKeyword: pageKeywords.cookingClass.focus,
+    secondaryKeywords: [...pageKeywords.cookingClass.secondary],
+    title: "Istanbul Cooking Class: Private Turkish Culinary Lesson",
+    description:
+      "Book a private Istanbul cooking class—market shop, meze and mains with a local chef, and a meal you cook together on a private Turkey tour.",
+    answer:
+      "A private Istanbul cooking class is a hands-on culinary session—often with a short market shop—where you cook Turkish dishes with a local chef and eat what you make; ideal as a half-day upgrade inside a private Istanbul tour for couples, families, and food-led travelers.",
+    image: "/istanbul.jpg",
+    duration: "Half day · ~3–4 hours typical",
+    bestFor: "Food lovers, couples, and families wanting a participatory Istanbul experience",
+    sections: [
+      {
+        heading: "Why a private cooking class beats a restaurant-only food day",
+        body: "You learn technique, ask questions, and eat at your pace. Privately, dietary needs, spice level, and whether kids help at the counter are designed in—not shouted across a group demo.\n\nPair with an Istanbul food tour on another day: walk-and-taste vs cook-and-sit are different products.",
+      },
+      {
+        heading: "Market shop or studio-only?",
+        body: "Some classes start in a market for produce and spice context; others are studio-focused for efficiency. We match the format to your energy, hotel location, and whether shopping is part of the fun.\n\nVegetarian, pescatarian, and allergy-aware menus are common—tell us early.",
+      },
+      {
+        heading: "Add a cooking class to your private Istanbul plan",
+        body: "Share date, dietary needs, and party size. We quote the class as a clear line item beside guiding days. Start at plan your trip.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Is an Istanbul cooking class suitable for beginners?",
+        answer:
+          "Yes. Private classes are built for first-timers. Experience cooks can request a more advanced menu.",
+      },
+      {
+        question: "Can children join?",
+        answer:
+          "Often yes with age-appropriate tasks. Share ages so we match a family-friendly kitchen.",
+      },
+      {
+        question: "Cooking class or food tour—which first?",
+        answer:
+          "Food tour for breadth and neighborhoods; cooking class for hands-on depth. Many private tours book both on separate days.",
+      },
+    ],
+    related: [
+      {
+        title: "Istanbul food tour",
+        href: "/experiences/istanbul-food-tour",
+        description: "Walk-and-taste culinary half-day.",
+      },
+      {
+        title: "Private Istanbul Tour",
+        href: "/destinations/istanbul",
+        description: "Fold the class into city days.",
+      },
+      {
+        title: "Turkey honeymoon",
+        href: "/private-turkey-tours/honeymoon",
+        description: "Romantic participatory evening or lunch.",
+      },
+      {
+        title: "Family Turkey Tour",
+        href: "/private-turkey-tours/family",
+        description: "Kid-friendly kitchen pacing.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Request a private cooking-class quote.",
+      },
+    ],
+    updatedAt: "2026-07-27",
+  },
 ];
 
 export function getExperience(slug: string) {

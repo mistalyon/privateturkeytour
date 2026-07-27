@@ -12,9 +12,9 @@ import { breadcrumbSchema, itemListSchema } from "@/lib/schema";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "Turkey Experiences: Balloon, Bosphorus, Food & Gulet",
+  title: "Turkey Experiences: Balloon, Day Trips, Food & Gulet",
   description:
-    "Private Turkey experiences—Cappadocia hot air balloon, private Bosphorus cruise, Istanbul food tour, Ephesus from Kuşadası, and gulet days on the Turquoise Coast.",
+    "Private Turkey experiences—Cappadocia balloon and jeep, Bosphorus cruise, Istanbul cooking class, Pamukkale from Antalya, Princes’ Islands, and gulet days.",
   path: "/experiences",
   keywords: keywordList(pageKeywords.experiences),
 });

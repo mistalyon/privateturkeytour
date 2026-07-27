@@ -562,6 +562,11 @@ export const destinations: Destination[] = [
         description: "Belek and Antalya golf packages privately arranged.",
       },
       {
+        title: "Pamukkale from Antalya",
+        href: "/experiences/pamukkale-day-trip-from-antalya",
+        description: "Resort-guest day trip to the Cotton Castle.",
+      },
+      {
         title: "Private gulet cruise",
         href: "/experiences/gulet-cruise",
         description: "Mediterranean privacy on the water.",
@@ -670,6 +675,101 @@ export const destinations: Destination[] = [
         title: "Plan your trip",
         href: "/plan-your-trip",
         description: "Request a private Gallipoli–Troy quote.",
+      },
+    ],
+    updatedAt: "2026-07-27",
+  },
+  {
+    slug: "bodrum",
+    name: "Bodrum",
+    note: "Aegean marina & castle light",
+    image: "/coast.jpg",
+    focusKeyword: pageKeywords.bodrum.focus,
+    secondaryKeywords: [...pageKeywords.bodrum.secondary],
+    title: "Private Bodrum Tour: Castle, Coast & Yacht Days",
+    description:
+      "Book a private Bodrum tour with a local guide—Bodrum Castle, Aegean villages, beach clubs, and private yacht days without coach schedules.",
+    answer:
+      "A private Bodrum tour pairs a licensed guide and driver with Bodrum Castle, marina walks, nearby Aegean villages, and optional private yacht or beach days—so the peninsula feels designed, not a resort-only week.",
+    bestTime:
+      "May–June and September–early October for warm seas and softer crowds. July–August suits beach-first travelers who accept heat and nightlife energy. Shoulder spring and autumn are best for private yacht days.",
+    highlights: [
+      "Bodrum Castle and marina with quiet timing",
+      "Village and cove day trips beyond the strip",
+      "Private yacht or day-boat options",
+      "Easy links to Ephesus, Datça, or Turquoise Coast",
+      "Nightlife or quiet boutique stays—your call",
+    ],
+    sections: [
+      {
+        heading: "Why choose a private Bodrum tour?",
+        body: "Bodrum sells sun and marina energy. Privately, you also get castle context, quieter coves, and village lunches that coach circuits skip. A private Bodrum tour lets couples, families, and yacht travelers use the same peninsula differently.\n\nThat is the sales case: Aegean light with logistics handled—not a fixed hotel animation schedule.",
+      },
+      {
+        heading: "Signature private days around Bodrum",
+        body: "Start with the castle and harbor, then branch to Gümüşlük, Türkbükü, or a private boat day when the sea is the point. Archaeology-minded travelers can day-link toward Ephesus or inland sites when the wider private Turkey tour needs Aegean depth.\n\nWant longer Mediterranean privacy? Continue to the Turquoise Coast or book a private yacht Turkey / gulet chapter from Göcek or Kaş.",
+      },
+      {
+        heading: "How Bodrum fits a private Turkey itinerary",
+        body: "Bodrum works as a fly-and-relax finish after Istanbul and Cappadocia, a yacht week with one culture day, or an Aegean hinge before the Turquoise Coast. Three to five nights suits most private outlines.\n\nShare whether castle, beach, or yacht leads. We quote nights, boat days, and transfers in one coherent plan.",
+      },
+      {
+        heading: "Enquire for a private Bodrum outline",
+        body: "Tell us travel month, hotel style, and must-haves. We return a private Bodrum day plan plus any yacht or onward coast links. Start at plan your trip.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Is Bodrum worth it on a private Turkey tour?",
+        answer:
+          "Yes when you want Aegean marina energy, castle culture, and optional yacht days. Pure history-first travelers may prefer more Ephesus or Istanbul nights instead.",
+      },
+      {
+        question: "Can Bodrum include a private yacht day?",
+        answer:
+          "Yes. Day charters and multi-day options are common upgrades. See also private yacht Turkey for wider Aegean and Mediterranean charters.",
+      },
+      {
+        question: "How many nights in Bodrum?",
+        answer:
+          "Three to five nights suits most private itineraries. Yacht weeks run longer. Two nights work as a teaser after Ephesus if flights force a short stay.",
+      },
+      {
+        question: "How do Bodrum and the Turquoise Coast differ?",
+        answer:
+          "Bodrum is marina-and-peninsula energy; Kaş/Fethiye feel more cove-and-gulet. Many private tours choose one coastal finish rather than both unless the trip is long.",
+      },
+    ],
+    related: [
+      {
+        title: "Turquoise Coast Turkey",
+        href: "/destinations/turquoise-coast",
+        description: "Kaş, Fethiye, and gulet-focused coast nights.",
+      },
+      {
+        title: "Private yacht Turkey",
+        href: "/services/private-yacht-turkey",
+        description: "Day or multi-day Aegean charters.",
+      },
+      {
+        title: "Private gulet cruise",
+        href: "/experiences/gulet-cruise",
+        description: "Classic wooden-boat Mediterranean privacy.",
+      },
+      {
+        title: "Private Ephesus Tour",
+        href: "/destinations/ephesus",
+        description: "Pair antiquity with an Aegean finish.",
+      },
+      {
+        title: "Private Antalya Tour",
+        href: "/destinations/antalya",
+        description: "Mediterranean alternative further east.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Request a private Bodrum outline.",
       },
     ],
     updatedAt: "2026-07-27",
