@@ -59,3 +59,5 @@
 
 ## Full
 - [llms-full.txt](https://privateturkeytour.com/llms-full.txt)
+- [Sitemap](https://privateturkeytour.com/sitemap.xml)
+- [Robots](https://privateturkeytour.com/robots.txt)
