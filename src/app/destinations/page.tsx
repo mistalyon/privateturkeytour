@@ -5,9 +5,10 @@ import { ArrowUpRight } from "lucide-react";
 import { CtaBand } from "@/components/cta-band";
 import { JsonLd } from "@/components/json-ld";
 import { PageHero } from "@/components/page-hero";
+import { RelatedLinks } from "@/components/related-links";
 import { destinations } from "@/content/destinations";
 import { keywordList, pageKeywords } from "@/content/keywords";
-import { breadcrumbSchema } from "@/lib/schema";
+import { breadcrumbSchema, itemListSchema } from "@/lib/schema";
 import { buildMetadata } from "@/lib/seo";
 import { cn } from "@/lib/utils";
 
@@ -27,11 +28,23 @@ const breadcrumbs = [
 export default function DestinationsPage() {
   return (
     <main>
-      <JsonLd data={breadcrumbSchema(breadcrumbs)} />
+      <JsonLd
+        data={[
+          breadcrumbSchema(breadcrumbs),
+          itemListSchema({
+            name: "Private Turkey destinations",
+            path: "/destinations",
+            items: destinations.map((d) => ({
+              name: d.name,
+              href: `/destinations/${d.slug}`,
+            })),
+          }),
+        ]}
+      />
       <PageHero
         eyebrow="Destination hub"
         title="Best places to visit in Turkey—privately."
-        description="These Turkey destinations form the backbone of most private tours. Start here, then open the place that matches the chapter you want first."
+        description="These Turkey destinations form the backbone of most private tours. Start here, then open the place that matches the chapter you want first—and we will sell you a coherent sequence, not a random checklist."
         answer="The most requested private Turkey destinations—and best places to visit in Turkey for first-timers—are Istanbul, Cappadocia, Ephesus & the Aegean, Pamukkale, and the Turquoise Coast, often combined in 7- to 14-day tailor-made itineraries."
         breadcrumbs={breadcrumbs}
       />
@@ -70,6 +83,26 @@ export default function DestinationsPage() {
           ))}
         </div>
       </section>
+
+      <RelatedLinks
+        items={[
+          {
+            title: "Turkey itinerary ideas",
+            href: "/itineraries",
+            description: "7, 10, and 14-day private routes.",
+          },
+          {
+            title: "Things to do in Istanbul",
+            href: "/guides/things-to-do-in-istanbul",
+            description: "City shortlist for private days.",
+          },
+          {
+            title: "Private Turkey Tours",
+            href: "/private-turkey-tours",
+            description: "What you are buying when you enquire.",
+          },
+        ]}
+      />
 
       <CtaBand
         title="Not sure where to begin?"

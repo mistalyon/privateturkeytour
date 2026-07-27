@@ -1,17 +1,23 @@
 # Private Turkey Tour
-> Bespoke private journeys across Türkiye with licensed local guides, handpicked stays, and in-country care.
+> Bespoke private journeys across Türkiye with licensed local guides, handpicked stays, and in-country care. English-only sales content for private Turkey tours.
 
 ## Primary topics & focus keywords
 - Private Turkey tours / private Turkey tour
 - Turkey itinerary (7 day, 10 day, 14 day)
 - Best time to visit Turkey / private Turkey tour cost
 - Cappadocia hot air balloon / Istanbul food tour / private gulet cruise Turkey
-- Turkey honeymoon / family Turkey tour
-- Luxury Turkey tour
+- Turkey honeymoon / family Turkey tour / luxury Turkey tour
 - Pamukkale Turkey / Pamukkale day trip
 - How to plan a trip to Turkey
 - Private vs group Turkey tours
-- Turkey in September / Turkey in winter
+- Turkey in May / September / October / winter
+
+## Topical map (pillars)
+- Pillar: [Private Turkey Tours](https://privateturkeytour.com/private-turkey-tours) — private turkey tours
+- Pillar: [Destinations](https://privateturkeytour.com/destinations) — turkey destinations
+- Pillar: [Itineraries](https://privateturkeytour.com/itineraries) — turkey itinerary
+- Pillar: [Experiences](https://privateturkeytour.com/experiences) — signature private experiences
+- Pillar: [Guides](https://privateturkeytour.com/guides) — turkey travel guide
 
 ## Primary pages
 - [Private Turkey Tours](https://privateturkeytour.com/private-turkey-tours)
@@ -19,7 +25,9 @@
 - [Itineraries](https://privateturkeytour.com/itineraries)
 - [Experiences](https://privateturkeytour.com/experiences)
 - [Guides](https://privateturkeytour.com/guides)
+- [How it works](https://privateturkeytour.com/how-it-works)
 - [Plan your trip](https://privateturkeytour.com/plan-your-trip)
+- [Contact](https://privateturkeytour.com/contact)
 
 ## Destinations
 - [Private Istanbul Tour](https://privateturkeytour.com/destinations/istanbul)
@@ -56,6 +64,11 @@
 - [How to plan a trip to Turkey](https://privateturkeytour.com/guides/how-to-plan-a-private-turkey-trip)
 - [Private vs group Turkey tours](https://privateturkeytour.com/guides/private-vs-group-turkey-tours)
 - [Private Turkey tour cost](https://privateturkeytour.com/guides/private-turkey-tour-cost)
+
+## Contact
+- Email: hello@privateturkeytour.com
+- WhatsApp: +90 544 673 2202
+- Plan form: https://privateturkeytour.com/plan-your-trip
 
 ## Full
 - [llms-full.txt](https://privateturkeytour.com/llms-full.txt)

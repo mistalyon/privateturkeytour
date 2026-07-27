@@ -3,7 +3,7 @@ import { JsonLd } from "@/components/json-ld";
 import { PageHero } from "@/components/page-hero";
 import { RelatedLinks } from "@/components/related-links";
 import { keywordList, pageKeywords } from "@/content/keywords";
-import { breadcrumbSchema } from "@/lib/schema";
+import { breadcrumbSchema, howToSchema } from "@/lib/schema";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
@@ -28,7 +28,7 @@ const steps = [
   {
     number: "02",
     title: "Receive a private outline",
-    body: "Your local designer proposes a destination sequence, sample days, and stay direction. We refine until the rhythm feels right.",
+    body: "Your local designer proposes a destination sequence, sample days, and stay direction. We refine until the rhythm feels right—and the trip is ready to book.",
   },
   {
     number: "03",
@@ -40,12 +40,26 @@ const steps = [
 export default function HowItWorksPage() {
   return (
     <main>
-      <JsonLd data={breadcrumbSchema(breadcrumbs)} />
+      <JsonLd
+        data={[
+          breadcrumbSchema(breadcrumbs),
+          howToSchema({
+            name: "How private Turkey tours work",
+            description:
+              "Three steps from brief to a tailor-made private Turkey tour with licensed guides and in-country care.",
+            path: "/how-it-works",
+            steps: steps.map((step) => ({
+              name: step.title,
+              text: step.body,
+            })),
+          }),
+        ]}
+      />
       <PageHero
         eyebrow="Process"
-        title="From conversation to arrival."
-        description="Private touring works best when design is collaborative and logistics stay invisible. Here is how we build your journey."
-        answer="We start with your dates and preferences, draft a tailor-made outline, refine stays and pacing with you, then handle guides, transfers, and in-country support through the trip."
+        title="How private Turkey tours work."
+        description="Private touring works best when design is collaborative and logistics stay invisible. Here is how we build—and sell—your journey from first brief to arrival."
+        answer="How private Turkey tours work: share your dates and preferences, receive a tailor-made outline, refine stays and pacing, then travel with licensed guides, private transfers, and in-country support through the trip."
         breadcrumbs={breadcrumbs}
       />
 
@@ -83,9 +97,9 @@ export default function HowItWorksPage() {
             description: "See 7, 10, and 14-day private routes.",
           },
           {
-            title: "FAQ",
-            href: "/faq",
-            description: "Common questions, answered plainly.",
+            title: "Private Turkey Tours",
+            href: "/private-turkey-tours",
+            description: "The money hub: what you are buying.",
           },
         ]}
       />

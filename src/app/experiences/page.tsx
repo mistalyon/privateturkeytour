@@ -5,9 +5,10 @@ import { ArrowUpRight } from "lucide-react";
 import { CtaBand } from "@/components/cta-band";
 import { JsonLd } from "@/components/json-ld";
 import { PageHero } from "@/components/page-hero";
+import { RelatedLinks } from "@/components/related-links";
 import { experiences } from "@/content/experiences";
 import { keywordList, pageKeywords } from "@/content/keywords";
-import { breadcrumbSchema } from "@/lib/schema";
+import { breadcrumbSchema, itemListSchema } from "@/lib/schema";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
@@ -26,11 +27,23 @@ const breadcrumbs = [
 export default function ExperiencesPage() {
   return (
     <main>
-      <JsonLd data={breadcrumbSchema(breadcrumbs)} />
+      <JsonLd
+        data={[
+          breadcrumbSchema(breadcrumbs),
+          itemListSchema({
+            name: "Private Turkey experiences",
+            path: "/experiences",
+            items: experiences.map((item) => ({
+              name: item.name,
+              href: `/experiences/${item.slug}`,
+            })),
+          }),
+        ]}
+      />
       <PageHero
         eyebrow="Experience hub"
         title="Turkey experiences that change the trip."
-        description="These signature Turkey experiences sit inside private journeys—not as bolted-on extras. Start with the one you care about most, then we weave it into your itinerary."
+        description="These signature Turkey experiences sit inside private journeys—not as bolted-on extras. Start with the one you care about most, then we weave it into your itinerary and quote."
         answer="The most requested private Turkey experiences are a Cappadocia hot air balloon sunrise, a private Istanbul food tour, and a private gulet cruise along the Turquoise Coast—each timed around weather, appetite, and the rest of your route."
         breadcrumbs={breadcrumbs}
       />
@@ -71,6 +84,26 @@ export default function ExperiencesPage() {
           ))}
         </div>
       </section>
+
+      <RelatedLinks
+        items={[
+          {
+            title: "Private Cappadocia Tour",
+            href: "/destinations/cappadocia",
+            description: "Where balloon mornings live.",
+          },
+          {
+            title: "Turquoise Coast Turkey",
+            href: "/destinations/turquoise-coast",
+            description: "Home base for private gulet days.",
+          },
+          {
+            title: "Plan your trip",
+            href: "/plan-your-trip",
+            description: "Tell us which experience to prioritize.",
+          },
+        ]}
+      />
 
       <CtaBand
         title="Tell us which experience matters most."

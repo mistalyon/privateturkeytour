@@ -37,6 +37,18 @@ const columns = [
         label: "Best Time to Visit Turkey",
       },
       {
+        href: "/guides/how-to-plan-a-private-turkey-trip",
+        label: "How to Plan a Trip to Turkey",
+      },
+      {
+        href: "/guides/private-vs-group-turkey-tours",
+        label: "Private vs Group Turkey Tours",
+      },
+      {
+        href: "/guides/private-turkey-tour-cost",
+        label: "Private Turkey Tour Cost",
+      },
+      {
         href: "/guides/things-to-do-in-istanbul",
         label: "Things to Do in Istanbul",
       },
@@ -49,13 +61,16 @@ const columns = [
         label: "Things to Do in Ephesus",
       },
       {
-        href: "/guides/private-turkey-tour-cost",
-        label: "Private Turkey Tour Cost",
+        href: "/guides/pamukkale-day-trip",
+        label: "Pamukkale Day Trip",
       },
+      { href: "/guides/turkey-in-may", label: "Turkey in May" },
       {
         href: "/guides/turkey-in-september",
         label: "Turkey in September",
       },
+      { href: "/guides/turkey-in-october", label: "Turkey in October" },
+      { href: "/guides/turkey-in-winter", label: "Turkey in Winter" },
     ],
   },
   {

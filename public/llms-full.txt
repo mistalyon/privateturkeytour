@@ -3,22 +3,79 @@
 Private Turkey Tour designs bespoke, 100% private journeys across Türkiye.
 We are a Turkey-based private Turkey tour company offering licensed local guides,
 handpicked boutique stays, private transfers, and continuous in-country care.
+Site language: English. Commercial intent: sell tailor-made private Turkey tours.
 
 ## Core offers & focus keywords
 - Private Turkey tours / private Turkey tour / tailor-made Turkey tour
 - Turkey itinerary ideas: 7 day, 10 day, 14 day
 - Private Istanbul tour, private Cappadocia tour, private Ephesus tour
-- Pamukkale Turkey / Cotton Castle private day
+- Pamukkale Turkey / Cotton Castle private day / Pamukkale day trip
 - Turquoise Coast Turkey / private gulet cruise Turkey
 - Cappadocia hot air balloon planning (weather-dependent)
 - Istanbul food tour (private culinary walks)
-- Turkey honeymoon and family Turkey tour audience routes
-- Things to do in Istanbul / things to do in Cappadocia
-- Turkey in May / Turkey in October
+- Turkey honeymoon, family Turkey tour, luxury Turkey tour
+- Things to do in Istanbul / Cappadocia / Ephesus
+- Turkey in May / September / October / winter
 - Best time to visit Turkey (April–June and September–October strongest)
 - Private Turkey tour cost drivers (length, hotels, guiding, season)
 - How to plan a trip to Turkey as a private journey
 - Private vs group Turkey tours comparison
+
+## Topical map
+### Private Turkey Tours
+Intent: Buy / enquire about a tailor-made private Turkey tour
+Pillar: https://privateturkeytour.com/private-turkey-tours — private turkey tours
+Spokes:
+- https://privateturkeytour.com/private-turkey-tours/honeymoon — turkey honeymoon
+- https://privateturkeytour.com/private-turkey-tours/family — family turkey tour
+- https://privateturkeytour.com/private-turkey-tours/luxury — luxury turkey tour
+- https://privateturkeytour.com/how-it-works — how private turkey tours work
+- https://privateturkeytour.com/guides/private-turkey-tour-cost — private turkey tour cost
+- https://privateturkeytour.com/guides/private-vs-group-turkey-tours — private vs group turkey tours
+
+### Turkey Destinations
+Intent: Choose where to go on a private Turkey itinerary
+Pillar: https://privateturkeytour.com/destinations — turkey destinations
+Spokes:
+- https://privateturkeytour.com/destinations/istanbul — private istanbul tour
+- https://privateturkeytour.com/destinations/cappadocia — private cappadocia tour
+- https://privateturkeytour.com/destinations/ephesus — private ephesus tour
+- https://privateturkeytour.com/destinations/pamukkale — pamukkale turkey
+- https://privateturkeytour.com/destinations/turquoise-coast — turquoise coast turkey
+
+### Turkey Itineraries
+Intent: Pick trip length and sequence for a private journey
+Pillar: https://privateturkeytour.com/itineraries — turkey itinerary
+Spokes:
+- https://privateturkeytour.com/itineraries/7-day-classic — 7 day turkey itinerary
+- https://privateturkeytour.com/itineraries/10-day-classic — 10 day turkey itinerary
+- https://privateturkeytour.com/itineraries/14-day-grand — 14 day turkey itinerary
+- https://privateturkeytour.com/guides/how-to-plan-a-private-turkey-trip — how to plan a trip to turkey
+
+### Signature Experiences
+Intent: Add high-intent experiences to a private tour
+Pillar: https://privateturkeytour.com/experiences
+Spokes:
+- https://privateturkeytour.com/experiences/cappadocia-hot-air-balloon — cappadocia hot air balloon
+- https://privateturkeytour.com/experiences/istanbul-food-tour — istanbul food tour
+- https://privateturkeytour.com/experiences/gulet-cruise — private gulet cruise turkey
+
+### Turkey Travel Guides
+Intent: Answer planning questions before booking a private tour
+Pillar: https://privateturkeytour.com/guides — turkey travel guide
+Spokes:
+- https://privateturkeytour.com/guides/best-time-to-visit-turkey
+- https://privateturkeytour.com/guides/turkey-in-may
+- https://privateturkeytour.com/guides/turkey-in-september
+- https://privateturkeytour.com/guides/turkey-in-october
+- https://privateturkeytour.com/guides/turkey-in-winter
+- https://privateturkeytour.com/guides/things-to-do-in-istanbul
+- https://privateturkeytour.com/guides/things-to-do-in-cappadocia
+- https://privateturkeytour.com/guides/things-to-do-in-ephesus
+- https://privateturkeytour.com/guides/pamukkale-day-trip
+- https://privateturkeytour.com/guides/how-to-plan-a-private-turkey-trip
+- https://privateturkeytour.com/guides/private-vs-group-turkey-tours
+- https://privateturkeytour.com/guides/private-turkey-tour-cost
 
 ## What we do
 - Private Turkey tours customized to traveler pace, interests, and dates
@@ -26,32 +83,55 @@ handpicked boutique stays, private transfers, and continuous in-country care.
 - Signature regions: Istanbul, Cappadocia, Ephesus & Aegean, Pamukkale, Turquoise Coast
 - Signature experiences: balloon, food tour, gulet
 - Popular trip lengths: 7, 10, and 14 days
+- Every major page includes a Quick Answer block for AI/featured-snippet style extraction
 
 ## Best for
-- Couples, honeymoons, families, cultural travelers, food travelers
+- Couples, honeymoons, families, cultural travelers, food travelers, luxury travelers
 - Visitors who value privacy, flexibility, and specialist guiding
 
 ## Planning defaults
-- Best overall seasons: April–June and September–October (May & October often best)
+- Best overall seasons: April–June and September–October (May, September & October often best)
 - Istanbul is the most common start point
 - Cappadocia balloon mornings are weather-dependent; alternatives are planned
 - Ephesus and Pamukkale benefit from private timing around crowds and heat
 - Turquoise Coast suits swimming and private boat days in late spring to early autumn
+- Winter suits Istanbul-heavy cultural trips more than beach itineraries
 
 ## Contact
 - Website: https://privateturkeytour.com
 - Plan a trip: https://privateturkeytour.com/plan-your-trip
 - Email: hello@privateturkeytour.com
+- WhatsApp: +90 544 673 2202
+- Contact page: https://privateturkeytour.com/contact
 
 ## Key URLs
 - https://privateturkeytour.com/private-turkey-tours
 - https://privateturkeytour.com/private-turkey-tours/honeymoon
 - https://privateturkeytour.com/private-turkey-tours/family
+- https://privateturkeytour.com/private-turkey-tours/luxury
 - https://privateturkeytour.com/destinations
+- https://privateturkeytour.com/destinations/istanbul
+- https://privateturkeytour.com/destinations/cappadocia
+- https://privateturkeytour.com/destinations/ephesus
 - https://privateturkeytour.com/destinations/pamukkale
+- https://privateturkeytour.com/destinations/turquoise-coast
 - https://privateturkeytour.com/experiences
 - https://privateturkeytour.com/experiences/cappadocia-hot-air-balloon
+- https://privateturkeytour.com/experiences/istanbul-food-tour
+- https://privateturkeytour.com/experiences/gulet-cruise
 - https://privateturkeytour.com/itineraries
+- https://privateturkeytour.com/itineraries/7-day-classic
+- https://privateturkeytour.com/itineraries/10-day-classic
+- https://privateturkeytour.com/itineraries/14-day-grand
+- https://privateturkeytour.com/guides
 - https://privateturkeytour.com/guides/private-turkey-tour-cost
 - https://privateturkeytour.com/guides/best-time-to-visit-turkey
+- https://privateturkeytour.com/guides/turkey-in-september
+- https://privateturkeytour.com/guides/turkey-in-winter
+- https://privateturkeytour.com/guides/things-to-do-in-ephesus
+- https://privateturkeytour.com/guides/pamukkale-day-trip
+- https://privateturkeytour.com/how-it-works
 - https://privateturkeytour.com/faq
+- https://privateturkeytour.com/about
+- https://privateturkeytour.com/contact
+- https://privateturkeytour.com/sitemap.xml

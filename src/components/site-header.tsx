@@ -5,6 +5,7 @@ import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 const navItems = [
+  { href: "/private-turkey-tours", label: "Private tours" },
   { href: "/destinations", label: "Destinations" },
   { href: "/itineraries", label: "Itineraries" },
   { href: "/experiences", label: "Experiences" },

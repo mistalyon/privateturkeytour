@@ -18,12 +18,27 @@ export function organizationSchema() {
     name: siteConfig.name,
     url: siteConfig.url,
     email: siteConfig.email,
+    telephone: siteConfig.phone,
     description: siteConfig.description,
+    image: absoluteUrl(siteConfig.logo),
+    logo: absoluteUrl(siteConfig.logo),
     areaServed: {
       "@type": "Country",
       name: "Turkey",
     },
+    address: {
+      "@type": "PostalAddress",
+      addressCountry: "TR",
+    },
     foundingDate: String(siteConfig.foundedYear),
+    priceRange: "$$$",
+    contactPoint: {
+      "@type": "ContactPoint",
+      contactType: "customer service",
+      email: siteConfig.email,
+      telephone: siteConfig.phone,
+      availableLanguage: ["English"],
+    },
   };
 }
 
@@ -39,7 +54,58 @@ export function websiteSchema() {
       "@type": "Organization",
       name: siteConfig.name,
       url: siteConfig.url,
+      logo: absoluteUrl(siteConfig.logo),
     },
+  };
+}
+
+export function itemListSchema({
+  name,
+  path,
+  items,
+}: {
+  name: string;
+  path: string;
+  items: { name: string; href: string }[];
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name,
+    url: absoluteUrl(path),
+    numberOfItems: items.length,
+    itemListElement: items.map((item, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: item.name,
+      url: absoluteUrl(item.href),
+    })),
+  };
+}
+
+export function howToSchema({
+  name,
+  description,
+  path,
+  steps,
+}: {
+  name: string;
+  description: string;
+  path: string;
+  steps: { name: string; text: string }[];
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    name,
+    description,
+    url: absoluteUrl(path),
+    step: steps.map((step, index) => ({
+      "@type": "HowToStep",
+      position: index + 1,
+      name: step.name,
+      text: step.text,
+    })),
   };
 }
 

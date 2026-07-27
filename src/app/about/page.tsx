@@ -26,9 +26,9 @@ export default function AboutPage() {
       <JsonLd data={breadcrumbSchema(breadcrumbs)} />
       <PageHero
         eyebrow="Company"
-        title="Local designers. Quiet logistics. Real places."
-        description={`${siteConfig.name} is a Türkiye-based team building private journeys for travelers who want depth without the friction of group schedules.`}
-        answer="We design tailor-made private Turkey tours from our base in Türkiye, pairing licensed guides and carefully chosen stays with continuous local support."
+        title="A private Turkey tour company based in Türkiye."
+        description={`${siteConfig.name} is a Türkiye-based private Turkey tour company building bespoke journeys for travelers who want depth without the friction of group schedules.`}
+        answer="We are a private Turkey tour company designing tailor-made journeys from our base in Türkiye—licensed guides, carefully chosen stays, and continuous local support for couples, families, and luxury travelers."
         breadcrumbs={breadcrumbs}
       />
 

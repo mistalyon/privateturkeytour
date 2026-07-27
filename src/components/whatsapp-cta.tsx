@@ -1,9 +1,10 @@
 import Link from "next/link";
 
-const whatsappNumber = "905446732202";
+import { siteConfig } from "@/lib/site";
+
 const whatsappMessage =
   "Merhaba, privateturkeytour.com sitesinden size ulaşıyorum.";
-const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+const whatsappUrl = `https://wa.me/${siteConfig.whatsapp}?text=${encodeURIComponent(whatsappMessage)}`;
 
 export function WhatsAppCta() {
   return (

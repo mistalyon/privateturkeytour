@@ -3,9 +3,10 @@ import Link from "next/link";
 import { CtaBand } from "@/components/cta-band";
 import { JsonLd } from "@/components/json-ld";
 import { PageHero } from "@/components/page-hero";
+import { RelatedLinks } from "@/components/related-links";
 import { itineraries } from "@/content/itineraries";
 import { keywordList, pageKeywords } from "@/content/keywords";
-import { breadcrumbSchema } from "@/lib/schema";
+import { breadcrumbSchema, itemListSchema } from "@/lib/schema";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
@@ -24,11 +25,23 @@ const breadcrumbs = [
 export default function ItinerariesPage() {
   return (
     <main>
-      <JsonLd data={breadcrumbSchema(breadcrumbs)} />
+      <JsonLd
+        data={[
+          breadcrumbSchema(breadcrumbs),
+          itemListSchema({
+            name: "Private Turkey itineraries",
+            path: "/itineraries",
+            items: itineraries.map((item) => ({
+              name: item.name,
+              href: `/itineraries/${item.slug}`,
+            })),
+          }),
+        ]}
+      />
       <PageHero
         eyebrow="Itinerary hub"
         title="Turkey itinerary ideas—private, not packaged."
-        description="These sample Turkey itinerary routes show how a tailor-made journey can unfold. Every route is reshaped around your dates, pace, and interests."
+        description="These sample Turkey itinerary routes show how a tailor-made journey can unfold. Every route is reshaped around your dates, pace, and interests—then quoted as a private Turkey tour you can actually book."
         answer="Most first-time travelers choose a 7 day Turkey itinerary (Istanbul + Cappadocia), a 10 day Turkey itinerary with Ephesus, or a 14 day Turkey itinerary that continues to the Turquoise Coast."
         breadcrumbs={breadcrumbs}
       />
@@ -56,6 +69,26 @@ export default function ItinerariesPage() {
           ))}
         </div>
       </section>
+
+      <RelatedLinks
+        items={[
+          {
+            title: "How to plan a trip to Turkey",
+            href: "/guides/how-to-plan-a-private-turkey-trip",
+            description: "Fix length and regions before you enquire.",
+          },
+          {
+            title: "Destinations",
+            href: "/destinations",
+            description: "Where each itinerary chapter lives.",
+          },
+          {
+            title: "Plan your trip",
+            href: "/plan-your-trip",
+            description: "Send dates for a custom outline.",
+          },
+        ]}
+      />
 
       <CtaBand title="Want a route built around you?" />
     </main>

@@ -92,9 +92,14 @@ export default async function GuidePage({ params }: Props) {
               <h2 className="font-heading text-3xl tracking-[-0.03em] sm:text-4xl">
                 {section.heading}
               </h2>
-              <p className="mt-4 text-lg leading-8 text-black/65">
-                {section.body}
-              </p>
+              {section.body.split(/\n\n+/).map((paragraph) => (
+                <p
+                  key={paragraph.slice(0, 48)}
+                  className="mt-4 text-lg leading-8 text-black/65"
+                >
+                  {paragraph}
+                </p>
+              ))}
             </article>
           ))}
         </div>
