@@ -77,6 +77,21 @@ const audienceCards = [
     body: "Ephesus and Seven Churches arcs with private timing for faith-led groups and families.",
     href: "/private-turkey-tours/christian-pilgrimage",
   },
+  {
+    title: "Solo travel",
+    body: "Independent pacing with private guiding—no stranger coach seat required.",
+    href: "/private-turkey-tours/solo",
+  },
+  {
+    title: "Women travel",
+    body: "Women-friendly hotels, transfers, and optional women-only private briefs.",
+    href: "/private-turkey-tours/women",
+  },
+  {
+    title: "Multi-generational",
+    body: "Grandparents to kids on one private itinerary with gentler ruin blocks.",
+    href: "/private-turkey-tours/multi-generational",
+  },
 ];
 
 const privateCluster = topicalClusters.find((c) => c.id === "private-tours");

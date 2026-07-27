@@ -1,13 +1,14 @@
 import { CtaBand } from "@/components/cta-band";
+import { FaqList } from "@/components/faq-list";
 import { JsonLd } from "@/components/json-ld";
 import { PageHero } from "@/components/page-hero";
 import { RelatedLinks } from "@/components/related-links";
 import { keywordList, pageKeywords } from "@/content/keywords";
-import { breadcrumbSchema, howToSchema } from "@/lib/schema";
+import { breadcrumbSchema, faqSchema, howToSchema } from "@/lib/schema";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "How Private Turkey Tours Work",
+  title: "How Private Turkey Tours Work | Book a Custom Trip",
   description:
     "Learn how private Turkey tours work—from your first brief to licensed guides, boutique stays, and in-country care across Türkiye.",
   path: "/how-it-works",
@@ -37,6 +38,24 @@ const steps = [
   },
 ];
 
+const faqs = [
+  {
+    question: "How do private Turkey tours work compared to group tours?",
+    answer:
+      "You travel with your own party, licensed private guides, and a custom itinerary—no fixed coach departure calendar. Timing, hotels, and experiences are designed around your brief.",
+  },
+  {
+    question: "How long from enquire to a bookable outline?",
+    answer:
+      "Most briefs receive a first private outline within a few business days, then we refine stays and signature experiences until you are ready to confirm.",
+  },
+  {
+    question: "What is included when I book a private Turkey tour?",
+    answer:
+      "Typically planning, licensed guiding days as quoted, handpicked stays, private transfers or domestic flights as needed, and in-country support. Balloons, boats, and aviation upgrades are clear line items.",
+  },
+];
+
 export default function HowItWorksPage() {
   return (
     <main>
@@ -53,10 +72,11 @@ export default function HowItWorksPage() {
               text: step.body,
             })),
           }),
+          faqSchema(faqs),
         ]}
       />
       <PageHero
-        eyebrow="Process"
+        eyebrow="How private Turkey tours work"
         title="How private Turkey tours work."
         description="Private touring works best when design is collaborative and logistics stay invisible. Here is how we build—and sell—your journey from first brief to arrival."
         answer="How private Turkey tours work: share your dates and preferences, receive a tailor-made outline, refine stays and pacing, then travel with licensed guides, private transfers, and in-country support through the trip."
@@ -84,6 +104,37 @@ export default function HowItWorksPage() {
         </div>
       </section>
 
+      <section className="border-y border-black/10 bg-[#e9e3d8] px-5 py-16 sm:px-8 lg:px-12">
+        <div className="mx-auto max-w-[760px] space-y-6 text-lg leading-8 text-black/65">
+          <h2 className="font-heading text-3xl tracking-[-0.03em] text-black">
+            Booking a private Turkey tour without friction
+          </h2>
+          <p>
+            After you approve the outline, we lock hotels, guide days, and
+            signature experiences as line items. You always see what changes the
+            price—season, stay tier, balloons, boats, or aviation—so booking a
+            custom Turkey tour feels controlled, not opaque.
+          </p>
+          <p>
+            While you travel, WhatsApp and local coordination keep adjustments
+            small. That is how private Turkey tours work in practice: design
+            first, then quiet operations.
+          </p>
+        </div>
+      </section>
+
+      <section className="px-5 py-16 sm:px-8 lg:px-12">
+        <div className="mx-auto max-w-[1100px]">
+          <p className="eyebrow">FAQ</p>
+          <h2 className="mt-4 font-heading text-4xl tracking-[-0.03em]">
+            How booking works
+          </h2>
+          <div className="mt-8">
+            <FaqList items={faqs} />
+          </div>
+        </div>
+      </section>
+
       <RelatedLinks
         items={[
           {
@@ -100,6 +151,11 @@ export default function HowItWorksPage() {
             title: "Private Turkey Tours",
             href: "/private-turkey-tours",
             description: "The money hub: what you are buying.",
+          },
+          {
+            title: "Contact private Turkey tour",
+            href: "/contact",
+            description: "Start the brief by email or WhatsApp.",
           },
         ]}
       />

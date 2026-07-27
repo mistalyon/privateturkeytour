@@ -69,6 +69,27 @@ export const topicalClusters: TopicalCluster[] = [
         role: "cluster",
       },
       {
+        slug: "solo",
+        title: "Solo Travel Turkey",
+        href: "/private-turkey-tours/solo",
+        focusKeyword: "solo travel turkey",
+        role: "cluster",
+      },
+      {
+        slug: "women",
+        title: "Women Travel Turkey",
+        href: "/private-turkey-tours/women",
+        focusKeyword: "women travel turkey",
+        role: "cluster",
+      },
+      {
+        slug: "multi-generational",
+        title: "Multi-Generational Turkey Tour",
+        href: "/private-turkey-tours/multi-generational",
+        focusKeyword: "multi generational turkey tour",
+        role: "cluster",
+      },
+      {
         slug: "how-it-works",
         title: "How Private Turkey Tours Work",
         href: "/how-it-works",

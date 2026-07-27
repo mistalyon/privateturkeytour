@@ -681,6 +681,39 @@ export const pageKeywords = {
     ],
     volume: "M",
   },
+  solo: {
+    focus: "solo travel turkey",
+    secondary: [
+      "solo turkey tour private",
+      "turkey solo trip",
+      "private guide for solo traveler turkey",
+      "safe solo travel turkey",
+      "solo istanbul cappadocia tour",
+    ],
+    volume: "H",
+  },
+  womenTravel: {
+    focus: "women travel turkey",
+    secondary: [
+      "women only turkey tour",
+      "turkey tour for women",
+      "female friendly turkey travel",
+      "safe turkey travel for women",
+      "private turkey tour for women",
+    ],
+    volume: "M",
+  },
+  multiGen: {
+    focus: "multi generational turkey tour",
+    secondary: [
+      "multigenerational turkey vacation",
+      "turkey trip with grandparents",
+      "three generation turkey tour",
+      "private multi gen turkey",
+      "family reunion turkey tour",
+    ],
+    volume: "M",
+  },
   archaeologicalSites: {
     focus: "archaeological sites in turkey",
     secondary: [

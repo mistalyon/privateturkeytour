@@ -19,6 +19,12 @@ const columns = [
         href: "/private-turkey-tours/christian-pilgrimage",
         label: "Christian Turkey Tour",
       },
+      { href: "/private-turkey-tours/solo", label: "Solo Travel Turkey" },
+      { href: "/private-turkey-tours/women", label: "Women Travel Turkey" },
+      {
+        href: "/private-turkey-tours/multi-generational",
+        label: "Multi-Generational Tour",
+      },
       { href: "/itineraries", label: "Turkey Itineraries" },
       { href: "/experiences", label: "Turkey Experiences" },
       { href: "/services", label: "Private Services" },

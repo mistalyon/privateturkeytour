@@ -38,6 +38,10 @@ export const destinations: Destination[] = [
         body: "Three focused days cover the essentials. Five days allow neighborhoods, food, and breathing room. Many private Turkey tours begin or end with Istanbul and connect onward to Cappadocia or the Aegean.\n\nOn a 7 day Turkey itinerary, Istanbul usually takes the opening nights. On 10- and 14-day routes, we keep enough city time so Cappadocia and Ephesus do not steal the first impression. Tell us your trip length and we quote the night split that sells the whole journey cleanly.",
       },
       {
+        heading: "Private Istanbul upgrades that convert",
+        body: "The highest-intent add-ons are a private Bosphorus cruise, an Istanbul food tour, a cooking class, and Princes’ Islands or Bursa day trips when the city stay is long enough. Airport VIP transfers bookend the chapter so arrival fatigue does not waste day one.\n\nSolo travelers, women-focused briefs, and multi-generational parties use the same city differently—we tune walking load and evening neighborhoods accordingly.",
+      },
+      {
         heading: "How Istanbul fits your private Turkey tour",
         body: "Istanbul is the most common start. Morning flights to Cappadocia make the classic Istanbul–Cappadocia private tour seamless. Longer arcs continue to Ephesus, Pamukkale, and the Turquoise Coast.\n\nReady to book? Share dates via plan your trip. We return a private Istanbul day plan plus the onward sequence—guides, stays, and transfers included in one coherent quote.",
       },

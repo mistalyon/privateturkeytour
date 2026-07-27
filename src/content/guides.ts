@@ -508,6 +508,14 @@ export const guides: Guide[] = [
         body: "Layers for cooler mornings, sun protection for midday ruins, and flexible clothing for possible spring showers. Privately, we keep museum blocks earlier and leave golden hour for viewpoints.\n\nBalloon mornings still need Plan B. We never sell a May Cappadocia stay that collapses if one sunrise is grounded.",
       },
       {
+        heading: "May cost and booking reality for private tours",
+        body: "May is peak shoulder: preferred cave suites, quality gulet weeks, and strong guides book early. Prices sit above deep winter and can approach early summer for the best rooms—yet still usually beat August heat premiums for comfort-per-dollar.\n\nShare dates three to six months out when you can. Last-minute May trips work, but hotel tier choices narrow. We quote drivers clearly so you invest in the nights that matter.",
+      },
+      {
+        heading: "May vs other spring windows",
+        body: "Late April can still be cool on the coast; early June warms seas faster but crowds and heat rise inland. May is the balanced sell for classic private Turkey tours that want both culture walking and a chance of a late-month swim.\n\nIf beach is non-negotiable, we may steer you to September instead—and say so before you buy.",
+      },
+      {
         heading: "Book Turkey in May with us",
         body: "Send May dates, trip length, and whether coast swimming is a must. We return a private outline with stays, guiding, and signature experiences—ready to refine and confirm. Start at plan your trip.",
       },
@@ -596,6 +604,14 @@ export const guides: Guide[] = [
       {
         heading: "Booking notes for October trips",
         body: "October is popular with discerning travelers. Secure preferred stays early, especially cave suites and boutique coastal hotels. We design flexible balloon windows and keep one soft day for weather or mood.\n\nCost is often better value than August for comfort—see private Turkey tour cost for drivers, then enquire with October dates.",
+      },
+      {
+        heading: "October photography and balloon planning",
+        body: "Softer autumn light is a quiet October sales advantage—Bosphorus evenings, Cappadocia valleys, and Ephesus stone all photograph well. Pair a private Cappadocia photography morning with a balloon attempt when weather allows.\n\nBalloon odds remain strong historically in October, but cancellations still happen. Private itineraries keep a spare sunrise or jeep/viewpoint Plan B so the chapter does not empty.",
+      },
+      {
+        heading: "Who should not choose October",
+        body: "If you need guaranteed hot-sea swimming every afternoon, early September or June may fit better. If you want deepest winter value and empty museums, December–February is a different product.\n\nFirst-timers who want culture plus possible swimming without August intensity should treat October as a top-tier default—alongside May.",
       },
       {
         heading: "Enquire for an October private Turkey tour",

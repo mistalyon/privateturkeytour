@@ -1,10 +1,11 @@
 import Link from "next/link";
 
+import { FaqList } from "@/components/faq-list";
 import { JsonLd } from "@/components/json-ld";
 import { PageHero } from "@/components/page-hero";
 import { RelatedLinks } from "@/components/related-links";
 import { keywordList, pageKeywords } from "@/content/keywords";
-import { breadcrumbSchema } from "@/lib/schema";
+import { breadcrumbSchema, faqSchema } from "@/lib/schema";
 import { buildMetadata } from "@/lib/seo";
 import { siteConfig } from "@/lib/site";
 
@@ -25,15 +26,33 @@ const breadcrumbs = [
   { name: "Contact", href: "/contact" },
 ];
 
+const faqs = [
+  {
+    question: "What is the fastest way to contact Private Turkey Tour?",
+    answer:
+      "WhatsApp is usually fastest for a short enquire. Email works well for longer briefs and attachments. The plan-your-trip form is best when you already have dates.",
+  },
+  {
+    question: "What should I include when I enquire?",
+    answer:
+      "Travel month or exact dates, trip length, party size, must-see regions, and stay style. The clearer the brief, the sharper our first private outline.",
+  },
+  {
+    question: "Do you reply with prices immediately?",
+    answer:
+      "We reply with a private outline and the main cost drivers—then refine hotels and experiences before a final quote.",
+  },
+];
+
 export default function ContactPage() {
   return (
     <main>
-      <JsonLd data={breadcrumbSchema(breadcrumbs)} />
+      <JsonLd data={[breadcrumbSchema(breadcrumbs), faqSchema(faqs)]} />
       <PageHero
         eyebrow="Contact private Turkey tour"
         title="Contact Private Turkey Tour to enquire."
-        description="Reach our private Turkey tour team by email or WhatsApp, or use the trip form if you already have dates and preferences in mind."
-        answer="To contact Private Turkey Tour, email hello@privateturkeytour.com, message us on WhatsApp, or submit the plan-your-trip form with dates and must-sees—we reply with a private itinerary outline."
+        description="Contact our private Turkey tour team by email or WhatsApp, or use the trip form if you already have dates and preferences in mind."
+        answer="To contact Private Turkey Tour, email hello@privateturkeytour.com, message us on WhatsApp, or submit the plan-your-trip form with dates and must-sees—we reply with a private itinerary outline and next steps."
         breadcrumbs={breadcrumbs}
       />
 
@@ -49,7 +68,7 @@ export default function ContactPage() {
             </a>
             <p className="mt-4 text-base leading-8 text-black/65">
               Best for quick questions or attaching preferences, dates, and
-              companion details.
+              companion details when you contact our private Turkey tour team.
             </p>
           </article>
           <article className="border border-black/10 bg-[#efe9df] p-8">
@@ -63,7 +82,7 @@ export default function ContactPage() {
               {siteConfig.phoneDisplay}
             </a>
             <p className="mt-4 text-base leading-8 text-black/65">
-              Fastest path for a short enquire. Tell us you found us on
+              Fastest path to enquire. Tell us you found us on
               privateturkeytour.com.
             </p>
           </article>
@@ -76,10 +95,22 @@ export default function ContactPage() {
               Open planning form
             </Link>
             <p className="mt-4 text-base leading-8 text-black/65">
-              Structured brief for dates, regions, pace, and stay style—so we can
-              reply with a sharper first outline.
+              Structured brief for dates, regions, pace, and stay style—so we
+              can reply with a sharper first outline.
             </p>
           </article>
+        </div>
+      </section>
+
+      <section className="px-5 py-16 sm:px-8 lg:px-12">
+        <div className="mx-auto max-w-[1100px]">
+          <p className="eyebrow">FAQ</p>
+          <h2 className="mt-4 font-heading text-4xl tracking-[-0.03em]">
+            Contact and enquire
+          </h2>
+          <div className="mt-8">
+            <FaqList items={faqs} />
+          </div>
         </div>
       </section>
 
@@ -91,7 +122,7 @@ export default function ContactPage() {
             description: "What tailor-made journeys include.",
           },
           {
-            title: "How it works",
+            title: "How private Turkey tours work",
             href: "/how-it-works",
             description: "From brief to arrival.",
           },

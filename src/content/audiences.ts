@@ -462,6 +462,237 @@ export const audiences: Audience[] = [
     ],
     updatedAt: "2026-07-27",
   },
+  {
+    slug: "solo",
+    name: "Solo Travel",
+    focusKeyword: pageKeywords.solo.focus,
+    secondaryKeywords: [...pageKeywords.solo.secondary],
+    title: "Solo Travel Turkey: Private Tours for Independent Travelers",
+    description:
+      "Plan solo travel in Turkey with a private guide—Istanbul, Cappadocia, and beyond without group schedules, with safety-minded logistics and flexible pacing.",
+    answer:
+      "Solo travel in Turkey works especially well as a private tour: one licensed guide and driver for your pace, no shared coach clock, and logistics handled so independence does not mean navigating every transfer alone—ideal for Istanbul, Cappadocia, and short classic arcs.",
+    image: "/istanbul.jpg",
+    highlights: [
+      "Private guide without joining a stranger group",
+      "Flexible museum and food pacing for one",
+      "Hotel and transfer choices tuned for solo comfort",
+      "Easy short packages (3–7 days) or longer arcs",
+      "WhatsApp and in-country support while you travel",
+    ],
+    sections: [
+      {
+        heading: "Why solo travelers buy private Turkey tours",
+        body: "Solo does not have to mean lonely logistics. A private Turkey tour gives you conversation when you want it, quiet when you do not, and door-to-door care that group departures cannot match.\n\nMany solo clients choose private precisely to avoid fixed coach seats and forced meal stops—while still having a local expert for history, food, and safety-minded routing.",
+      },
+      {
+        heading: "Best private shapes for solo travel Turkey",
+        body: "Strong starters: 3–5 day Istanbul and Cappadocia; 7-day classic; photography or food-led Istanbul days with a Bosphorus cruise upgrade. Longer trips add Ephesus or coast when energy allows.\n\nWe quote single-occupancy stays honestly and suggest room categories that feel secure and well located—not the cheapest listing.",
+      },
+      {
+        heading: "Safety, social energy, and dining for one",
+        body: "Türkiye is highly traveled by solo visitors. Privately, we still plan sensible evening neighborhoods, reliable transfers, and restaurants that welcome single diners. Want social nights? We can leave free evenings. Want full guided days? We fill them.\n\nWomen traveling solo often prefer our women-focused private brief—same privacy model, extra attention to hotel location and evening pacing.",
+      },
+      {
+        heading: "Enquire for a solo private Turkey outline",
+        body: "Share dates, trip length, and whether you want full guiding days or a mix of free time. We return a solo-ready private plan. Start at plan your trip.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Is Turkey good for solo travel?",
+        answer:
+          "Yes—especially with private guiding for major cities and sites. You keep independence without carrying every logistics decision alone.",
+      },
+      {
+        question: "Do I pay double for a private solo tour?",
+        answer:
+          "Private vehicles and guides have base costs that do not split across a group. We quote transparently and right-size days so solo travel stays coherent.",
+      },
+      {
+        question: "Can solo itineraries include Cappadocia balloons?",
+        answer:
+          "Yes. Balloon baskets are shared with other passengers; the rest of your day stays private. We build weather backups.",
+      },
+    ],
+    related: [
+      {
+        title: "3-Day Istanbul & Cappadocia",
+        href: "/itineraries/istanbul-cappadocia-3-day",
+        description: "Short private spine for solo travelers.",
+      },
+      {
+        title: "Women travel Turkey",
+        href: "/private-turkey-tours/women",
+        description: "Solo or small women-only private briefs.",
+      },
+      {
+        title: "Private Istanbul Tour",
+        href: "/destinations/istanbul",
+        description: "City days at your own pace.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Request a solo private outline.",
+      },
+    ],
+    updatedAt: "2026-07-27",
+  },
+  {
+    slug: "women",
+    name: "Women Travel",
+    focusKeyword: pageKeywords.womenTravel.focus,
+    secondaryKeywords: [...pageKeywords.womenTravel.secondary],
+    title: "Women Travel Turkey: Private & Women-Friendly Tours",
+    description:
+      "Plan women travel in Turkey with private guides—women-friendly pacing, trusted transfers, and optional women-only small-group privacy for Istanbul, Cappadocia, and beyond.",
+    answer:
+      "Women travel in Turkey is strongest as a private tour: licensed guides, vetted transfers, hotel locations chosen for comfort after dark, and optional women-only companion travel—so Istanbul, Cappadocia, and classic routes feel designed rather than improvised.",
+    image: "/cappadocia.jpg",
+    highlights: [
+      "Women-friendly hotel areas and evening routing",
+      "Private licensed guides (female guide on request when available)",
+      "Trusted airport and intercity transfers",
+      "Solo women or friends traveling together",
+      "Food, balloon, and spa upgrades without group pressure",
+    ],
+    sections: [
+      {
+        heading: "Why women choose private Turkey tours",
+        body: "Privacy is the product: you control who is in the vehicle, how late evenings run, and when free time feels restorative. That matters for solo women, mothers traveling with daughters, and friends who want culture without a mixed coach dynamic.\n\nWe design with practical comfort—central stays, reliable pickups, and restaurants that feel welcoming—not fear-based messaging.",
+      },
+      {
+        heading: "Solo women vs women traveling together",
+        body: "Solo women often want full guided days plus quiet hotel recovery. Pairs and small women-only groups may want shared dinners, cooking classes, and flexible shopping time. Both use the same private model; the brief changes the rhythm.\n\nFemale guides can be requested where locally available—we confirm honestly rather than promise what inventory cannot deliver.",
+      },
+      {
+        heading: "Classic women-friendly private routes",
+        body: "Istanbul food and Bosphorus days; Cappadocia caves and optional balloon; Ephesus with early timing; Turquoise Coast swimming on longer trips. Christmas/New Year and luxury stays also book well for women-led celebrations.\n\nSee family or multi-generational pages if elders or kids join the same trip.",
+      },
+      {
+        heading: "Enquire for a women-focused private outline",
+        body: "Share party size, solo vs friends, and must-haves. We return a women-friendly private Turkey plan. Start at plan your trip or WhatsApp.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Is Turkey safe for women travelers?",
+        answer:
+          "Millions of women visit comfortably each year. A private tour adds vetted logistics and local guidance that many solo and small-group travelers prefer.",
+      },
+      {
+        question: "Can you arrange a women-only private tour?",
+        answer:
+          "Yes for solo women or all-women parties. Guide gender requests are fulfilled when local supply allows.",
+      },
+      {
+        question: "What about dress codes at mosques and sites?",
+        answer:
+          "We brief covering expectations for sacred sites and pack suggestions so nothing surprises your day plan.",
+      },
+    ],
+    related: [
+      {
+        title: "Solo travel Turkey",
+        href: "/private-turkey-tours/solo",
+        description: "Independent private pacing for one.",
+      },
+      {
+        title: "Turkey honeymoon",
+        href: "/private-turkey-tours/honeymoon",
+        description: "Romantic private routes for two.",
+      },
+      {
+        title: "Istanbul food tour",
+        href: "/experiences/istanbul-food-tour",
+        description: "Culinary half-days with a private guide.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Request a women-friendly outline.",
+      },
+    ],
+    updatedAt: "2026-07-27",
+  },
+  {
+    slug: "multi-generational",
+    name: "Multi-Generational",
+    focusKeyword: pageKeywords.multiGen.focus,
+    secondaryKeywords: [...pageKeywords.multiGen.secondary],
+    title: "Multi-Generational Turkey Tour: Private Trips for All Ages",
+    description:
+      "Plan a multi-generational Turkey tour with private pacing—grandparents, parents, and kids on one itinerary with flexible ruin days, transfers, and room setups.",
+    answer:
+      "A multi-generational Turkey tour works best privately: one vehicle and guide team paced for grandparents and children together—shorter ruin blocks, elevator-aware hotels where possible, and free time so three generations share highlights without sharing exhaustion.",
+    image: "/coast.jpg",
+    highlights: [
+      "Pacing designed for elders and children in one party",
+      "Hotel rooms and connecting options when available",
+      "Shorter Ephesus/Istanbul blocks with shade breaks",
+      "Optional split-day activities when ages diverge",
+      "Private transfers instead of multi-stop group coaches",
+    ],
+    sections: [
+      {
+        heading: "Why multi-gen families need private, not group",
+        body: "Three generations rarely share the same energy curve. Group coaches force everyone onto one clock. Privately, grandparents can return to the hotel while teens continue a Bosphorus hour—or the whole party slows together at lunch.\n\nThat flexibility is what makes a multi-generational Turkey vacation feel like a reunion, not a march.",
+      },
+      {
+        heading: "Itinerary shapes that work across ages",
+        body: "Best sellers: Istanbul + Cappadocia (7 days); add Ephesus on 10 days; coast swimming on 14 days for recovery. Avoid stacking too many long drives. Jeep safaris and balloons need age/height checks—we advise early.\n\nOur family Turkey tour page covers kid-first trips; this page is for true three-generation parties and reunion groups.",
+      },
+      {
+        heading: "Rooms, accessibility, and medical pacing",
+        body: "We flag hotels with elevators, fewer stairs, and quieter room locations. Share mobility needs early—wheelchair-full access is limited at historic sites, but we can design realistic viewing strategies.\n\nDietary needs across ages (kids’ menus, soft foods, allergies) go into the culinary brief.",
+      },
+      {
+        heading: "Enquire for a multi-generational private quote",
+        body: "Send ages, mobility notes, and trip length. We return a private multi-gen outline with stay and pacing options. Start at plan your trip.",
+      },
+    ],
+    faqs: [
+      {
+        question: "How is this different from a family Turkey tour?",
+        answer:
+          "Family pages focus on parents with kids. Multi-generational trips add grandparents or adult siblings—more room logistics and gentler overall pacing.",
+      },
+      {
+        question: "Can grandparents skip some ruins?",
+        answer:
+          "Yes. Private touring allows split activities or shorter site visits while others continue—planned in advance so nobody feels stranded.",
+      },
+      {
+        question: "What trip length works for three generations?",
+        answer:
+          "Seven to ten days suits most. Fourteen days helps if coast recovery nights matter after culture-heavy days.",
+      },
+    ],
+    related: [
+      {
+        title: "Family Turkey Tour",
+        href: "/private-turkey-tours/family",
+        description: "Kid-focused private pacing.",
+      },
+      {
+        title: "10 Day Classic",
+        href: "/itineraries/10-day-classic",
+        description: "Room for culture without crushing elders.",
+      },
+      {
+        title: "Private Turkey tour cost",
+        href: "/guides/private-turkey-tour-cost",
+        description: "How party size changes the quote.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Request a multi-gen private outline.",
+      },
+    ],
+    updatedAt: "2026-07-27",
+  },
 ];
 
 export function getAudience(slug: string) {
