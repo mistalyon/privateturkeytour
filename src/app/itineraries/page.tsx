@@ -14,6 +14,7 @@ export const metadata = buildMetadata({
   description:
     "Browse Turkey itinerary ideas for 7, 10, and 14 days—private routes through Istanbul, Cappadocia, Ephesus, and the Turquoise Coast you can fully customize.",
   path: "/itineraries",
+  image: "/cappadocia.jpg",
   keywords: keywordList(pageKeywords.itineraries),
 });
 

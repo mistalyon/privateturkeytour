@@ -196,7 +196,7 @@ export const audiences: Audience[] = [
       "Design a luxury Turkey tour with elevated stays, specialist guides, private transfers, and refined pacing across Istanbul, Cappadocia, and the coast.",
     answer:
       "A luxury Turkey tour is a fully private journey with elevated boutique or design hotels, specialist guiding, seamless logistics, and experiences chosen for privacy—cave suites, fine tables, and optional balloon or gulet days—without group schedules. Ten to fourteen days lets luxury pacing breathe.",
-    image: "/detail.jpg",
+    image: "/coast.jpg",
     highlights: [
       "Design-led and elevated boutique stays",
       "Specialist private guides in each region",

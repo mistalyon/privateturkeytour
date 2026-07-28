@@ -14,6 +14,7 @@ export const metadata = buildMetadata({
   description:
     "Turkey travel guide pages for private tours—best time to visit, Turkey in May/September/October/winter, things to do, planning steps, cost, and private vs group.",
   path: "/guides",
+  image: "/istanbul.jpg",
   keywords: keywordList(pageKeywords.guides),
 });
 

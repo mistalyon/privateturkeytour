@@ -92,7 +92,7 @@ export const guides: Guide[] = [
       "How to plan a trip to Turkey step by step—dates, regions, pacing, stays, and how a local designer builds your private Turkey itinerary.",
     answer:
       "How to plan a trip to Turkey starts with travel dates and trip length, then choosing two to four regions, defining your pace and stay style, and working with a local designer who turns that brief into a flexible day-by-day private itinerary.",
-    image: "/detail.jpg",
+    image: "/istanbul.jpg",
     publishedAt: "2026-07-01",
     updatedAt: "2026-07-22",
     sections: [
@@ -249,7 +249,7 @@ export const guides: Guide[] = [
       "Understand private Turkey tour cost drivers—trip length, hotels, guiding, flights, and season—so you can budget a tailor-made journey honestly.",
     answer:
       "Private Turkey tour cost varies mainly by trip length, hotel category, private guiding days, domestic flights, and season. As a planning guide, comfortable boutique private journeys for two often start in the low-to-mid thousands of USD per person for a classic week, while luxury 10–14 day coast itineraries run substantially higher—exact quotes follow your dates and stay tier.",
-    image: "/detail.jpg",
+    image: "/istanbul.jpg",
     publishedAt: "2026-07-22",
     updatedAt: "2026-07-28",
     sections: [

@@ -16,6 +16,7 @@ export const metadata = buildMetadata({
   description:
     "Private Turkey experiences—Cappadocia balloon and jeep, Bosphorus cruise, Istanbul cooking class, Pamukkale from Antalya, Princes’ Islands, and gulet days.",
   path: "/experiences",
+  image: "/cappadocia.jpg",
   keywords: keywordList(pageKeywords.experiences),
 });
 

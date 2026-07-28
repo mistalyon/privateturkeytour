@@ -255,7 +255,7 @@ export const services: Service[] = [
       "Arrange a private jet in Turkey for Istanbul–Cappadocia hops, coast connections, or international VIP arrival—charter coordination inside your private journey.",
     answer:
       "A private jet Turkey charter moves you between key hubs—most often Istanbul and Cappadocia or coastal airports—with VIP ground handling. We coordinate reputable brokers/operators, then match hotel and guide timing so the jet is a seamless chapter of your private Turkey tour, not an orphan flight.",
-    image: "/detail.jpg",
+    image: "/istanbul.jpg",
     category: "aviation",
     duration: "On-demand charter · route dependent",
     bestFor: "Luxury groups, time-poor executives, and multi-city private itineraries",

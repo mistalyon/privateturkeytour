@@ -15,6 +15,7 @@ export const metadata = buildMetadata({
   description:
     "Private Turkey tours designed around you—tailor-made itineraries, licensed private guides, boutique stays, and seamless in-country care across Türkiye. Enquire for a custom outline.",
   path: "/private-turkey-tours",
+  image: "/istanbul.jpg",
   keywords: keywordList(pageKeywords.privateTurkeyTours),
 });
 

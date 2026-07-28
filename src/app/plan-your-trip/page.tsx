@@ -13,6 +13,7 @@ export const metadata = buildMetadata({
   description:
     "Plan a trip to Turkey with a private designer. Share dates, pace, and interests—we return with custom Turkey itinerary ideas for your private tour.",
   path: "/plan-your-trip",
+  image: "/istanbul.jpg",
   keywords: keywordList(pageKeywords.planYourTrip),
 });
 

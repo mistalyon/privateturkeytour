@@ -569,7 +569,7 @@ export const itineraries: Itinerary[] = [
       "A private 2-day Gallipoli and Troy itinerary from Istanbul—battlefield remembrance, Çanakkale overnight, and unhurried Troy ruins with guide and driver.",
     answer:
       "This private 2-day Gallipoli and Troy itinerary leaves Istanbul for the Gallipoli Peninsula, overnight in Çanakkale, then visits ancient Troy before returning—so remembrance and archaeology each get real daylight instead of a single exhausted day trip.",
-    image: "/detail.jpg",
+    image: "/ephesus.jpg",
     whoFor: "ANZAC and remembrance travelers, mythology fans, and anyone wanting Gallipoli depth without a rushed Istanbul day trip",
     includes: [
       "Private guide and vehicle from Istanbul",

@@ -23,7 +23,7 @@ export function buildMetadata({
   description,
   path = "/",
   keywords = [],
-  image = "/detail.jpg",
+  image = "/istanbul.jpg",
   type = "website",
   noIndex = false,
 }: BuildMetadataInput): Metadata {

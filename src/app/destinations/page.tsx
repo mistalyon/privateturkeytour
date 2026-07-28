@@ -17,6 +17,7 @@ export const metadata = buildMetadata({
   description:
     "Explore the best places to visit in Turkey on a private tour—Istanbul, Cappadocia, Ephesus, Pamukkale, and the Turquoise Coast designed around your pace.",
   path: "/destinations",
+  image: "/cappadocia.jpg",
   keywords: keywordList(pageKeywords.destinations),
 });
 

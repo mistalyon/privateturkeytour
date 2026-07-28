@@ -729,7 +729,7 @@ export const experiences: Experience[] = [
       "Book a private Bursa day trip from Istanbul—Green Mosque, bazaars, Uludağ viewpoints in season, and Ottoman city pacing with a licensed guide.",
     answer:
       "A private Bursa day trip from Istanbul is a full-day journey across the Sea of Marmara with guided Ottoman landmarks, market time, and optional Uludağ mountain scenery in season—paced privately so the day is culture-first, not a checklist sprint.",
-    image: "/detail.jpg",
+    image: "/istanbul.jpg",
     duration: "Full day · ferry or road options",
     bestFor: "History lovers and travelers wanting an Istanbul day beyond the Old City",
     sections: [

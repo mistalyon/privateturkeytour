@@ -13,6 +13,7 @@ export const metadata = buildMetadata({
   description:
     "About our private Turkey tour company—Türkiye-based designers of bespoke journeys with licensed local guides, boutique stays, and in-country care.",
   path: "/about",
+  image: "/istanbul.jpg",
   keywords: keywordList(pageKeywords.about),
 });
 

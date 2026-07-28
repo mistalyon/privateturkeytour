@@ -12,6 +12,7 @@ export const metadata = buildMetadata({
   description:
     "Learn how private Turkey tours work—from your first brief to licensed guides, boutique stays, and in-country care across Türkiye.",
   path: "/how-it-works",
+  image: "/istanbul.jpg",
   keywords: keywordList(pageKeywords.howItWorks),
 });
 

@@ -12,6 +12,7 @@ export const metadata = buildMetadata({
   description:
     "Private Turkey tour FAQ—timing, customization, inclusions, cost drivers, families, and whether a private Turkey tour is worth it.",
   path: "/faq",
+  image: "/istanbul.jpg",
   keywords: keywordList(pageKeywords.faq),
 });
 

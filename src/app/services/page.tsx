@@ -16,6 +16,7 @@ export const metadata = buildMetadata({
   description:
     "Private Turkey travel services—Istanbul airport transfer, yacht charter, Belek golf holidays, helicopter, and private jet coordination inside bespoke journeys.",
   path: "/services",
+  image: "/coast.jpg",
   keywords: keywordList(pageKeywords.services),
 });
 

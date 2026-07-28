@@ -16,6 +16,7 @@ export const metadata = buildMetadata({
   description:
     "Contact our private Turkey tour team by email, WhatsApp, or the trip form to enquire about a bespoke private guided journey across Türkiye.",
   path: "/contact",
+  image: "/istanbul.jpg",
   keywords: keywordList(pageKeywords.contact),
 });
 

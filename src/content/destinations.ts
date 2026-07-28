@@ -597,7 +597,7 @@ export const destinations: Destination[] = [
     slug: "gallipoli-troy",
     name: "Gallipoli & Troy",
     note: "Memory, myth & the Dardanelles",
-    image: "/detail.jpg",
+    image: "/ephesus.jpg",
     focusKeyword: pageKeywords.gallipoliTroy.focus,
     secondaryKeywords: [...pageKeywords.gallipoliTroy.secondary],
     title: "Gallipoli and Troy Tour: Private Day Trip from Istanbul",
