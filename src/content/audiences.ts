@@ -34,6 +34,14 @@ export const audiences: Audience[] = [
         body: "We flag hotels with quiet room locations, suggest private transfers over shared shuttles, and build recovery mornings after late dinners or early balloons. A Turkey honeymoon should feel designed, not merely upgraded.\n\nOptional upgrades: Cappadocia hot air balloon, Istanbul food tour evenings, and private gulet days on the Turquoise Coast.",
       },
       {
+        heading: "Romantic pacing by season and trip length",
+        body: "Seven days on a Turkey honeymoon usually means three Istanbul nights and three Cappadocia nights—a cave suite, optional balloon, Bosphorus evenings—without pretending Ephesus fits comfortably. Ten days adds Aegean antiquity and village lunches; fourteen days finish with Turquoise Coast privacy or a private gulet cruise when warm seas matter.\n\nMay, September, and October are the months we recommend most: comfortable walking, strong coast water, and balloon weather that feels fair. Peak summer works for beach-first couples who accept earlier starts; winter suits Istanbul-heavy romance with honest Cappadocia expectations.\n\nWe protect recovery mornings after late dinners and sunrise flights. Share celebration plans—proposal, surprise dinner, photography priorities—via plan your trip and we shape nights around intimacy, not checklist tourism. Compare our 14 day grand itinerary when coast privacy should match inland romance.",
+      },
+      {
+        heading: "Honeymoon mistakes that steal the romance",
+        body: "Booking a group-coach week and calling it upgraded is the trap we hear after the fact. Shared buses, fixed meal stops, and twenty-room hotels do not become romantic because you are newly married. Private transfers, quiet room locations, and dinners chosen for atmosphere are the actual product.\n\nAnother error is one-night Cappadocia with balloon as the only plan. Weather cancels; fatigue hits; you leave feeling you checked a box. We build two to three nights and Plan B mornings so grounded days still feel special.\n\nFinally, stacking every region without coast recovery turns a Turkey honeymoon into logistics. If swimming and boat privacy matter, the 14 day Turkey itinerary earns its length. See our luxury Turkey tour page when elevated stays and specialist guiding should match the celebration energy.",
+      },
+      {
         heading: "Enquire for your Turkey honeymoon",
         body: "Share travel month, trip length, and must-haves (balloon, coast, proposal). We return a private romantic outline with stay direction and cost drivers. Start at plan your trip.",
       },
@@ -92,7 +100,7 @@ export const audiences: Audience[] = [
         description: "Start your private honeymoon outline.",
       },
     ],
-    updatedAt: "2026-07-27",
+    updatedAt: "2026-07-28",
   },
   {
     slug: "family",
@@ -124,6 +132,14 @@ export const audiences: Audience[] = [
       {
         heading: "Practical Turkey-with-kids details we handle",
         body: "Car seats when required, connecting rooms, dietary notes, and guides who can switch storytelling register for ages. Balloon eligibility varies by operator—we confirm rules before promising a Cappadocia sunrise flight.\n\nEphesus stays shorter and earlier. Pamukkale is optional when terrace walking energy is limited.",
+      },
+      {
+        heading: "Family trip lengths and season windows",
+        body: "Seven days—Istanbul plus Cappadocia—is the first family Turkey tour we recommend when children are roughly five and up. Ten days can add Ephesus with shade-friendly pacing; fourteen days introduce Turquoise Coast swimming after cultural chapters without stacking too many internal flights.\n\nMay, June, September, and October balance walking comfort with manageable heat at ruins. July and August require earlier starts, shorter Ephesus blocks, and honest conversations about balloon age rules before promising sunrise flights. Winter works for museum-heavy Istanbul weeks with reduced Cappadocia ambition.\n\nMulti-generation parties benefit from private vehicles and split pacing—some explore while others rest. Share ages, nap needs, and must-sees via plan your trip so we quote transfer loads and hotel connecting rooms honestly.",
+      },
+      {
+        heading: "Family Turkey tour mistakes to avoid",
+        body: "Matching adult-paced coach itineraries to mixed ages is the frustration we solve most often. Eight-hour ruin marathons, late hotel check-ins after long drives, and fixed meal times do not work with toddlers or tired grandparents. Privately, we shorten Ephesus, add ice-cream resets, and keep evenings flexible.\n\nAnother trap is promising Cappadocia balloons without checking operator age limits. We confirm rules before your quote includes a sunrise flight—disappointment on vacation morning is avoidable.\n\nFinally, adding Pamukkale when terrace walking energy is limited creates a hard day with little payoff. Families often prefer an extra coast or city day instead. Read our 7 day classic and 10 day classic outlines for family-friendly spines, then enquire with ages so we design honestly—not optimistically.",
       },
       {
         heading: "Enquire for a family Turkey tour",
@@ -184,7 +200,7 @@ export const audiences: Audience[] = [
         description: "Share ages and dates for a first outline.",
       },
     ],
-    updatedAt: "2026-07-27",
+    updatedAt: "2026-07-28",
   },
   {
     slug: "luxury",
@@ -216,6 +232,14 @@ export const audiences: Audience[] = [
       {
         heading: "How we quote high-end journeys",
         body: "We separate stay tier, guiding depth, and signature experiences so you can invest where it matters. Transparent luxury Turkey tour cost drivers beat opaque ‘from’ prices.\n\nRead private Turkey tour cost, then enquire with dates and stay style. We return options—not a single take-it-or-leave-it package.",
+      },
+      {
+        heading: "Luxury pacing across ten and fourteen days",
+        body: "Ten days lets a luxury Turkey tour cover Istanbul, Cappadocia, and Ephesus with elevated stays and specialist guides without daily region hops. Fourteen days adds Turquoise Coast privacy—boutique Kaş, private boat days, optional gulet—so recovery mornings exist between cultural intensity.\n\nMay, September, and early October sell best for quiet site timing and strong coast conditions. We protect early Ephesus entries, weather-smart balloon backups, and restaurant reservations that match the evening—not generic VIP stickers on rushed days.\n\nSeven-day luxury versions stay Istanbul-and-Cappadocia-only by design; adding regions without adding nights contradicts what high-end travelers are buying. Share stay style—design boutique, cave suite, marina-facing—via plan your trip for transparent options. Our private Turkey tour cost guide explains how stay tier and guiding depth drive the quote.",
+      },
+      {
+        heading: "Luxury travel mistakes on private Turkey tours",
+        body: "Equating luxury with chain five-star defaults misses what discerning travelers actually want—room location, guide calibre, and table access. We match elevated boutique character when that fits the brief better than international polish.\n\nAnother error is opaque package pricing that hides cost drivers. Our private Turkey tour cost guide separates stay tier, guiding depth, balloon, and gulet so you invest deliberately. Luxury should feel crafted, not bundled.\n\nFinally, compressing a luxury Turkey itinerary into coach timing—midday Ephesus, stacked valleys, no recovery—wastes the private premium. Quiet timing at major sites and soft mornings are part of the product. Compare the 14 day grand outline when coast privacy should match inland refinement, then enquire with what luxury means to you—not what a brochure assumes.",
       },
       {
         heading: "Book a luxury private Turkey tour",
@@ -276,7 +300,7 @@ export const audiences: Audience[] = [
         description: "Request a luxury private outline.",
       },
     ],
-    updatedAt: "2026-07-27",
+    updatedAt: "2026-07-28",
   },
   {
     slug: "christmas-new-year",

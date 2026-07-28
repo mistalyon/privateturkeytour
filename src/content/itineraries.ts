@@ -60,6 +60,14 @@ export const itineraries: Itinerary[] = [
         body: "Food-heavy Istanbul, photography-first Cappadocia, family pacing, or honeymoon cave suites—all fit the same skeleton. Balloon mornings are optional and weather-backed. Museum intensity is dialed to your energy.\n\nCost drivers are hotel tier, guiding days, and balloon choice. See private Turkey tour cost, then enquire with dates for a real outline.",
       },
       {
+        heading: "Night splits that make seven days feel complete",
+        body: "The difference between a satisfying 7 day Turkey itinerary and a frustrating one is usually night math, not ticket counts. We most often propose three Istanbul nights and three Cappadocia nights, with travel day four as the pivot. That gives two full guiding days in the city, two valley-and-underground days inland, and enough balloon weather margin without stealing recovery time after long flights.\n\nShoulder months—May, September, October—sell this route best. April and November work with honest balloon expectations; deep winter suits Istanbul-heavy versions when you accept grounded mornings. We discourage adding Pamukkale or Ephesus here; protecting both signature regions is why travelers buy the 7 day Turkey itinerary in the first place.\n\nCompare with our 10 day Turkey itinerary if length is flexible. When seven days is fixed, tell us via plan your trip and we return a night split you can actually live—not a compressed coach calendar with private labels.",
+      },
+      {
+        heading: "Common mistakes on a one-week private Turkey tour",
+        body: "Over-scheduling museum blocks on day two after an intercontinental flight is the fatigue trap we see most. Istanbul deserves a soft landing; we protect one lighter evening and build Old City intensity when jet lag allows.\n\nAnother error is treating Cappadocia as a single-night hop because flights look convenient. Balloon weather needs margin; valleys reward a second morning. One-night Cappadocia inside a private week usually disappoints couples who prioritized sunrise.\n\nFinally, comparing this route to packaged coach weeks that pretend to cover four regions in seven days sets the wrong expectation. This 7 day Turkey itinerary is a complete private Turkey tour for one week—not a teaser. If coast swimming is non-negotiable, extend honestly rather than faking a Mediterranean day. Our private Turkey tour cost guide explains what drives quotes once dates and stay style are clear.",
+      },
+      {
         heading: "When to book a 7-day private Turkey tour",
         body: "May, September, and October are premium. April–June and September–November overall work well. Winter suits Istanbul-heavy versions with honest balloon expectations.\n\nReady? Plan your trip with dates and stay style—we return a 7 day Turkey itinerary outline you can actually book.",
       },
@@ -118,7 +126,7 @@ export const itineraries: Itinerary[] = [
         description: "Request a custom 7-day outline.",
       },
     ],
-    updatedAt: "2026-07-27",
+    updatedAt: "2026-07-28",
   },
   {
     slug: "10-day-classic",
@@ -171,6 +179,14 @@ export const itineraries: Itinerary[] = [
       {
         heading: "Optional Pamukkale on a 10-day private route",
         body: "Pamukkale can sit between Cappadocia and Ephesus as a day trip or overnight. We only add it when transfer energy and terrace interest justify the stop—see Pamukkale day trip for the decision framework.\n\nFamilies may skip Pamukkale to protect softer evenings. Culture-first travelers often keep it.",
+      },
+      {
+        heading: "How we split nights on a 10 day Turkey itinerary",
+        body: "Ten days is where Istanbul, Cappadocia, and Ephesus each earn real chapters without airport fatigue. Our most common private split: three Istanbul nights, three Cappadocia nights, and three Aegean nights around Ephesus—with travel days protected as pivots, not sightseeing marathons. Optional Pamukkale sits between Cappadocia and Ephesus only when terrace interest and transfer energy justify it.\n\nMay, September, and October remain premium booking windows. April and November work with adjusted ruin timing; summer demands earlier Ephesus starts and shorter marble blocks. Honeymoon and family briefs use the same geographic spine—we tune room categories, shade breaks, and dinner pacing instead of cutting a region to pretend the trip is easier.\n\nIf swimming is essential, we push toward the 14 day Turkey itinerary rather than faking a coast day. Share dates via plan your trip for a night map and sample days before you commit.",
+      },
+      {
+        heading: "Ten-day pacing mistakes we push back on",
+        body: "Adding Pamukkale without an overnight buffer is the western Turkey error we question most. Terraces plus Hierapolis plus a long transfer to Ephesus in one daylight window exhausts even fit travelers. When Pamukkale earns its place, we sequence it with honest pacing—see our Pamukkale day trip guide—or skip it to protect Aegean evenings.\n\nAnother trap is flying into Ephesus on the same day as a Cappadocia balloon attempt. Weather may ground the flight; fatigue may ground you. We separate high-stakes mornings across different days whenever possible.\n\nFinally, treating the 10 day Turkey itinerary as a checklist—every museum, every valley, every optional ticket—creates a private coach tour in disguise. This route sells because each region breathes. Tell us whether balloon depth or Ephesus specialist time matters more, and we invest accordingly. Compare with the 7-day classic if you need a shorter buy.",
       },
       {
         heading: "How to enquire for a 10 day private Turkey tour",
@@ -231,7 +247,7 @@ export const itineraries: Itinerary[] = [
         description: "Tell us your dates for a first draft.",
       },
     ],
-    updatedAt: "2026-07-27",
+    updatedAt: "2026-07-28",
   },
   {
     slug: "14-day-grand",
@@ -284,6 +300,14 @@ export const itineraries: Itinerary[] = [
       {
         heading: "Gulet, Pamukkale, and other upgrades",
         body: "A private gulet cruise can replace or complement hotel nights on the coast. Pamukkale can bridge Cappadocia and Ephesus. Balloon mornings stay weather-backed.\n\nWe quote upgrades as line items so you invest where it matters—stays, sea privacy, or guiding depth—without opaque package padding.",
+      },
+      {
+        heading: "Two-week night counts that protect culture and coast",
+        body: "Four Istanbul nights, three Cappadocia nights, three Ephesus-and-Aegean nights, and four Turquoise Coast nights is the grand spine we sell most—a 14 day Turkey itinerary where neither archaeology nor swimming feels like an afterthought. We adjust by one night per region based on golf, gulet, or family pacing, but the principle holds: the coast needs four nights to feel earned after inland chapters.\n\nSeptember and early October are the months we recommend most for this two week Turkey itinerary—warm seas, softer crowds, strong balloon odds inland. May and June are the spring twin. We quote winter versions honestly when coast swimming expectations must shift toward city and culture depth.\n\nShare month and must-haves—balloon, private gulet cruise, Pamukkale bridge—via plan your trip. We draft night splits and cost drivers before you confirm anything.",
+      },
+      {
+        heading: "Grand-tour mistakes that compress the Mediterranean",
+        body: "Stealing coast nights to add a fourth inland region is the fourteen-day error we resist. Travelers enquire for swimming and gulet privacy, then ask to squeeze Antalya, Bodrum, and Kaş into the same week. Privately, we choose one coastal finish and protect its nights—or extend length honestly.\n\nAnother trap is booking a multi-day gulet without seasickness or privacy clarity. Honeymoon and luxury clients often want intimate decks; families may prefer hotel bases with day boats. We quote each path through our private gulet cruise experience page rather than defaulting to wooden-boat romance for every brief.\n\nFinally, stacking Pamukkale, Ephesus, and a coast transfer into forty-eight hours wastes the grand Turkey tour pacing this length is designed to solve. The 14 day Turkey itinerary should feel like chapters, not checkpoints. Compare with the 10-day classic if time is tight—we cut honestly rather than fake depth.",
       },
       {
         heading: "Book the grand private Turkey tour",
@@ -344,7 +368,7 @@ export const itineraries: Itinerary[] = [
         description: "Start a grand private outline.",
       },
     ],
-    updatedAt: "2026-07-27",
+    updatedAt: "2026-07-28",
   },
 
   {

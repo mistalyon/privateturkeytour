@@ -142,6 +142,14 @@ export const destinations: Destination[] = [
         body: "Two to three nights suit most private itineraries. Couples often choose a cave suite; families may prefer a quieter valley base with easy private transfers.\n\nOn a 7 day Turkey itinerary, Cappadocia is usually half the trip. On 10–14 day routes, three nights let balloon weather and valley time breathe. We recommend against one-night hops unless the full itinerary forces it.",
       },
       {
+        heading: "Season windows that reward private pacing",
+        body: "April through June and September through October are the months we sell most often for a private Cappadocia tour—and for good reason. Balloon weather is more reliable, valley trails are comfortable, and cave hotels feel atmospheric without brutal midday heat. July and August still work when you accept earlier starts and shorter afternoon blocks; winter can be magical with snow on the fairy chimneys, but we only recommend it when you understand balloon cancellations may stack.\n\nIf your wider private Turkey tour lands in shoulder season, Cappadocia is where we protect an extra night. Three mornings give you two realistic balloon windows without turning the chapter into a lottery. Couples on a Turkey honeymoon often anchor here; families benefit from cooler hiking and softer hotel evenings. Tell us your travel month via plan your trip and we shape nights around weather, not wishful thinking.",
+      },
+      {
+        heading: "What not to rush on a private Cappadocia visit",
+        body: "The most common mistake we see is treating Cappadocia as a one-night photo stop between flights. You arrive exhausted, miss the light, scramble underground cities in heat, and leave before balloon weather has a fair chance. Privately, we push back: two nights minimum, three when balloon priority is high.\n\nAnother trap is stacking every valley, every pottery workshop, and every ATV option into forty-eight hours. Cappadocia rewards repetition—returning to a favourite ridge at sunset, sleeping in a cave suite that actually feels quiet, letting a guide shorten the day when energy dips. Coach circuits cannot do that; your private designer can.\n\nWe also caution against booking balloon-only days with no Plan B. Our Cappadocia hot air balloon experience page explains cost drivers; inside a private quote we always reserve alternatives so a grounded morning still feels like a gift, not a failure.",
+      },
+      {
         heading: "Book Cappadocia as part of your private journey",
         body: "Cappadocia pairs naturally with Istanbul by morning flight, then onward to Pamukkale, Ephesus, or the Turquoise Coast. Enquire with dates and balloon priority—we design stays, guiding, and backups as one sellable chapter.",
       },
@@ -200,7 +208,7 @@ export const destinations: Destination[] = [
         description: "Lock cave hotels and balloon windows early.",
       },
     ],
-    updatedAt: "2026-07-27",
+    updatedAt: "2026-07-28",
   },
   {
     slug: "ephesus",
@@ -235,6 +243,14 @@ export const destinations: Destination[] = [
       {
         heading: "Half-day vs full-day private Ephesus",
         body: "A focused half-day covers the core site. A full day allows Terrace Houses, nearby sanctuaries, and a village lunch without rushing. We recommend full-day energy if Ephesus is your only Aegean antiquity stop.\n\nFamilies get shorter ruin blocks and shade resets. Luxury and honeymoon clients often prefer specialist guiding plus a stronger lunch or wine stop over stacking every optional ticket.",
+      },
+      {
+        heading: "Best months for a private Ephesus tour",
+        body: "March through May and September through November are the windows we recommend most for a private Ephesus tour. Marble stays cooler, cruise-ship pressure is lighter outside peak summer, and specialist guides can walk Terrace Houses without fighting noon glare. April and October are particularly strong for photography and village lunches in Şirince afterward.\n\nSummer is not off-limits—we simply start earlier and keep ruin blocks shorter. Winter suits travelers who want quiet archaeology and are comfortable with shorter daylight; we adjust site order accordingly. If Ephesus sits inside a 10 day Turkey itinerary, we align your Aegean nights with these seasons so the whole western chapter breathes.\n\nShare your month when you enquire. We quote early-entry timing and the right overnight base—Selçuk, Kuşadası, or a boutique village—so Ephesus feels like the centrepiece, not a detour squeezed between transfers.",
+      },
+      {
+        heading: "Mistakes that dilute the Ephesus experience",
+        body: "Arriving at midday with a coach mentality is the fastest way to regret Ephesus. Heat, crowds, and rushed commentary turn one of the Mediterranean's great cities into a sweaty checkpoint. Privately, we invert that: early starts, shade breaks, and the freedom to leave when your group has absorbed enough.\n\nAnother common error is treating Ephesus as a half-day add-on after a long Cappadocia-to-Aegean transfer. You deserve either a full specialist day or an overnight that lets morning light do the work. Stacking Pamukkale, Ephesus, and a coast hop into thirty-six hours is another pattern we discourage on private routes—see our Pamukkale day trip guide for when that bridge earns its place.\n\nFinally, skipping the Terrace Houses to save ninety minutes usually backfires on first visits. We help you decide honestly based on mobility and interest, then build the rest of your private Turkey tour around that choice.",
       },
       {
         heading: "Enquire for Ephesus on your private itinerary",
@@ -295,7 +311,7 @@ export const destinations: Destination[] = [
         description: "Add Ephesus to your private outline.",
       },
     ],
-    updatedAt: "2026-07-27",
+    updatedAt: "2026-07-28",
   },
   {
     slug: "turquoise-coast",
@@ -331,6 +347,14 @@ export const destinations: Destination[] = [
       {
         heading: "How many nights on the Turquoise Coast?",
         body: "Three to four nights transform a 14 day Turkey itinerary. Two nights can work as a teaser after Ephesus if time is tight. One night rarely feels worth the transfer unless geography forces it.\n\nSeptember and early October are premium sales windows for warm water plus softer crowds. May–June is the spring twin. Winter coast weeks are quieter and cooler—we say so before you book.",
+      },
+      {
+        heading: "Shoulder months that sell the Turquoise Coast privately",
+        body: "May through June and September through early October are the sweet spots for Turquoise Coast Turkey travel on a private tour. Seas are warm enough for swimming, marinas in Kaş and Göcek feel lively without August intensity, and day-boat skippers still have flexibility to chase the calmest cove. These windows also pair cleanly with a 14 day Turkey itinerary when Istanbul and Cappadocia chapters finish in shoulder season.\n\nJuly and August work for beach-first travelers who accept heat and book boat days early. We rarely sell deep-winter coast weeks as primary swimming chapters—honest expectation-setting matters. Honeymoon and luxury clients often choose September for warm water plus quieter boutique tables.\n\nTell us your month and swimming priority via plan your trip. We recommend Fethiye, Kaş, or Göcek bases—and whether a private gulet cruise Turkey chapter fits your seasickness tolerance and evening style.",
+      },
+      {
+        heading: "Coastal nights worth protecting—and what to skip",
+        body: "One night on the Turquoise Coast is the mistake we correct most often. Transfers from Ephesus or Antalya eat daylight; you check in tired, swim once, and fly home feeling you barely touched the Mediterranean. Privately, we advocate three to four nights when the coast is your finish—or an honest two-night teaser with reduced inland ambition.\n\nAnother trap is choosing both Bodrum and Kaş/Fethiye on a ten-day trip without adding length. Each peninsula has a different rhythm; stacking both usually means neither feels unhurried. Families sometimes prefer land-based hotels with flexible day boats over multi-day gulet commitments—we design either path without pretending one size fits all.\n\nFinally, do not treat the coast as filler after exhausting cultural sprints. The Turquoise Coast is where a private Turkey tour recovers. We sequence it after Ephesus or Pamukkale so sea days feel earned, not obligatory.",
       },
       {
         heading: "Book coastal days into your private Turkey tour",
@@ -391,7 +415,7 @@ export const destinations: Destination[] = [
         description: "Add coast nights to your private quote.",
       },
     ],
-    updatedAt: "2026-07-27",
+    updatedAt: "2026-07-28",
   },
   {
     slug: "pamukkale",
@@ -426,6 +450,14 @@ export const destinations: Destination[] = [
       {
         heading: "How Pamukkale fits a private Turkey itinerary",
         body: "Pamukkale often sits between Cappadocia and Ephesus, or as an Aegean add-on. It is rarely a standalone week—but as a private day trip or overnight it adds a landscape chapter most first-timers want to see.\n\nOn tight 7-day trips we sometimes skip it to protect Istanbul and Cappadocia depth. On 10–14 day private Turkey tours, Pamukkale usually earns its place.",
+      },
+      {
+        heading: "Timing a private Pamukkale day for terraces and Hierapolis",
+        body: "Morning light on the travertine terraces is the difference between a postcard Pamukkale tour and a crowded slog. We schedule private arrivals before coach convoys when possible, walk Hierapolis with context while temperatures are manageable, and leave thermal sections for when rules and energy allow. April through June and September through November remain the most comfortable months for terrace walking.\n\nDay-trip versus overnight is the other timing decision. A same-day chapter from Denizli or between Cappadocia and Ephesus works when transfers are already in motion; an overnight rewards sunset colour and a quieter second morning. On 10 day Turkey itineraries we only add Pamukkale when the western arc has room—see our Pamukkale day trip guide for the framework.\n\nShare your route direction when you enquire. We quote footwear expectations, heat buffers, and the specialist guiding that keeps Hierapolis from feeling like an afterthought to the Cotton Castle.",
+      },
+      {
+        heading: "Pamukkale planning mistakes on private routes",
+        body: "Trying to squeeze Pamukkale onto a 7 day Turkey itinerary is the most frequent misstep. Istanbul and Cappadocia depth suffer, and you arrive at the terraces tired from a dawn flight and long drive. We usually say wait until ten or fourteen days—or accept an honest overnight that does not steal from Ephesus.\n\nAnother error is visiting for the photograph alone without Hierapolis context. The white pools sell the dream; the ancient city sells the substance. Privately, we sequence both with realistic walking time and shade—not a forty-minute terrace dash before the parking lot fills.\n\nFinally, assuming thermal pool access without checking current rules leads to disappointment. We confirm what is open for your dates and plan alternatives if swimming sections are restricted. Pamukkale belongs in a private Turkey tour when landscape and archaeology both matter—not when it is a checkbox between airports.",
       },
       {
         heading: "Book Pamukkale into your private route",
@@ -486,7 +518,7 @@ export const destinations: Destination[] = [
         description: "Add Pamukkale to your private outline.",
       },
     ],
-    updatedAt: "2026-07-27",
+    updatedAt: "2026-07-28",
   },
   {
     slug: "antalya",
@@ -521,6 +553,14 @@ export const destinations: Destination[] = [
       {
         heading: "How Antalya fits a private Turkey itinerary",
         body: "Antalya works as a fly-and-relax finish, a golf week with one culture day, or a Mediterranean hinge between Aegean ruins and the Turquoise Coast. It is rarely the only stop on a first private Turkey tour—but as two to four nights it sells sun, food, and easy logistics.\n\nShare whether golf, Old Town, or beach leads. We quote nights, day trips, and transfers in one outline.",
+      },
+      {
+        heading: "Choosing where to stay on a private Antalya tour",
+        body: "Antalya is not one homogeneous resort strip. Kaleiçi and the historic centre suit culture-first travelers who want Roman gates and marina walks on foot. Lara and Konyaaltı beach zones work when swimming leads and you still want occasional Old Town evenings. Belek is the base we recommend for golf weeks with one flexible city half-day. Further west toward Kaş, travelers usually pivot to our Turquoise Coast chapter instead of forcing Antalya nights.\n\nTwo to four nights is the usual private Antalya tour span. Golf itineraries run longer; pure transit hinges sometimes need only one night near the airport. May, June, September, and October balance walking weather with warm seas; July and August suit beach-priority briefs when we protect early starts for Düden falls or Perge day trips.\n\nShare your base preference via plan your trip. We quote guiding days, waterfall or antiquity options, and clean links onward to gulet or yacht experiences.",
+      },
+      {
+        heading: "What not to stack onto Antalya days",
+        body: "Treating Antalya as a cheap substitute for the Turquoise Coast is a pattern we push back on. The city excels as Mediterranean culture, golf, and selective day trips—not as a replacement for Kaş coves or Göcek gulet privacy unless your dates or flights demand it.\n\nAnother mistake is booking Pamukkale as a long day trip from Antalya resorts without accepting a very early start and limited ruin time at Hierapolis. Our Pamukkale day trip from Antalya experience exists for resort guests who understand the trade-off; on wider private Turkey tours we prefer sequencing Pamukkale between Cappadocia and Ephesus instead.\n\nFinally, stacking Perge, Aspendos, waterfalls, and a full Kaleiçi walk into one day usually exhausts families and shortchanges photography. Privately, we split priorities: one strong antiquity day, one city-and-marina day, optional beach recovery. Antalya should feel designed—not like a coach animation schedule with a private label.",
       },
       {
         heading: "Enquire for a private Antalya outline",
@@ -591,7 +631,7 @@ export const destinations: Destination[] = [
         description: "Request a private Antalya outline.",
       },
     ],
-    updatedAt: "2026-07-27",
+    updatedAt: "2026-07-28",
   },
   {
     slug: "gallipoli-troy",
@@ -626,6 +666,14 @@ export const destinations: Destination[] = [
       {
         heading: "How Gallipoli & Troy fit a private Turkey tour",
         body: "Most first-time private Turkey tours keep Istanbul and Cappadocia as the spine, then add Gallipoli and Troy when family history, ANZAC travel, or Homeric interest is strong. It pairs cleanly before Cappadocia or as a dedicated Istanbul extension.\n\nSee our Gallipoli–Troy itinerary outline for a two-day private shape, then enquire with dates.",
+      },
+      {
+        heading: "Remembrance seasons and respectful private pacing",
+        body: "April through May draws ANZAC-focused travelers to the Gallipoli Peninsula, when milder weather and remembrance events align. We plan around dawn services and crowd realities with honest expectations—private guiding helps you reach meaningful sites without losing the day to parking chaos. September through November suits archaeology-first trips that pair Troy with battlefield context in cooler walking conditions.\n\nSummer day trips from Istanbul are possible but demand very early departures and shorter Troy blocks. Winter offers quiet memorials and lower traffic, yet shorter daylight limits how much Gallipoli depth feels respectful in one journey. Our Gallipoli–Troy two-day itinerary outline is the shape we recommend when both sites matter.\n\nTell us whether remembrance, Homeric myth, or a wider private Turkey tour extension leads. We quote overnight Çanakkale versus long-day options without pretending either is effortless.",
+      },
+      {
+        heading: "Gallipoli day-trip mistakes from Istanbul",
+        body: "Attempting Gallipoli and Troy as a rushed Istanbul day trip without accepting a twelve-hour rhythm is the error we warn about most. You leave before dawn, absorb intense memorial sites while fatigued, and reach Troy when imagination is spent. Privately, we either commit to the long day with realistic site priorities—or add an overnight in Çanakkale so both chapters breathe.\n\nAnother trap is treating Troy as a ten-minute photo stop after emotional Gallipoli time. The citadel rewards a guide who connects myth with archaeology; shortening it defeats the pairing many travelers fly across the world to make.\n\nFinally, squeezing Gallipoli onto a 7 day Turkey itinerary that already chases Istanbul and Cappadocia depth rarely satisfies remembrance visitors. We suggest an Istanbul extension or our dedicated two-day outline instead. Share family history or ANZAC dates early via plan your trip so logistics stay respectful and feasible.",
       },
       {
         heading: "Enquire for a private Gallipoli and Troy tour",
@@ -681,7 +729,7 @@ export const destinations: Destination[] = [
         description: "Request a private Gallipoli–Troy quote.",
       },
     ],
-    updatedAt: "2026-07-27",
+    updatedAt: "2026-07-28",
   },
   {
     slug: "bodrum",
@@ -716,6 +764,14 @@ export const destinations: Destination[] = [
       {
         heading: "How Bodrum fits a private Turkey itinerary",
         body: "Bodrum works as a fly-and-relax finish after Istanbul and Cappadocia, a yacht week with one culture day, or an Aegean hinge before the Turquoise Coast. Three to five nights suits most private outlines.\n\nShare whether castle, beach, or yacht leads. We quote nights, boat days, and transfers in one coherent plan.",
+      },
+      {
+        heading: "Shoulder season vs peak on the Bodrum peninsula",
+        body: "May through June and September through early October are when we sell most private Bodrum tours. Seas warm enough for swimming, castle and marina walks stay pleasant, and private yacht days feel unhurried without July–August marina intensity. Peak summer suits beach-and-nightlife travelers who accept heat and book boat slots early.\n\nThree to five nights is the usual Bodrum chapter inside a private Turkey tour. Yacht weeks run longer; two nights work as an Aegean teaser after Ephesus when flights dictate. Bodrum pairs naturally with Istanbul and Cappadocia as a fly-and-relax finish, or as a hinge before the Turquoise Coast when you want marina energy before cove-and-gulet days.\n\nShare travel month and whether castle, beach, or yacht leads via plan your trip. We quote boutique stays, village lunches, and onward links to private yacht Turkey or gulet chapters without forcing both coasts into one week.",
+      },
+      {
+        heading: "Bodrum mistakes that waste Aegean nights",
+        body: "Choosing Bodrum and Kaş/Fethiye on a ten-day private route without adding length is the coastal error we correct often. Each peninsula has a different sales rhythm—marina-and-peninsula versus cove-and-gulet—and stacking both usually means neither feels private.\n\nAnother mistake is skipping Bodrum Castle and harbour context in favour of beach-club days only. The peninsula's culture is part of the product; we balance castle mornings, Gümüşlük lunches, and optional boat time instead of anonymous resort bubbles.\n\nFinally, assuming Ephesus is an easy same-day add-on from Bodrum underestimates transfer energy. Privately, we either allocate a full Ephesus chapter with overnight pacing or keep Bodrum as the Aegean finish—not a rushed antiquity dash before the airport. See our private Ephesus tour page for how western Turkey arcs should connect.",
       },
       {
         heading: "Enquire for a private Bodrum outline",
@@ -776,7 +832,7 @@ export const destinations: Destination[] = [
         description: "Request a private Bodrum outline.",
       },
     ],
-    updatedAt: "2026-07-27",
+    updatedAt: "2026-07-28",
   },
   {
     slug: "gobekli-tepe",
