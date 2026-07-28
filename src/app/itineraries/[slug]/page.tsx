@@ -67,6 +67,7 @@ export default async function ItineraryPage({ params }: Props) {
             name: itinerary.name,
             description: itinerary.description,
             path: `/itineraries/${itinerary.slug}`,
+            image: itinerary.image,
             itinerary: itinerary.daysOutline.map(
               (day) => `${day.day}: ${day.title}`,
             ),

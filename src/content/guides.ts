@@ -248,22 +248,26 @@ export const guides: Guide[] = [
     description:
       "Understand private Turkey tour cost drivers—trip length, hotels, guiding, flights, and season—so you can budget a tailor-made journey honestly.",
     answer:
-      "Private Turkey tour cost varies mainly by trip length, hotel category, private guiding days, domestic flights, and season. Think in ranges by style—not a single package price—because a boutique 7-day journey and a luxury 14-day coast itinerary are different products.",
+      "Private Turkey tour cost varies mainly by trip length, hotel category, private guiding days, domestic flights, and season. As a planning guide, comfortable boutique private journeys for two often start in the low-to-mid thousands of USD per person for a classic week, while luxury 10–14 day coast itineraries run substantially higher—exact quotes follow your dates and stay tier.",
     image: "/detail.jpg",
     publishedAt: "2026-07-22",
-    updatedAt: "2026-07-22",
+    updatedAt: "2026-07-28",
     sections: [
       {
         heading: "What drives private Turkey tour prices?",
         body: "The biggest levers are nights and hotel tier, how many full private guiding days you want, domestic flights versus long transfers, and peak versus shoulder season. Experiences like a Cappadocia hot air balloon or a private gulet cruise sit on top of the base itinerary cost.",
       },
       {
+        heading: "Indicative starting ranges (not a fixed package price)",
+        body: "For orientation only: a well-designed boutique private Turkey tour for two commonly begins in the low-to-mid thousands of USD per person for about seven classic nights (Istanbul + Cappadocia), before optional balloons or boats. Ten-day arcs with Ephesus and elevated stays move higher; luxury cave suites, private yachts, helicopters, or peak festive dates can multiply the total.\n\nThese bands help you budget the enquiry—not replace a dated quote. Single travelers, multi-gen parties, and ultra-luxury briefs need different math.",
+      },
+      {
         heading: "How to think about budget tiers",
         body: "A comfortable boutique private journey costs less than an ultra-luxury version with top cave suites and fine dining every night. Private does not automatically mean maximum luxury—it means tailored. We quote options so you can choose where to invest: stays, guiding depth, or signature experiences.",
       },
       {
-        heading: "Why ranges beat fake ‘from’ prices",
-        body: "Two couples on the same 10 day Turkey itinerary can spend very differently based on room category and balloon choices. We share transparent drivers and sample ranges in your proposal after seeing dates and style—more useful than a marketing ‘from’ that ignores reality.",
+        heading: "Why we still customise after sharing ranges",
+        body: "Two couples on the same 10 day Turkey itinerary can spend very differently based on room category and balloon choices. Indicative ranges prevent sticker shock; your proposal after dates and style is what you actually buy—more useful than a single marketing ‘from’ that hides exclusions.",
       },
       {
         heading: "Ways to control cost without killing the trip",
@@ -274,7 +278,7 @@ export const guides: Guide[] = [
       {
         question: "How much does a private Turkey tour cost per day?",
         answer:
-          "It depends on hotel tier and inclusions. After a short brief we can share realistic daily ranges for your dates—more accurate than a generic website number.",
+          "Comfortable boutique private days often land in a mid-hundreds to low-thousands USD per person range depending on hotels and whether a full guide day is included. After a short brief we share realistic bands for your dates.",
       },
       {
         question: "Is a private Turkey tour worth the cost vs a group package?",
@@ -285,6 +289,11 @@ export const guides: Guide[] = [
         question: "What is usually included in the quote?",
         answer:
           "Typically design work, private guides on touring days, handpicked stays, transfers or domestic flights as planned, and in-country support. Balloons, gulets, and some tickets may be optional line items.",
+      },
+      {
+        question: "Do you publish exact starting prices on every page?",
+        answer:
+          "We publish indicative ranges here and quote precisely after dates and hotel tier—so you are not sold an incomplete ‘from’ price.",
       },
     ],
     related: [

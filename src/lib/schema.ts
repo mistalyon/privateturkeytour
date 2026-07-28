@@ -15,13 +15,17 @@ export function organizationSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "TravelAgency",
+    "@id": `${siteConfig.url}/#organization`,
     name: siteConfig.name,
     url: siteConfig.url,
     email: siteConfig.email,
     telephone: siteConfig.phone,
     description: siteConfig.description,
     image: absoluteUrl(siteConfig.logo),
-    logo: absoluteUrl(siteConfig.logo),
+    logo: {
+      "@type": "ImageObject",
+      url: absoluteUrl(siteConfig.logo),
+    },
     areaServed: {
       "@type": "Country",
       name: "Turkey",
@@ -32,12 +36,32 @@ export function organizationSchema() {
     },
     foundingDate: String(siteConfig.foundedYear),
     priceRange: "$$$",
+    knowsAbout: [
+      "Private Turkey tours",
+      "Custom Turkey itineraries",
+      "Istanbul private tours",
+      "Cappadocia private tours",
+      "Ephesus private tours",
+    ],
     contactPoint: {
       "@type": "ContactPoint",
       contactType: "customer service",
       email: siteConfig.email,
       telephone: siteConfig.phone,
       availableLanguage: ["English"],
+    },
+    makesOffer: {
+      "@type": "Offer",
+      url: absoluteUrl("/private-turkey-tours"),
+      category: "Private guided travel",
+      itemOffered: {
+        "@type": "Service",
+        name: "Private Turkey Tour",
+        description: siteConfig.description,
+        provider: {
+          "@id": `${siteConfig.url}/#organization`,
+        },
+      },
     },
   };
 }
@@ -46,15 +70,13 @@ export function websiteSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
+    "@id": `${siteConfig.url}/#website`,
     name: siteConfig.name,
     url: siteConfig.url,
     description: siteConfig.description,
     inLanguage: siteConfig.language,
     publisher: {
-      "@type": "Organization",
-      name: siteConfig.name,
-      url: siteConfig.url,
-      logo: absoluteUrl(siteConfig.logo),
+      "@id": `${siteConfig.url}/#organization`,
     },
   };
 }
@@ -178,11 +200,13 @@ export function touristTripSchema({
   description,
   path,
   itinerary,
+  image,
 }: {
   name: string;
   description: string;
   path: string;
   itinerary?: string[];
+  image?: string;
 }) {
   return {
     "@context": "https://schema.org",
@@ -190,11 +214,10 @@ export function touristTripSchema({
     name,
     description,
     url: absoluteUrl(path),
+    ...(image ? { image: absoluteUrl(image) } : {}),
     touristType: "Private travelers",
     provider: {
-      "@type": "TravelAgency",
-      name: siteConfig.name,
-      url: siteConfig.url,
+      "@id": `${siteConfig.url}/#organization`,
     },
     ...(itinerary
       ? {

@@ -18,7 +18,7 @@ import { destinations } from "@/content/destinations";
 import { guides } from "@/content/guides";
 import { itineraries } from "@/content/itineraries";
 import { keywordList, pageKeywords } from "@/content/keywords";
-import { faqSchema } from "@/lib/schema";
+import { faqSchema, touristTripSchema } from "@/lib/schema";
 import { buildMetadata } from "@/lib/seo";
 import { cn } from "@/lib/utils";
 
@@ -27,6 +27,7 @@ export const metadata = buildMetadata({
   description:
     "Private Turkey tours with licensed local guides, boutique stays, and custom itineraries across Istanbul, Cappadocia, Ephesus, Pamukkale, and the Turquoise Coast. Plan your tailor-made journey.",
   path: "/",
+  image: "/istanbul.jpg",
   keywords: keywordList({
     ...pageKeywords.home,
     secondary: [
@@ -65,9 +66,14 @@ const homeFaqs = [
       "April–June and September–October are strongest overall. May and October often balance weather, Cappadocia balloon odds, and softer crowds.",
   },
   {
+    question: "How much does a private Turkey tour cost?",
+    answer:
+      "Comfortable boutique private journeys for two often start in the low-to-mid thousands of USD per person for a classic week; luxury and longer coast itineraries cost more. See our private Turkey tour cost guide, then enquire with dates for a precise outline.",
+  },
+  {
     question: "Who are private Turkey tours best for?",
     answer:
-      "Couples, honeymoon travelers, families, and cultural travelers who want privacy, flexible timing, and specialist guiding rather than a packaged group schedule.",
+      "Couples, honeymoon travelers, families, solo travelers, and cultural travelers who want privacy, flexible timing, and specialist guiding rather than a packaged group schedule.",
   },
 ];
 
@@ -90,13 +96,34 @@ export default function Home() {
           {
             "@context": "https://schema.org",
             "@type": "WebPage",
+            "@id": "https://privateturkeytour.com/#webpage",
             name: "Private Turkey Tours | Custom Itineraries Across Türkiye",
             description:
               "Private Turkey tours with licensed local guides, boutique stays, and custom itineraries across Türkiye.",
             url: "https://privateturkeytour.com",
-            about: "Private Turkey tours",
+            isPartOf: { "@id": "https://privateturkeytour.com/#website" },
+            about: {
+              "@id": "https://privateturkeytour.com/#organization",
+            },
+            primaryImageOfPage: {
+              "@type": "ImageObject",
+              url: "https://privateturkeytour.com/istanbul.jpg",
+            },
           },
           faqSchema(homeFaqs),
+          touristTripSchema({
+            name: "Private Turkey Tour",
+            description:
+              "Tailor-made private Turkey tours with licensed local guides, boutique stays, and custom itineraries across Istanbul, Cappadocia, Ephesus, and the Turquoise Coast.",
+            path: "/private-turkey-tours",
+            image: "/istanbul.jpg",
+            itinerary: [
+              "Istanbul private guided days",
+              "Cappadocia valleys and optional balloon",
+              "Ephesus and Aegean options",
+              "Turquoise Coast or archaeology extensions",
+            ],
+          }),
         ]}
       />
 
