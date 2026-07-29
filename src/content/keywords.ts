@@ -521,6 +521,39 @@ export const pageKeywords = {
     ],
     volume: "H",
   },
+  itineraryBelekGolfWeek: {
+    focus: "belek golf week",
+    secondary: [
+      "belek golf holiday itinerary",
+      "7 day belek golf",
+      "private belek golf week",
+      "belek golf package itinerary",
+      "antalya golf week private",
+    ],
+    volume: "H",
+  },
+  itineraryGolfAntalya: {
+    focus: "golf and antalya itinerary",
+    secondary: [
+      "belek golf antalya culture",
+      "golf holiday with sightseeing turkey",
+      "belek and old town antalya",
+      "golf package non golfer turkey",
+      "private golf antalya itinerary",
+    ],
+    volume: "M",
+  },
+  itineraryGolfCappadocia: {
+    focus: "golf and cappadocia itinerary",
+    secondary: [
+      "belek golf cappadocia",
+      "golf holiday turkey cappadocia",
+      "belek then cappadocia",
+      "private golf cappadocia add on",
+      "turkey golf balloon itinerary",
+    ],
+    volume: "M",
+  },
   helicopter: {
     focus: "private helicopter turkey",
     secondary: [

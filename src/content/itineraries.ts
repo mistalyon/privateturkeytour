@@ -771,6 +771,375 @@ export const itineraries: Itinerary[] = [
     ],
     updatedAt: "2026-07-27",
   },
+  {
+    slug: "belek-golf-week",
+    name: "Belek Golf Week — 6 Days",
+    days: 6,
+    focusKeyword: pageKeywords.itineraryBelekGolfWeek.focus,
+    secondaryKeywords: [...pageKeywords.itineraryBelekGolfWeek.secondary],
+    title: "Belek Golf Week: 6-Day Private Golf Holiday Itinerary",
+    description:
+      "A private Belek golf week itinerary—championship rounds, hotel–course transfers, recovery pacing, and optional Antalya culture without a fixed resort flyer.",
+    answer:
+      "This private Belek golf week is a six-day fairway-first itinerary: arrival buffer, multiple coordinated tee times, private hotel–course transfers, and recovery evenings—with one optional Antalya half-day so non-golfers stay included without diluting the rounds.",
+    image: "/coast.jpg",
+    whoFor:
+      "Golf couples, friends groups, and luxury travelers who want a serious Belek golf holiday without a one-size resort calendar",
+    includes: [
+      "Belek-corridor stay direction for transfer comfort",
+      "Preferred tee-time coordination for planned rounds",
+      "Private hotel–course transfers",
+      "Optional club hire arranged around your dates",
+      "One flexible Antalya culture or spa half-day",
+    ],
+    daysOutline: [
+      {
+        day: "Day 1",
+        title: "Arrive Belek & settle",
+        body: "Airport transfer into the Belek corridor, hotel check-in, and a light evening—no forced round after travel. Confirm tee windows and club hire for the week.",
+      },
+      {
+        day: "Day 2",
+        title: "First championship round",
+        body: "Private transfer to your opening course, preferred morning tee when heat or wind demands it, afternoon recovery at the hotel or spa.",
+      },
+      {
+        day: "Day 3",
+        title: "Second round + recovery design",
+        body: "Another coordinated round matched to handicap energy. Evening stays quiet so Day 4 does not start exhausted.",
+      },
+      {
+        day: "Day 4",
+        title: "Optional Antalya culture half-day",
+        body: "Non-golfers (or the whole group) take a private Kaleiçi / marina half-day while golfers play a lighter round or rest—shared dinner after.",
+      },
+      {
+        day: "Day 5",
+        title: "Signature round & celebration dinner",
+        body: "Priority layout for the week’s strongest course window, then a private dinner reservation matched to celebration or friends-group energy.",
+      },
+      {
+        day: "Day 6",
+        title: "Depart or extend",
+        body: "Depart from Antalya, or extend into golf + Antalya culture nights or a Cappadocia closer when flights allow.",
+      },
+    ],
+    sections: [
+      {
+        heading: "Why a six-day Belek golf week sells",
+        body: "Five to seven nights is the commercial sweet spot: enough rounds to feel like a real golf holiday, enough recovery to enjoy dinners, and room for one culture foil so partners are not stranded at the resort.\n\nShorter sprints work; longer only earns when you add coast or Cappadocia without compressing tee quality. Read Belek golf packages for package anatomy, then enquire for dated tee availability.",
+      },
+      {
+        heading: "Rounds, heat, and transfer honesty",
+        body: "We match tee times to season—earlier in summer, more flexible in spring and autumn. Private transfers protect the morning buffer. We push back on stacking too many double rounds in peak heat.\n\nSee best time for golf in Turkey before locking month.",
+      },
+      {
+        heading: "Enquire for a private Belek golf week",
+        body: "Share month, rounds wanted, group size, handicap comfort, and non-golfer needs. We return stay direction and a tee-led outline. Start at Turkey golf holiday or plan your trip.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Is six days enough for a Belek golf holiday?",
+        answer:
+          "Yes for most private groups—arrival buffer, three to four quality rounds, and one culture or recovery hinge. Add nights when you want more golf or a Cappadocia closer.",
+      },
+      {
+        question: "Can this Belek golf week include non-golfers?",
+        answer:
+          "Yes. Day 4 is designed as a flexible Antalya culture half-day so partners stay on the same trip without forcing 18 holes.",
+      },
+      {
+        question: "Do you fix courses before enquiry?",
+        answer:
+          "We shortlist for your dates and stay base after a brief—availability beats static top-10 lists. See best golf courses Turkey.",
+      },
+      {
+        question: "Can we extend after the golf week?",
+        answer:
+          "Yes—toward deeper Antalya culture nights or a golf and Cappadocia itinerary when flights fit.",
+      },
+    ],
+    related: [
+      {
+        title: "Turkey golf holiday",
+        href: "/services/turkey-golf",
+        description: "Commercial Belek golf pillar.",
+      },
+      {
+        title: "Belek golf packages",
+        href: "/guides/belek-golf-packages",
+        description: "How packages are itemized and quoted.",
+      },
+      {
+        title: "Golf & Antalya culture",
+        href: "/itineraries/golf-antalya-culture",
+        description: "More Old Town nights beside fairways.",
+      },
+      {
+        title: "Golf & Cappadocia",
+        href: "/itineraries/golf-cappadocia",
+        description: "Close the trip with valleys and balloon odds.",
+      },
+      {
+        title: "Best time for golf in Turkey",
+        href: "/guides/best-time-for-golf-in-turkey",
+        description: "Season windows for Belek weeks.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Request a dated Belek golf week outline.",
+      },
+    ],
+    updatedAt: "2026-07-29",
+  },
+  {
+    slug: "golf-antalya-culture",
+    name: "Golf & Antalya Culture — 7 Days",
+    days: 7,
+    focusKeyword: pageKeywords.itineraryGolfAntalya.focus,
+    secondaryKeywords: [...pageKeywords.itineraryGolfAntalya.secondary],
+    title: "Golf and Antalya Itinerary: Belek Rounds + Old Town Days",
+    description:
+      "A private golf and Antalya itinerary—Belek championship rounds, Kaleiçi culture days, marina evenings, and non-golfer pacing in one seven-day outline.",
+    answer:
+      "This private golf and Antalya itinerary balances Belek fairways with Old Town and marina culture: golfers get coordinated rounds while non-golfers get designed Antalya days—shared dinners keep the holiday together.",
+    image: "/coast.jpg",
+    whoFor:
+      "Couples and mixed groups where only some players golf, and everyone still wants Mediterranean culture",
+    includes: [
+      "Belek stay base for golf logistics",
+      "Coordinated tee times for planned rounds",
+      "Private transfers course-to-hotel",
+      "Private Antalya Old Town / marina guiding blocks",
+      "Optional spa or waterfall half-day for non-golfers",
+    ],
+    daysOutline: [
+      {
+        day: "Day 1",
+        title: "Arrive Belek",
+        body: "Settle into the golf corridor. Light evening—optional marina dinner if energy allows after travel.",
+      },
+      {
+        day: "Day 2",
+        title: "Golf morning / spa alternative",
+        body: "Golfers play the opening round with private transfer. Non-golfers spa or beach recovery nearby; regroup for dinner.",
+      },
+      {
+        day: "Day 3",
+        title: "Shared Antalya Old Town",
+        body: "Private Kaleiçi and Hadrian’s Gate pacing with a licensed guide—shade, lunch, and marina views. No golf forced today.",
+      },
+      {
+        day: "Day 4",
+        title: "Second round + quiet evening",
+        body: "Championship round for players; optional boutique shopping or spa for partners. Shared celebration dinner.",
+      },
+      {
+        day: "Day 5",
+        title: "Culture or antiquity half-day",
+        body: "Flexible private day: waterfall morning, Perge/Aspendos if energy is high, or marina-and-lunch recovery for slower pacing.",
+      },
+      {
+        day: "Day 6",
+        title: "Signature golf day",
+        body: "Priority tee window for the week’s strongest round. Evening free for hotel dining or a quiet Belek night.",
+      },
+      {
+        day: "Day 7",
+        title: "Depart or extend west / Cappadocia",
+        body: "Depart Antalya, continue to Turquoise Coast nights, or pivot inland for a golf and Cappadocia closer.",
+      },
+    ],
+    sections: [
+      {
+        heading: "Why golf + Antalya culture beats resort-only weeks",
+        body: "Resort-only packages strand non-golfers. This itinerary sells a shared holiday: real Belek rounds plus designed city chapters so partners are not an afterthought.\n\nIt pairs naturally with the Turkey golf holiday pillar and private Antalya tour destination page.",
+      },
+      {
+        heading: "Who should pick this over a pure Belek golf week",
+        body: "Choose this when Old Town dinners, marina walks, or mixed playing ability matter as much as score. Choose the six-day Belek golf week when rounds-first intensity is the product.\n\nLuxury couples often want this shape with elevated stays—see luxury Turkey tour for stay-tier language.",
+      },
+      {
+        heading: "Enquire for a golf and Antalya outline",
+        body: "Share who plays, who does not, month, and must-see culture stops. We quote rounds and guiding days separately. Start at plan your trip.",
+      },
+    ],
+    faqs: [
+      {
+        question: "How many golf days are in this Antalya itinerary?",
+        answer:
+          "Typically three quality rounds with room to add or drop one after we see heat and energy. Culture days stay protected.",
+      },
+      {
+        question: "Do we stay in Belek or Antalya city?",
+        answer:
+          "Most versions base in Belek for golf logistics and visit Antalya on guided days. City hotels work when culture evenings lead and transfer buffers are accepted.",
+      },
+      {
+        question: "Can we add a yacht day?",
+        answer:
+          "Yes as an optional upgrade—private yacht Turkey between recovery days, not instead of agreed rounds.",
+      },
+      {
+        question: "Is this good for honeymoon golfers?",
+        answer:
+          "Yes when one partner plays and the other wants Old Town and spa. We keep dinners shared and pacing romantic.",
+      },
+    ],
+    related: [
+      {
+        title: "Belek golf week",
+        href: "/itineraries/belek-golf-week",
+        description: "Rounds-first six-day alternative.",
+      },
+      {
+        title: "Private Antalya Tour",
+        href: "/destinations/antalya",
+        description: "Deep dive for Old Town and day trips.",
+      },
+      {
+        title: "Turkey golf holiday",
+        href: "/services/turkey-golf",
+        description: "Pillar for Belek package design.",
+      },
+      {
+        title: "Private yacht Turkey",
+        href: "/services/private-yacht-turkey",
+        description: "Optional sea day between rounds.",
+      },
+      {
+        title: "Golf & Cappadocia",
+        href: "/itineraries/golf-cappadocia",
+        description: "Add valleys after Mediterranean golf.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Request a mixed golf–culture outline.",
+      },
+    ],
+    updatedAt: "2026-07-29",
+  },
+  {
+    slug: "golf-cappadocia",
+    name: "Golf & Cappadocia — 8 Days",
+    days: 8,
+    focusKeyword: pageKeywords.itineraryGolfCappadocia.focus,
+    secondaryKeywords: [...pageKeywords.itineraryGolfCappadocia.secondary],
+    title: "Golf and Cappadocia Itinerary: Belek Then Valleys",
+    description:
+      "A private golf and Cappadocia itinerary—Belek rounds first, then cave hotels and optional balloon mornings—with realistic flight and recovery pacing.",
+    answer:
+      "This private golf and Cappadocia itinerary opens with a Belek golf chapter, then flies inland for Cappadocia valleys and optional hot air balloon mornings—so fairways and fairy chimneys each get real nights instead of a rushed mash-up.",
+    image: "/cappadocia.jpg",
+    whoFor:
+      "Golfers who also want Cappadocia atmosphere—or couples splitting golf intensity with a photogenic closer",
+    includes: [
+      "Belek golf nights with private course transfers",
+      "Domestic flight planning Belek/Antalya ↔ Cappadocia",
+      "Cave or boutique stay direction in Cappadocia",
+      "Private valley day and optional balloon with Plan B",
+      "Hotel–airport transfers on both chapters",
+    ],
+    daysOutline: [
+      {
+        day: "Days 1–2",
+        title: "Arrive Belek & first rounds",
+        body: "Settle in the golf corridor, play the opening championship round, keep evenings light after travel.",
+      },
+      {
+        day: "Days 3–4",
+        title: "Belek golf depth",
+        body: "Second and optional third round with recovery design. One flexible Antalya half-day if non-golfers need culture before the inland flight.",
+      },
+      {
+        day: "Day 5",
+        title: "Fly to Cappadocia",
+        body: "Morning or midday flight inland, cave hotel check-in, sunset viewpoint without stacking a full valley hike after travel.",
+      },
+      {
+        day: "Days 6–7",
+        title: "Valleys & optional balloon",
+        body: "Private valley pacing, underground city or viewpoint timing, and optional Cappadocia hot air balloon with weather Plan B baked in.",
+      },
+      {
+        day: "Day 8",
+        title: "Depart Cappadocia",
+        body: "Private airport transfer. Extend Turquoise Coast only if you add nights—do not compress golf and balloon into fewer days.",
+      },
+    ],
+    sections: [
+      {
+        heading: "Why Belek then Cappadocia works privately",
+        body: "Golf logistics cluster on the Mediterranean coast; Cappadocia needs its own sleep and balloon weather odds. Sequencing Belek first, then valleys, protects both products.\n\nReversing the order can work when flights dictate—but buffer nights still matter. We refuse seven-day fantasies that pretend both chapters fit without fatigue.",
+      },
+      {
+        heading: "Balloon expectations after golf week intensity",
+        body: "Arrive Cappadocia rested enough for a pre-dawn balloon attempt. That is why Day 5 stays light. Read Cappadocia hot air balloon for cancellation Plan B language, and best time for golf in Turkey plus best time to visit Turkey when choosing month for both chapters.",
+      },
+      {
+        heading: "Enquire for a golf and Cappadocia outline",
+        body: "Share rounds wanted, balloon priority, and month. We quote Belek nights, flights, and Cappadocia stays as clear chapters. Start at Turkey golf holiday or plan your trip.",
+      },
+    ],
+    faqs: [
+      {
+        question: "How many days for golf plus Cappadocia?",
+        answer:
+          "Eight days is the honest minimum we sell most often—four-ish Belek golf nights and three Cappadocia nights with flight day protected.",
+      },
+      {
+        question: "Can we do golf and balloon in one week?",
+        answer:
+          "Usually no at private quality. Compressing both chapters burns recovery and balloon odds. Add nights or pick one headline.",
+      },
+      {
+        question: "Where do we fly from?",
+        answer:
+          "Typically Antalya or nearby airports into Cappadocia hubs. We match timings to tee schedules and hotel check-ins.",
+      },
+      {
+        question: "Is this better for couples than a pure golf week?",
+        answer:
+          "Often yes when one partner wants valleys and optional balloon atmosphere after fairway days.",
+      },
+    ],
+    related: [
+      {
+        title: "Belek golf week",
+        href: "/itineraries/belek-golf-week",
+        description: "Stay coast-side if Cappadocia can wait.",
+      },
+      {
+        title: "Golf & Antalya culture",
+        href: "/itineraries/golf-antalya-culture",
+        description: "More Old Town instead of inland flight.",
+      },
+      {
+        title: "Private Cappadocia Tour",
+        href: "/destinations/cappadocia",
+        description: "Valley and cave-hotel chapter detail.",
+      },
+      {
+        title: "Cappadocia hot air balloon",
+        href: "/experiences/cappadocia-hot-air-balloon",
+        description: "Sunrise flight planning and Plan B.",
+      },
+      {
+        title: "Turkey golf holiday",
+        href: "/services/turkey-golf",
+        description: "Belek commercial pillar.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Request a golf-then-valleys outline.",
+      },
+    ],
+    updatedAt: "2026-07-29",
+  },
 ];
 
 export function getItinerary(slug: string) {

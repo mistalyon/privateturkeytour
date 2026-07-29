@@ -1384,6 +1384,16 @@ export const guides: Guide[] = [
         description: "Enquire for a Belek-led private package.",
       },
       {
+        title: "Belek golf week",
+        href: "/itineraries/belek-golf-week",
+        description: "Six-day rounds-first itinerary to book.",
+      },
+      {
+        title: "Golf & Antalya culture",
+        href: "/itineraries/golf-antalya-culture",
+        description: "Mixed fairway and Old Town week.",
+      },
+      {
         title: "Best time for golf in Turkey",
         href: "/guides/best-time-for-golf-in-turkey",
         description: "Season windows before you lock dates.",

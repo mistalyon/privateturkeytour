@@ -173,6 +173,21 @@ export const services: Service[] = [
     ],
     related: [
       {
+        title: "Belek golf week",
+        href: "/itineraries/belek-golf-week",
+        description: "Six-day rounds-first private itinerary.",
+      },
+      {
+        title: "Golf & Antalya culture",
+        href: "/itineraries/golf-antalya-culture",
+        description: "Fairways plus Old Town for mixed groups.",
+      },
+      {
+        title: "Golf & Cappadocia",
+        href: "/itineraries/golf-cappadocia",
+        description: "Belek then valleys and optional balloon.",
+      },
+      {
         title: "Private Antalya Tour",
         href: "/destinations/antalya",
         description: "Old Town and culture days beside Belek fairways.",
@@ -191,21 +206,6 @@ export const services: Service[] = [
         title: "Best golf courses Turkey",
         href: "/guides/best-golf-courses-turkey",
         description: "Logistics-first course shortlisting.",
-      },
-      {
-        title: "Luxury Turkey Tour",
-        href: "/private-turkey-tours/luxury",
-        description: "Elevate stays and dining around tee times.",
-      },
-      {
-        title: "Private yacht Turkey",
-        href: "/services/private-yacht-turkey",
-        description: "Sea day between rounds for premium groups.",
-      },
-      {
-        title: "Private Turkey tour cost",
-        href: "/guides/private-turkey-tour-cost",
-        description: "How stay, rounds, and add-ons drive the quote.",
       },
       {
         title: "Plan your trip",

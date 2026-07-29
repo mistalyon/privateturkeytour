@@ -108,6 +108,10 @@ const columns = [
         href: "/guides/belek-golf-packages",
         label: "Belek Golf Packages",
       },
+      {
+        href: "/itineraries/belek-golf-week",
+        label: "Belek Golf Week",
+      },
     ],
   },
   {
