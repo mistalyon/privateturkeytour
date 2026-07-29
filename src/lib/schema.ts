@@ -42,6 +42,8 @@ export function organizationSchema() {
       "Istanbul private tours",
       "Cappadocia private tours",
       "Ephesus private tours",
+      "Turkey golf holiday",
+      "Belek golf packages",
     ],
     contactPoint: {
       "@type": "ContactPoint",

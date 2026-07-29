@@ -135,6 +135,10 @@ export const services: Service[] = [
         body: "Booking a group golf flyer and labeling it private does not create flexibility. Fixed coach shuttles and shared dining still rule the day. Another trap is one culture afternoon stacked after four hard rounds with no recovery—everyone is tired and nobody enjoys Kaleiçi.\n\nWe also caution against treating Antalya as a cheap substitute for the Turquoise Coast. Belek is the golf hub; Kaş and Göcek are the cove-and-gulet finish. Use Antalya city as the cultural foil to golf weeks, then move west only if nights remain.\n\nFinally, inventing ten named course pages without logistics is content filler. This pillar stays commercial: rounds, stay, transfers, non-golfer days, enquiry.",
       },
       {
+        heading: "Operator expertise: how we run Belek golf weeks",
+        body: "Private Turkey Tour designs golf holidays from Türkiye—not from a remote brochure desk. We treat Belek as an operations problem: tee-window realism for your month, hotel–course transfer buffers, club-hire confirmation, and a deliberate non-golfer plan so the trip stays one product for the whole party.\n\nCourse shortlists are representative options we book around for condition and availability on your dates. We do not claim exclusive partnerships or publish stale green-fee stickers. When heat, wind, or tournament calendars force a change, your outline already separates stay, rounds, and culture days so adjustments stay calm.\n\nThat same craft shows up in our Belek golf week, golf and Antalya culture, and golf and Cappadocia itineraries—same operator standard, different commercial shapes.",
+      },
+      {
         heading: "Enquire for a private Turkey golf package",
         body: "Share travel month, nights available, number of rounds, group size, handicap comfort, and whether non-golfers travel with you. Optional: yacht interest, luxury stay preference, or a Cappadocia closer.\n\nWe return a Belek-led outline with stay direction, transfer plan, and clear cost drivers—ready to refine. Start at plan your trip.",
       },
@@ -164,6 +168,11 @@ export const services: Service[] = [
         question: "Can non-golfers enjoy a golf week in Turkey?",
         answer:
           "Yes. We schedule private Antalya Old Town, spa, marina, or short day trips while golfers play—so the holiday stays shared without forcing everyone onto the fairway.",
+      },
+      {
+        question: "Who designs the golf logistics—are you based in Türkiye?",
+        answer:
+          "Yes. We design from Türkiye with local transfer and tee-time coordination. Course options are shortlisted for your dates—not sold as fake exclusive partnerships.",
       },
       {
         question: "How do I enquire for a Turkey golf holiday?",

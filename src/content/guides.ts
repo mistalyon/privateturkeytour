@@ -256,7 +256,7 @@ export const guides: Guide[] = [
       "Private Turkey tour cost varies mainly by trip length, hotel category, private guiding days, domestic flights, and season. As a planning guide, comfortable boutique private journeys for two often start in the low-to-mid thousands of USD per person for a classic week, while luxury 10–14 day coast itineraries run substantially higher—exact quotes follow your dates and stay tier.",
     image: "/istanbul.jpg",
     publishedAt: "2026-07-22",
-    updatedAt: "2026-07-28",
+    updatedAt: "2026-07-29",
     sections: [
       {
         heading: "What drives private Turkey tour prices?",
@@ -277,6 +277,10 @@ export const guides: Guide[] = [
       {
         heading: "Ways to control cost without killing the trip",
         body: "Travel in shoulder season, keep guiding focused on high-value days, choose strong mid-boutique hotels, and limit one-night hops. A well-designed private Turkey tour often feels calmer—and better value—than stacking mid-range group packages plus stress.",
+      },
+      {
+        heading: "Turkey golf holiday cost drivers",
+        body: "Belek golf packages add a second cost stack on top of classic touring: number of rounds and course category, private hotel–course transfers, club hire, and whether non-golfers need guided Antalya days. Yacht or Cappadocia closers sit above that spine.\n\nAs orientation only, a comfortable Belek-led week for a small group usually sits in boutique-to-elevated package territory once stay and rounds are real—exact quotes follow dates and tee availability. Read Turkey golf holiday for commercial design, or Belek golf packages for package anatomy—then enquire with month and rounds so you are not sold an incomplete flyer ‘from’.",
       },
     ],
     faqs: [
@@ -300,12 +304,27 @@ export const guides: Guide[] = [
         answer:
           "We publish indicative ranges here and quote precisely after dates and hotel tier—so you are not sold an incomplete ‘from’ price.",
       },
+      {
+        question: "How much does a Turkey golf holiday cost?",
+        answer:
+          "Drivers are nights, stay tier, rounds, transfers, and non-golfer guiding. We itemize green fees and hotel separately inside a dated Belek outline—see Turkey golf holiday for the commercial spine.",
+      },
     ],
     related: [
       {
         title: "Private Turkey Tours",
         href: "/private-turkey-tours",
         description: "What tailor-made journeys include.",
+      },
+      {
+        title: "Turkey golf holiday",
+        href: "/services/turkey-golf",
+        description: "Belek packages and golf cost drivers.",
+      },
+      {
+        title: "Belek golf packages",
+        href: "/guides/belek-golf-packages",
+        description: "How golf weeks are itemized.",
       },
       {
         title: "How to plan a trip to Turkey",
@@ -1260,6 +1279,10 @@ export const guides: Guide[] = [
         heading: "How season choice shapes your private package",
         body: "Season decides tee comfort, hotel tier demand, and whether non-golfers lean beach, Old Town, or spa. It also decides whether a Cappadocia closer or Turquoise Coast finish still fits after Belek nights.\n\nReady to lock dates? Read Belek golf packages for package anatomy, then enquire via our Turkey golf holiday pillar or plan your trip.",
       },
+      {
+        heading: "How we design tee windows as Türkiye-based operators",
+        body: "We plan golf weeks from Türkiye with the same logistics discipline as our private tours: arrival buffers, hotel–course transfer timing, and honest heat language in July–August. Season advice here is operational—not generic climate copy.\n\nWhen you enquire, we translate month into tee realism and non-golfer alternatives before you commit stay nights.",
+      },
     ],
     faqs: [
       {
@@ -1353,6 +1376,10 @@ export const guides: Guide[] = [
       {
         heading: "Enquire for a Belek-led private package",
         body: "Share month, nights, rounds wanted, group size, handicap comfort, and non-golfer needs. We return stay direction, transfer plan, and options—not a fixed flyer. Start at the Turkey golf holiday pillar or plan your trip.",
+      },
+      {
+        heading: "Expertise signal: what we refuse to sell",
+        body: "We refuse opaque flyer totals that collapse when tee times move, and we refuse forcing non-golfers onto coach animations. A Türkiye-based designer quotes rounds, stay, transfers, and culture days as separate drivers—so trust comes from operations clarity, not sponsor badges.\n\nThat is the same standard as our Belek golf week and golf and Antalya culture itineraries.",
       },
     ],
     faqs: [
@@ -1462,6 +1489,10 @@ export const guides: Guide[] = [
       {
         heading: "From course shortlist to enquiry",
         body: "Share month, rounds, stay style, and whether famous-name courses matter more than transfer comfort. We reply with a Belek-led package shape and options. Start at Turkey golf holiday, read Belek golf packages for anatomy, or go straight to plan your trip.",
+      },
+      {
+        heading: "How we shortlist without fake partnerships",
+        body: "Private Turkey Tour shortlists Belek courses as representative options for your dates—condition, tee access, and transfer time from your stay. We do not invent exclusive contracts or evergreen top-10 trophies that ignore tournament calendars.\n\nExpertise here is logistics: matching layout difficulty to handicap and protecting non-golfer days while players are on the course.",
       },
     ],
     faqs: [

@@ -36,7 +36,12 @@ const faqs = [
   {
     question: "Who do you typically design for?",
     answer:
-      "Couples, honeymooners, families, multi-generational groups, solo travelers, luxury clients, and archaeology- or food-led travelers who want private guiding.",
+      "Couples, honeymooners, families, multi-generational groups, solo travelers, luxury clients, golf travelers (Belek packages), and archaeology- or food-led travelers who want private guiding.",
+  },
+  {
+    question: "Do you arrange Turkey golf holidays from Belek?",
+    answer:
+      "Yes. We design Belek golf packages with private transfers, tee-time coordination, and non-golfer Antalya days—quoted as clear line items, not a fixed resort flyer. See our Turkey golf holiday page.",
   },
 ];
 
@@ -64,7 +69,9 @@ export default function AboutPage() {
             Our work is grounded in place knowledge: when Istanbul feels
             calmest, when Cappadocia valleys deserve more time, how Ephesus can
             be timed thoughtfully, and which coastal or archaeology chapters
-            earn their nights on a private Turkey tour.
+            earn their nights on a private Turkey tour. The same logistics craft
+            applies to Belek golf holidays—tee windows, hotel–course transfers,
+            and non-golfer Antalya days designed as one coherent private product.
           </p>
           <p>
             Founded with a focus on private travel since {siteConfig.foundedYear}
@@ -82,7 +89,8 @@ export default function AboutPage() {
           <p className="mt-6 text-lg leading-8 text-black/65">
             Clear outlines, transparent cost drivers, and in-country care while
             you travel. From short Istanbul–Cappadocia packages to archaeology
-            arcs and coastal finishes, the same private standard applies.
+            arcs, Belek golf weeks, and coastal finishes, the same private
+            standard applies.
           </p>
         </div>
       </section>
@@ -115,6 +123,11 @@ export default function AboutPage() {
             title: "Contact private Turkey tour",
             href: "/contact",
             description: "Reach the planning team directly.",
+          },
+          {
+            title: "Turkey golf holiday",
+            href: "/services/turkey-golf",
+            description: "Belek packages designed from Türkiye.",
           },
         ]}
       />

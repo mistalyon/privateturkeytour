@@ -227,7 +227,7 @@ export const audiences: Audience[] = [
       },
       {
         heading: "Where luxury itineraries shine",
-        body: "Istanbul for design hotels and exceptional dining, Cappadocia for cave suites and balloon mornings, Ephesus with archaeology-minded guiding, and the Turquoise Coast for private boat privacy.\n\nClassic luxury lengths: 10 days for Istanbul–Cappadocia–Ephesus; 14 days to add coastal swimming and optional gulet. Seven days works when you keep the route to Istanbul and Cappadocia only.",
+        body: "Istanbul for design hotels and exceptional dining, Cappadocia for cave suites and balloon mornings, Ephesus with archaeology-minded guiding, and the Turquoise Coast for private boat privacy. Belek golf chapters fit the same luxury spine when elevated stays and specialist dinners follow championship rounds—see Turkey golf holiday for tee-time logistics.\n\nClassic luxury lengths: 10 days for Istanbul–Cappadocia–Ephesus; 14 days to add coastal swimming and optional gulet. Seven days works when you keep the route to Istanbul and Cappadocia only.",
       },
       {
         heading: "How we quote high-end journeys",

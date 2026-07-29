@@ -38,6 +38,7 @@ Spokes:
 ### Golf Turkey (commercial cluster)
 Intent: Book Belek / Antalya golf packages with private logistics and non-golfer days
 Pillar: https://privateturkeytour.com/services/turkey-golf — turkey golf holiday
+Expertise: Türkiye-based private tour designer; tee-window and transfer buffers; representative Belek course shortlists by date (no invented partnerships); itemized rounds/stay/culture quotes.
 Guides:
 - https://privateturkeytour.com/guides/best-time-for-golf-in-turkey — best time for golf in turkey
 - https://privateturkeytour.com/guides/belek-golf-packages — belek golf packages

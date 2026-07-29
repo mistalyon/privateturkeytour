@@ -53,7 +53,12 @@ const faqs = [
   {
     question: "What is included when I book a private Turkey tour?",
     answer:
-      "Typically planning, licensed guiding days as quoted, handpicked stays, private transfers or domestic flights as needed, and in-country support. Balloons, boats, and aviation upgrades are clear line items.",
+      "Typically planning, licensed guiding days as quoted, handpicked stays, private transfers or domestic flights as needed, and in-country support. Balloons, boats, Belek golf rounds, and aviation upgrades are clear line items.",
+  },
+  {
+    question: "Can I book a Belek golf week the same way?",
+    answer:
+      "Yes. Share month, rounds, and whether non-golfers travel with you—we return a private outline with tee-time and transfer logistics, then refine like any other private Turkey tour. Start from Turkey golf holiday or plan your trip.",
   },
 ];
 
@@ -113,13 +118,15 @@ export default function HowItWorksPage() {
           <p>
             After you approve the outline, we lock hotels, guide days, and
             signature experiences as line items. You always see what changes the
-            price—season, stay tier, balloons, boats, or aviation—so booking a
-            custom Turkey tour feels controlled, not opaque.
+            price—season, stay tier, balloons, boats, Belek golf rounds, or
+            aviation—so booking a custom Turkey tour feels controlled, not
+            opaque.
           </p>
           <p>
             While you travel, WhatsApp and local coordination keep adjustments
             small. That is how private Turkey tours work in practice: design
-            first, then quiet operations.
+            first, then quiet operations—whether your product is culture-first
+            or a Turkey golf holiday with non-golfer days.
           </p>
         </div>
       </section>
@@ -157,6 +164,11 @@ export default function HowItWorksPage() {
             title: "Contact private Turkey tour",
             href: "/contact",
             description: "Start the brief by email or WhatsApp.",
+          },
+          {
+            title: "Turkey golf holiday",
+            href: "/services/turkey-golf",
+            description: "Belek packages with the same private process.",
           },
         ]}
       />
