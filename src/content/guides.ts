@@ -80,6 +80,11 @@ export const guides: Guide[] = [
         href: "/guides/turkey-in-winter",
         description: "Honest winter expectations.",
       },
+      {
+        title: "Best time for golf in Turkey",
+        href: "/guides/best-time-for-golf-in-turkey",
+        description: "Belek season windows for golf weeks.",
+      },
     ],
   },
   {
@@ -1216,6 +1221,293 @@ export const guides: Guide[] = [
     ],
     updatedAt: "2026-07-27",
     publishedAt: "2026-07-27",
+  },
+  {
+    slug: "best-time-for-golf-in-turkey",
+    name: "Best Time for Golf in Turkey",
+    focusKeyword: pageKeywords.bestTimeGolf.focus,
+    secondaryKeywords: [...pageKeywords.bestTimeGolf.secondary],
+    title: "Best Time for Golf in Turkey: Belek Season Guide",
+    description:
+      "Best time for golf in Turkey—Belek and Antalya season windows, summer early tees, winter mild play, and how to book private golf weeks around weather.",
+    answer:
+      "The best time for golf in Turkey is typically March–May and late September–November in Belek, when fairway temperatures and evening comfort align. Winter suits mild Belek days with spa and Old Town; peak summer works with earlier tee times and honest heat expectations.",
+    image: "/coast.jpg",
+    publishedAt: "2026-07-29",
+    updatedAt: "2026-07-29",
+    sections: [
+      {
+        heading: "Best time for golf in Turkey at a glance",
+        body: "If you want one clear answer for Belek: book spring (March–May) or autumn (late September–November). Those windows give the strongest mix of playable heat, course condition, and Mediterranean evenings without forcing every round into a 6 a.m. survival plan.\n\nSummer remains bookable—just design for early tees. Winter is a quiet luxury option when beach is secondary and spa culture matters as much as score.",
+      },
+      {
+        heading: "Spring golf in Belek and Antalya",
+        body: "Spring is the prime sales season for a Turkey golf holiday. Temperatures support mid-morning tee times, evenings still feel coastal, and non-golfers enjoy private Antalya Old Town walks without summer crush.\n\nDemand rises with comfort, so preferred stay tiers and weekend tee windows need earlier enquiry. We protect transfer buffers so breakfast and first tee do not collide after an Istanbul or international arrival day.",
+      },
+      {
+        heading: "Autumn: warm seas plus softer fairway heat",
+        body: "Autumn rivals spring for private Belek golf packages. Seas stay swimable for recovery days, light is softer for photography, and course days feel less compressed than August.\n\nLate September and October often sell as the dual product month: serious rounds plus one yacht or Kaleiçi evening chapter. Pair with best time to visit Turkey when you are comparing golf-only weeks vs full private Turkey itineraries.",
+      },
+      {
+        heading: "Summer: play early, recover honestly",
+        body: "July–August golf in Turkey is heat-led. We schedule earlier tee times, hydration and shade recovery, and fewer stacked double-round days unless your group explicitly wants that intensity.\n\nNon-golfers get spa, marina, and air-conditioned culture blocks. Promising championship fantasy at midday is poor design—we say so before you book.",
+      },
+      {
+        heading: "Winter golf: mild Belek, quieter resorts",
+        body: "Winter golf Turkey weeks work when your goal is mild fairways, spa nights, and quieter restaurants—not beach holidays. Some mornings are cooler or wet; we build flexible Plan B culture half-days into private Antalya touring.\n\nSee Turkey in winter for nationwide season honesty, then open a Belek-led brief if golf is the winter product you want.",
+      },
+      {
+        heading: "How season choice shapes your private package",
+        body: "Season decides tee comfort, hotel tier demand, and whether non-golfers lean beach, Old Town, or spa. It also decides whether a Cappadocia closer or Turquoise Coast finish still fits after Belek nights.\n\nReady to lock dates? Read Belek golf packages for package anatomy, then enquire via our Turkey golf holiday pillar or plan your trip.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What is the absolute best month for golf in Turkey?",
+        answer:
+          "April–May and October are usually strongest for Belek comfort. March and November are excellent shoulder options when you accept cooler mornings.",
+      },
+      {
+        question: "Is summer too hot for golf in Belek?",
+        answer:
+          "Not if you tee early and recover mid-day. We design private summer golf weeks around heat reality—not flyer fantasy.",
+      },
+      {
+        question: "Can I play golf in Turkey in winter?",
+        answer:
+          "Yes for mild Belek-focused trips with spa and Old Town. It is quieter and less beach-driven; we build weather flexibility into the outline.",
+      },
+      {
+        question: "Should non-golfers visit in the same months?",
+        answer:
+          "Spring and autumn are best for shared trips. Summer needs spa and early culture blocks; winter leans city and wellness over swimming.",
+      },
+    ],
+    related: [
+      {
+        title: "Turkey golf holiday",
+        href: "/services/turkey-golf",
+        description: "Commercial Belek golf pillar and enquiry path.",
+      },
+      {
+        title: "Belek golf packages",
+        href: "/guides/belek-golf-packages",
+        description: "How private packages are built around rounds.",
+      },
+      {
+        title: "Best golf courses Turkey",
+        href: "/guides/best-golf-courses-turkey",
+        description: "How we shortlist courses for your dates.",
+      },
+      {
+        title: "Private Antalya Tour",
+        href: "/destinations/antalya",
+        description: "Golf coast culture foil beside Belek.",
+      },
+      {
+        title: "Best time to visit Turkey",
+        href: "/guides/best-time-to-visit-turkey",
+        description: "Country-wide season context.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Send month, rounds, and group size.",
+      },
+    ],
+  },
+  {
+    slug: "belek-golf-packages",
+    name: "Belek Golf Packages",
+    focusKeyword: pageKeywords.belekGolfPackages.focus,
+    secondaryKeywords: [...pageKeywords.belekGolfPackages.secondary],
+    title: "Belek Golf Packages: Private Holiday Design Guide",
+    description:
+      "Understand Belek golf packages—rounds, stay tiers, private transfers, non-golfer days, and how a private Turkey golf holiday is quoted without a fixed resort flyer.",
+    answer:
+      "Belek golf packages work best as bespoke private designs: preferred tee times, hotel–course transfers, stay tier by style, and optional non-golfer Antalya days—quoted by nights, rounds, and extras rather than a one-size resort calendar.",
+    image: "/coast.jpg",
+    publishedAt: "2026-07-29",
+    updatedAt: "2026-07-29",
+    sections: [
+      {
+        heading: "What a private Belek golf package actually includes",
+        body: "A strong package is logistics first: nights in the Belek corridor, coordinated tee times, private transfers between hotel and course, optional club hire, and a clear decision on how many rounds the group truly wants.\n\nGreen fees and hotel categories are itemized so you see cost drivers. We do not hide everything inside an opaque ‘from’ price that collapses when dates move.",
+      },
+      {
+        heading: "Golf-only weeks vs golf + culture packages",
+        body: "Golf-only Belek packages maximize rounds and recovery—spa, pool, quiet dinners. Mixed packages add private Antalya Old Town, marina lunches, short antiquity day trips, or a yacht sea day for non-golfers and celebration nights.\n\nLuxury travelers often blend elevated Belek stays with one private yacht Turkey day. Friends groups may skip culture and buy more golf. Couples usually want both. Same hub, different product.",
+      },
+      {
+        heading: "Stay tiers and transfer design",
+        body: "Stay choice is the second cost lever after rounds. Golf resort bases minimize transfer time. Boutique or city-tilted stays trade a longer morning buffer for better Antalya evenings.\n\nWe match transfer cadence to tee sheets so you are not sprinting breakfast into first tee. Premium groups sometimes add helicopter scenic hops when logistics and weather allow—never as a mandatory line.",
+      },
+      {
+        heading: "How long should a Belek golf holiday be?",
+        body: "Four to seven nights is the sweet spot for most Belek golf packages. Three nights can work as a pure golf sprint. Longer stays only earn room when you add coast recovery or a Cappadocia closer without compressing both chapters.\n\nSeason matters: spring and autumn sell the dual product cleanly; summer needs earlier tees and recovery honesty. See best time for golf in Turkey before locking month.",
+      },
+      {
+        heading: "What drives Belek golf package pricing",
+        body: "Nights and hotel tier, number of rounds and course category, private transfer frequency, club hire, and guided non-golfer days. Yacht, helicopter, or Cappadocia add-ons sit on top.\n\nFor how we separate stay, guiding, and signature experiences across private Turkey travel, read private Turkey tour cost—then enquire with a real brief so your Belek outline is dated, not theoretical.",
+      },
+      {
+        heading: "Enquire for a Belek-led private package",
+        body: "Share month, nights, rounds wanted, group size, handicap comfort, and non-golfer needs. We return stay direction, transfer plan, and options—not a fixed flyer. Start at the Turkey golf holiday pillar or plan your trip.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Are Belek golf packages fixed resort flyers?",
+        answer:
+          "Ours are not. We design private packages around your rounds and stay style, then quote itemized drivers so dates and hotel tier stay honest.",
+      },
+      {
+        question: "Can non-golfers join a Belek golf package?",
+        answer:
+          "Yes. Private Antalya culture, spa, and optional yacht days keep partners engaged while golfers play.",
+      },
+      {
+        question: "How many rounds fit a week in Belek?",
+        answer:
+          "Most private weeks land between three and six rounds depending on recovery appetite. We push back on stacking too many doubles in peak heat.",
+      },
+      {
+        question: "Do you arrange club hire and transfers?",
+        answer:
+          "Yes—club hire and private hotel–course transfers are standard package design options.",
+      },
+    ],
+    related: [
+      {
+        title: "Turkey golf holiday",
+        href: "/services/turkey-golf",
+        description: "Enquire for a Belek-led private package.",
+      },
+      {
+        title: "Best time for golf in Turkey",
+        href: "/guides/best-time-for-golf-in-turkey",
+        description: "Season windows before you lock dates.",
+      },
+      {
+        title: "Best golf courses Turkey",
+        href: "/guides/best-golf-courses-turkey",
+        description: "How courses are shortlisted privately.",
+      },
+      {
+        title: "Private Antalya Tour",
+        href: "/destinations/antalya",
+        description: "Non-golfer culture days beside Belek.",
+      },
+      {
+        title: "Luxury Turkey Tour",
+        href: "/private-turkey-tours/luxury",
+        description: "Elevate stays around tee times.",
+      },
+      {
+        title: "Private Turkey tour cost",
+        href: "/guides/private-turkey-tour-cost",
+        description: "Transparent cost drivers across private travel.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Send rounds, nights, and group size.",
+      },
+    ],
+  },
+  {
+    slug: "best-golf-courses-turkey",
+    name: "Best Golf Courses Turkey",
+    focusKeyword: pageKeywords.bestGolfCourses.focus,
+    secondaryKeywords: [...pageKeywords.bestGolfCourses.secondary],
+    title: "Best Golf Courses in Turkey for Private Holidays",
+    description:
+      "How to choose the best golf courses in Turkey for a private Belek or Antalya holiday—logistics, pace of play, and package fit without a name-drop flyer.",
+    answer:
+      "The best golf courses in Turkey for private holidays cluster around Belek, where championship density and short private transfers let you design rounds around condition, tee windows, and stay base—not a fixed coach golf circuit.",
+    image: "/coast.jpg",
+    publishedAt: "2026-07-29",
+    updatedAt: "2026-07-29",
+    sections: [
+      {
+        heading: "How we define ‘best’ for a private Turkey golf holiday",
+        body: "Best is not a trophy list copied from rankings. For private travelers it means playable logistics: course condition for your dates, tee-time realistic for group size, transfer time from your stay, and whether the day leaves energy for dinner or non-golfer plans.\n\nWe shortlist representative Belek and Antalya-area options around availability—not invented official partnerships or affiliate scores.",
+      },
+      {
+        heading: "Why Belek concentrates the best golf courses in Turkey",
+        body: "Belek’s advantage is density. Multiple championship layouts sit close enough for private hotel–course shuttles without burning the day in traffic. That is why Belek golf packages outperform scattered single-course holidays for most international visitors.\n\nAntalya city stays can still work when culture evenings lead—but transfer buffers grow. Pure golf weeks almost always base in the Belek corridor.",
+      },
+      {
+        heading: "Matching courses to handicap and trip energy",
+        body: "Some groups want longer, more demanding layouts; others want forgiving mornings and afternoon spa. Friends trip energy differs from couple luxury pacing. We ask handicap comfort and rounds-per-day honesty before stacking hero courses that exhaust the week.\n\nNon-golfers should never be an afterthought: while one party plays, the other needs private Antalya structure that feels designed, not stranded at the resort.",
+      },
+      {
+        heading: "Courses as chapters inside a wider private Turkey tour",
+        body: "Golf can open or close a longer journey: Istanbul culture first, then Belek; or Belek first, then Cappadocia or Turquoise Coast recovery. Course choice still follows the Belek hub—add-on regions should not dilute tee quality just to tick a map.\n\nIf yacht privacy matters between rounds, fold private yacht Turkey as an optional day, not a forced substitute for golf.",
+      },
+      {
+        heading: "Mistakes when chasing ‘best course’ lists",
+        body: "Name-collecting without logistics creates tired golf and unhappy partners. Summer midday pride rounds are another trap. Ranking pages also age poorly—condition and tee access change by season and tournament calendars.\n\nOur approach stays commercial: shortlist for your dates inside a Turkey golf holiday outline, then confirm availability when you enquire.",
+      },
+      {
+        heading: "From course shortlist to enquiry",
+        body: "Share month, rounds, stay style, and whether famous-name courses matter more than transfer comfort. We reply with a Belek-led package shape and options. Start at Turkey golf holiday, read Belek golf packages for anatomy, or go straight to plan your trip.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Where are the best golf courses in Turkey?",
+        answer:
+          "For private international holidays, Belek is the densest championship cluster with practical transfers. Antalya-area mixes exist, but Belek remains the logistics hub.",
+      },
+      {
+        question: "Do you publish a fixed top-10 course list?",
+        answer:
+          "We shortlist for your dates and stay base instead of a static ranking page that goes stale. Availability and condition beat name-drop marketing.",
+      },
+      {
+        question: "Can beginners play Belek courses on a private trip?",
+        answer:
+          "Yes when we match layout difficulty and pace. Tell us experience level so rounds stay enjoyable rather than performative.",
+      },
+      {
+        question: "Can golf courses pair with a luxury Turkey tour?",
+        answer:
+          "Yes. Many luxury briefs use Belek as a Mediterranean golf chapter with elevated stays, then yacht or coast recovery.",
+      },
+    ],
+    related: [
+      {
+        title: "Turkey golf holiday",
+        href: "/services/turkey-golf",
+        description: "Book Belek rounds inside a private package.",
+      },
+      {
+        title: "Belek golf packages",
+        href: "/guides/belek-golf-packages",
+        description: "Package anatomy: nights, rounds, transfers.",
+      },
+      {
+        title: "Best time for golf in Turkey",
+        href: "/guides/best-time-for-golf-in-turkey",
+        description: "Season windows for Belek play.",
+      },
+      {
+        title: "Private Antalya Tour",
+        href: "/destinations/antalya",
+        description: "Culture evenings beside the golf coast.",
+      },
+      {
+        title: "Luxury Turkey Tour",
+        href: "/private-turkey-tours/luxury",
+        description: "Elevated stays around championship days.",
+      },
+      {
+        title: "Plan your trip",
+        href: "/plan-your-trip",
+        description: "Request a course-and-stay outline.",
+      },
+    ],
   },
 ];
 

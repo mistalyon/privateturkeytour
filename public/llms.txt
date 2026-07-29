@@ -79,12 +79,16 @@
 
 ## Golf Turkey (commercial cluster)
 Pillar: [Turkey Golf Holiday](https://privateturkeytour.com/services/turkey-golf) — turkey golf holiday / belek golf packages
+Guides:
+- [Best time for golf in Turkey](https://privateturkeytour.com/guides/best-time-for-golf-in-turkey)
+- [Belek golf packages](https://privateturkeytour.com/guides/belek-golf-packages)
+- [Best golf courses Turkey](https://privateturkeytour.com/guides/best-golf-courses-turkey)
+Linked hubs:
 - [Private Antalya Tour](https://privateturkeytour.com/destinations/antalya) — golf coast + Old Town foil
 - [Luxury Turkey Tour](https://privateturkeytour.com/private-turkey-tours/luxury) — elevated Belek stays
 - [Private Yacht Turkey](https://privateturkeytour.com/services/private-yacht-turkey) — sea day between rounds
 - [Turquoise Coast](https://privateturkeytour.com/destinations/turquoise-coast) — recovery after golf weeks
 - [Private Turkey tour cost](https://privateturkeytour.com/guides/private-turkey-tour-cost)
-- [Best time to visit Turkey](https://privateturkeytour.com/guides/best-time-to-visit-turkey)
 - [Plan your trip](https://privateturkeytour.com/plan-your-trip)
 
 ## Audience clusters
@@ -119,6 +123,9 @@ Pillar: [Turkey Golf Holiday](https://privateturkeytour.com/services/turkey-golf
 - [How to plan a trip to Turkey](https://privateturkeytour.com/guides/how-to-plan-a-private-turkey-trip)
 - [Private vs group Turkey tours](https://privateturkeytour.com/guides/private-vs-group-turkey-tours)
 - [Private Turkey tour cost](https://privateturkeytour.com/guides/private-turkey-tour-cost)
+- [Best time for golf in Turkey](https://privateturkeytour.com/guides/best-time-for-golf-in-turkey)
+- [Belek golf packages](https://privateturkeytour.com/guides/belek-golf-packages)
+- [Best golf courses Turkey](https://privateturkeytour.com/guides/best-golf-courses-turkey)
 - [Archaeological sites in Turkey](https://privateturkeytour.com/guides/turkey-archaeological-sites)
 - [Göbeklitepe vs Çatalhöyük](https://privateturkeytour.com/guides/gobekli-tepe-vs-catalhoyuk)
 

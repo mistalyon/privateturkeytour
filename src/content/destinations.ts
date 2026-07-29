@@ -610,6 +610,11 @@ export const destinations: Destination[] = [
         description: "Belek golf packages, tee times, and non-golfer days.",
       },
       {
+        title: "Belek golf packages",
+        href: "/guides/belek-golf-packages",
+        description: "How private Belek golf weeks are designed.",
+      },
+      {
         title: "Pamukkale from Antalya",
         href: "/experiences/pamukkale-day-trip-from-antalya",
         description: "Resort-guest day trip to the Cotton Castle.",

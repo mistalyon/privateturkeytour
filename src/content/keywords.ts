@@ -488,6 +488,39 @@ export const pageKeywords = {
     ],
     volume: "H",
   },
+  bestTimeGolf: {
+    focus: "best time for golf in turkey",
+    secondary: [
+      "best time to golf turkey",
+      "golf season turkey",
+      "when to play golf in turkey",
+      "belek golf weather",
+      "winter golf turkey",
+    ],
+    volume: "H",
+  },
+  belekGolfPackages: {
+    focus: "belek golf packages",
+    secondary: [
+      "belek golf holiday packages",
+      "private belek golf",
+      "belek golf resorts packages",
+      "antalya belek golf package",
+      "golf holiday belek turkey",
+    ],
+    volume: "H",
+  },
+  bestGolfCourses: {
+    focus: "best golf courses turkey",
+    secondary: [
+      "best golf courses in turkey",
+      "belek golf courses",
+      "antalya golf courses",
+      "championship golf turkey",
+      "private golf courses turkey",
+    ],
+    volume: "H",
+  },
   helicopter: {
     focus: "private helicopter turkey",
     secondary: [

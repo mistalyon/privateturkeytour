@@ -178,6 +178,21 @@ export const services: Service[] = [
         description: "Old Town and culture days beside Belek fairways.",
       },
       {
+        title: "Best time for golf in Turkey",
+        href: "/guides/best-time-for-golf-in-turkey",
+        description: "Season windows for Belek and Antalya play.",
+      },
+      {
+        title: "Belek golf packages",
+        href: "/guides/belek-golf-packages",
+        description: "How private packages are built around rounds.",
+      },
+      {
+        title: "Best golf courses Turkey",
+        href: "/guides/best-golf-courses-turkey",
+        description: "Logistics-first course shortlisting.",
+      },
+      {
         title: "Luxury Turkey Tour",
         href: "/private-turkey-tours/luxury",
         description: "Elevate stays and dining around tee times.",
@@ -188,24 +203,9 @@ export const services: Service[] = [
         description: "Sea day between rounds for premium groups.",
       },
       {
-        title: "Turquoise Coast",
-        href: "/destinations/turquoise-coast",
-        description: "Mediterranean recovery after Belek nights.",
-      },
-      {
-        title: "Private helicopter Turkey",
-        href: "/services/private-helicopter-turkey",
-        description: "Scenic transfers when logistics allow.",
-      },
-      {
         title: "Private Turkey tour cost",
         href: "/guides/private-turkey-tour-cost",
         description: "How stay, rounds, and add-ons drive the quote.",
-      },
-      {
-        title: "Best time to visit Turkey",
-        href: "/guides/best-time-to-visit-turkey",
-        description: "Season context beyond the golf calendar.",
       },
       {
         title: "Plan your trip",

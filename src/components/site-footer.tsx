@@ -100,6 +100,14 @@ const columns = [
       },
       { href: "/guides/turkey-in-october", label: "Turkey in October" },
       { href: "/guides/turkey-in-winter", label: "Turkey in Winter" },
+      {
+        href: "/guides/best-time-for-golf-in-turkey",
+        label: "Golf Season Turkey",
+      },
+      {
+        href: "/guides/belek-golf-packages",
+        label: "Belek Golf Packages",
+      },
     ],
   },
   {
