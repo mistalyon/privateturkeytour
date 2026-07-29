@@ -13,7 +13,7 @@ Site language: English. Commercial intent: sell tailor-made private Turkey tours
 - Private Bosphorus cruise / Ephesus tour from Kuşadası
 - Istanbul private airport transfer
 - Private yacht Turkey / private gulet cruise Turkey
-- Turkey golf holiday (Belek)
+- Turkey golf holiday (Belek) / belek golf packages / golf turkey antalya
 - Private helicopter Turkey / private jet Turkey
 - Cappadocia hot air balloon / Istanbul food tour / Cappadocia jeep safari
 - Turkey honeymoon, family Turkey tour, luxury Turkey tour
@@ -33,7 +33,19 @@ Pillar: https://privateturkeytour.com/services
 Spokes:
 - https://privateturkeytour.com/services/istanbul-airport-transfer — istanbul private airport transfer
 - https://privateturkeytour.com/services/private-yacht-turkey — private yacht turkey
-- https://privateturkeytour.com/services/turkey-golf — turkey golf holiday
+- https://privateturkeytour.com/services/turkey-golf — turkey golf holiday (Belek pillar)
+
+### Golf Turkey (commercial cluster)
+Intent: Book Belek / Antalya golf packages with private logistics and non-golfer days
+Pillar: https://privateturkeytour.com/services/turkey-golf — turkey golf holiday
+Spokes:
+- https://privateturkeytour.com/destinations/antalya — private antalya tour / golf coast
+- https://privateturkeytour.com/private-turkey-tours/luxury — luxury turkey tour
+- https://privateturkeytour.com/services/private-yacht-turkey — private yacht turkey
+- https://privateturkeytour.com/destinations/turquoise-coast — turquoise coast turkey
+- https://privateturkeytour.com/guides/private-turkey-tour-cost — private turkey tour cost
+- https://privateturkeytour.com/guides/best-time-to-visit-turkey — best time to visit turkey
+- https://privateturkeytour.com/plan-your-trip — plan a trip to turkey
 - https://privateturkeytour.com/services/private-helicopter-turkey — private helicopter turkey
 - https://privateturkeytour.com/services/private-jet-turkey — private jet turkey
 

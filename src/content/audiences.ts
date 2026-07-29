@@ -290,6 +290,11 @@ export const audiences: Audience[] = [
         description: "High-privacy sea days.",
       },
       {
+        title: "Turkey golf holiday",
+        href: "/services/turkey-golf",
+        description: "Belek fairways inside a luxury Mediterranean chapter.",
+      },
+      {
         title: "Private Turkey Tours",
         href: "/private-turkey-tours",
         description: "Pillar page for tailor-made journeys.",
@@ -300,7 +305,7 @@ export const audiences: Audience[] = [
         description: "Request a luxury private outline.",
       },
     ],
-    updatedAt: "2026-07-28",
+    updatedAt: "2026-07-29",
   },
   {
     slug: "christmas-new-year",

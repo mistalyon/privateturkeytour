@@ -17,7 +17,13 @@ export const metadata = buildMetadata({
     "Private Turkey travel services—Istanbul airport transfer, yacht charter, Belek golf holidays, helicopter, and private jet coordination inside bespoke journeys.",
   path: "/services",
   image: "/coast.jpg",
-  keywords: keywordList(pageKeywords.services),
+  keywords: keywordList({
+    ...pageKeywords.services,
+    secondary: [
+      ...pageKeywords.services.secondary,
+      ...pageKeywords.golf.secondary.slice(0, 4),
+    ],
+  }),
 });
 
 const breadcrumbs = [
@@ -45,7 +51,7 @@ export default function ServicesPage() {
         eyebrow="Private services"
         title="Private Turkey travel services that unlock the trip."
         description="Transfers, yachts, golf, helicopter, and private jet coordination—booked alone or folded into a tailor-made private Turkey tour."
-        answer="The highest-intent private Turkey travel services are Istanbul airport transfers, private yacht charters, Belek golf holidays, helicopter scenic flights, and private jet hops—each quoted as a clear line item or full package around your dates."
+        answer="The highest-intent private Turkey travel services are Istanbul airport transfers, private yacht charters, Turkey golf holidays (Belek packages with non-golfer days), helicopter scenic flights, and private jet hops—each quoted as a clear line item or full package around your dates."
         breadcrumbs={breadcrumbs}
       />
 

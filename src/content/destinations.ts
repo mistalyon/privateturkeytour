@@ -563,6 +563,10 @@ export const destinations: Destination[] = [
         body: "Treating Antalya as a cheap substitute for the Turquoise Coast is a pattern we push back on. The city excels as Mediterranean culture, golf, and selective day trips—not as a replacement for Kaş coves or Göcek gulet privacy unless your dates or flights demand it.\n\nAnother mistake is booking Pamukkale as a long day trip from Antalya resorts without accepting a very early start and limited ruin time at Hierapolis. Our Pamukkale day trip from Antalya experience exists for resort guests who understand the trade-off; on wider private Turkey tours we prefer sequencing Pamukkale between Cappadocia and Ephesus instead.\n\nFinally, stacking Perge, Aspendos, waterfalls, and a full Kaleiçi walk into one day usually exhausts families and shortchanges photography. Privately, we split priorities: one strong antiquity day, one city-and-marina day, optional beach recovery. Antalya should feel designed—not like a coach animation schedule with a private label.",
       },
       {
+        heading: "Belek golf coast as an Antalya chapter",
+        body: "When fairways lead, Belek becomes the stay base and Antalya city becomes the flexible culture foil—not the other way around. Morning tee times, private hotel–course transfers, and one Kaleiçi or marina evening keep golfers and non-golfers on the same trip without forcing everyone onto 18 holes.\n\nFour to seven Belek nights sell as a Turkey golf holiday spine; two to four Antalya-city nights sell as Mediterranean culture with optional beach. Mixed briefs often do both: Belek for rounds, then a shorter Antalya Old Town hinge or a westbound Turquoise Coast finish when nights remain.\n\nWinter golf weeks lean spa and quieter Old Town when swimming is secondary. Peak summer golf works with earlier tee times and honest heat language. For the full commercial golf design—rounds, stay tiers, non-golfer days, cost drivers—see our Turkey golf holiday service page, then enquire with month and rounds wanted.",
+      },
+      {
         heading: "Enquire for a private Antalya outline",
         body: "Tell us travel month, hotel area (city, Lara, Belek, or further west), and must-sees. We return a private Antalya day plan plus any golf, yacht, or onward coast links. Start at plan your trip.",
       },
@@ -603,7 +607,7 @@ export const destinations: Destination[] = [
       {
         title: "Turkey golf holiday",
         href: "/services/turkey-golf",
-        description: "Belek and Antalya golf packages privately arranged.",
+        description: "Belek golf packages, tee times, and non-golfer days.",
       },
       {
         title: "Pamukkale from Antalya",
@@ -631,7 +635,7 @@ export const destinations: Destination[] = [
         description: "Request a private Antalya outline.",
       },
     ],
-    updatedAt: "2026-07-28",
+    updatedAt: "2026-07-29",
   },
   {
     slug: "gallipoli-troy",
